@@ -27,7 +27,9 @@ circuit RocketCore :
     skip
     skip
     node _T_38
-      = cat(cat(cat(cat(cat(cat(_T_21, _T_22), _T_23), cat(_T_24, UInt<2>(0))), UInt<5>(2)), UInt<3>(0)), cat(cat(UInt<2>(1), _T_33), _T_20)) @[Cat.scala 30:58]
+      = cat(cat(cat(cat(cat(cat(_T_21, _T_22), _T_23), cat(_T_24, UInt<2>(0))),
+                    UInt<5>(2)), UInt<3>(0)),
+            cat(cat(UInt<2>(1), _T_33), _T_20)) @[Cat.scala 30:58]
     skip
     skip
     skip
@@ -45,7 +47,8 @@ circuit RocketCore :
     skip
     skip
     node _T_75
-      = cat(cat(cat(cat(cat(_T_59, _T_60), UInt<3>(0)), cat(UInt<2>(1), _T_65)), UInt<3>(3)), cat(cat(UInt<2>(1), _T_33), UInt<7>(7))) @[Cat.scala 30:58]
+      = cat(cat(cat(cat(cat(_T_59, _T_60), UInt<3>(0)), cat(UInt<2>(1), _T_65)),
+                UInt<3>(3)), cat(cat(UInt<2>(1), _T_33), UInt<7>(7))) @[Cat.scala 30:58]
     skip
     skip
     skip
@@ -67,7 +70,9 @@ circuit RocketCore :
     skip
     skip
     node _T_116
-      = cat(cat(cat(cat(cat(_T_23, _T_60), cat(_T_24, UInt<2>(0))), cat(UInt<2>(1), _T_65)), UInt<3>(2)), cat(cat(UInt<2>(1), _T_33), UInt<7>(3))) @[Cat.scala 30:58]
+      = cat(cat(cat(cat(cat(_T_23, _T_60), cat(_T_24, UInt<2>(0))),
+                    cat(UInt<2>(1), _T_65)), UInt<3>(2)),
+            cat(cat(UInt<2>(1), _T_33), UInt<7>(3))) @[Cat.scala 30:58]
     skip
     skip
     skip
@@ -87,7 +92,8 @@ circuit RocketCore :
     skip
     skip
     node _T_155
-      = cat(cat(cat(cat(cat(_T_59, _T_60), UInt<3>(0)), cat(UInt<2>(1), _T_65)), UInt<3>(3)), cat(cat(UInt<2>(1), _T_33), UInt<7>(3))) @[Cat.scala 30:58]
+      = cat(cat(cat(cat(cat(_T_59, _T_60), UInt<3>(0)), cat(UInt<2>(1), _T_65)),
+                UInt<3>(3)), cat(cat(UInt<2>(1), _T_33), UInt<7>(3))) @[Cat.scala 30:58]
     skip
     skip
     skip
@@ -118,7 +124,8 @@ circuit RocketCore :
     skip
     skip
     node _T_206
-      = cat(cat(cat(_T_185, cat(UInt<2>(1), _T_33)), cat(UInt<2>(1), _T_65)), cat(cat(UInt<3>(2), _T_200), UInt<7>(47))) @[Cat.scala 30:58]
+      = cat(cat(cat(_T_185, cat(UInt<2>(1), _T_33)), cat(UInt<2>(1), _T_65)),
+            cat(cat(UInt<3>(2), _T_200), UInt<7>(47))) @[Cat.scala 30:58]
     skip
     skip
     skip
@@ -145,7 +152,8 @@ circuit RocketCore :
     skip
     skip
     node _T_253
-      = cat(cat(cat(_T_234, cat(UInt<2>(1), _T_33)), cat(UInt<2>(1), _T_65)), cat(cat(UInt<3>(3), _T_247), UInt<7>(39))) @[Cat.scala 30:58]
+      = cat(cat(cat(_T_234, cat(UInt<2>(1), _T_33)), cat(UInt<2>(1), _T_65)),
+            cat(cat(UInt<3>(3), _T_247), UInt<7>(39))) @[Cat.scala 30:58]
     skip
     skip
     skip
@@ -176,7 +184,8 @@ circuit RocketCore :
     skip
     skip
     node _T_304
-      = cat(cat(cat(_T_185, cat(UInt<2>(1), _T_33)), cat(UInt<2>(1), _T_65)), cat(cat(UInt<3>(2), _T_200), UInt<7>(35))) @[Cat.scala 30:58]
+      = cat(cat(cat(_T_185, cat(UInt<2>(1), _T_33)), cat(UInt<2>(1), _T_65)),
+            cat(cat(UInt<3>(2), _T_200), UInt<7>(35))) @[Cat.scala 30:58]
     skip
     skip
     skip
@@ -203,7 +212,8 @@ circuit RocketCore :
     skip
     skip
     node _T_351
-      = cat(cat(cat(_T_234, cat(UInt<2>(1), _T_33)), cat(UInt<2>(1), _T_65)), cat(cat(UInt<3>(3), _T_247), UInt<7>(35))) @[Cat.scala 30:58]
+      = cat(cat(cat(_T_234, cat(UInt<2>(1), _T_33)), cat(UInt<2>(1), _T_65)),
+            cat(cat(UInt<3>(3), _T_247), UInt<7>(35))) @[Cat.scala 30:58]
     skip
     skip
     skip
@@ -222,7 +232,8 @@ circuit RocketCore :
     skip
     skip
     node _T_388
-      = cat(cat(cat(cat(_T_378, _T_379), _T_381), UInt<3>(0)), cat(_T_381, UInt<7>(19))) @[Cat.scala 30:58]
+      = cat(cat(cat(cat(_T_378, _T_379), _T_381), UInt<3>(0)),
+            cat(_T_381, UInt<7>(19))) @[Cat.scala 30:58]
     skip
     skip
     skip
@@ -242,7 +253,8 @@ circuit RocketCore :
     skip
     skip
     node _T_426
-      = cat(cat(cat(cat(_T_378, _T_379), _T_381), UInt<3>(0)), cat(_T_381, _T_412)) @[Cat.scala 30:58]
+      = cat(cat(cat(cat(_T_378, _T_379), _T_381), UInt<3>(0)),
+            cat(_T_381, _T_412)) @[Cat.scala 30:58]
     skip
     skip
     skip
@@ -258,7 +270,8 @@ circuit RocketCore :
     skip
     skip
     node _T_459
-      = cat(cat(cat(cat(_T_378, _T_379), UInt<5>(0)), UInt<3>(0)), cat(_T_381, UInt<7>(19))) @[Cat.scala 30:58]
+      = cat(cat(cat(cat(_T_378, _T_379), UInt<5>(0)), UInt<3>(0)),
+            cat(_T_381, UInt<7>(19))) @[Cat.scala 30:58]
     skip
     skip
     skip
@@ -315,7 +328,9 @@ circuit RocketCore :
     skip
     skip
     node _T_561
-      = cat(cat(cat(cat(cat(cat(_T_544, _T_545), _T_23), cat(cat(_T_547, _T_24), UInt<4>(0))), _T_381), UInt<3>(0)), cat(_T_381, _T_539)) @[Cat.scala 30:58]
+      = cat(cat(cat(cat(cat(cat(_T_544, _T_545), _T_23),
+                        cat(cat(_T_547, _T_24), UInt<4>(0))), _T_381),
+                UInt<3>(0)), cat(_T_381, _T_539)) @[Cat.scala 30:58]
     skip
     skip
     skip
@@ -347,7 +362,8 @@ circuit RocketCore :
     skip
     skip
     node _T_600
-      = cat(cat(cat(cat(_T_374, _T_379), cat(UInt<2>(1), _T_65)), UInt<3>(5)), cat(cat(UInt<2>(1), _T_65), UInt<7>(19))) @[Cat.scala 30:58]
+      = cat(cat(cat(cat(_T_374, _T_379), cat(UInt<2>(1), _T_65)), UInt<3>(5)),
+            cat(cat(UInt<2>(1), _T_65), UInt<7>(19))) @[Cat.scala 30:58]
     skip
     skip
     skip
@@ -374,7 +390,8 @@ circuit RocketCore :
     skip
     skip
     node _T_636
-      = cat(cat(cat(cat(_T_378, _T_379), cat(UInt<2>(1), _T_65)), UInt<3>(7)), cat(cat(UInt<2>(1), _T_65), UInt<7>(19))) @[Cat.scala 30:58]
+      = cat(cat(cat(cat(_T_378, _T_379), cat(UInt<2>(1), _T_65)), UInt<3>(7)),
+            cat(cat(UInt<2>(1), _T_65), UInt<7>(19))) @[Cat.scala 30:58]
     skip
     skip
     node _T_647 = cat(_T_374, _T_59) @[Cat.scala 30:58]
@@ -414,7 +431,8 @@ circuit RocketCore :
     skip
     skip
     node _T_705
-      = cat(cat(cat(cat(UInt<2>(1), _T_33), cat(UInt<2>(1), _T_65)), _T_682), cat(cat(UInt<2>(1), _T_65), _T_692)) @[Cat.scala 30:58]
+      = cat(cat(cat(cat(UInt<2>(1), _T_33), cat(UInt<2>(1), _T_65)), _T_682),
+            cat(cat(UInt<2>(1), _T_65), _T_692)) @[Cat.scala 30:58]
     node _GEN_1 = pad(_T_705, 31) @[RVC.scala 105:43]
     node _T_706 = or(_GEN_1, _T_688) @[RVC.scala 105:43]
     node _T_707 = bits(io_in, 11, 10) @[RVC.scala 107:42]
@@ -452,7 +470,8 @@ circuit RocketCore :
     skip
     skip
     node _T_765
-      = cat(cat(cat(cat(_T_749, _T_750), _T_751), cat(_T_24, _T_753)), cat(cat(_T_547, _T_755), cat(_T_756, UInt<1>(0)))) @[Cat.scala 30:58]
+      = cat(cat(cat(cat(_T_749, _T_750), _T_751), cat(_T_24, _T_753)),
+            cat(cat(_T_547, _T_755), cat(_T_756, UInt<1>(0)))) @[Cat.scala 30:58]
     node _T_766 = bits(_T_765, 20, 20) @[RVC.scala 94:26]
     skip
     skip
@@ -516,7 +535,8 @@ circuit RocketCore :
     skip
     skip
     node _T_839
-      = cat(cat(cat(_T_766, _T_788), _T_810), cat(cat(_T_832, UInt<5>(0)), UInt<7>(111))) @[Cat.scala 30:58]
+      = cat(cat(cat(_T_766, _T_788), _T_810),
+            cat(cat(_T_832, UInt<5>(0)), UInt<7>(111))) @[Cat.scala 30:58]
     skip
     skip
     skip
@@ -534,7 +554,8 @@ circuit RocketCore :
     skip
     skip
     node _T_874
-      = cat(cat(cat(_T_864, _T_59), _T_547), cat(cat(_T_707, _T_545), UInt<1>(0))) @[Cat.scala 30:58]
+      = cat(cat(cat(_T_864, _T_59), _T_547),
+            cat(cat(_T_707, _T_545), UInt<1>(0))) @[Cat.scala 30:58]
     node _T_875 = bits(_T_874, 12, 12) @[RVC.scala 95:29]
     skip
     skip
@@ -584,7 +605,8 @@ circuit RocketCore :
     skip
     skip
     node _T_936
-      = cat(cat(cat(_T_875, _T_891), cat(UInt<5>(0), cat(UInt<2>(1), _T_65))), cat(cat(UInt<3>(0), _T_912), cat(_T_928, UInt<7>(99)))) @[Cat.scala 30:58]
+      = cat(cat(cat(_T_875, _T_891), cat(UInt<5>(0), cat(UInt<2>(1), _T_65))),
+            cat(cat(UInt<3>(0), _T_912), cat(_T_928, UInt<7>(99)))) @[Cat.scala 30:58]
     skip
     skip
     skip
@@ -651,7 +673,8 @@ circuit RocketCore :
     skip
     skip
     node _T_1033
-      = cat(cat(cat(_T_875, _T_891), cat(UInt<5>(0), cat(UInt<2>(1), _T_65))), cat(cat(UInt<3>(1), _T_912), cat(_T_928, UInt<7>(99)))) @[Cat.scala 30:58]
+      = cat(cat(cat(_T_875, _T_891), cat(UInt<5>(0), cat(UInt<2>(1), _T_65))),
+            cat(cat(UInt<3>(1), _T_912), cat(_T_928, UInt<7>(99)))) @[Cat.scala 30:58]
     skip
     skip
     skip
@@ -664,7 +687,8 @@ circuit RocketCore :
     skip
     skip
     node _T_1062
-      = cat(cat(cat(cat(_T_374, _T_379), _T_381), UInt<3>(1)), cat(_T_381, UInt<7>(19))) @[Cat.scala 30:58]
+      = cat(cat(cat(cat(_T_374, _T_379), _T_381), UInt<3>(1)),
+            cat(_T_381, UInt<7>(19))) @[Cat.scala 30:58]
     skip
     skip
     skip
@@ -680,7 +704,8 @@ circuit RocketCore :
     skip
     skip
     node _T_1093
-      = cat(cat(cat(cat(cat(_T_33, _T_374), cat(_T_59, UInt<3>(0))), UInt<5>(2)), UInt<3>(3)), cat(_T_381, UInt<7>(7))) @[Cat.scala 30:58]
+      = cat(cat(cat(cat(cat(_T_33, _T_374), cat(_T_59, UInt<3>(0))),
+                    UInt<5>(2)), UInt<3>(3)), cat(_T_381, UInt<7>(7))) @[Cat.scala 30:58]
     skip
     skip
     skip
@@ -695,7 +720,8 @@ circuit RocketCore :
     skip
     skip
     node _T_1124
-      = cat(cat(cat(cat(cat(_T_1110, _T_374), cat(_T_1112, UInt<2>(0))), UInt<5>(2)), UInt<3>(2)), cat(_T_381, UInt<7>(3))) @[Cat.scala 30:58]
+      = cat(cat(cat(cat(cat(_T_1110, _T_374), cat(_T_1112, UInt<2>(0))),
+                    UInt<5>(2)), UInt<3>(2)), cat(_T_381, UInt<7>(3))) @[Cat.scala 30:58]
     skip
     skip
     skip
@@ -710,7 +736,8 @@ circuit RocketCore :
     skip
     skip
     node _T_1155
-      = cat(cat(cat(cat(cat(_T_33, _T_374), cat(_T_59, UInt<3>(0))), UInt<5>(2)), UInt<3>(3)), cat(_T_381, UInt<7>(3))) @[Cat.scala 30:58]
+      = cat(cat(cat(cat(cat(_T_33, _T_374), cat(_T_59, UInt<3>(0))),
+                    UInt<5>(2)), UInt<3>(3)), cat(_T_381, UInt<7>(3))) @[Cat.scala 30:58]
     skip
     skip
     skip
@@ -821,7 +848,8 @@ circuit RocketCore :
     skip
     skip
     node _T_1333
-      = cat(cat(cat(_T_1318, _T_379), UInt<5>(2)), cat(cat(UInt<3>(3), _T_1327), UInt<7>(39))) @[Cat.scala 30:58]
+      = cat(cat(cat(_T_1318, _T_379), UInt<5>(2)),
+            cat(cat(UInt<3>(3), _T_1327), UInt<7>(39))) @[Cat.scala 30:58]
     skip
     skip
     skip
@@ -841,7 +869,8 @@ circuit RocketCore :
     skip
     skip
     node _T_1370
-      = cat(cat(cat(_T_1355, _T_379), UInt<5>(2)), cat(cat(UInt<3>(2), _T_1364), UInt<7>(35))) @[Cat.scala 30:58]
+      = cat(cat(cat(_T_1355, _T_379), UInt<5>(2)),
+            cat(cat(UInt<3>(2), _T_1364), UInt<7>(35))) @[Cat.scala 30:58]
     skip
     skip
     skip
@@ -861,7 +890,8 @@ circuit RocketCore :
     skip
     skip
     node _T_1407
-      = cat(cat(cat(_T_1318, _T_379), UInt<5>(2)), cat(cat(UInt<3>(3), _T_1327), UInt<7>(35))) @[Cat.scala 30:58]
+      = cat(cat(cat(_T_1318, _T_379), UInt<5>(2)),
+            cat(cat(UInt<3>(3), _T_1327), UInt<7>(35))) @[Cat.scala 30:58]
     skip
     skip
     skip
@@ -1411,18 +1441,24 @@ circuit RocketCore :
     node _T_430 = add(_GEN_40, nICReady) @[IBuf.scala 65:58]
     node _T_431 = tail(_T_430, 1) @[IBuf.scala 65:58]
     node _GEN_0
-      = mux(io_imem_bits_btb_valid, io_imem_bits_btb_bits_taken, ibufBTBResp_taken)
+      = mux(io_imem_bits_btb_valid, io_imem_bits_btb_bits_taken,
+            ibufBTBResp_taken)
     node _GEN_1
-      = mux(io_imem_bits_btb_valid, io_imem_bits_btb_bits_mask, ibufBTBResp_mask)
+      = mux(io_imem_bits_btb_valid, io_imem_bits_btb_bits_mask,
+            ibufBTBResp_mask)
     node _GEN_2 = mux(io_imem_bits_btb_valid, _T_431, pad(ibufBTBResp_bridx, 2))
     node _GEN_3
-      = mux(io_imem_bits_btb_valid, io_imem_bits_btb_bits_target, ibufBTBResp_target)
+      = mux(io_imem_bits_btb_valid, io_imem_bits_btb_bits_target,
+            ibufBTBResp_target)
     node _GEN_4
-      = mux(io_imem_bits_btb_valid, io_imem_bits_btb_bits_entry, ibufBTBResp_entry)
+      = mux(io_imem_bits_btb_valid, io_imem_bits_btb_bits_entry,
+            ibufBTBResp_entry)
     node _GEN_5
-      = mux(io_imem_bits_btb_valid, io_imem_bits_btb_bits_bht_history, ibufBTBResp_bht_history)
+      = mux(io_imem_bits_btb_valid, io_imem_bits_btb_bits_bht_history,
+            ibufBTBResp_bht_history)
     node _GEN_6
-      = mux(io_imem_bits_btb_valid, io_imem_bits_btb_bits_bht_value, ibufBTBResp_bht_value)
+      = mux(io_imem_bits_btb_valid, io_imem_bits_btb_bits_bht_value,
+            ibufBTBResp_bht_value)
     node _GEN_7 = mux(_T_411, _T_392, _T_401)
     skip
     skip
@@ -1461,7 +1497,8 @@ circuit RocketCore :
     skip
     skip
     node _T_445
-      = cat(cat(cat(_T_442, _T_442), cat(_T_442, _T_442)), cat(io_imem_bits_data, cat(_T_439, _T_439))) @[Cat.scala 30:58]
+      = cat(cat(cat(_T_442, _T_442), cat(_T_442, _T_442)),
+            cat(io_imem_bits_data, cat(_T_439, _T_439))) @[Cat.scala 30:58]
     node _T_446 = shl(icShiftAmt, 4) @[IBuf.scala 127:19]
     node _GEN_43 = pad(_T_445, 191) @[IBuf.scala 127:10]
     node _T_447 = dshlw(_GEN_43, _T_446) @[IBuf.scala 127:10]
@@ -1821,7 +1858,8 @@ circuit RocketCore :
     reg reg_dcsr_ebreaku : UInt<1>, clock @[CSR.scala 205:21]
     skip
     node _T_2307
-      = cat(cat(reg_dcsr_ebreakm, UInt<1>(0)), cat(reg_dcsr_ebreaks, reg_dcsr_ebreaku)) @[Cat.scala 30:58]
+      = cat(cat(reg_dcsr_ebreakm, UInt<1>(0)),
+            cat(reg_dcsr_ebreaks, reg_dcsr_ebreaku)) @[Cat.scala 30:58]
     node _T_2308 = dshr(_T_2307, reg_mstatus_prv) @[CSR.scala 442:134]
     node _T_2309 = bits(_T_2308, 0, 0) @[CSR.scala 442:134]
     node causeIsDebugBreak = and(_T_2304, _T_2309) @[CSR.scala 442:56]
@@ -2055,7 +2093,8 @@ circuit RocketCore :
     skip
     skip
     node _T_974
-      = cat(cat(cat(reg_mip_stip, UInt<1>(0)), reg_mip_msip), cat(cat(UInt<1>(0), reg_mip_ssip), UInt<1>(0))) @[CSR.scala 278:22]
+      = cat(cat(cat(reg_mip_stip, UInt<1>(0)), reg_mip_msip),
+            cat(cat(UInt<1>(0), reg_mip_ssip), UInt<1>(0))) @[CSR.scala 278:22]
     skip
     skip
     skip
@@ -2070,7 +2109,9 @@ circuit RocketCore :
     skip
     skip
     node _T_981
-      = cat(cat(cat(cat(io_rocc_interrupt, reg_mip_meip), cat(UInt<1>(0), reg_mip_seip)), cat(cat(UInt<1>(0), reg_mip_mtip), UInt<1>(0))), _T_974) @[CSR.scala 278:22]
+      = cat(cat(cat(cat(io_rocc_interrupt, reg_mip_meip),
+                    cat(UInt<1>(0), reg_mip_seip)),
+                cat(cat(UInt<1>(0), reg_mip_mtip), UInt<1>(0))), _T_974) @[CSR.scala 278:22]
     node read_mip = and(_T_981, UInt<13>(2730)) @[CSR.scala 278:29]
     node _GEN_356 = pad(read_mip, 64) @[CSR.scala 280:37]
     node pending_interrupts = and(_GEN_356, reg_mie) @[CSR.scala 280:37]
@@ -2240,7 +2281,9 @@ circuit RocketCore :
     skip
     skip
     node _T_1234
-      = cat(cat(cat(io_status_hpie, io_status_spie), cat(io_status_upie, io_status_mie)), cat(cat(io_status_hie, io_status_sie), io_status_uie)) @[CSR.scala 308:38]
+      = cat(cat(cat(io_status_hpie, io_status_spie),
+                cat(io_status_upie, io_status_mie)),
+            cat(cat(io_status_hie, io_status_sie), io_status_uie)) @[CSR.scala 308:38]
     skip
     skip
     skip
@@ -2248,14 +2291,19 @@ circuit RocketCore :
     skip
     skip
     node _T_1241
-      = cat(cat(cat(cat(io_status_mprv, io_status_xs), cat(io_status_fs, io_status_mpp)), cat(cat(io_status_hpp, io_status_spp), io_status_mpie)), _T_1234) @[CSR.scala 308:38]
+      = cat(cat(cat(cat(io_status_mprv, io_status_xs),
+                    cat(io_status_fs, io_status_mpp)),
+                cat(cat(io_status_hpp, io_status_spp), io_status_mpie)),
+            _T_1234) @[CSR.scala 308:38]
     skip
     skip
     skip
     skip
     skip
     node _T_1247
-      = cat(cat(cat(io_status_sd_rv32, io_status_zero1), cat(io_status_tsr, io_status_tw)), cat(cat(io_status_tvm, io_status_mxr), io_status_pum)) @[CSR.scala 308:38]
+      = cat(cat(cat(io_status_sd_rv32, io_status_zero1),
+                cat(io_status_tsr, io_status_tw)),
+            cat(cat(io_status_tvm, io_status_mxr), io_status_pum)) @[CSR.scala 308:38]
     skip
     skip
     skip
@@ -2264,7 +2312,10 @@ circuit RocketCore :
     skip
     skip
     node _T_1255
-      = cat(cat(cat(cat(cat(io_status_debug, io_status_isa), cat(io_status_prv, io_status_sd)), cat(cat(io_status_zero2, io_status_sxl), io_status_uxl)), _T_1247), _T_1241) @[CSR.scala 308:38]
+      = cat(cat(cat(cat(cat(io_status_debug, io_status_isa),
+                        cat(io_status_prv, io_status_sd)),
+                    cat(cat(io_status_zero2, io_status_sxl), io_status_uxl)),
+                _T_1247), _T_1241) @[CSR.scala 308:38]
     node read_mstatus = bits(_T_1255, 63, 0) @[CSR.scala 308:40]
     skip
     skip
@@ -2311,7 +2362,10 @@ circuit RocketCore :
     skip
     skip
     node _T_1296
-      = cat(cat(cat(reg_bp_0_control_m, UInt<1>(0)), cat(reg_bp_0_control_s, reg_bp_0_control_u)), cat(cat(reg_bp_0_control_x, reg_bp_0_control_w), reg_bp_0_control_r)) @[CSR.scala 312:48]
+      = cat(cat(cat(reg_bp_0_control_m, UInt<1>(0)),
+                cat(reg_bp_0_control_s, reg_bp_0_control_u)),
+            cat(cat(reg_bp_0_control_x, reg_bp_0_control_w),
+                reg_bp_0_control_r)) @[CSR.scala 312:48]
     skip
     skip
     skip
@@ -2328,7 +2382,10 @@ circuit RocketCore :
     skip
     skip
     node _T_1304
-      = cat(cat(cat(cat(UInt<4>(2), reg_bp_0_control_dmode), UInt<46>(4398046511104)), cat(cat(reg_bp_0_control_action, UInt<1>(0)), cat(UInt<2>(0), reg_bp_0_control_tmatch))), _T_1296) @[CSR.scala 312:48]
+      = cat(cat(cat(cat(UInt<4>(2), reg_bp_0_control_dmode),
+                    UInt<46>(4398046511104)),
+                cat(cat(reg_bp_0_control_action, UInt<1>(0)),
+                    cat(UInt<2>(0), reg_bp_0_control_tmatch))), _T_1296) @[CSR.scala 312:48]
     skip
     node _T_1340 = bits(reg_bp_0_address, 38, 38) @[Package.scala 40:38]
     skip
@@ -2350,7 +2407,9 @@ circuit RocketCore :
     skip
     skip
     node _T_1367
-      = cat(cat(UInt<2>(0), cat(reg_dcsr_cause, reg_dcsr_debugint)), cat(cat(UInt<1>(0), reg_dcsr_halt), cat(reg_dcsr_step, reg_dcsr_prv))) @[CSR.scala 333:27]
+      = cat(cat(UInt<2>(0), cat(reg_dcsr_cause, reg_dcsr_debugint)),
+            cat(cat(UInt<1>(0), reg_dcsr_halt),
+                cat(reg_dcsr_step, reg_dcsr_prv))) @[CSR.scala 333:27]
     skip
     skip
     skip
@@ -2360,7 +2419,9 @@ circuit RocketCore :
     skip
     skip
     node _T_1376
-      = cat(cat(cat(UInt<4>(4), cat(UInt<12>(0), reg_dcsr_ebreakm)), cat(cat(UInt<1>(0), reg_dcsr_ebreaks), cat(reg_dcsr_ebreaku, UInt<1>(0)))), _T_1367) @[CSR.scala 333:27]
+      = cat(cat(cat(UInt<4>(4), cat(UInt<12>(0), reg_dcsr_ebreakm)),
+                cat(cat(UInt<1>(0), reg_dcsr_ebreaks),
+                    cat(reg_dcsr_ebreaku, UInt<1>(0)))), _T_1367) @[CSR.scala 333:27]
     node _T_1377 = cat(reg_frm, reg_fflags) @[Cat.scala 30:58]
     node _T_1380 = and(reg_mie, reg_mideleg) @[CSR.scala 360:28]
     skip
@@ -2378,7 +2439,9 @@ circuit RocketCore :
     skip
     skip
     node _T_1423
-      = cat(cat(cat(UInt<1>(0), io_status_spie), cat(io_status_upie, UInt<1>(0))), cat(cat(UInt<1>(0), io_status_sie), io_status_uie)) @[CSR.scala 371:57]
+      = cat(cat(cat(UInt<1>(0), io_status_spie),
+                cat(io_status_upie, UInt<1>(0))),
+            cat(cat(UInt<1>(0), io_status_sie), io_status_uie)) @[CSR.scala 371:57]
     skip
     skip
     skip
@@ -2393,7 +2456,9 @@ circuit RocketCore :
     skip
     skip
     node _T_1430
-      = cat(cat(cat(cat(UInt<1>(0), io_status_xs), cat(io_status_fs, UInt<2>(0))), cat(cat(UInt<2>(0), io_status_spp), UInt<1>(0))), _T_1423) @[CSR.scala 371:57]
+      = cat(cat(cat(cat(UInt<1>(0), io_status_xs),
+                    cat(io_status_fs, UInt<2>(0))),
+                cat(cat(UInt<2>(0), io_status_spp), UInt<1>(0))), _T_1423) @[CSR.scala 371:57]
     skip
     skip
     skip
@@ -2422,7 +2487,10 @@ circuit RocketCore :
     skip
     skip
     node _T_1444
-      = cat(cat(cat(cat(cat(io_status_debug, io_status_isa), cat(io_status_prv, io_status_sd)), cat(cat(io_status_zero2, io_status_sxl), io_status_uxl)), _T_1247), _T_1430) @[CSR.scala 371:57]
+      = cat(cat(cat(cat(cat(io_status_debug, io_status_isa),
+                        cat(io_status_prv, io_status_sd)),
+                    cat(cat(io_status_zero2, io_status_sxl), io_status_uxl)),
+                _T_1247), _T_1430) @[CSR.scala 371:57]
     node _T_1445 = bits(_T_1444, 63, 0) @[CSR.scala 371:60]
     node _T_1446 = bits(reg_sbadaddr, 39, 39) @[Package.scala 40:38]
     skip
@@ -4529,7 +4597,8 @@ circuit RocketCore :
     skip
     skip
     node _T_215
-      = cat(cat(io_bp_0_control_m, UInt<1>(0)), cat(io_bp_0_control_s, io_bp_0_control_u)) @[Cat.scala 30:58]
+      = cat(cat(io_bp_0_control_m, UInt<1>(0)),
+            cat(io_bp_0_control_s, io_bp_0_control_u)) @[Cat.scala 30:58]
     node _T_216 = dshr(_T_215, io_status_prv) @[Breakpoint.scala 30:68]
     node _T_217 = bits(_T_216, 0, 0) @[Breakpoint.scala 30:68]
     node _T_218 = and(_T_212, _T_217) @[Breakpoint.scala 30:50]
@@ -5945,7 +6014,8 @@ circuit RocketCore :
     skip
     skip
     node _T_3905
-      = cat(cat(cat(_T_3902, _T_3901), cat(_T_3899, _T_3898)), cat(cat(_T_3865, _T_3875), UInt<1>(0))) @[Cat.scala 30:58]
+      = cat(cat(cat(_T_3902, _T_3901), cat(_T_3899, _T_3898)),
+            cat(cat(_T_3865, _T_3875), UInt<1>(0))) @[Cat.scala 30:58]
     node _T_3906 = asSInt(_T_3905) @[Rocket.scala 718:53]
     skip
     skip
@@ -6009,7 +6079,8 @@ circuit RocketCore :
     skip
     skip
     node _T_3992
-      = cat(cat(cat(_T_3902, _T_3901), cat(_T_3986, _T_3985)), cat(cat(_T_3865, _T_3879), UInt<1>(0))) @[Cat.scala 30:58]
+      = cat(cat(cat(_T_3902, _T_3901), cat(_T_3986, _T_3985)),
+            cat(cat(_T_3865, _T_3879), UInt<1>(0))) @[Cat.scala 30:58]
     node _T_3993 = asSInt(_T_3992) @[Rocket.scala 718:53]
     node _T_3996 = mux(mem_reg_rvc, SInt<4>(2), SInt<4>(4)) @[Rocket.scala 342:8]
     node _T_3997 = mux(mem_ctrl_jal, _T_3993, pad(_T_3996, 32)) @[Rocket.scala 341:8]
@@ -6825,7 +6896,8 @@ circuit RocketCore :
     node _GEN_2 = mux(eq(UInt<2>(2), ex_reg_rs_lsb_0), wb_reg_wdata, _GEN_1) @[Rocket.scala 251:14]
     skip
     node _GEN_3
-      = mux(eq(UInt<2>(3), ex_reg_rs_lsb_0), io_dmem_resp_bits_data_word_bypass, _GEN_2) @[Rocket.scala 251:14]
+      = mux(eq(UInt<2>(3), ex_reg_rs_lsb_0), io_dmem_resp_bits_data_word_bypass,
+            _GEN_2) @[Rocket.scala 251:14]
     skip
     node ex_rs_0 = mux(ex_reg_rs_bypass_0, _GEN_3, _T_3605) @[Rocket.scala 251:14]
     node _T_3607 = cat(ex_reg_rs_msb_1, ex_reg_rs_lsb_1) @[Cat.scala 30:58]
@@ -6834,7 +6906,8 @@ circuit RocketCore :
       = mux(eq(UInt<2>(1), ex_reg_rs_lsb_1), mem_reg_wdata, UInt<64>(0)) @[Rocket.scala 251:14]
     node _GEN_6 = mux(eq(UInt<2>(2), ex_reg_rs_lsb_1), wb_reg_wdata, _GEN_5) @[Rocket.scala 251:14]
     node _GEN_7
-      = mux(eq(UInt<2>(3), ex_reg_rs_lsb_1), io_dmem_resp_bits_data_word_bypass, _GEN_6) @[Rocket.scala 251:14]
+      = mux(eq(UInt<2>(3), ex_reg_rs_lsb_1), io_dmem_resp_bits_data_word_bypass,
+            _GEN_6) @[Rocket.scala 251:14]
     skip
     node ex_rs_1 = mux(ex_reg_rs_bypass_1, _GEN_7, _T_3607) @[Rocket.scala 251:14]
     node _T_3609 = eq(ex_ctrl_sel_imm, UInt<3>(5)) @[Rocket.scala 704:24]
@@ -6898,7 +6971,8 @@ circuit RocketCore :
     skip
     skip
     node _T_3690
-      = cat(cat(cat(_T_3687, _T_3686), cat(_T_3684, _T_3683)), cat(cat(_T_3651, _T_3667), _T_3680)) @[Cat.scala 30:58]
+      = cat(cat(cat(_T_3687, _T_3686), cat(_T_3684, _T_3683)),
+            cat(cat(_T_3651, _T_3667), _T_3680)) @[Cat.scala 30:58]
     node ex_imm = asSInt(_T_3690) @[Rocket.scala 718:53]
     node _T_3693 = asSInt(ex_rs_0) @[Rocket.scala 254:24]
     node _T_3695 = asSInt(ex_reg_pc) @[Rocket.scala 255:24]
@@ -7153,9 +7227,11 @@ circuit RocketCore :
     node _GEN_72
       = mux(ex_reg_btb_hit, ex_reg_btb_resp_entry, mem_reg_btb_resp_entry)
     node _GEN_73
-      = mux(ex_reg_btb_hit, ex_reg_btb_resp_bht_history, mem_reg_btb_resp_bht_history)
+      = mux(ex_reg_btb_hit, ex_reg_btb_resp_bht_history,
+            mem_reg_btb_resp_bht_history)
     node _GEN_74
-      = mux(ex_reg_btb_hit, ex_reg_btb_resp_bht_value, mem_reg_btb_resp_bht_value)
+      = mux(ex_reg_btb_hit, ex_reg_btb_resp_bht_value,
+            mem_reg_btb_resp_bht_value)
     skip
     node _T_4090 = and(ex_ctrl_rxs2, ex_ctrl_mem) @[Rocket.scala 372:24]
     node _GEN_75 = mux(_T_4090, ex_rs_1, mem_reg_rs2)
@@ -7439,7 +7515,8 @@ circuit RocketCore :
     skip
     skip
     node _T_4527
-      = cat(cat(io_dmem_xcpt_ma_ld, io_dmem_xcpt_ma_st), cat(io_dmem_xcpt_pf_ld, io_dmem_xcpt_pf_st)) @[Rocket.scala 593:25]
+      = cat(cat(io_dmem_xcpt_ma_ld, io_dmem_xcpt_ma_st),
+            cat(io_dmem_xcpt_pf_ld, io_dmem_xcpt_pf_st)) @[Rocket.scala 593:25]
     node _T_4529 = neq(_T_4527, UInt<4>(0)) @[Rocket.scala 593:32]
     node _T_4530 = or(_T_4529, reset) @[Rocket.scala 593:11]
     node _T_4532 = not(_T_4530) @[Rocket.scala 593:11]
@@ -7739,19 +7816,26 @@ circuit RocketCore :
     ex_reg_rvc <= mux(_T_3444, _GEN_22, ex_reg_rvc)
     ex_reg_btb_hit <= ibuf.io_inst_0_bits_btb_hit @[Rocket.scala 281:18]
     ex_reg_btb_resp_taken
-      <= mux(ibuf.io_inst_0_bits_btb_hit, ibuf.io_btb_resp_taken, ex_reg_btb_resp_taken)
+      <= mux(ibuf.io_inst_0_bits_btb_hit, ibuf.io_btb_resp_taken,
+             ex_reg_btb_resp_taken)
     ex_reg_btb_resp_mask
-      <= mux(ibuf.io_inst_0_bits_btb_hit, ibuf.io_btb_resp_mask, ex_reg_btb_resp_mask)
+      <= mux(ibuf.io_inst_0_bits_btb_hit, ibuf.io_btb_resp_mask,
+             ex_reg_btb_resp_mask)
     ex_reg_btb_resp_bridx
-      <= mux(ibuf.io_inst_0_bits_btb_hit, ibuf.io_btb_resp_bridx, ex_reg_btb_resp_bridx)
+      <= mux(ibuf.io_inst_0_bits_btb_hit, ibuf.io_btb_resp_bridx,
+             ex_reg_btb_resp_bridx)
     ex_reg_btb_resp_target
-      <= mux(ibuf.io_inst_0_bits_btb_hit, ibuf.io_btb_resp_target, ex_reg_btb_resp_target)
+      <= mux(ibuf.io_inst_0_bits_btb_hit, ibuf.io_btb_resp_target,
+             ex_reg_btb_resp_target)
     ex_reg_btb_resp_entry
-      <= mux(ibuf.io_inst_0_bits_btb_hit, ibuf.io_btb_resp_entry, ex_reg_btb_resp_entry)
+      <= mux(ibuf.io_inst_0_bits_btb_hit, ibuf.io_btb_resp_entry,
+             ex_reg_btb_resp_entry)
     ex_reg_btb_resp_bht_history
-      <= mux(ibuf.io_inst_0_bits_btb_hit, ibuf.io_btb_resp_bht_history, ex_reg_btb_resp_bht_history)
+      <= mux(ibuf.io_inst_0_bits_btb_hit, ibuf.io_btb_resp_bht_history,
+             ex_reg_btb_resp_bht_history)
     ex_reg_btb_resp_bht_value
-      <= mux(ibuf.io_inst_0_bits_btb_hit, ibuf.io_btb_resp_bht_value, ex_reg_btb_resp_bht_value)
+      <= mux(ibuf.io_inst_0_bits_btb_hit, ibuf.io_btb_resp_bht_value,
+             ex_reg_btb_resp_bht_value)
     ex_reg_xcpt <= and(_T_3444, id_xcpt) @[Rocket.scala 278:30]
     ex_reg_flush_pipe <= mux(_T_3444, _GEN_23, ex_reg_flush_pipe)
     ex_reg_load_use <= mux(_T_3444, id_load_use, ex_reg_load_use)

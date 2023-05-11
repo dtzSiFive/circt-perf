@@ -3803,53 +3803,77 @@ circuit Rob :
       = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_valid, T_26182_23_valid) @[rob.scala 350:34]
     skip
     node _GEN_81
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_iw_state, T_26182_0_iw_state) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_iw_state,
+            T_26182_0_iw_state) @[rob.scala 350:34]
     node _GEN_82
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_iw_state, T_26182_1_iw_state) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_iw_state,
+            T_26182_1_iw_state) @[rob.scala 350:34]
     node _GEN_83
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_iw_state, T_26182_2_iw_state) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_iw_state,
+            T_26182_2_iw_state) @[rob.scala 350:34]
     node _GEN_84
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_iw_state, T_26182_3_iw_state) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_iw_state,
+            T_26182_3_iw_state) @[rob.scala 350:34]
     node _GEN_85
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_iw_state, T_26182_4_iw_state) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_iw_state,
+            T_26182_4_iw_state) @[rob.scala 350:34]
     node _GEN_86
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_iw_state, T_26182_5_iw_state) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_iw_state,
+            T_26182_5_iw_state) @[rob.scala 350:34]
     node _GEN_87
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_iw_state, T_26182_6_iw_state) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_iw_state,
+            T_26182_6_iw_state) @[rob.scala 350:34]
     node _GEN_88
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_iw_state, T_26182_7_iw_state) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_iw_state,
+            T_26182_7_iw_state) @[rob.scala 350:34]
     node _GEN_89
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_iw_state, T_26182_8_iw_state) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_iw_state,
+            T_26182_8_iw_state) @[rob.scala 350:34]
     node _GEN_90
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_iw_state, T_26182_9_iw_state) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_iw_state,
+            T_26182_9_iw_state) @[rob.scala 350:34]
     node _GEN_91
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_iw_state, T_26182_10_iw_state) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_iw_state,
+            T_26182_10_iw_state) @[rob.scala 350:34]
     node _GEN_92
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_iw_state, T_26182_11_iw_state) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_iw_state,
+            T_26182_11_iw_state) @[rob.scala 350:34]
     node _GEN_93
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_iw_state, T_26182_12_iw_state) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_iw_state,
+            T_26182_12_iw_state) @[rob.scala 350:34]
     node _GEN_94
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_iw_state, T_26182_13_iw_state) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_iw_state,
+            T_26182_13_iw_state) @[rob.scala 350:34]
     node _GEN_95
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_iw_state, T_26182_14_iw_state) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_iw_state,
+            T_26182_14_iw_state) @[rob.scala 350:34]
     node _GEN_96
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_iw_state, T_26182_15_iw_state) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_iw_state,
+            T_26182_15_iw_state) @[rob.scala 350:34]
     node _GEN_97
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_iw_state, T_26182_16_iw_state) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_iw_state,
+            T_26182_16_iw_state) @[rob.scala 350:34]
     node _GEN_98
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_iw_state, T_26182_17_iw_state) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_iw_state,
+            T_26182_17_iw_state) @[rob.scala 350:34]
     node _GEN_99
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_iw_state, T_26182_18_iw_state) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_iw_state,
+            T_26182_18_iw_state) @[rob.scala 350:34]
     node _GEN_100
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_iw_state, T_26182_19_iw_state) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_iw_state,
+            T_26182_19_iw_state) @[rob.scala 350:34]
     node _GEN_101
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_iw_state, T_26182_20_iw_state) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_iw_state,
+            T_26182_20_iw_state) @[rob.scala 350:34]
     node _GEN_102
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_iw_state, T_26182_21_iw_state) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_iw_state,
+            T_26182_21_iw_state) @[rob.scala 350:34]
     node _GEN_103
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_iw_state, T_26182_22_iw_state) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_iw_state,
+            T_26182_22_iw_state) @[rob.scala 350:34]
     node _GEN_104
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_iw_state, T_26182_23_iw_state) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_iw_state,
+            T_26182_23_iw_state) @[rob.scala 350:34]
     skip
     node _GEN_105
       = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_uopc, T_26182_0_uopc) @[rob.scala 350:34]
@@ -4019,719 +4043,1069 @@ circuit Rob :
     node _GEN_186
       = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_fu_code, T_26182_9_fu_code) @[rob.scala 350:34]
     node _GEN_187
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_fu_code, T_26182_10_fu_code) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_fu_code,
+            T_26182_10_fu_code) @[rob.scala 350:34]
     node _GEN_188
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_fu_code, T_26182_11_fu_code) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_fu_code,
+            T_26182_11_fu_code) @[rob.scala 350:34]
     node _GEN_189
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_fu_code, T_26182_12_fu_code) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_fu_code,
+            T_26182_12_fu_code) @[rob.scala 350:34]
     node _GEN_190
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_fu_code, T_26182_13_fu_code) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_fu_code,
+            T_26182_13_fu_code) @[rob.scala 350:34]
     node _GEN_191
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_fu_code, T_26182_14_fu_code) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_fu_code,
+            T_26182_14_fu_code) @[rob.scala 350:34]
     node _GEN_192
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_fu_code, T_26182_15_fu_code) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_fu_code,
+            T_26182_15_fu_code) @[rob.scala 350:34]
     node _GEN_193
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_fu_code, T_26182_16_fu_code) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_fu_code,
+            T_26182_16_fu_code) @[rob.scala 350:34]
     node _GEN_194
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_fu_code, T_26182_17_fu_code) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_fu_code,
+            T_26182_17_fu_code) @[rob.scala 350:34]
     node _GEN_195
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_fu_code, T_26182_18_fu_code) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_fu_code,
+            T_26182_18_fu_code) @[rob.scala 350:34]
     node _GEN_196
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_fu_code, T_26182_19_fu_code) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_fu_code,
+            T_26182_19_fu_code) @[rob.scala 350:34]
     node _GEN_197
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_fu_code, T_26182_20_fu_code) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_fu_code,
+            T_26182_20_fu_code) @[rob.scala 350:34]
     node _GEN_198
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_fu_code, T_26182_21_fu_code) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_fu_code,
+            T_26182_21_fu_code) @[rob.scala 350:34]
     node _GEN_199
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_fu_code, T_26182_22_fu_code) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_fu_code,
+            T_26182_22_fu_code) @[rob.scala 350:34]
     node _GEN_200
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_fu_code, T_26182_23_fu_code) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_fu_code,
+            T_26182_23_fu_code) @[rob.scala 350:34]
     skip
     node _GEN_201
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_ctrl_br_type, T_26182_0_ctrl_br_type) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_ctrl_br_type,
+            T_26182_0_ctrl_br_type) @[rob.scala 350:34]
     node _GEN_202
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_ctrl_br_type, T_26182_1_ctrl_br_type) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_ctrl_br_type,
+            T_26182_1_ctrl_br_type) @[rob.scala 350:34]
     node _GEN_203
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_ctrl_br_type, T_26182_2_ctrl_br_type) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_ctrl_br_type,
+            T_26182_2_ctrl_br_type) @[rob.scala 350:34]
     node _GEN_204
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_ctrl_br_type, T_26182_3_ctrl_br_type) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_ctrl_br_type,
+            T_26182_3_ctrl_br_type) @[rob.scala 350:34]
     node _GEN_205
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_ctrl_br_type, T_26182_4_ctrl_br_type) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_ctrl_br_type,
+            T_26182_4_ctrl_br_type) @[rob.scala 350:34]
     node _GEN_206
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_ctrl_br_type, T_26182_5_ctrl_br_type) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_ctrl_br_type,
+            T_26182_5_ctrl_br_type) @[rob.scala 350:34]
     node _GEN_207
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_ctrl_br_type, T_26182_6_ctrl_br_type) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_ctrl_br_type,
+            T_26182_6_ctrl_br_type) @[rob.scala 350:34]
     node _GEN_208
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_ctrl_br_type, T_26182_7_ctrl_br_type) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_ctrl_br_type,
+            T_26182_7_ctrl_br_type) @[rob.scala 350:34]
     node _GEN_209
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_ctrl_br_type, T_26182_8_ctrl_br_type) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_ctrl_br_type,
+            T_26182_8_ctrl_br_type) @[rob.scala 350:34]
     node _GEN_210
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_ctrl_br_type, T_26182_9_ctrl_br_type) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_ctrl_br_type,
+            T_26182_9_ctrl_br_type) @[rob.scala 350:34]
     node _GEN_211
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_ctrl_br_type, T_26182_10_ctrl_br_type) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_ctrl_br_type,
+            T_26182_10_ctrl_br_type) @[rob.scala 350:34]
     node _GEN_212
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_ctrl_br_type, T_26182_11_ctrl_br_type) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_ctrl_br_type,
+            T_26182_11_ctrl_br_type) @[rob.scala 350:34]
     node _GEN_213
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_ctrl_br_type, T_26182_12_ctrl_br_type) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_ctrl_br_type,
+            T_26182_12_ctrl_br_type) @[rob.scala 350:34]
     node _GEN_214
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_ctrl_br_type, T_26182_13_ctrl_br_type) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_ctrl_br_type,
+            T_26182_13_ctrl_br_type) @[rob.scala 350:34]
     node _GEN_215
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_ctrl_br_type, T_26182_14_ctrl_br_type) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_ctrl_br_type,
+            T_26182_14_ctrl_br_type) @[rob.scala 350:34]
     node _GEN_216
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_ctrl_br_type, T_26182_15_ctrl_br_type) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_ctrl_br_type,
+            T_26182_15_ctrl_br_type) @[rob.scala 350:34]
     node _GEN_217
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_ctrl_br_type, T_26182_16_ctrl_br_type) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_ctrl_br_type,
+            T_26182_16_ctrl_br_type) @[rob.scala 350:34]
     node _GEN_218
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_ctrl_br_type, T_26182_17_ctrl_br_type) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_ctrl_br_type,
+            T_26182_17_ctrl_br_type) @[rob.scala 350:34]
     node _GEN_219
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_ctrl_br_type, T_26182_18_ctrl_br_type) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_ctrl_br_type,
+            T_26182_18_ctrl_br_type) @[rob.scala 350:34]
     node _GEN_220
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_ctrl_br_type, T_26182_19_ctrl_br_type) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_ctrl_br_type,
+            T_26182_19_ctrl_br_type) @[rob.scala 350:34]
     node _GEN_221
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_ctrl_br_type, T_26182_20_ctrl_br_type) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_ctrl_br_type,
+            T_26182_20_ctrl_br_type) @[rob.scala 350:34]
     node _GEN_222
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_ctrl_br_type, T_26182_21_ctrl_br_type) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_ctrl_br_type,
+            T_26182_21_ctrl_br_type) @[rob.scala 350:34]
     node _GEN_223
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_ctrl_br_type, T_26182_22_ctrl_br_type) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_ctrl_br_type,
+            T_26182_22_ctrl_br_type) @[rob.scala 350:34]
     node _GEN_224
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_ctrl_br_type, T_26182_23_ctrl_br_type) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_ctrl_br_type,
+            T_26182_23_ctrl_br_type) @[rob.scala 350:34]
     skip
     node _GEN_225
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_ctrl_op1_sel, T_26182_0_ctrl_op1_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_ctrl_op1_sel,
+            T_26182_0_ctrl_op1_sel) @[rob.scala 350:34]
     node _GEN_226
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_ctrl_op1_sel, T_26182_1_ctrl_op1_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_ctrl_op1_sel,
+            T_26182_1_ctrl_op1_sel) @[rob.scala 350:34]
     node _GEN_227
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_ctrl_op1_sel, T_26182_2_ctrl_op1_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_ctrl_op1_sel,
+            T_26182_2_ctrl_op1_sel) @[rob.scala 350:34]
     node _GEN_228
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_ctrl_op1_sel, T_26182_3_ctrl_op1_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_ctrl_op1_sel,
+            T_26182_3_ctrl_op1_sel) @[rob.scala 350:34]
     node _GEN_229
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_ctrl_op1_sel, T_26182_4_ctrl_op1_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_ctrl_op1_sel,
+            T_26182_4_ctrl_op1_sel) @[rob.scala 350:34]
     node _GEN_230
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_ctrl_op1_sel, T_26182_5_ctrl_op1_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_ctrl_op1_sel,
+            T_26182_5_ctrl_op1_sel) @[rob.scala 350:34]
     node _GEN_231
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_ctrl_op1_sel, T_26182_6_ctrl_op1_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_ctrl_op1_sel,
+            T_26182_6_ctrl_op1_sel) @[rob.scala 350:34]
     node _GEN_232
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_ctrl_op1_sel, T_26182_7_ctrl_op1_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_ctrl_op1_sel,
+            T_26182_7_ctrl_op1_sel) @[rob.scala 350:34]
     node _GEN_233
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_ctrl_op1_sel, T_26182_8_ctrl_op1_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_ctrl_op1_sel,
+            T_26182_8_ctrl_op1_sel) @[rob.scala 350:34]
     node _GEN_234
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_ctrl_op1_sel, T_26182_9_ctrl_op1_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_ctrl_op1_sel,
+            T_26182_9_ctrl_op1_sel) @[rob.scala 350:34]
     node _GEN_235
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_ctrl_op1_sel, T_26182_10_ctrl_op1_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_ctrl_op1_sel,
+            T_26182_10_ctrl_op1_sel) @[rob.scala 350:34]
     node _GEN_236
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_ctrl_op1_sel, T_26182_11_ctrl_op1_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_ctrl_op1_sel,
+            T_26182_11_ctrl_op1_sel) @[rob.scala 350:34]
     node _GEN_237
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_ctrl_op1_sel, T_26182_12_ctrl_op1_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_ctrl_op1_sel,
+            T_26182_12_ctrl_op1_sel) @[rob.scala 350:34]
     node _GEN_238
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_ctrl_op1_sel, T_26182_13_ctrl_op1_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_ctrl_op1_sel,
+            T_26182_13_ctrl_op1_sel) @[rob.scala 350:34]
     node _GEN_239
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_ctrl_op1_sel, T_26182_14_ctrl_op1_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_ctrl_op1_sel,
+            T_26182_14_ctrl_op1_sel) @[rob.scala 350:34]
     node _GEN_240
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_ctrl_op1_sel, T_26182_15_ctrl_op1_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_ctrl_op1_sel,
+            T_26182_15_ctrl_op1_sel) @[rob.scala 350:34]
     node _GEN_241
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_ctrl_op1_sel, T_26182_16_ctrl_op1_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_ctrl_op1_sel,
+            T_26182_16_ctrl_op1_sel) @[rob.scala 350:34]
     node _GEN_242
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_ctrl_op1_sel, T_26182_17_ctrl_op1_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_ctrl_op1_sel,
+            T_26182_17_ctrl_op1_sel) @[rob.scala 350:34]
     node _GEN_243
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_ctrl_op1_sel, T_26182_18_ctrl_op1_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_ctrl_op1_sel,
+            T_26182_18_ctrl_op1_sel) @[rob.scala 350:34]
     node _GEN_244
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_ctrl_op1_sel, T_26182_19_ctrl_op1_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_ctrl_op1_sel,
+            T_26182_19_ctrl_op1_sel) @[rob.scala 350:34]
     node _GEN_245
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_ctrl_op1_sel, T_26182_20_ctrl_op1_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_ctrl_op1_sel,
+            T_26182_20_ctrl_op1_sel) @[rob.scala 350:34]
     node _GEN_246
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_ctrl_op1_sel, T_26182_21_ctrl_op1_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_ctrl_op1_sel,
+            T_26182_21_ctrl_op1_sel) @[rob.scala 350:34]
     node _GEN_247
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_ctrl_op1_sel, T_26182_22_ctrl_op1_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_ctrl_op1_sel,
+            T_26182_22_ctrl_op1_sel) @[rob.scala 350:34]
     node _GEN_248
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_ctrl_op1_sel, T_26182_23_ctrl_op1_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_ctrl_op1_sel,
+            T_26182_23_ctrl_op1_sel) @[rob.scala 350:34]
     skip
     node _GEN_249
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_ctrl_op2_sel, T_26182_0_ctrl_op2_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_ctrl_op2_sel,
+            T_26182_0_ctrl_op2_sel) @[rob.scala 350:34]
     node _GEN_250
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_ctrl_op2_sel, T_26182_1_ctrl_op2_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_ctrl_op2_sel,
+            T_26182_1_ctrl_op2_sel) @[rob.scala 350:34]
     node _GEN_251
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_ctrl_op2_sel, T_26182_2_ctrl_op2_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_ctrl_op2_sel,
+            T_26182_2_ctrl_op2_sel) @[rob.scala 350:34]
     node _GEN_252
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_ctrl_op2_sel, T_26182_3_ctrl_op2_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_ctrl_op2_sel,
+            T_26182_3_ctrl_op2_sel) @[rob.scala 350:34]
     node _GEN_253
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_ctrl_op2_sel, T_26182_4_ctrl_op2_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_ctrl_op2_sel,
+            T_26182_4_ctrl_op2_sel) @[rob.scala 350:34]
     node _GEN_254
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_ctrl_op2_sel, T_26182_5_ctrl_op2_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_ctrl_op2_sel,
+            T_26182_5_ctrl_op2_sel) @[rob.scala 350:34]
     node _GEN_255
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_ctrl_op2_sel, T_26182_6_ctrl_op2_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_ctrl_op2_sel,
+            T_26182_6_ctrl_op2_sel) @[rob.scala 350:34]
     node _GEN_256
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_ctrl_op2_sel, T_26182_7_ctrl_op2_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_ctrl_op2_sel,
+            T_26182_7_ctrl_op2_sel) @[rob.scala 350:34]
     node _GEN_257
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_ctrl_op2_sel, T_26182_8_ctrl_op2_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_ctrl_op2_sel,
+            T_26182_8_ctrl_op2_sel) @[rob.scala 350:34]
     node _GEN_258
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_ctrl_op2_sel, T_26182_9_ctrl_op2_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_ctrl_op2_sel,
+            T_26182_9_ctrl_op2_sel) @[rob.scala 350:34]
     node _GEN_259
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_ctrl_op2_sel, T_26182_10_ctrl_op2_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_ctrl_op2_sel,
+            T_26182_10_ctrl_op2_sel) @[rob.scala 350:34]
     node _GEN_260
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_ctrl_op2_sel, T_26182_11_ctrl_op2_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_ctrl_op2_sel,
+            T_26182_11_ctrl_op2_sel) @[rob.scala 350:34]
     node _GEN_261
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_ctrl_op2_sel, T_26182_12_ctrl_op2_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_ctrl_op2_sel,
+            T_26182_12_ctrl_op2_sel) @[rob.scala 350:34]
     node _GEN_262
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_ctrl_op2_sel, T_26182_13_ctrl_op2_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_ctrl_op2_sel,
+            T_26182_13_ctrl_op2_sel) @[rob.scala 350:34]
     node _GEN_263
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_ctrl_op2_sel, T_26182_14_ctrl_op2_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_ctrl_op2_sel,
+            T_26182_14_ctrl_op2_sel) @[rob.scala 350:34]
     node _GEN_264
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_ctrl_op2_sel, T_26182_15_ctrl_op2_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_ctrl_op2_sel,
+            T_26182_15_ctrl_op2_sel) @[rob.scala 350:34]
     node _GEN_265
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_ctrl_op2_sel, T_26182_16_ctrl_op2_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_ctrl_op2_sel,
+            T_26182_16_ctrl_op2_sel) @[rob.scala 350:34]
     node _GEN_266
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_ctrl_op2_sel, T_26182_17_ctrl_op2_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_ctrl_op2_sel,
+            T_26182_17_ctrl_op2_sel) @[rob.scala 350:34]
     node _GEN_267
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_ctrl_op2_sel, T_26182_18_ctrl_op2_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_ctrl_op2_sel,
+            T_26182_18_ctrl_op2_sel) @[rob.scala 350:34]
     node _GEN_268
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_ctrl_op2_sel, T_26182_19_ctrl_op2_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_ctrl_op2_sel,
+            T_26182_19_ctrl_op2_sel) @[rob.scala 350:34]
     node _GEN_269
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_ctrl_op2_sel, T_26182_20_ctrl_op2_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_ctrl_op2_sel,
+            T_26182_20_ctrl_op2_sel) @[rob.scala 350:34]
     node _GEN_270
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_ctrl_op2_sel, T_26182_21_ctrl_op2_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_ctrl_op2_sel,
+            T_26182_21_ctrl_op2_sel) @[rob.scala 350:34]
     node _GEN_271
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_ctrl_op2_sel, T_26182_22_ctrl_op2_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_ctrl_op2_sel,
+            T_26182_22_ctrl_op2_sel) @[rob.scala 350:34]
     node _GEN_272
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_ctrl_op2_sel, T_26182_23_ctrl_op2_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_ctrl_op2_sel,
+            T_26182_23_ctrl_op2_sel) @[rob.scala 350:34]
     skip
     node _GEN_273
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_ctrl_imm_sel, T_26182_0_ctrl_imm_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_ctrl_imm_sel,
+            T_26182_0_ctrl_imm_sel) @[rob.scala 350:34]
     node _GEN_274
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_ctrl_imm_sel, T_26182_1_ctrl_imm_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_ctrl_imm_sel,
+            T_26182_1_ctrl_imm_sel) @[rob.scala 350:34]
     node _GEN_275
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_ctrl_imm_sel, T_26182_2_ctrl_imm_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_ctrl_imm_sel,
+            T_26182_2_ctrl_imm_sel) @[rob.scala 350:34]
     node _GEN_276
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_ctrl_imm_sel, T_26182_3_ctrl_imm_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_ctrl_imm_sel,
+            T_26182_3_ctrl_imm_sel) @[rob.scala 350:34]
     node _GEN_277
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_ctrl_imm_sel, T_26182_4_ctrl_imm_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_ctrl_imm_sel,
+            T_26182_4_ctrl_imm_sel) @[rob.scala 350:34]
     node _GEN_278
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_ctrl_imm_sel, T_26182_5_ctrl_imm_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_ctrl_imm_sel,
+            T_26182_5_ctrl_imm_sel) @[rob.scala 350:34]
     node _GEN_279
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_ctrl_imm_sel, T_26182_6_ctrl_imm_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_ctrl_imm_sel,
+            T_26182_6_ctrl_imm_sel) @[rob.scala 350:34]
     node _GEN_280
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_ctrl_imm_sel, T_26182_7_ctrl_imm_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_ctrl_imm_sel,
+            T_26182_7_ctrl_imm_sel) @[rob.scala 350:34]
     node _GEN_281
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_ctrl_imm_sel, T_26182_8_ctrl_imm_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_ctrl_imm_sel,
+            T_26182_8_ctrl_imm_sel) @[rob.scala 350:34]
     node _GEN_282
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_ctrl_imm_sel, T_26182_9_ctrl_imm_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_ctrl_imm_sel,
+            T_26182_9_ctrl_imm_sel) @[rob.scala 350:34]
     node _GEN_283
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_ctrl_imm_sel, T_26182_10_ctrl_imm_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_ctrl_imm_sel,
+            T_26182_10_ctrl_imm_sel) @[rob.scala 350:34]
     node _GEN_284
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_ctrl_imm_sel, T_26182_11_ctrl_imm_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_ctrl_imm_sel,
+            T_26182_11_ctrl_imm_sel) @[rob.scala 350:34]
     node _GEN_285
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_ctrl_imm_sel, T_26182_12_ctrl_imm_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_ctrl_imm_sel,
+            T_26182_12_ctrl_imm_sel) @[rob.scala 350:34]
     node _GEN_286
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_ctrl_imm_sel, T_26182_13_ctrl_imm_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_ctrl_imm_sel,
+            T_26182_13_ctrl_imm_sel) @[rob.scala 350:34]
     node _GEN_287
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_ctrl_imm_sel, T_26182_14_ctrl_imm_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_ctrl_imm_sel,
+            T_26182_14_ctrl_imm_sel) @[rob.scala 350:34]
     node _GEN_288
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_ctrl_imm_sel, T_26182_15_ctrl_imm_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_ctrl_imm_sel,
+            T_26182_15_ctrl_imm_sel) @[rob.scala 350:34]
     node _GEN_289
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_ctrl_imm_sel, T_26182_16_ctrl_imm_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_ctrl_imm_sel,
+            T_26182_16_ctrl_imm_sel) @[rob.scala 350:34]
     node _GEN_290
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_ctrl_imm_sel, T_26182_17_ctrl_imm_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_ctrl_imm_sel,
+            T_26182_17_ctrl_imm_sel) @[rob.scala 350:34]
     node _GEN_291
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_ctrl_imm_sel, T_26182_18_ctrl_imm_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_ctrl_imm_sel,
+            T_26182_18_ctrl_imm_sel) @[rob.scala 350:34]
     node _GEN_292
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_ctrl_imm_sel, T_26182_19_ctrl_imm_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_ctrl_imm_sel,
+            T_26182_19_ctrl_imm_sel) @[rob.scala 350:34]
     node _GEN_293
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_ctrl_imm_sel, T_26182_20_ctrl_imm_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_ctrl_imm_sel,
+            T_26182_20_ctrl_imm_sel) @[rob.scala 350:34]
     node _GEN_294
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_ctrl_imm_sel, T_26182_21_ctrl_imm_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_ctrl_imm_sel,
+            T_26182_21_ctrl_imm_sel) @[rob.scala 350:34]
     node _GEN_295
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_ctrl_imm_sel, T_26182_22_ctrl_imm_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_ctrl_imm_sel,
+            T_26182_22_ctrl_imm_sel) @[rob.scala 350:34]
     node _GEN_296
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_ctrl_imm_sel, T_26182_23_ctrl_imm_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_ctrl_imm_sel,
+            T_26182_23_ctrl_imm_sel) @[rob.scala 350:34]
     skip
     node _GEN_297
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_ctrl_op_fcn, T_26182_0_ctrl_op_fcn) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_ctrl_op_fcn,
+            T_26182_0_ctrl_op_fcn) @[rob.scala 350:34]
     node _GEN_298
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_ctrl_op_fcn, T_26182_1_ctrl_op_fcn) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_ctrl_op_fcn,
+            T_26182_1_ctrl_op_fcn) @[rob.scala 350:34]
     node _GEN_299
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_ctrl_op_fcn, T_26182_2_ctrl_op_fcn) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_ctrl_op_fcn,
+            T_26182_2_ctrl_op_fcn) @[rob.scala 350:34]
     node _GEN_300
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_ctrl_op_fcn, T_26182_3_ctrl_op_fcn) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_ctrl_op_fcn,
+            T_26182_3_ctrl_op_fcn) @[rob.scala 350:34]
     node _GEN_301
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_ctrl_op_fcn, T_26182_4_ctrl_op_fcn) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_ctrl_op_fcn,
+            T_26182_4_ctrl_op_fcn) @[rob.scala 350:34]
     node _GEN_302
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_ctrl_op_fcn, T_26182_5_ctrl_op_fcn) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_ctrl_op_fcn,
+            T_26182_5_ctrl_op_fcn) @[rob.scala 350:34]
     node _GEN_303
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_ctrl_op_fcn, T_26182_6_ctrl_op_fcn) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_ctrl_op_fcn,
+            T_26182_6_ctrl_op_fcn) @[rob.scala 350:34]
     node _GEN_304
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_ctrl_op_fcn, T_26182_7_ctrl_op_fcn) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_ctrl_op_fcn,
+            T_26182_7_ctrl_op_fcn) @[rob.scala 350:34]
     node _GEN_305
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_ctrl_op_fcn, T_26182_8_ctrl_op_fcn) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_ctrl_op_fcn,
+            T_26182_8_ctrl_op_fcn) @[rob.scala 350:34]
     node _GEN_306
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_ctrl_op_fcn, T_26182_9_ctrl_op_fcn) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_ctrl_op_fcn,
+            T_26182_9_ctrl_op_fcn) @[rob.scala 350:34]
     node _GEN_307
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_ctrl_op_fcn, T_26182_10_ctrl_op_fcn) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_ctrl_op_fcn,
+            T_26182_10_ctrl_op_fcn) @[rob.scala 350:34]
     node _GEN_308
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_ctrl_op_fcn, T_26182_11_ctrl_op_fcn) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_ctrl_op_fcn,
+            T_26182_11_ctrl_op_fcn) @[rob.scala 350:34]
     node _GEN_309
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_ctrl_op_fcn, T_26182_12_ctrl_op_fcn) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_ctrl_op_fcn,
+            T_26182_12_ctrl_op_fcn) @[rob.scala 350:34]
     node _GEN_310
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_ctrl_op_fcn, T_26182_13_ctrl_op_fcn) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_ctrl_op_fcn,
+            T_26182_13_ctrl_op_fcn) @[rob.scala 350:34]
     node _GEN_311
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_ctrl_op_fcn, T_26182_14_ctrl_op_fcn) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_ctrl_op_fcn,
+            T_26182_14_ctrl_op_fcn) @[rob.scala 350:34]
     node _GEN_312
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_ctrl_op_fcn, T_26182_15_ctrl_op_fcn) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_ctrl_op_fcn,
+            T_26182_15_ctrl_op_fcn) @[rob.scala 350:34]
     node _GEN_313
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_ctrl_op_fcn, T_26182_16_ctrl_op_fcn) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_ctrl_op_fcn,
+            T_26182_16_ctrl_op_fcn) @[rob.scala 350:34]
     node _GEN_314
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_ctrl_op_fcn, T_26182_17_ctrl_op_fcn) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_ctrl_op_fcn,
+            T_26182_17_ctrl_op_fcn) @[rob.scala 350:34]
     node _GEN_315
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_ctrl_op_fcn, T_26182_18_ctrl_op_fcn) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_ctrl_op_fcn,
+            T_26182_18_ctrl_op_fcn) @[rob.scala 350:34]
     node _GEN_316
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_ctrl_op_fcn, T_26182_19_ctrl_op_fcn) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_ctrl_op_fcn,
+            T_26182_19_ctrl_op_fcn) @[rob.scala 350:34]
     node _GEN_317
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_ctrl_op_fcn, T_26182_20_ctrl_op_fcn) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_ctrl_op_fcn,
+            T_26182_20_ctrl_op_fcn) @[rob.scala 350:34]
     node _GEN_318
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_ctrl_op_fcn, T_26182_21_ctrl_op_fcn) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_ctrl_op_fcn,
+            T_26182_21_ctrl_op_fcn) @[rob.scala 350:34]
     node _GEN_319
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_ctrl_op_fcn, T_26182_22_ctrl_op_fcn) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_ctrl_op_fcn,
+            T_26182_22_ctrl_op_fcn) @[rob.scala 350:34]
     node _GEN_320
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_ctrl_op_fcn, T_26182_23_ctrl_op_fcn) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_ctrl_op_fcn,
+            T_26182_23_ctrl_op_fcn) @[rob.scala 350:34]
     skip
     node _GEN_321
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_ctrl_fcn_dw, T_26182_0_ctrl_fcn_dw) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_ctrl_fcn_dw,
+            T_26182_0_ctrl_fcn_dw) @[rob.scala 350:34]
     node _GEN_322
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_ctrl_fcn_dw, T_26182_1_ctrl_fcn_dw) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_ctrl_fcn_dw,
+            T_26182_1_ctrl_fcn_dw) @[rob.scala 350:34]
     node _GEN_323
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_ctrl_fcn_dw, T_26182_2_ctrl_fcn_dw) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_ctrl_fcn_dw,
+            T_26182_2_ctrl_fcn_dw) @[rob.scala 350:34]
     node _GEN_324
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_ctrl_fcn_dw, T_26182_3_ctrl_fcn_dw) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_ctrl_fcn_dw,
+            T_26182_3_ctrl_fcn_dw) @[rob.scala 350:34]
     node _GEN_325
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_ctrl_fcn_dw, T_26182_4_ctrl_fcn_dw) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_ctrl_fcn_dw,
+            T_26182_4_ctrl_fcn_dw) @[rob.scala 350:34]
     node _GEN_326
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_ctrl_fcn_dw, T_26182_5_ctrl_fcn_dw) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_ctrl_fcn_dw,
+            T_26182_5_ctrl_fcn_dw) @[rob.scala 350:34]
     node _GEN_327
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_ctrl_fcn_dw, T_26182_6_ctrl_fcn_dw) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_ctrl_fcn_dw,
+            T_26182_6_ctrl_fcn_dw) @[rob.scala 350:34]
     node _GEN_328
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_ctrl_fcn_dw, T_26182_7_ctrl_fcn_dw) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_ctrl_fcn_dw,
+            T_26182_7_ctrl_fcn_dw) @[rob.scala 350:34]
     node _GEN_329
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_ctrl_fcn_dw, T_26182_8_ctrl_fcn_dw) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_ctrl_fcn_dw,
+            T_26182_8_ctrl_fcn_dw) @[rob.scala 350:34]
     node _GEN_330
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_ctrl_fcn_dw, T_26182_9_ctrl_fcn_dw) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_ctrl_fcn_dw,
+            T_26182_9_ctrl_fcn_dw) @[rob.scala 350:34]
     node _GEN_331
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_ctrl_fcn_dw, T_26182_10_ctrl_fcn_dw) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_ctrl_fcn_dw,
+            T_26182_10_ctrl_fcn_dw) @[rob.scala 350:34]
     node _GEN_332
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_ctrl_fcn_dw, T_26182_11_ctrl_fcn_dw) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_ctrl_fcn_dw,
+            T_26182_11_ctrl_fcn_dw) @[rob.scala 350:34]
     node _GEN_333
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_ctrl_fcn_dw, T_26182_12_ctrl_fcn_dw) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_ctrl_fcn_dw,
+            T_26182_12_ctrl_fcn_dw) @[rob.scala 350:34]
     node _GEN_334
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_ctrl_fcn_dw, T_26182_13_ctrl_fcn_dw) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_ctrl_fcn_dw,
+            T_26182_13_ctrl_fcn_dw) @[rob.scala 350:34]
     node _GEN_335
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_ctrl_fcn_dw, T_26182_14_ctrl_fcn_dw) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_ctrl_fcn_dw,
+            T_26182_14_ctrl_fcn_dw) @[rob.scala 350:34]
     node _GEN_336
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_ctrl_fcn_dw, T_26182_15_ctrl_fcn_dw) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_ctrl_fcn_dw,
+            T_26182_15_ctrl_fcn_dw) @[rob.scala 350:34]
     node _GEN_337
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_ctrl_fcn_dw, T_26182_16_ctrl_fcn_dw) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_ctrl_fcn_dw,
+            T_26182_16_ctrl_fcn_dw) @[rob.scala 350:34]
     node _GEN_338
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_ctrl_fcn_dw, T_26182_17_ctrl_fcn_dw) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_ctrl_fcn_dw,
+            T_26182_17_ctrl_fcn_dw) @[rob.scala 350:34]
     node _GEN_339
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_ctrl_fcn_dw, T_26182_18_ctrl_fcn_dw) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_ctrl_fcn_dw,
+            T_26182_18_ctrl_fcn_dw) @[rob.scala 350:34]
     node _GEN_340
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_ctrl_fcn_dw, T_26182_19_ctrl_fcn_dw) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_ctrl_fcn_dw,
+            T_26182_19_ctrl_fcn_dw) @[rob.scala 350:34]
     node _GEN_341
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_ctrl_fcn_dw, T_26182_20_ctrl_fcn_dw) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_ctrl_fcn_dw,
+            T_26182_20_ctrl_fcn_dw) @[rob.scala 350:34]
     node _GEN_342
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_ctrl_fcn_dw, T_26182_21_ctrl_fcn_dw) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_ctrl_fcn_dw,
+            T_26182_21_ctrl_fcn_dw) @[rob.scala 350:34]
     node _GEN_343
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_ctrl_fcn_dw, T_26182_22_ctrl_fcn_dw) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_ctrl_fcn_dw,
+            T_26182_22_ctrl_fcn_dw) @[rob.scala 350:34]
     node _GEN_344
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_ctrl_fcn_dw, T_26182_23_ctrl_fcn_dw) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_ctrl_fcn_dw,
+            T_26182_23_ctrl_fcn_dw) @[rob.scala 350:34]
     skip
     node _GEN_345
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_ctrl_rf_wen, T_26182_0_ctrl_rf_wen) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_ctrl_rf_wen,
+            T_26182_0_ctrl_rf_wen) @[rob.scala 350:34]
     node _GEN_346
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_ctrl_rf_wen, T_26182_1_ctrl_rf_wen) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_ctrl_rf_wen,
+            T_26182_1_ctrl_rf_wen) @[rob.scala 350:34]
     node _GEN_347
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_ctrl_rf_wen, T_26182_2_ctrl_rf_wen) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_ctrl_rf_wen,
+            T_26182_2_ctrl_rf_wen) @[rob.scala 350:34]
     node _GEN_348
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_ctrl_rf_wen, T_26182_3_ctrl_rf_wen) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_ctrl_rf_wen,
+            T_26182_3_ctrl_rf_wen) @[rob.scala 350:34]
     node _GEN_349
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_ctrl_rf_wen, T_26182_4_ctrl_rf_wen) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_ctrl_rf_wen,
+            T_26182_4_ctrl_rf_wen) @[rob.scala 350:34]
     node _GEN_350
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_ctrl_rf_wen, T_26182_5_ctrl_rf_wen) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_ctrl_rf_wen,
+            T_26182_5_ctrl_rf_wen) @[rob.scala 350:34]
     node _GEN_351
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_ctrl_rf_wen, T_26182_6_ctrl_rf_wen) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_ctrl_rf_wen,
+            T_26182_6_ctrl_rf_wen) @[rob.scala 350:34]
     node _GEN_352
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_ctrl_rf_wen, T_26182_7_ctrl_rf_wen) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_ctrl_rf_wen,
+            T_26182_7_ctrl_rf_wen) @[rob.scala 350:34]
     node _GEN_353
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_ctrl_rf_wen, T_26182_8_ctrl_rf_wen) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_ctrl_rf_wen,
+            T_26182_8_ctrl_rf_wen) @[rob.scala 350:34]
     node _GEN_354
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_ctrl_rf_wen, T_26182_9_ctrl_rf_wen) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_ctrl_rf_wen,
+            T_26182_9_ctrl_rf_wen) @[rob.scala 350:34]
     node _GEN_355
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_ctrl_rf_wen, T_26182_10_ctrl_rf_wen) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_ctrl_rf_wen,
+            T_26182_10_ctrl_rf_wen) @[rob.scala 350:34]
     node _GEN_356
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_ctrl_rf_wen, T_26182_11_ctrl_rf_wen) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_ctrl_rf_wen,
+            T_26182_11_ctrl_rf_wen) @[rob.scala 350:34]
     node _GEN_357
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_ctrl_rf_wen, T_26182_12_ctrl_rf_wen) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_ctrl_rf_wen,
+            T_26182_12_ctrl_rf_wen) @[rob.scala 350:34]
     node _GEN_358
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_ctrl_rf_wen, T_26182_13_ctrl_rf_wen) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_ctrl_rf_wen,
+            T_26182_13_ctrl_rf_wen) @[rob.scala 350:34]
     node _GEN_359
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_ctrl_rf_wen, T_26182_14_ctrl_rf_wen) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_ctrl_rf_wen,
+            T_26182_14_ctrl_rf_wen) @[rob.scala 350:34]
     node _GEN_360
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_ctrl_rf_wen, T_26182_15_ctrl_rf_wen) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_ctrl_rf_wen,
+            T_26182_15_ctrl_rf_wen) @[rob.scala 350:34]
     node _GEN_361
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_ctrl_rf_wen, T_26182_16_ctrl_rf_wen) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_ctrl_rf_wen,
+            T_26182_16_ctrl_rf_wen) @[rob.scala 350:34]
     node _GEN_362
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_ctrl_rf_wen, T_26182_17_ctrl_rf_wen) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_ctrl_rf_wen,
+            T_26182_17_ctrl_rf_wen) @[rob.scala 350:34]
     node _GEN_363
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_ctrl_rf_wen, T_26182_18_ctrl_rf_wen) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_ctrl_rf_wen,
+            T_26182_18_ctrl_rf_wen) @[rob.scala 350:34]
     node _GEN_364
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_ctrl_rf_wen, T_26182_19_ctrl_rf_wen) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_ctrl_rf_wen,
+            T_26182_19_ctrl_rf_wen) @[rob.scala 350:34]
     node _GEN_365
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_ctrl_rf_wen, T_26182_20_ctrl_rf_wen) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_ctrl_rf_wen,
+            T_26182_20_ctrl_rf_wen) @[rob.scala 350:34]
     node _GEN_366
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_ctrl_rf_wen, T_26182_21_ctrl_rf_wen) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_ctrl_rf_wen,
+            T_26182_21_ctrl_rf_wen) @[rob.scala 350:34]
     node _GEN_367
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_ctrl_rf_wen, T_26182_22_ctrl_rf_wen) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_ctrl_rf_wen,
+            T_26182_22_ctrl_rf_wen) @[rob.scala 350:34]
     node _GEN_368
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_ctrl_rf_wen, T_26182_23_ctrl_rf_wen) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_ctrl_rf_wen,
+            T_26182_23_ctrl_rf_wen) @[rob.scala 350:34]
     skip
     node _GEN_369
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_ctrl_csr_cmd, T_26182_0_ctrl_csr_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_ctrl_csr_cmd,
+            T_26182_0_ctrl_csr_cmd) @[rob.scala 350:34]
     node _GEN_370
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_ctrl_csr_cmd, T_26182_1_ctrl_csr_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_ctrl_csr_cmd,
+            T_26182_1_ctrl_csr_cmd) @[rob.scala 350:34]
     node _GEN_371
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_ctrl_csr_cmd, T_26182_2_ctrl_csr_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_ctrl_csr_cmd,
+            T_26182_2_ctrl_csr_cmd) @[rob.scala 350:34]
     node _GEN_372
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_ctrl_csr_cmd, T_26182_3_ctrl_csr_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_ctrl_csr_cmd,
+            T_26182_3_ctrl_csr_cmd) @[rob.scala 350:34]
     node _GEN_373
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_ctrl_csr_cmd, T_26182_4_ctrl_csr_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_ctrl_csr_cmd,
+            T_26182_4_ctrl_csr_cmd) @[rob.scala 350:34]
     node _GEN_374
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_ctrl_csr_cmd, T_26182_5_ctrl_csr_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_ctrl_csr_cmd,
+            T_26182_5_ctrl_csr_cmd) @[rob.scala 350:34]
     node _GEN_375
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_ctrl_csr_cmd, T_26182_6_ctrl_csr_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_ctrl_csr_cmd,
+            T_26182_6_ctrl_csr_cmd) @[rob.scala 350:34]
     node _GEN_376
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_ctrl_csr_cmd, T_26182_7_ctrl_csr_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_ctrl_csr_cmd,
+            T_26182_7_ctrl_csr_cmd) @[rob.scala 350:34]
     node _GEN_377
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_ctrl_csr_cmd, T_26182_8_ctrl_csr_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_ctrl_csr_cmd,
+            T_26182_8_ctrl_csr_cmd) @[rob.scala 350:34]
     node _GEN_378
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_ctrl_csr_cmd, T_26182_9_ctrl_csr_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_ctrl_csr_cmd,
+            T_26182_9_ctrl_csr_cmd) @[rob.scala 350:34]
     node _GEN_379
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_ctrl_csr_cmd, T_26182_10_ctrl_csr_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_ctrl_csr_cmd,
+            T_26182_10_ctrl_csr_cmd) @[rob.scala 350:34]
     node _GEN_380
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_ctrl_csr_cmd, T_26182_11_ctrl_csr_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_ctrl_csr_cmd,
+            T_26182_11_ctrl_csr_cmd) @[rob.scala 350:34]
     node _GEN_381
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_ctrl_csr_cmd, T_26182_12_ctrl_csr_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_ctrl_csr_cmd,
+            T_26182_12_ctrl_csr_cmd) @[rob.scala 350:34]
     node _GEN_382
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_ctrl_csr_cmd, T_26182_13_ctrl_csr_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_ctrl_csr_cmd,
+            T_26182_13_ctrl_csr_cmd) @[rob.scala 350:34]
     node _GEN_383
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_ctrl_csr_cmd, T_26182_14_ctrl_csr_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_ctrl_csr_cmd,
+            T_26182_14_ctrl_csr_cmd) @[rob.scala 350:34]
     node _GEN_384
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_ctrl_csr_cmd, T_26182_15_ctrl_csr_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_ctrl_csr_cmd,
+            T_26182_15_ctrl_csr_cmd) @[rob.scala 350:34]
     node _GEN_385
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_ctrl_csr_cmd, T_26182_16_ctrl_csr_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_ctrl_csr_cmd,
+            T_26182_16_ctrl_csr_cmd) @[rob.scala 350:34]
     node _GEN_386
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_ctrl_csr_cmd, T_26182_17_ctrl_csr_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_ctrl_csr_cmd,
+            T_26182_17_ctrl_csr_cmd) @[rob.scala 350:34]
     node _GEN_387
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_ctrl_csr_cmd, T_26182_18_ctrl_csr_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_ctrl_csr_cmd,
+            T_26182_18_ctrl_csr_cmd) @[rob.scala 350:34]
     node _GEN_388
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_ctrl_csr_cmd, T_26182_19_ctrl_csr_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_ctrl_csr_cmd,
+            T_26182_19_ctrl_csr_cmd) @[rob.scala 350:34]
     node _GEN_389
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_ctrl_csr_cmd, T_26182_20_ctrl_csr_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_ctrl_csr_cmd,
+            T_26182_20_ctrl_csr_cmd) @[rob.scala 350:34]
     node _GEN_390
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_ctrl_csr_cmd, T_26182_21_ctrl_csr_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_ctrl_csr_cmd,
+            T_26182_21_ctrl_csr_cmd) @[rob.scala 350:34]
     node _GEN_391
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_ctrl_csr_cmd, T_26182_22_ctrl_csr_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_ctrl_csr_cmd,
+            T_26182_22_ctrl_csr_cmd) @[rob.scala 350:34]
     node _GEN_392
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_ctrl_csr_cmd, T_26182_23_ctrl_csr_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_ctrl_csr_cmd,
+            T_26182_23_ctrl_csr_cmd) @[rob.scala 350:34]
     skip
     node _GEN_393
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_ctrl_is_load, T_26182_0_ctrl_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_ctrl_is_load,
+            T_26182_0_ctrl_is_load) @[rob.scala 350:34]
     node _GEN_394
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_ctrl_is_load, T_26182_1_ctrl_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_ctrl_is_load,
+            T_26182_1_ctrl_is_load) @[rob.scala 350:34]
     node _GEN_395
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_ctrl_is_load, T_26182_2_ctrl_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_ctrl_is_load,
+            T_26182_2_ctrl_is_load) @[rob.scala 350:34]
     node _GEN_396
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_ctrl_is_load, T_26182_3_ctrl_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_ctrl_is_load,
+            T_26182_3_ctrl_is_load) @[rob.scala 350:34]
     node _GEN_397
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_ctrl_is_load, T_26182_4_ctrl_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_ctrl_is_load,
+            T_26182_4_ctrl_is_load) @[rob.scala 350:34]
     node _GEN_398
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_ctrl_is_load, T_26182_5_ctrl_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_ctrl_is_load,
+            T_26182_5_ctrl_is_load) @[rob.scala 350:34]
     node _GEN_399
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_ctrl_is_load, T_26182_6_ctrl_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_ctrl_is_load,
+            T_26182_6_ctrl_is_load) @[rob.scala 350:34]
     node _GEN_400
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_ctrl_is_load, T_26182_7_ctrl_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_ctrl_is_load,
+            T_26182_7_ctrl_is_load) @[rob.scala 350:34]
     node _GEN_401
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_ctrl_is_load, T_26182_8_ctrl_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_ctrl_is_load,
+            T_26182_8_ctrl_is_load) @[rob.scala 350:34]
     node _GEN_402
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_ctrl_is_load, T_26182_9_ctrl_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_ctrl_is_load,
+            T_26182_9_ctrl_is_load) @[rob.scala 350:34]
     node _GEN_403
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_ctrl_is_load, T_26182_10_ctrl_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_ctrl_is_load,
+            T_26182_10_ctrl_is_load) @[rob.scala 350:34]
     node _GEN_404
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_ctrl_is_load, T_26182_11_ctrl_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_ctrl_is_load,
+            T_26182_11_ctrl_is_load) @[rob.scala 350:34]
     node _GEN_405
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_ctrl_is_load, T_26182_12_ctrl_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_ctrl_is_load,
+            T_26182_12_ctrl_is_load) @[rob.scala 350:34]
     node _GEN_406
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_ctrl_is_load, T_26182_13_ctrl_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_ctrl_is_load,
+            T_26182_13_ctrl_is_load) @[rob.scala 350:34]
     node _GEN_407
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_ctrl_is_load, T_26182_14_ctrl_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_ctrl_is_load,
+            T_26182_14_ctrl_is_load) @[rob.scala 350:34]
     node _GEN_408
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_ctrl_is_load, T_26182_15_ctrl_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_ctrl_is_load,
+            T_26182_15_ctrl_is_load) @[rob.scala 350:34]
     node _GEN_409
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_ctrl_is_load, T_26182_16_ctrl_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_ctrl_is_load,
+            T_26182_16_ctrl_is_load) @[rob.scala 350:34]
     node _GEN_410
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_ctrl_is_load, T_26182_17_ctrl_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_ctrl_is_load,
+            T_26182_17_ctrl_is_load) @[rob.scala 350:34]
     node _GEN_411
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_ctrl_is_load, T_26182_18_ctrl_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_ctrl_is_load,
+            T_26182_18_ctrl_is_load) @[rob.scala 350:34]
     node _GEN_412
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_ctrl_is_load, T_26182_19_ctrl_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_ctrl_is_load,
+            T_26182_19_ctrl_is_load) @[rob.scala 350:34]
     node _GEN_413
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_ctrl_is_load, T_26182_20_ctrl_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_ctrl_is_load,
+            T_26182_20_ctrl_is_load) @[rob.scala 350:34]
     node _GEN_414
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_ctrl_is_load, T_26182_21_ctrl_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_ctrl_is_load,
+            T_26182_21_ctrl_is_load) @[rob.scala 350:34]
     node _GEN_415
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_ctrl_is_load, T_26182_22_ctrl_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_ctrl_is_load,
+            T_26182_22_ctrl_is_load) @[rob.scala 350:34]
     node _GEN_416
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_ctrl_is_load, T_26182_23_ctrl_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_ctrl_is_load,
+            T_26182_23_ctrl_is_load) @[rob.scala 350:34]
     skip
     node _GEN_417
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_ctrl_is_sta, T_26182_0_ctrl_is_sta) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_ctrl_is_sta,
+            T_26182_0_ctrl_is_sta) @[rob.scala 350:34]
     node _GEN_418
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_ctrl_is_sta, T_26182_1_ctrl_is_sta) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_ctrl_is_sta,
+            T_26182_1_ctrl_is_sta) @[rob.scala 350:34]
     node _GEN_419
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_ctrl_is_sta, T_26182_2_ctrl_is_sta) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_ctrl_is_sta,
+            T_26182_2_ctrl_is_sta) @[rob.scala 350:34]
     node _GEN_420
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_ctrl_is_sta, T_26182_3_ctrl_is_sta) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_ctrl_is_sta,
+            T_26182_3_ctrl_is_sta) @[rob.scala 350:34]
     node _GEN_421
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_ctrl_is_sta, T_26182_4_ctrl_is_sta) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_ctrl_is_sta,
+            T_26182_4_ctrl_is_sta) @[rob.scala 350:34]
     node _GEN_422
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_ctrl_is_sta, T_26182_5_ctrl_is_sta) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_ctrl_is_sta,
+            T_26182_5_ctrl_is_sta) @[rob.scala 350:34]
     node _GEN_423
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_ctrl_is_sta, T_26182_6_ctrl_is_sta) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_ctrl_is_sta,
+            T_26182_6_ctrl_is_sta) @[rob.scala 350:34]
     node _GEN_424
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_ctrl_is_sta, T_26182_7_ctrl_is_sta) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_ctrl_is_sta,
+            T_26182_7_ctrl_is_sta) @[rob.scala 350:34]
     node _GEN_425
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_ctrl_is_sta, T_26182_8_ctrl_is_sta) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_ctrl_is_sta,
+            T_26182_8_ctrl_is_sta) @[rob.scala 350:34]
     node _GEN_426
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_ctrl_is_sta, T_26182_9_ctrl_is_sta) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_ctrl_is_sta,
+            T_26182_9_ctrl_is_sta) @[rob.scala 350:34]
     node _GEN_427
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_ctrl_is_sta, T_26182_10_ctrl_is_sta) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_ctrl_is_sta,
+            T_26182_10_ctrl_is_sta) @[rob.scala 350:34]
     node _GEN_428
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_ctrl_is_sta, T_26182_11_ctrl_is_sta) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_ctrl_is_sta,
+            T_26182_11_ctrl_is_sta) @[rob.scala 350:34]
     node _GEN_429
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_ctrl_is_sta, T_26182_12_ctrl_is_sta) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_ctrl_is_sta,
+            T_26182_12_ctrl_is_sta) @[rob.scala 350:34]
     node _GEN_430
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_ctrl_is_sta, T_26182_13_ctrl_is_sta) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_ctrl_is_sta,
+            T_26182_13_ctrl_is_sta) @[rob.scala 350:34]
     node _GEN_431
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_ctrl_is_sta, T_26182_14_ctrl_is_sta) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_ctrl_is_sta,
+            T_26182_14_ctrl_is_sta) @[rob.scala 350:34]
     node _GEN_432
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_ctrl_is_sta, T_26182_15_ctrl_is_sta) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_ctrl_is_sta,
+            T_26182_15_ctrl_is_sta) @[rob.scala 350:34]
     node _GEN_433
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_ctrl_is_sta, T_26182_16_ctrl_is_sta) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_ctrl_is_sta,
+            T_26182_16_ctrl_is_sta) @[rob.scala 350:34]
     node _GEN_434
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_ctrl_is_sta, T_26182_17_ctrl_is_sta) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_ctrl_is_sta,
+            T_26182_17_ctrl_is_sta) @[rob.scala 350:34]
     node _GEN_435
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_ctrl_is_sta, T_26182_18_ctrl_is_sta) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_ctrl_is_sta,
+            T_26182_18_ctrl_is_sta) @[rob.scala 350:34]
     node _GEN_436
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_ctrl_is_sta, T_26182_19_ctrl_is_sta) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_ctrl_is_sta,
+            T_26182_19_ctrl_is_sta) @[rob.scala 350:34]
     node _GEN_437
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_ctrl_is_sta, T_26182_20_ctrl_is_sta) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_ctrl_is_sta,
+            T_26182_20_ctrl_is_sta) @[rob.scala 350:34]
     node _GEN_438
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_ctrl_is_sta, T_26182_21_ctrl_is_sta) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_ctrl_is_sta,
+            T_26182_21_ctrl_is_sta) @[rob.scala 350:34]
     node _GEN_439
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_ctrl_is_sta, T_26182_22_ctrl_is_sta) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_ctrl_is_sta,
+            T_26182_22_ctrl_is_sta) @[rob.scala 350:34]
     node _GEN_440
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_ctrl_is_sta, T_26182_23_ctrl_is_sta) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_ctrl_is_sta,
+            T_26182_23_ctrl_is_sta) @[rob.scala 350:34]
     skip
     node _GEN_441
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_ctrl_is_std, T_26182_0_ctrl_is_std) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_ctrl_is_std,
+            T_26182_0_ctrl_is_std) @[rob.scala 350:34]
     node _GEN_442
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_ctrl_is_std, T_26182_1_ctrl_is_std) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_ctrl_is_std,
+            T_26182_1_ctrl_is_std) @[rob.scala 350:34]
     node _GEN_443
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_ctrl_is_std, T_26182_2_ctrl_is_std) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_ctrl_is_std,
+            T_26182_2_ctrl_is_std) @[rob.scala 350:34]
     node _GEN_444
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_ctrl_is_std, T_26182_3_ctrl_is_std) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_ctrl_is_std,
+            T_26182_3_ctrl_is_std) @[rob.scala 350:34]
     node _GEN_445
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_ctrl_is_std, T_26182_4_ctrl_is_std) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_ctrl_is_std,
+            T_26182_4_ctrl_is_std) @[rob.scala 350:34]
     node _GEN_446
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_ctrl_is_std, T_26182_5_ctrl_is_std) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_ctrl_is_std,
+            T_26182_5_ctrl_is_std) @[rob.scala 350:34]
     node _GEN_447
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_ctrl_is_std, T_26182_6_ctrl_is_std) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_ctrl_is_std,
+            T_26182_6_ctrl_is_std) @[rob.scala 350:34]
     node _GEN_448
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_ctrl_is_std, T_26182_7_ctrl_is_std) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_ctrl_is_std,
+            T_26182_7_ctrl_is_std) @[rob.scala 350:34]
     node _GEN_449
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_ctrl_is_std, T_26182_8_ctrl_is_std) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_ctrl_is_std,
+            T_26182_8_ctrl_is_std) @[rob.scala 350:34]
     node _GEN_450
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_ctrl_is_std, T_26182_9_ctrl_is_std) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_ctrl_is_std,
+            T_26182_9_ctrl_is_std) @[rob.scala 350:34]
     node _GEN_451
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_ctrl_is_std, T_26182_10_ctrl_is_std) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_ctrl_is_std,
+            T_26182_10_ctrl_is_std) @[rob.scala 350:34]
     node _GEN_452
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_ctrl_is_std, T_26182_11_ctrl_is_std) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_ctrl_is_std,
+            T_26182_11_ctrl_is_std) @[rob.scala 350:34]
     node _GEN_453
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_ctrl_is_std, T_26182_12_ctrl_is_std) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_ctrl_is_std,
+            T_26182_12_ctrl_is_std) @[rob.scala 350:34]
     node _GEN_454
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_ctrl_is_std, T_26182_13_ctrl_is_std) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_ctrl_is_std,
+            T_26182_13_ctrl_is_std) @[rob.scala 350:34]
     node _GEN_455
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_ctrl_is_std, T_26182_14_ctrl_is_std) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_ctrl_is_std,
+            T_26182_14_ctrl_is_std) @[rob.scala 350:34]
     node _GEN_456
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_ctrl_is_std, T_26182_15_ctrl_is_std) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_ctrl_is_std,
+            T_26182_15_ctrl_is_std) @[rob.scala 350:34]
     node _GEN_457
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_ctrl_is_std, T_26182_16_ctrl_is_std) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_ctrl_is_std,
+            T_26182_16_ctrl_is_std) @[rob.scala 350:34]
     node _GEN_458
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_ctrl_is_std, T_26182_17_ctrl_is_std) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_ctrl_is_std,
+            T_26182_17_ctrl_is_std) @[rob.scala 350:34]
     node _GEN_459
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_ctrl_is_std, T_26182_18_ctrl_is_std) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_ctrl_is_std,
+            T_26182_18_ctrl_is_std) @[rob.scala 350:34]
     node _GEN_460
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_ctrl_is_std, T_26182_19_ctrl_is_std) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_ctrl_is_std,
+            T_26182_19_ctrl_is_std) @[rob.scala 350:34]
     node _GEN_461
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_ctrl_is_std, T_26182_20_ctrl_is_std) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_ctrl_is_std,
+            T_26182_20_ctrl_is_std) @[rob.scala 350:34]
     node _GEN_462
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_ctrl_is_std, T_26182_21_ctrl_is_std) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_ctrl_is_std,
+            T_26182_21_ctrl_is_std) @[rob.scala 350:34]
     node _GEN_463
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_ctrl_is_std, T_26182_22_ctrl_is_std) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_ctrl_is_std,
+            T_26182_22_ctrl_is_std) @[rob.scala 350:34]
     node _GEN_464
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_ctrl_is_std, T_26182_23_ctrl_is_std) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_ctrl_is_std,
+            T_26182_23_ctrl_is_std) @[rob.scala 350:34]
     skip
     node _GEN_465
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_wakeup_delay, T_26182_0_wakeup_delay) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_wakeup_delay,
+            T_26182_0_wakeup_delay) @[rob.scala 350:34]
     node _GEN_466
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_wakeup_delay, T_26182_1_wakeup_delay) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_wakeup_delay,
+            T_26182_1_wakeup_delay) @[rob.scala 350:34]
     node _GEN_467
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_wakeup_delay, T_26182_2_wakeup_delay) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_wakeup_delay,
+            T_26182_2_wakeup_delay) @[rob.scala 350:34]
     node _GEN_468
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_wakeup_delay, T_26182_3_wakeup_delay) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_wakeup_delay,
+            T_26182_3_wakeup_delay) @[rob.scala 350:34]
     node _GEN_469
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_wakeup_delay, T_26182_4_wakeup_delay) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_wakeup_delay,
+            T_26182_4_wakeup_delay) @[rob.scala 350:34]
     node _GEN_470
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_wakeup_delay, T_26182_5_wakeup_delay) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_wakeup_delay,
+            T_26182_5_wakeup_delay) @[rob.scala 350:34]
     node _GEN_471
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_wakeup_delay, T_26182_6_wakeup_delay) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_wakeup_delay,
+            T_26182_6_wakeup_delay) @[rob.scala 350:34]
     node _GEN_472
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_wakeup_delay, T_26182_7_wakeup_delay) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_wakeup_delay,
+            T_26182_7_wakeup_delay) @[rob.scala 350:34]
     node _GEN_473
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_wakeup_delay, T_26182_8_wakeup_delay) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_wakeup_delay,
+            T_26182_8_wakeup_delay) @[rob.scala 350:34]
     node _GEN_474
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_wakeup_delay, T_26182_9_wakeup_delay) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_wakeup_delay,
+            T_26182_9_wakeup_delay) @[rob.scala 350:34]
     node _GEN_475
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_wakeup_delay, T_26182_10_wakeup_delay) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_wakeup_delay,
+            T_26182_10_wakeup_delay) @[rob.scala 350:34]
     node _GEN_476
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_wakeup_delay, T_26182_11_wakeup_delay) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_wakeup_delay,
+            T_26182_11_wakeup_delay) @[rob.scala 350:34]
     node _GEN_477
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_wakeup_delay, T_26182_12_wakeup_delay) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_wakeup_delay,
+            T_26182_12_wakeup_delay) @[rob.scala 350:34]
     node _GEN_478
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_wakeup_delay, T_26182_13_wakeup_delay) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_wakeup_delay,
+            T_26182_13_wakeup_delay) @[rob.scala 350:34]
     node _GEN_479
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_wakeup_delay, T_26182_14_wakeup_delay) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_wakeup_delay,
+            T_26182_14_wakeup_delay) @[rob.scala 350:34]
     node _GEN_480
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_wakeup_delay, T_26182_15_wakeup_delay) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_wakeup_delay,
+            T_26182_15_wakeup_delay) @[rob.scala 350:34]
     node _GEN_481
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_wakeup_delay, T_26182_16_wakeup_delay) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_wakeup_delay,
+            T_26182_16_wakeup_delay) @[rob.scala 350:34]
     node _GEN_482
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_wakeup_delay, T_26182_17_wakeup_delay) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_wakeup_delay,
+            T_26182_17_wakeup_delay) @[rob.scala 350:34]
     node _GEN_483
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_wakeup_delay, T_26182_18_wakeup_delay) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_wakeup_delay,
+            T_26182_18_wakeup_delay) @[rob.scala 350:34]
     node _GEN_484
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_wakeup_delay, T_26182_19_wakeup_delay) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_wakeup_delay,
+            T_26182_19_wakeup_delay) @[rob.scala 350:34]
     node _GEN_485
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_wakeup_delay, T_26182_20_wakeup_delay) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_wakeup_delay,
+            T_26182_20_wakeup_delay) @[rob.scala 350:34]
     node _GEN_486
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_wakeup_delay, T_26182_21_wakeup_delay) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_wakeup_delay,
+            T_26182_21_wakeup_delay) @[rob.scala 350:34]
     node _GEN_487
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_wakeup_delay, T_26182_22_wakeup_delay) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_wakeup_delay,
+            T_26182_22_wakeup_delay) @[rob.scala 350:34]
     node _GEN_488
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_wakeup_delay, T_26182_23_wakeup_delay) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_wakeup_delay,
+            T_26182_23_wakeup_delay) @[rob.scala 350:34]
     skip
     node _GEN_489
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_allocate_brtag, T_26182_0_allocate_brtag) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_allocate_brtag,
+            T_26182_0_allocate_brtag) @[rob.scala 350:34]
     node _GEN_490
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_allocate_brtag, T_26182_1_allocate_brtag) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_allocate_brtag,
+            T_26182_1_allocate_brtag) @[rob.scala 350:34]
     node _GEN_491
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_allocate_brtag, T_26182_2_allocate_brtag) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_allocate_brtag,
+            T_26182_2_allocate_brtag) @[rob.scala 350:34]
     node _GEN_492
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_allocate_brtag, T_26182_3_allocate_brtag) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_allocate_brtag,
+            T_26182_3_allocate_brtag) @[rob.scala 350:34]
     node _GEN_493
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_allocate_brtag, T_26182_4_allocate_brtag) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_allocate_brtag,
+            T_26182_4_allocate_brtag) @[rob.scala 350:34]
     node _GEN_494
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_allocate_brtag, T_26182_5_allocate_brtag) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_allocate_brtag,
+            T_26182_5_allocate_brtag) @[rob.scala 350:34]
     node _GEN_495
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_allocate_brtag, T_26182_6_allocate_brtag) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_allocate_brtag,
+            T_26182_6_allocate_brtag) @[rob.scala 350:34]
     node _GEN_496
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_allocate_brtag, T_26182_7_allocate_brtag) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_allocate_brtag,
+            T_26182_7_allocate_brtag) @[rob.scala 350:34]
     node _GEN_497
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_allocate_brtag, T_26182_8_allocate_brtag) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_allocate_brtag,
+            T_26182_8_allocate_brtag) @[rob.scala 350:34]
     node _GEN_498
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_allocate_brtag, T_26182_9_allocate_brtag) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_allocate_brtag,
+            T_26182_9_allocate_brtag) @[rob.scala 350:34]
     node _GEN_499
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_allocate_brtag, T_26182_10_allocate_brtag) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_allocate_brtag,
+            T_26182_10_allocate_brtag) @[rob.scala 350:34]
     node _GEN_500
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_allocate_brtag, T_26182_11_allocate_brtag) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_allocate_brtag,
+            T_26182_11_allocate_brtag) @[rob.scala 350:34]
     node _GEN_501
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_allocate_brtag, T_26182_12_allocate_brtag) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_allocate_brtag,
+            T_26182_12_allocate_brtag) @[rob.scala 350:34]
     node _GEN_502
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_allocate_brtag, T_26182_13_allocate_brtag) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_allocate_brtag,
+            T_26182_13_allocate_brtag) @[rob.scala 350:34]
     node _GEN_503
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_allocate_brtag, T_26182_14_allocate_brtag) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_allocate_brtag,
+            T_26182_14_allocate_brtag) @[rob.scala 350:34]
     node _GEN_504
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_allocate_brtag, T_26182_15_allocate_brtag) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_allocate_brtag,
+            T_26182_15_allocate_brtag) @[rob.scala 350:34]
     node _GEN_505
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_allocate_brtag, T_26182_16_allocate_brtag) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_allocate_brtag,
+            T_26182_16_allocate_brtag) @[rob.scala 350:34]
     node _GEN_506
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_allocate_brtag, T_26182_17_allocate_brtag) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_allocate_brtag,
+            T_26182_17_allocate_brtag) @[rob.scala 350:34]
     node _GEN_507
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_allocate_brtag, T_26182_18_allocate_brtag) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_allocate_brtag,
+            T_26182_18_allocate_brtag) @[rob.scala 350:34]
     node _GEN_508
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_allocate_brtag, T_26182_19_allocate_brtag) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_allocate_brtag,
+            T_26182_19_allocate_brtag) @[rob.scala 350:34]
     node _GEN_509
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_allocate_brtag, T_26182_20_allocate_brtag) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_allocate_brtag,
+            T_26182_20_allocate_brtag) @[rob.scala 350:34]
     node _GEN_510
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_allocate_brtag, T_26182_21_allocate_brtag) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_allocate_brtag,
+            T_26182_21_allocate_brtag) @[rob.scala 350:34]
     node _GEN_511
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_allocate_brtag, T_26182_22_allocate_brtag) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_allocate_brtag,
+            T_26182_22_allocate_brtag) @[rob.scala 350:34]
     node _GEN_512
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_allocate_brtag, T_26182_23_allocate_brtag) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_allocate_brtag,
+            T_26182_23_allocate_brtag) @[rob.scala 350:34]
     skip
     node _GEN_513
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_is_br_or_jmp, T_26182_0_is_br_or_jmp) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_is_br_or_jmp,
+            T_26182_0_is_br_or_jmp) @[rob.scala 350:34]
     node _GEN_514
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_is_br_or_jmp, T_26182_1_is_br_or_jmp) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_is_br_or_jmp,
+            T_26182_1_is_br_or_jmp) @[rob.scala 350:34]
     node _GEN_515
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_is_br_or_jmp, T_26182_2_is_br_or_jmp) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_is_br_or_jmp,
+            T_26182_2_is_br_or_jmp) @[rob.scala 350:34]
     node _GEN_516
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_is_br_or_jmp, T_26182_3_is_br_or_jmp) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_is_br_or_jmp,
+            T_26182_3_is_br_or_jmp) @[rob.scala 350:34]
     node _GEN_517
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_is_br_or_jmp, T_26182_4_is_br_or_jmp) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_is_br_or_jmp,
+            T_26182_4_is_br_or_jmp) @[rob.scala 350:34]
     node _GEN_518
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_is_br_or_jmp, T_26182_5_is_br_or_jmp) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_is_br_or_jmp,
+            T_26182_5_is_br_or_jmp) @[rob.scala 350:34]
     node _GEN_519
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_is_br_or_jmp, T_26182_6_is_br_or_jmp) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_is_br_or_jmp,
+            T_26182_6_is_br_or_jmp) @[rob.scala 350:34]
     node _GEN_520
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_is_br_or_jmp, T_26182_7_is_br_or_jmp) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_is_br_or_jmp,
+            T_26182_7_is_br_or_jmp) @[rob.scala 350:34]
     node _GEN_521
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_is_br_or_jmp, T_26182_8_is_br_or_jmp) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_is_br_or_jmp,
+            T_26182_8_is_br_or_jmp) @[rob.scala 350:34]
     node _GEN_522
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_is_br_or_jmp, T_26182_9_is_br_or_jmp) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_is_br_or_jmp,
+            T_26182_9_is_br_or_jmp) @[rob.scala 350:34]
     node _GEN_523
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_is_br_or_jmp, T_26182_10_is_br_or_jmp) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_is_br_or_jmp,
+            T_26182_10_is_br_or_jmp) @[rob.scala 350:34]
     node _GEN_524
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_is_br_or_jmp, T_26182_11_is_br_or_jmp) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_is_br_or_jmp,
+            T_26182_11_is_br_or_jmp) @[rob.scala 350:34]
     node _GEN_525
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_is_br_or_jmp, T_26182_12_is_br_or_jmp) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_is_br_or_jmp,
+            T_26182_12_is_br_or_jmp) @[rob.scala 350:34]
     node _GEN_526
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_is_br_or_jmp, T_26182_13_is_br_or_jmp) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_is_br_or_jmp,
+            T_26182_13_is_br_or_jmp) @[rob.scala 350:34]
     node _GEN_527
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_is_br_or_jmp, T_26182_14_is_br_or_jmp) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_is_br_or_jmp,
+            T_26182_14_is_br_or_jmp) @[rob.scala 350:34]
     node _GEN_528
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_is_br_or_jmp, T_26182_15_is_br_or_jmp) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_is_br_or_jmp,
+            T_26182_15_is_br_or_jmp) @[rob.scala 350:34]
     node _GEN_529
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_is_br_or_jmp, T_26182_16_is_br_or_jmp) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_is_br_or_jmp,
+            T_26182_16_is_br_or_jmp) @[rob.scala 350:34]
     node _GEN_530
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_is_br_or_jmp, T_26182_17_is_br_or_jmp) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_is_br_or_jmp,
+            T_26182_17_is_br_or_jmp) @[rob.scala 350:34]
     node _GEN_531
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_is_br_or_jmp, T_26182_18_is_br_or_jmp) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_is_br_or_jmp,
+            T_26182_18_is_br_or_jmp) @[rob.scala 350:34]
     node _GEN_532
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_is_br_or_jmp, T_26182_19_is_br_or_jmp) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_is_br_or_jmp,
+            T_26182_19_is_br_or_jmp) @[rob.scala 350:34]
     node _GEN_533
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_is_br_or_jmp, T_26182_20_is_br_or_jmp) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_is_br_or_jmp,
+            T_26182_20_is_br_or_jmp) @[rob.scala 350:34]
     node _GEN_534
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_is_br_or_jmp, T_26182_21_is_br_or_jmp) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_is_br_or_jmp,
+            T_26182_21_is_br_or_jmp) @[rob.scala 350:34]
     node _GEN_535
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_is_br_or_jmp, T_26182_22_is_br_or_jmp) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_is_br_or_jmp,
+            T_26182_22_is_br_or_jmp) @[rob.scala 350:34]
     node _GEN_536
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_is_br_or_jmp, T_26182_23_is_br_or_jmp) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_is_br_or_jmp,
+            T_26182_23_is_br_or_jmp) @[rob.scala 350:34]
     skip
     node _GEN_537
       = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_is_jump, T_26182_0_is_jump) @[rob.scala 350:34]
@@ -4754,33 +5128,47 @@ circuit Rob :
     node _GEN_546
       = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_is_jump, T_26182_9_is_jump) @[rob.scala 350:34]
     node _GEN_547
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_is_jump, T_26182_10_is_jump) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_is_jump,
+            T_26182_10_is_jump) @[rob.scala 350:34]
     node _GEN_548
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_is_jump, T_26182_11_is_jump) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_is_jump,
+            T_26182_11_is_jump) @[rob.scala 350:34]
     node _GEN_549
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_is_jump, T_26182_12_is_jump) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_is_jump,
+            T_26182_12_is_jump) @[rob.scala 350:34]
     node _GEN_550
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_is_jump, T_26182_13_is_jump) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_is_jump,
+            T_26182_13_is_jump) @[rob.scala 350:34]
     node _GEN_551
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_is_jump, T_26182_14_is_jump) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_is_jump,
+            T_26182_14_is_jump) @[rob.scala 350:34]
     node _GEN_552
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_is_jump, T_26182_15_is_jump) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_is_jump,
+            T_26182_15_is_jump) @[rob.scala 350:34]
     node _GEN_553
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_is_jump, T_26182_16_is_jump) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_is_jump,
+            T_26182_16_is_jump) @[rob.scala 350:34]
     node _GEN_554
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_is_jump, T_26182_17_is_jump) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_is_jump,
+            T_26182_17_is_jump) @[rob.scala 350:34]
     node _GEN_555
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_is_jump, T_26182_18_is_jump) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_is_jump,
+            T_26182_18_is_jump) @[rob.scala 350:34]
     node _GEN_556
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_is_jump, T_26182_19_is_jump) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_is_jump,
+            T_26182_19_is_jump) @[rob.scala 350:34]
     node _GEN_557
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_is_jump, T_26182_20_is_jump) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_is_jump,
+            T_26182_20_is_jump) @[rob.scala 350:34]
     node _GEN_558
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_is_jump, T_26182_21_is_jump) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_is_jump,
+            T_26182_21_is_jump) @[rob.scala 350:34]
     node _GEN_559
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_is_jump, T_26182_22_is_jump) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_is_jump,
+            T_26182_22_is_jump) @[rob.scala 350:34]
     node _GEN_560
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_is_jump, T_26182_23_is_jump) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_is_jump,
+            T_26182_23_is_jump) @[rob.scala 350:34]
     skip
     node _GEN_561
       = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_is_jal, T_26182_0_is_jal) @[rob.scala 350:34]
@@ -4901,33 +5289,47 @@ circuit Rob :
     node _GEN_618
       = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_is_call, T_26182_9_is_call) @[rob.scala 350:34]
     node _GEN_619
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_is_call, T_26182_10_is_call) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_is_call,
+            T_26182_10_is_call) @[rob.scala 350:34]
     node _GEN_620
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_is_call, T_26182_11_is_call) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_is_call,
+            T_26182_11_is_call) @[rob.scala 350:34]
     node _GEN_621
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_is_call, T_26182_12_is_call) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_is_call,
+            T_26182_12_is_call) @[rob.scala 350:34]
     node _GEN_622
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_is_call, T_26182_13_is_call) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_is_call,
+            T_26182_13_is_call) @[rob.scala 350:34]
     node _GEN_623
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_is_call, T_26182_14_is_call) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_is_call,
+            T_26182_14_is_call) @[rob.scala 350:34]
     node _GEN_624
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_is_call, T_26182_15_is_call) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_is_call,
+            T_26182_15_is_call) @[rob.scala 350:34]
     node _GEN_625
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_is_call, T_26182_16_is_call) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_is_call,
+            T_26182_16_is_call) @[rob.scala 350:34]
     node _GEN_626
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_is_call, T_26182_17_is_call) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_is_call,
+            T_26182_17_is_call) @[rob.scala 350:34]
     node _GEN_627
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_is_call, T_26182_18_is_call) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_is_call,
+            T_26182_18_is_call) @[rob.scala 350:34]
     node _GEN_628
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_is_call, T_26182_19_is_call) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_is_call,
+            T_26182_19_is_call) @[rob.scala 350:34]
     node _GEN_629
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_is_call, T_26182_20_is_call) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_is_call,
+            T_26182_20_is_call) @[rob.scala 350:34]
     node _GEN_630
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_is_call, T_26182_21_is_call) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_is_call,
+            T_26182_21_is_call) @[rob.scala 350:34]
     node _GEN_631
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_is_call, T_26182_22_is_call) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_is_call,
+            T_26182_22_is_call) @[rob.scala 350:34]
     node _GEN_632
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_is_call, T_26182_23_is_call) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_is_call,
+            T_26182_23_is_call) @[rob.scala 350:34]
     skip
     node _GEN_633
       = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_br_mask, T_26182_0_br_mask) @[rob.scala 350:34]
@@ -4950,33 +5352,47 @@ circuit Rob :
     node _GEN_642
       = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_br_mask, T_26182_9_br_mask) @[rob.scala 350:34]
     node _GEN_643
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_br_mask, T_26182_10_br_mask) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_br_mask,
+            T_26182_10_br_mask) @[rob.scala 350:34]
     node _GEN_644
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_br_mask, T_26182_11_br_mask) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_br_mask,
+            T_26182_11_br_mask) @[rob.scala 350:34]
     node _GEN_645
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_br_mask, T_26182_12_br_mask) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_br_mask,
+            T_26182_12_br_mask) @[rob.scala 350:34]
     node _GEN_646
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_br_mask, T_26182_13_br_mask) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_br_mask,
+            T_26182_13_br_mask) @[rob.scala 350:34]
     node _GEN_647
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_br_mask, T_26182_14_br_mask) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_br_mask,
+            T_26182_14_br_mask) @[rob.scala 350:34]
     node _GEN_648
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_br_mask, T_26182_15_br_mask) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_br_mask,
+            T_26182_15_br_mask) @[rob.scala 350:34]
     node _GEN_649
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_br_mask, T_26182_16_br_mask) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_br_mask,
+            T_26182_16_br_mask) @[rob.scala 350:34]
     node _GEN_650
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_br_mask, T_26182_17_br_mask) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_br_mask,
+            T_26182_17_br_mask) @[rob.scala 350:34]
     node _GEN_651
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_br_mask, T_26182_18_br_mask) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_br_mask,
+            T_26182_18_br_mask) @[rob.scala 350:34]
     node _GEN_652
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_br_mask, T_26182_19_br_mask) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_br_mask,
+            T_26182_19_br_mask) @[rob.scala 350:34]
     node _GEN_653
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_br_mask, T_26182_20_br_mask) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_br_mask,
+            T_26182_20_br_mask) @[rob.scala 350:34]
     node _GEN_654
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_br_mask, T_26182_21_br_mask) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_br_mask,
+            T_26182_21_br_mask) @[rob.scala 350:34]
     node _GEN_655
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_br_mask, T_26182_22_br_mask) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_br_mask,
+            T_26182_22_br_mask) @[rob.scala 350:34]
     node _GEN_656
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_br_mask, T_26182_23_br_mask) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_br_mask,
+            T_26182_23_br_mask) @[rob.scala 350:34]
     skip
     node _GEN_657
       = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_br_tag, T_26182_0_br_tag) @[rob.scala 350:34]
@@ -5028,641 +5444,1029 @@ circuit Rob :
       = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_br_tag, T_26182_23_br_tag) @[rob.scala 350:34]
     skip
     node _GEN_681
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_br_prediction_bpd_predict_val, T_26182_0_br_prediction_bpd_predict_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail),
+            io_dis_uops_0_br_prediction_bpd_predict_val,
+            T_26182_0_br_prediction_bpd_predict_val) @[rob.scala 350:34]
     node _GEN_682
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_br_prediction_bpd_predict_val, T_26182_1_br_prediction_bpd_predict_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail),
+            io_dis_uops_0_br_prediction_bpd_predict_val,
+            T_26182_1_br_prediction_bpd_predict_val) @[rob.scala 350:34]
     node _GEN_683
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_br_prediction_bpd_predict_val, T_26182_2_br_prediction_bpd_predict_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail),
+            io_dis_uops_0_br_prediction_bpd_predict_val,
+            T_26182_2_br_prediction_bpd_predict_val) @[rob.scala 350:34]
     node _GEN_684
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_br_prediction_bpd_predict_val, T_26182_3_br_prediction_bpd_predict_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail),
+            io_dis_uops_0_br_prediction_bpd_predict_val,
+            T_26182_3_br_prediction_bpd_predict_val) @[rob.scala 350:34]
     node _GEN_685
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_br_prediction_bpd_predict_val, T_26182_4_br_prediction_bpd_predict_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail),
+            io_dis_uops_0_br_prediction_bpd_predict_val,
+            T_26182_4_br_prediction_bpd_predict_val) @[rob.scala 350:34]
     node _GEN_686
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_br_prediction_bpd_predict_val, T_26182_5_br_prediction_bpd_predict_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail),
+            io_dis_uops_0_br_prediction_bpd_predict_val,
+            T_26182_5_br_prediction_bpd_predict_val) @[rob.scala 350:34]
     node _GEN_687
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_br_prediction_bpd_predict_val, T_26182_6_br_prediction_bpd_predict_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail),
+            io_dis_uops_0_br_prediction_bpd_predict_val,
+            T_26182_6_br_prediction_bpd_predict_val) @[rob.scala 350:34]
     node _GEN_688
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_br_prediction_bpd_predict_val, T_26182_7_br_prediction_bpd_predict_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail),
+            io_dis_uops_0_br_prediction_bpd_predict_val,
+            T_26182_7_br_prediction_bpd_predict_val) @[rob.scala 350:34]
     node _GEN_689
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_br_prediction_bpd_predict_val, T_26182_8_br_prediction_bpd_predict_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail),
+            io_dis_uops_0_br_prediction_bpd_predict_val,
+            T_26182_8_br_prediction_bpd_predict_val) @[rob.scala 350:34]
     node _GEN_690
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_br_prediction_bpd_predict_val, T_26182_9_br_prediction_bpd_predict_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail),
+            io_dis_uops_0_br_prediction_bpd_predict_val,
+            T_26182_9_br_prediction_bpd_predict_val) @[rob.scala 350:34]
     node _GEN_691
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_br_prediction_bpd_predict_val, T_26182_10_br_prediction_bpd_predict_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail),
+            io_dis_uops_0_br_prediction_bpd_predict_val,
+            T_26182_10_br_prediction_bpd_predict_val) @[rob.scala 350:34]
     node _GEN_692
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_br_prediction_bpd_predict_val, T_26182_11_br_prediction_bpd_predict_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail),
+            io_dis_uops_0_br_prediction_bpd_predict_val,
+            T_26182_11_br_prediction_bpd_predict_val) @[rob.scala 350:34]
     node _GEN_693
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_br_prediction_bpd_predict_val, T_26182_12_br_prediction_bpd_predict_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail),
+            io_dis_uops_0_br_prediction_bpd_predict_val,
+            T_26182_12_br_prediction_bpd_predict_val) @[rob.scala 350:34]
     node _GEN_694
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_br_prediction_bpd_predict_val, T_26182_13_br_prediction_bpd_predict_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail),
+            io_dis_uops_0_br_prediction_bpd_predict_val,
+            T_26182_13_br_prediction_bpd_predict_val) @[rob.scala 350:34]
     node _GEN_695
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_br_prediction_bpd_predict_val, T_26182_14_br_prediction_bpd_predict_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail),
+            io_dis_uops_0_br_prediction_bpd_predict_val,
+            T_26182_14_br_prediction_bpd_predict_val) @[rob.scala 350:34]
     node _GEN_696
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_br_prediction_bpd_predict_val, T_26182_15_br_prediction_bpd_predict_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail),
+            io_dis_uops_0_br_prediction_bpd_predict_val,
+            T_26182_15_br_prediction_bpd_predict_val) @[rob.scala 350:34]
     node _GEN_697
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_br_prediction_bpd_predict_val, T_26182_16_br_prediction_bpd_predict_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail),
+            io_dis_uops_0_br_prediction_bpd_predict_val,
+            T_26182_16_br_prediction_bpd_predict_val) @[rob.scala 350:34]
     node _GEN_698
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_br_prediction_bpd_predict_val, T_26182_17_br_prediction_bpd_predict_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail),
+            io_dis_uops_0_br_prediction_bpd_predict_val,
+            T_26182_17_br_prediction_bpd_predict_val) @[rob.scala 350:34]
     node _GEN_699
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_br_prediction_bpd_predict_val, T_26182_18_br_prediction_bpd_predict_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail),
+            io_dis_uops_0_br_prediction_bpd_predict_val,
+            T_26182_18_br_prediction_bpd_predict_val) @[rob.scala 350:34]
     node _GEN_700
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_br_prediction_bpd_predict_val, T_26182_19_br_prediction_bpd_predict_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail),
+            io_dis_uops_0_br_prediction_bpd_predict_val,
+            T_26182_19_br_prediction_bpd_predict_val) @[rob.scala 350:34]
     node _GEN_701
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_br_prediction_bpd_predict_val, T_26182_20_br_prediction_bpd_predict_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail),
+            io_dis_uops_0_br_prediction_bpd_predict_val,
+            T_26182_20_br_prediction_bpd_predict_val) @[rob.scala 350:34]
     node _GEN_702
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_br_prediction_bpd_predict_val, T_26182_21_br_prediction_bpd_predict_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail),
+            io_dis_uops_0_br_prediction_bpd_predict_val,
+            T_26182_21_br_prediction_bpd_predict_val) @[rob.scala 350:34]
     node _GEN_703
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_br_prediction_bpd_predict_val, T_26182_22_br_prediction_bpd_predict_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail),
+            io_dis_uops_0_br_prediction_bpd_predict_val,
+            T_26182_22_br_prediction_bpd_predict_val) @[rob.scala 350:34]
     node _GEN_704
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_br_prediction_bpd_predict_val, T_26182_23_br_prediction_bpd_predict_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail),
+            io_dis_uops_0_br_prediction_bpd_predict_val,
+            T_26182_23_br_prediction_bpd_predict_val) @[rob.scala 350:34]
     skip
     node _GEN_705
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_br_prediction_bpd_predict_taken, T_26182_0_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail),
+            io_dis_uops_0_br_prediction_bpd_predict_taken,
+            T_26182_0_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
     node _GEN_706
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_br_prediction_bpd_predict_taken, T_26182_1_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail),
+            io_dis_uops_0_br_prediction_bpd_predict_taken,
+            T_26182_1_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
     node _GEN_707
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_br_prediction_bpd_predict_taken, T_26182_2_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail),
+            io_dis_uops_0_br_prediction_bpd_predict_taken,
+            T_26182_2_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
     node _GEN_708
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_br_prediction_bpd_predict_taken, T_26182_3_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail),
+            io_dis_uops_0_br_prediction_bpd_predict_taken,
+            T_26182_3_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
     node _GEN_709
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_br_prediction_bpd_predict_taken, T_26182_4_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail),
+            io_dis_uops_0_br_prediction_bpd_predict_taken,
+            T_26182_4_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
     node _GEN_710
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_br_prediction_bpd_predict_taken, T_26182_5_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail),
+            io_dis_uops_0_br_prediction_bpd_predict_taken,
+            T_26182_5_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
     node _GEN_711
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_br_prediction_bpd_predict_taken, T_26182_6_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail),
+            io_dis_uops_0_br_prediction_bpd_predict_taken,
+            T_26182_6_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
     node _GEN_712
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_br_prediction_bpd_predict_taken, T_26182_7_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail),
+            io_dis_uops_0_br_prediction_bpd_predict_taken,
+            T_26182_7_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
     node _GEN_713
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_br_prediction_bpd_predict_taken, T_26182_8_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail),
+            io_dis_uops_0_br_prediction_bpd_predict_taken,
+            T_26182_8_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
     node _GEN_714
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_br_prediction_bpd_predict_taken, T_26182_9_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail),
+            io_dis_uops_0_br_prediction_bpd_predict_taken,
+            T_26182_9_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
     node _GEN_715
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_br_prediction_bpd_predict_taken, T_26182_10_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail),
+            io_dis_uops_0_br_prediction_bpd_predict_taken,
+            T_26182_10_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
     node _GEN_716
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_br_prediction_bpd_predict_taken, T_26182_11_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail),
+            io_dis_uops_0_br_prediction_bpd_predict_taken,
+            T_26182_11_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
     node _GEN_717
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_br_prediction_bpd_predict_taken, T_26182_12_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail),
+            io_dis_uops_0_br_prediction_bpd_predict_taken,
+            T_26182_12_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
     node _GEN_718
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_br_prediction_bpd_predict_taken, T_26182_13_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail),
+            io_dis_uops_0_br_prediction_bpd_predict_taken,
+            T_26182_13_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
     node _GEN_719
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_br_prediction_bpd_predict_taken, T_26182_14_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail),
+            io_dis_uops_0_br_prediction_bpd_predict_taken,
+            T_26182_14_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
     node _GEN_720
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_br_prediction_bpd_predict_taken, T_26182_15_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail),
+            io_dis_uops_0_br_prediction_bpd_predict_taken,
+            T_26182_15_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
     node _GEN_721
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_br_prediction_bpd_predict_taken, T_26182_16_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail),
+            io_dis_uops_0_br_prediction_bpd_predict_taken,
+            T_26182_16_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
     node _GEN_722
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_br_prediction_bpd_predict_taken, T_26182_17_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail),
+            io_dis_uops_0_br_prediction_bpd_predict_taken,
+            T_26182_17_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
     node _GEN_723
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_br_prediction_bpd_predict_taken, T_26182_18_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail),
+            io_dis_uops_0_br_prediction_bpd_predict_taken,
+            T_26182_18_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
     node _GEN_724
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_br_prediction_bpd_predict_taken, T_26182_19_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail),
+            io_dis_uops_0_br_prediction_bpd_predict_taken,
+            T_26182_19_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
     node _GEN_725
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_br_prediction_bpd_predict_taken, T_26182_20_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail),
+            io_dis_uops_0_br_prediction_bpd_predict_taken,
+            T_26182_20_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
     node _GEN_726
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_br_prediction_bpd_predict_taken, T_26182_21_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail),
+            io_dis_uops_0_br_prediction_bpd_predict_taken,
+            T_26182_21_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
     node _GEN_727
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_br_prediction_bpd_predict_taken, T_26182_22_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail),
+            io_dis_uops_0_br_prediction_bpd_predict_taken,
+            T_26182_22_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
     node _GEN_728
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_br_prediction_bpd_predict_taken, T_26182_23_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail),
+            io_dis_uops_0_br_prediction_bpd_predict_taken,
+            T_26182_23_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
     skip
     node _GEN_729
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_br_prediction_btb_hit, T_26182_0_br_prediction_btb_hit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_br_prediction_btb_hit,
+            T_26182_0_br_prediction_btb_hit) @[rob.scala 350:34]
     node _GEN_730
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_br_prediction_btb_hit, T_26182_1_br_prediction_btb_hit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_br_prediction_btb_hit,
+            T_26182_1_br_prediction_btb_hit) @[rob.scala 350:34]
     node _GEN_731
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_br_prediction_btb_hit, T_26182_2_br_prediction_btb_hit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_br_prediction_btb_hit,
+            T_26182_2_br_prediction_btb_hit) @[rob.scala 350:34]
     node _GEN_732
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_br_prediction_btb_hit, T_26182_3_br_prediction_btb_hit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_br_prediction_btb_hit,
+            T_26182_3_br_prediction_btb_hit) @[rob.scala 350:34]
     node _GEN_733
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_br_prediction_btb_hit, T_26182_4_br_prediction_btb_hit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_br_prediction_btb_hit,
+            T_26182_4_br_prediction_btb_hit) @[rob.scala 350:34]
     node _GEN_734
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_br_prediction_btb_hit, T_26182_5_br_prediction_btb_hit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_br_prediction_btb_hit,
+            T_26182_5_br_prediction_btb_hit) @[rob.scala 350:34]
     node _GEN_735
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_br_prediction_btb_hit, T_26182_6_br_prediction_btb_hit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_br_prediction_btb_hit,
+            T_26182_6_br_prediction_btb_hit) @[rob.scala 350:34]
     node _GEN_736
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_br_prediction_btb_hit, T_26182_7_br_prediction_btb_hit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_br_prediction_btb_hit,
+            T_26182_7_br_prediction_btb_hit) @[rob.scala 350:34]
     node _GEN_737
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_br_prediction_btb_hit, T_26182_8_br_prediction_btb_hit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_br_prediction_btb_hit,
+            T_26182_8_br_prediction_btb_hit) @[rob.scala 350:34]
     node _GEN_738
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_br_prediction_btb_hit, T_26182_9_br_prediction_btb_hit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_br_prediction_btb_hit,
+            T_26182_9_br_prediction_btb_hit) @[rob.scala 350:34]
     node _GEN_739
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_br_prediction_btb_hit, T_26182_10_br_prediction_btb_hit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_br_prediction_btb_hit,
+            T_26182_10_br_prediction_btb_hit) @[rob.scala 350:34]
     node _GEN_740
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_br_prediction_btb_hit, T_26182_11_br_prediction_btb_hit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_br_prediction_btb_hit,
+            T_26182_11_br_prediction_btb_hit) @[rob.scala 350:34]
     node _GEN_741
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_br_prediction_btb_hit, T_26182_12_br_prediction_btb_hit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_br_prediction_btb_hit,
+            T_26182_12_br_prediction_btb_hit) @[rob.scala 350:34]
     node _GEN_742
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_br_prediction_btb_hit, T_26182_13_br_prediction_btb_hit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_br_prediction_btb_hit,
+            T_26182_13_br_prediction_btb_hit) @[rob.scala 350:34]
     node _GEN_743
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_br_prediction_btb_hit, T_26182_14_br_prediction_btb_hit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_br_prediction_btb_hit,
+            T_26182_14_br_prediction_btb_hit) @[rob.scala 350:34]
     node _GEN_744
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_br_prediction_btb_hit, T_26182_15_br_prediction_btb_hit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_br_prediction_btb_hit,
+            T_26182_15_br_prediction_btb_hit) @[rob.scala 350:34]
     node _GEN_745
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_br_prediction_btb_hit, T_26182_16_br_prediction_btb_hit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_br_prediction_btb_hit,
+            T_26182_16_br_prediction_btb_hit) @[rob.scala 350:34]
     node _GEN_746
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_br_prediction_btb_hit, T_26182_17_br_prediction_btb_hit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_br_prediction_btb_hit,
+            T_26182_17_br_prediction_btb_hit) @[rob.scala 350:34]
     node _GEN_747
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_br_prediction_btb_hit, T_26182_18_br_prediction_btb_hit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_br_prediction_btb_hit,
+            T_26182_18_br_prediction_btb_hit) @[rob.scala 350:34]
     node _GEN_748
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_br_prediction_btb_hit, T_26182_19_br_prediction_btb_hit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_br_prediction_btb_hit,
+            T_26182_19_br_prediction_btb_hit) @[rob.scala 350:34]
     node _GEN_749
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_br_prediction_btb_hit, T_26182_20_br_prediction_btb_hit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_br_prediction_btb_hit,
+            T_26182_20_br_prediction_btb_hit) @[rob.scala 350:34]
     node _GEN_750
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_br_prediction_btb_hit, T_26182_21_br_prediction_btb_hit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_br_prediction_btb_hit,
+            T_26182_21_br_prediction_btb_hit) @[rob.scala 350:34]
     node _GEN_751
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_br_prediction_btb_hit, T_26182_22_br_prediction_btb_hit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_br_prediction_btb_hit,
+            T_26182_22_br_prediction_btb_hit) @[rob.scala 350:34]
     node _GEN_752
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_br_prediction_btb_hit, T_26182_23_br_prediction_btb_hit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_br_prediction_btb_hit,
+            T_26182_23_br_prediction_btb_hit) @[rob.scala 350:34]
     skip
     node _GEN_753
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_br_prediction_btb_predicted, T_26182_0_br_prediction_btb_predicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_br_prediction_btb_predicted,
+            T_26182_0_br_prediction_btb_predicted) @[rob.scala 350:34]
     node _GEN_754
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_br_prediction_btb_predicted, T_26182_1_br_prediction_btb_predicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_br_prediction_btb_predicted,
+            T_26182_1_br_prediction_btb_predicted) @[rob.scala 350:34]
     node _GEN_755
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_br_prediction_btb_predicted, T_26182_2_br_prediction_btb_predicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_br_prediction_btb_predicted,
+            T_26182_2_br_prediction_btb_predicted) @[rob.scala 350:34]
     node _GEN_756
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_br_prediction_btb_predicted, T_26182_3_br_prediction_btb_predicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_br_prediction_btb_predicted,
+            T_26182_3_br_prediction_btb_predicted) @[rob.scala 350:34]
     node _GEN_757
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_br_prediction_btb_predicted, T_26182_4_br_prediction_btb_predicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_br_prediction_btb_predicted,
+            T_26182_4_br_prediction_btb_predicted) @[rob.scala 350:34]
     node _GEN_758
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_br_prediction_btb_predicted, T_26182_5_br_prediction_btb_predicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_br_prediction_btb_predicted,
+            T_26182_5_br_prediction_btb_predicted) @[rob.scala 350:34]
     node _GEN_759
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_br_prediction_btb_predicted, T_26182_6_br_prediction_btb_predicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_br_prediction_btb_predicted,
+            T_26182_6_br_prediction_btb_predicted) @[rob.scala 350:34]
     node _GEN_760
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_br_prediction_btb_predicted, T_26182_7_br_prediction_btb_predicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_br_prediction_btb_predicted,
+            T_26182_7_br_prediction_btb_predicted) @[rob.scala 350:34]
     node _GEN_761
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_br_prediction_btb_predicted, T_26182_8_br_prediction_btb_predicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_br_prediction_btb_predicted,
+            T_26182_8_br_prediction_btb_predicted) @[rob.scala 350:34]
     node _GEN_762
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_br_prediction_btb_predicted, T_26182_9_br_prediction_btb_predicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_br_prediction_btb_predicted,
+            T_26182_9_br_prediction_btb_predicted) @[rob.scala 350:34]
     node _GEN_763
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_br_prediction_btb_predicted, T_26182_10_br_prediction_btb_predicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail),
+            io_dis_uops_0_br_prediction_btb_predicted,
+            T_26182_10_br_prediction_btb_predicted) @[rob.scala 350:34]
     node _GEN_764
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_br_prediction_btb_predicted, T_26182_11_br_prediction_btb_predicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail),
+            io_dis_uops_0_br_prediction_btb_predicted,
+            T_26182_11_br_prediction_btb_predicted) @[rob.scala 350:34]
     node _GEN_765
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_br_prediction_btb_predicted, T_26182_12_br_prediction_btb_predicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail),
+            io_dis_uops_0_br_prediction_btb_predicted,
+            T_26182_12_br_prediction_btb_predicted) @[rob.scala 350:34]
     node _GEN_766
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_br_prediction_btb_predicted, T_26182_13_br_prediction_btb_predicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail),
+            io_dis_uops_0_br_prediction_btb_predicted,
+            T_26182_13_br_prediction_btb_predicted) @[rob.scala 350:34]
     node _GEN_767
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_br_prediction_btb_predicted, T_26182_14_br_prediction_btb_predicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail),
+            io_dis_uops_0_br_prediction_btb_predicted,
+            T_26182_14_br_prediction_btb_predicted) @[rob.scala 350:34]
     node _GEN_768
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_br_prediction_btb_predicted, T_26182_15_br_prediction_btb_predicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail),
+            io_dis_uops_0_br_prediction_btb_predicted,
+            T_26182_15_br_prediction_btb_predicted) @[rob.scala 350:34]
     node _GEN_769
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_br_prediction_btb_predicted, T_26182_16_br_prediction_btb_predicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail),
+            io_dis_uops_0_br_prediction_btb_predicted,
+            T_26182_16_br_prediction_btb_predicted) @[rob.scala 350:34]
     node _GEN_770
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_br_prediction_btb_predicted, T_26182_17_br_prediction_btb_predicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail),
+            io_dis_uops_0_br_prediction_btb_predicted,
+            T_26182_17_br_prediction_btb_predicted) @[rob.scala 350:34]
     node _GEN_771
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_br_prediction_btb_predicted, T_26182_18_br_prediction_btb_predicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail),
+            io_dis_uops_0_br_prediction_btb_predicted,
+            T_26182_18_br_prediction_btb_predicted) @[rob.scala 350:34]
     node _GEN_772
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_br_prediction_btb_predicted, T_26182_19_br_prediction_btb_predicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail),
+            io_dis_uops_0_br_prediction_btb_predicted,
+            T_26182_19_br_prediction_btb_predicted) @[rob.scala 350:34]
     node _GEN_773
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_br_prediction_btb_predicted, T_26182_20_br_prediction_btb_predicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail),
+            io_dis_uops_0_br_prediction_btb_predicted,
+            T_26182_20_br_prediction_btb_predicted) @[rob.scala 350:34]
     node _GEN_774
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_br_prediction_btb_predicted, T_26182_21_br_prediction_btb_predicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail),
+            io_dis_uops_0_br_prediction_btb_predicted,
+            T_26182_21_br_prediction_btb_predicted) @[rob.scala 350:34]
     node _GEN_775
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_br_prediction_btb_predicted, T_26182_22_br_prediction_btb_predicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail),
+            io_dis_uops_0_br_prediction_btb_predicted,
+            T_26182_22_br_prediction_btb_predicted) @[rob.scala 350:34]
     node _GEN_776
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_br_prediction_btb_predicted, T_26182_23_br_prediction_btb_predicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail),
+            io_dis_uops_0_br_prediction_btb_predicted,
+            T_26182_23_br_prediction_btb_predicted) @[rob.scala 350:34]
     skip
     node _GEN_777
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_br_prediction_is_br_or_jalr, T_26182_0_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_br_prediction_is_br_or_jalr,
+            T_26182_0_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
     node _GEN_778
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_br_prediction_is_br_or_jalr, T_26182_1_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_br_prediction_is_br_or_jalr,
+            T_26182_1_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
     node _GEN_779
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_br_prediction_is_br_or_jalr, T_26182_2_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_br_prediction_is_br_or_jalr,
+            T_26182_2_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
     node _GEN_780
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_br_prediction_is_br_or_jalr, T_26182_3_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_br_prediction_is_br_or_jalr,
+            T_26182_3_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
     node _GEN_781
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_br_prediction_is_br_or_jalr, T_26182_4_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_br_prediction_is_br_or_jalr,
+            T_26182_4_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
     node _GEN_782
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_br_prediction_is_br_or_jalr, T_26182_5_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_br_prediction_is_br_or_jalr,
+            T_26182_5_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
     node _GEN_783
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_br_prediction_is_br_or_jalr, T_26182_6_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_br_prediction_is_br_or_jalr,
+            T_26182_6_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
     node _GEN_784
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_br_prediction_is_br_or_jalr, T_26182_7_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_br_prediction_is_br_or_jalr,
+            T_26182_7_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
     node _GEN_785
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_br_prediction_is_br_or_jalr, T_26182_8_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_br_prediction_is_br_or_jalr,
+            T_26182_8_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
     node _GEN_786
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_br_prediction_is_br_or_jalr, T_26182_9_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_br_prediction_is_br_or_jalr,
+            T_26182_9_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
     node _GEN_787
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_br_prediction_is_br_or_jalr, T_26182_10_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail),
+            io_dis_uops_0_br_prediction_is_br_or_jalr,
+            T_26182_10_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
     node _GEN_788
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_br_prediction_is_br_or_jalr, T_26182_11_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail),
+            io_dis_uops_0_br_prediction_is_br_or_jalr,
+            T_26182_11_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
     node _GEN_789
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_br_prediction_is_br_or_jalr, T_26182_12_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail),
+            io_dis_uops_0_br_prediction_is_br_or_jalr,
+            T_26182_12_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
     node _GEN_790
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_br_prediction_is_br_or_jalr, T_26182_13_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail),
+            io_dis_uops_0_br_prediction_is_br_or_jalr,
+            T_26182_13_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
     node _GEN_791
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_br_prediction_is_br_or_jalr, T_26182_14_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail),
+            io_dis_uops_0_br_prediction_is_br_or_jalr,
+            T_26182_14_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
     node _GEN_792
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_br_prediction_is_br_or_jalr, T_26182_15_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail),
+            io_dis_uops_0_br_prediction_is_br_or_jalr,
+            T_26182_15_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
     node _GEN_793
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_br_prediction_is_br_or_jalr, T_26182_16_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail),
+            io_dis_uops_0_br_prediction_is_br_or_jalr,
+            T_26182_16_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
     node _GEN_794
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_br_prediction_is_br_or_jalr, T_26182_17_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail),
+            io_dis_uops_0_br_prediction_is_br_or_jalr,
+            T_26182_17_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
     node _GEN_795
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_br_prediction_is_br_or_jalr, T_26182_18_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail),
+            io_dis_uops_0_br_prediction_is_br_or_jalr,
+            T_26182_18_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
     node _GEN_796
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_br_prediction_is_br_or_jalr, T_26182_19_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail),
+            io_dis_uops_0_br_prediction_is_br_or_jalr,
+            T_26182_19_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
     node _GEN_797
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_br_prediction_is_br_or_jalr, T_26182_20_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail),
+            io_dis_uops_0_br_prediction_is_br_or_jalr,
+            T_26182_20_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
     node _GEN_798
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_br_prediction_is_br_or_jalr, T_26182_21_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail),
+            io_dis_uops_0_br_prediction_is_br_or_jalr,
+            T_26182_21_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
     node _GEN_799
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_br_prediction_is_br_or_jalr, T_26182_22_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail),
+            io_dis_uops_0_br_prediction_is_br_or_jalr,
+            T_26182_22_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
     node _GEN_800
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_br_prediction_is_br_or_jalr, T_26182_23_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail),
+            io_dis_uops_0_br_prediction_is_br_or_jalr,
+            T_26182_23_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
     skip
     node _GEN_801
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_stat_brjmp_mispredicted, T_26182_0_stat_brjmp_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_stat_brjmp_mispredicted,
+            T_26182_0_stat_brjmp_mispredicted) @[rob.scala 350:34]
     node _GEN_802
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_stat_brjmp_mispredicted, T_26182_1_stat_brjmp_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_stat_brjmp_mispredicted,
+            T_26182_1_stat_brjmp_mispredicted) @[rob.scala 350:34]
     node _GEN_803
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_stat_brjmp_mispredicted, T_26182_2_stat_brjmp_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_stat_brjmp_mispredicted,
+            T_26182_2_stat_brjmp_mispredicted) @[rob.scala 350:34]
     node _GEN_804
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_stat_brjmp_mispredicted, T_26182_3_stat_brjmp_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_stat_brjmp_mispredicted,
+            T_26182_3_stat_brjmp_mispredicted) @[rob.scala 350:34]
     node _GEN_805
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_stat_brjmp_mispredicted, T_26182_4_stat_brjmp_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_stat_brjmp_mispredicted,
+            T_26182_4_stat_brjmp_mispredicted) @[rob.scala 350:34]
     node _GEN_806
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_stat_brjmp_mispredicted, T_26182_5_stat_brjmp_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_stat_brjmp_mispredicted,
+            T_26182_5_stat_brjmp_mispredicted) @[rob.scala 350:34]
     node _GEN_807
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_stat_brjmp_mispredicted, T_26182_6_stat_brjmp_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_stat_brjmp_mispredicted,
+            T_26182_6_stat_brjmp_mispredicted) @[rob.scala 350:34]
     node _GEN_808
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_stat_brjmp_mispredicted, T_26182_7_stat_brjmp_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_stat_brjmp_mispredicted,
+            T_26182_7_stat_brjmp_mispredicted) @[rob.scala 350:34]
     node _GEN_809
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_stat_brjmp_mispredicted, T_26182_8_stat_brjmp_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_stat_brjmp_mispredicted,
+            T_26182_8_stat_brjmp_mispredicted) @[rob.scala 350:34]
     node _GEN_810
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_stat_brjmp_mispredicted, T_26182_9_stat_brjmp_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_stat_brjmp_mispredicted,
+            T_26182_9_stat_brjmp_mispredicted) @[rob.scala 350:34]
     node _GEN_811
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_stat_brjmp_mispredicted, T_26182_10_stat_brjmp_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_stat_brjmp_mispredicted,
+            T_26182_10_stat_brjmp_mispredicted) @[rob.scala 350:34]
     node _GEN_812
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_stat_brjmp_mispredicted, T_26182_11_stat_brjmp_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_stat_brjmp_mispredicted,
+            T_26182_11_stat_brjmp_mispredicted) @[rob.scala 350:34]
     node _GEN_813
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_stat_brjmp_mispredicted, T_26182_12_stat_brjmp_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_stat_brjmp_mispredicted,
+            T_26182_12_stat_brjmp_mispredicted) @[rob.scala 350:34]
     node _GEN_814
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_stat_brjmp_mispredicted, T_26182_13_stat_brjmp_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_stat_brjmp_mispredicted,
+            T_26182_13_stat_brjmp_mispredicted) @[rob.scala 350:34]
     node _GEN_815
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_stat_brjmp_mispredicted, T_26182_14_stat_brjmp_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_stat_brjmp_mispredicted,
+            T_26182_14_stat_brjmp_mispredicted) @[rob.scala 350:34]
     node _GEN_816
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_stat_brjmp_mispredicted, T_26182_15_stat_brjmp_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_stat_brjmp_mispredicted,
+            T_26182_15_stat_brjmp_mispredicted) @[rob.scala 350:34]
     node _GEN_817
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_stat_brjmp_mispredicted, T_26182_16_stat_brjmp_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_stat_brjmp_mispredicted,
+            T_26182_16_stat_brjmp_mispredicted) @[rob.scala 350:34]
     node _GEN_818
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_stat_brjmp_mispredicted, T_26182_17_stat_brjmp_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_stat_brjmp_mispredicted,
+            T_26182_17_stat_brjmp_mispredicted) @[rob.scala 350:34]
     node _GEN_819
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_stat_brjmp_mispredicted, T_26182_18_stat_brjmp_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_stat_brjmp_mispredicted,
+            T_26182_18_stat_brjmp_mispredicted) @[rob.scala 350:34]
     node _GEN_820
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_stat_brjmp_mispredicted, T_26182_19_stat_brjmp_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_stat_brjmp_mispredicted,
+            T_26182_19_stat_brjmp_mispredicted) @[rob.scala 350:34]
     node _GEN_821
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_stat_brjmp_mispredicted, T_26182_20_stat_brjmp_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_stat_brjmp_mispredicted,
+            T_26182_20_stat_brjmp_mispredicted) @[rob.scala 350:34]
     node _GEN_822
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_stat_brjmp_mispredicted, T_26182_21_stat_brjmp_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_stat_brjmp_mispredicted,
+            T_26182_21_stat_brjmp_mispredicted) @[rob.scala 350:34]
     node _GEN_823
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_stat_brjmp_mispredicted, T_26182_22_stat_brjmp_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_stat_brjmp_mispredicted,
+            T_26182_22_stat_brjmp_mispredicted) @[rob.scala 350:34]
     node _GEN_824
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_stat_brjmp_mispredicted, T_26182_23_stat_brjmp_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_stat_brjmp_mispredicted,
+            T_26182_23_stat_brjmp_mispredicted) @[rob.scala 350:34]
     skip
     node _GEN_825
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_stat_btb_made_pred, T_26182_0_stat_btb_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_stat_btb_made_pred,
+            T_26182_0_stat_btb_made_pred) @[rob.scala 350:34]
     node _GEN_826
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_stat_btb_made_pred, T_26182_1_stat_btb_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_stat_btb_made_pred,
+            T_26182_1_stat_btb_made_pred) @[rob.scala 350:34]
     node _GEN_827
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_stat_btb_made_pred, T_26182_2_stat_btb_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_stat_btb_made_pred,
+            T_26182_2_stat_btb_made_pred) @[rob.scala 350:34]
     node _GEN_828
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_stat_btb_made_pred, T_26182_3_stat_btb_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_stat_btb_made_pred,
+            T_26182_3_stat_btb_made_pred) @[rob.scala 350:34]
     node _GEN_829
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_stat_btb_made_pred, T_26182_4_stat_btb_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_stat_btb_made_pred,
+            T_26182_4_stat_btb_made_pred) @[rob.scala 350:34]
     node _GEN_830
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_stat_btb_made_pred, T_26182_5_stat_btb_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_stat_btb_made_pred,
+            T_26182_5_stat_btb_made_pred) @[rob.scala 350:34]
     node _GEN_831
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_stat_btb_made_pred, T_26182_6_stat_btb_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_stat_btb_made_pred,
+            T_26182_6_stat_btb_made_pred) @[rob.scala 350:34]
     node _GEN_832
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_stat_btb_made_pred, T_26182_7_stat_btb_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_stat_btb_made_pred,
+            T_26182_7_stat_btb_made_pred) @[rob.scala 350:34]
     node _GEN_833
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_stat_btb_made_pred, T_26182_8_stat_btb_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_stat_btb_made_pred,
+            T_26182_8_stat_btb_made_pred) @[rob.scala 350:34]
     node _GEN_834
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_stat_btb_made_pred, T_26182_9_stat_btb_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_stat_btb_made_pred,
+            T_26182_9_stat_btb_made_pred) @[rob.scala 350:34]
     node _GEN_835
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_stat_btb_made_pred, T_26182_10_stat_btb_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_stat_btb_made_pred,
+            T_26182_10_stat_btb_made_pred) @[rob.scala 350:34]
     node _GEN_836
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_stat_btb_made_pred, T_26182_11_stat_btb_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_stat_btb_made_pred,
+            T_26182_11_stat_btb_made_pred) @[rob.scala 350:34]
     node _GEN_837
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_stat_btb_made_pred, T_26182_12_stat_btb_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_stat_btb_made_pred,
+            T_26182_12_stat_btb_made_pred) @[rob.scala 350:34]
     node _GEN_838
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_stat_btb_made_pred, T_26182_13_stat_btb_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_stat_btb_made_pred,
+            T_26182_13_stat_btb_made_pred) @[rob.scala 350:34]
     node _GEN_839
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_stat_btb_made_pred, T_26182_14_stat_btb_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_stat_btb_made_pred,
+            T_26182_14_stat_btb_made_pred) @[rob.scala 350:34]
     node _GEN_840
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_stat_btb_made_pred, T_26182_15_stat_btb_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_stat_btb_made_pred,
+            T_26182_15_stat_btb_made_pred) @[rob.scala 350:34]
     node _GEN_841
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_stat_btb_made_pred, T_26182_16_stat_btb_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_stat_btb_made_pred,
+            T_26182_16_stat_btb_made_pred) @[rob.scala 350:34]
     node _GEN_842
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_stat_btb_made_pred, T_26182_17_stat_btb_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_stat_btb_made_pred,
+            T_26182_17_stat_btb_made_pred) @[rob.scala 350:34]
     node _GEN_843
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_stat_btb_made_pred, T_26182_18_stat_btb_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_stat_btb_made_pred,
+            T_26182_18_stat_btb_made_pred) @[rob.scala 350:34]
     node _GEN_844
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_stat_btb_made_pred, T_26182_19_stat_btb_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_stat_btb_made_pred,
+            T_26182_19_stat_btb_made_pred) @[rob.scala 350:34]
     node _GEN_845
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_stat_btb_made_pred, T_26182_20_stat_btb_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_stat_btb_made_pred,
+            T_26182_20_stat_btb_made_pred) @[rob.scala 350:34]
     node _GEN_846
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_stat_btb_made_pred, T_26182_21_stat_btb_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_stat_btb_made_pred,
+            T_26182_21_stat_btb_made_pred) @[rob.scala 350:34]
     node _GEN_847
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_stat_btb_made_pred, T_26182_22_stat_btb_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_stat_btb_made_pred,
+            T_26182_22_stat_btb_made_pred) @[rob.scala 350:34]
     node _GEN_848
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_stat_btb_made_pred, T_26182_23_stat_btb_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_stat_btb_made_pred,
+            T_26182_23_stat_btb_made_pred) @[rob.scala 350:34]
     skip
     node _GEN_849
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_stat_btb_mispredicted, T_26182_0_stat_btb_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_stat_btb_mispredicted,
+            T_26182_0_stat_btb_mispredicted) @[rob.scala 350:34]
     node _GEN_850
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_stat_btb_mispredicted, T_26182_1_stat_btb_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_stat_btb_mispredicted,
+            T_26182_1_stat_btb_mispredicted) @[rob.scala 350:34]
     node _GEN_851
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_stat_btb_mispredicted, T_26182_2_stat_btb_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_stat_btb_mispredicted,
+            T_26182_2_stat_btb_mispredicted) @[rob.scala 350:34]
     node _GEN_852
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_stat_btb_mispredicted, T_26182_3_stat_btb_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_stat_btb_mispredicted,
+            T_26182_3_stat_btb_mispredicted) @[rob.scala 350:34]
     node _GEN_853
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_stat_btb_mispredicted, T_26182_4_stat_btb_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_stat_btb_mispredicted,
+            T_26182_4_stat_btb_mispredicted) @[rob.scala 350:34]
     node _GEN_854
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_stat_btb_mispredicted, T_26182_5_stat_btb_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_stat_btb_mispredicted,
+            T_26182_5_stat_btb_mispredicted) @[rob.scala 350:34]
     node _GEN_855
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_stat_btb_mispredicted, T_26182_6_stat_btb_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_stat_btb_mispredicted,
+            T_26182_6_stat_btb_mispredicted) @[rob.scala 350:34]
     node _GEN_856
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_stat_btb_mispredicted, T_26182_7_stat_btb_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_stat_btb_mispredicted,
+            T_26182_7_stat_btb_mispredicted) @[rob.scala 350:34]
     node _GEN_857
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_stat_btb_mispredicted, T_26182_8_stat_btb_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_stat_btb_mispredicted,
+            T_26182_8_stat_btb_mispredicted) @[rob.scala 350:34]
     node _GEN_858
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_stat_btb_mispredicted, T_26182_9_stat_btb_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_stat_btb_mispredicted,
+            T_26182_9_stat_btb_mispredicted) @[rob.scala 350:34]
     node _GEN_859
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_stat_btb_mispredicted, T_26182_10_stat_btb_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_stat_btb_mispredicted,
+            T_26182_10_stat_btb_mispredicted) @[rob.scala 350:34]
     node _GEN_860
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_stat_btb_mispredicted, T_26182_11_stat_btb_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_stat_btb_mispredicted,
+            T_26182_11_stat_btb_mispredicted) @[rob.scala 350:34]
     node _GEN_861
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_stat_btb_mispredicted, T_26182_12_stat_btb_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_stat_btb_mispredicted,
+            T_26182_12_stat_btb_mispredicted) @[rob.scala 350:34]
     node _GEN_862
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_stat_btb_mispredicted, T_26182_13_stat_btb_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_stat_btb_mispredicted,
+            T_26182_13_stat_btb_mispredicted) @[rob.scala 350:34]
     node _GEN_863
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_stat_btb_mispredicted, T_26182_14_stat_btb_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_stat_btb_mispredicted,
+            T_26182_14_stat_btb_mispredicted) @[rob.scala 350:34]
     node _GEN_864
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_stat_btb_mispredicted, T_26182_15_stat_btb_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_stat_btb_mispredicted,
+            T_26182_15_stat_btb_mispredicted) @[rob.scala 350:34]
     node _GEN_865
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_stat_btb_mispredicted, T_26182_16_stat_btb_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_stat_btb_mispredicted,
+            T_26182_16_stat_btb_mispredicted) @[rob.scala 350:34]
     node _GEN_866
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_stat_btb_mispredicted, T_26182_17_stat_btb_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_stat_btb_mispredicted,
+            T_26182_17_stat_btb_mispredicted) @[rob.scala 350:34]
     node _GEN_867
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_stat_btb_mispredicted, T_26182_18_stat_btb_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_stat_btb_mispredicted,
+            T_26182_18_stat_btb_mispredicted) @[rob.scala 350:34]
     node _GEN_868
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_stat_btb_mispredicted, T_26182_19_stat_btb_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_stat_btb_mispredicted,
+            T_26182_19_stat_btb_mispredicted) @[rob.scala 350:34]
     node _GEN_869
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_stat_btb_mispredicted, T_26182_20_stat_btb_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_stat_btb_mispredicted,
+            T_26182_20_stat_btb_mispredicted) @[rob.scala 350:34]
     node _GEN_870
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_stat_btb_mispredicted, T_26182_21_stat_btb_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_stat_btb_mispredicted,
+            T_26182_21_stat_btb_mispredicted) @[rob.scala 350:34]
     node _GEN_871
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_stat_btb_mispredicted, T_26182_22_stat_btb_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_stat_btb_mispredicted,
+            T_26182_22_stat_btb_mispredicted) @[rob.scala 350:34]
     node _GEN_872
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_stat_btb_mispredicted, T_26182_23_stat_btb_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_stat_btb_mispredicted,
+            T_26182_23_stat_btb_mispredicted) @[rob.scala 350:34]
     skip
     node _GEN_873
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_stat_bpd_made_pred, T_26182_0_stat_bpd_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_stat_bpd_made_pred,
+            T_26182_0_stat_bpd_made_pred) @[rob.scala 350:34]
     node _GEN_874
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_stat_bpd_made_pred, T_26182_1_stat_bpd_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_stat_bpd_made_pred,
+            T_26182_1_stat_bpd_made_pred) @[rob.scala 350:34]
     node _GEN_875
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_stat_bpd_made_pred, T_26182_2_stat_bpd_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_stat_bpd_made_pred,
+            T_26182_2_stat_bpd_made_pred) @[rob.scala 350:34]
     node _GEN_876
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_stat_bpd_made_pred, T_26182_3_stat_bpd_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_stat_bpd_made_pred,
+            T_26182_3_stat_bpd_made_pred) @[rob.scala 350:34]
     node _GEN_877
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_stat_bpd_made_pred, T_26182_4_stat_bpd_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_stat_bpd_made_pred,
+            T_26182_4_stat_bpd_made_pred) @[rob.scala 350:34]
     node _GEN_878
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_stat_bpd_made_pred, T_26182_5_stat_bpd_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_stat_bpd_made_pred,
+            T_26182_5_stat_bpd_made_pred) @[rob.scala 350:34]
     node _GEN_879
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_stat_bpd_made_pred, T_26182_6_stat_bpd_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_stat_bpd_made_pred,
+            T_26182_6_stat_bpd_made_pred) @[rob.scala 350:34]
     node _GEN_880
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_stat_bpd_made_pred, T_26182_7_stat_bpd_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_stat_bpd_made_pred,
+            T_26182_7_stat_bpd_made_pred) @[rob.scala 350:34]
     node _GEN_881
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_stat_bpd_made_pred, T_26182_8_stat_bpd_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_stat_bpd_made_pred,
+            T_26182_8_stat_bpd_made_pred) @[rob.scala 350:34]
     node _GEN_882
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_stat_bpd_made_pred, T_26182_9_stat_bpd_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_stat_bpd_made_pred,
+            T_26182_9_stat_bpd_made_pred) @[rob.scala 350:34]
     node _GEN_883
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_stat_bpd_made_pred, T_26182_10_stat_bpd_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_stat_bpd_made_pred,
+            T_26182_10_stat_bpd_made_pred) @[rob.scala 350:34]
     node _GEN_884
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_stat_bpd_made_pred, T_26182_11_stat_bpd_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_stat_bpd_made_pred,
+            T_26182_11_stat_bpd_made_pred) @[rob.scala 350:34]
     node _GEN_885
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_stat_bpd_made_pred, T_26182_12_stat_bpd_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_stat_bpd_made_pred,
+            T_26182_12_stat_bpd_made_pred) @[rob.scala 350:34]
     node _GEN_886
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_stat_bpd_made_pred, T_26182_13_stat_bpd_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_stat_bpd_made_pred,
+            T_26182_13_stat_bpd_made_pred) @[rob.scala 350:34]
     node _GEN_887
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_stat_bpd_made_pred, T_26182_14_stat_bpd_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_stat_bpd_made_pred,
+            T_26182_14_stat_bpd_made_pred) @[rob.scala 350:34]
     node _GEN_888
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_stat_bpd_made_pred, T_26182_15_stat_bpd_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_stat_bpd_made_pred,
+            T_26182_15_stat_bpd_made_pred) @[rob.scala 350:34]
     node _GEN_889
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_stat_bpd_made_pred, T_26182_16_stat_bpd_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_stat_bpd_made_pred,
+            T_26182_16_stat_bpd_made_pred) @[rob.scala 350:34]
     node _GEN_890
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_stat_bpd_made_pred, T_26182_17_stat_bpd_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_stat_bpd_made_pred,
+            T_26182_17_stat_bpd_made_pred) @[rob.scala 350:34]
     node _GEN_891
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_stat_bpd_made_pred, T_26182_18_stat_bpd_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_stat_bpd_made_pred,
+            T_26182_18_stat_bpd_made_pred) @[rob.scala 350:34]
     node _GEN_892
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_stat_bpd_made_pred, T_26182_19_stat_bpd_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_stat_bpd_made_pred,
+            T_26182_19_stat_bpd_made_pred) @[rob.scala 350:34]
     node _GEN_893
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_stat_bpd_made_pred, T_26182_20_stat_bpd_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_stat_bpd_made_pred,
+            T_26182_20_stat_bpd_made_pred) @[rob.scala 350:34]
     node _GEN_894
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_stat_bpd_made_pred, T_26182_21_stat_bpd_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_stat_bpd_made_pred,
+            T_26182_21_stat_bpd_made_pred) @[rob.scala 350:34]
     node _GEN_895
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_stat_bpd_made_pred, T_26182_22_stat_bpd_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_stat_bpd_made_pred,
+            T_26182_22_stat_bpd_made_pred) @[rob.scala 350:34]
     node _GEN_896
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_stat_bpd_made_pred, T_26182_23_stat_bpd_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_stat_bpd_made_pred,
+            T_26182_23_stat_bpd_made_pred) @[rob.scala 350:34]
     skip
     node _GEN_897
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_stat_bpd_mispredicted, T_26182_0_stat_bpd_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_stat_bpd_mispredicted,
+            T_26182_0_stat_bpd_mispredicted) @[rob.scala 350:34]
     node _GEN_898
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_stat_bpd_mispredicted, T_26182_1_stat_bpd_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_stat_bpd_mispredicted,
+            T_26182_1_stat_bpd_mispredicted) @[rob.scala 350:34]
     node _GEN_899
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_stat_bpd_mispredicted, T_26182_2_stat_bpd_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_stat_bpd_mispredicted,
+            T_26182_2_stat_bpd_mispredicted) @[rob.scala 350:34]
     node _GEN_900
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_stat_bpd_mispredicted, T_26182_3_stat_bpd_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_stat_bpd_mispredicted,
+            T_26182_3_stat_bpd_mispredicted) @[rob.scala 350:34]
     node _GEN_901
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_stat_bpd_mispredicted, T_26182_4_stat_bpd_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_stat_bpd_mispredicted,
+            T_26182_4_stat_bpd_mispredicted) @[rob.scala 350:34]
     node _GEN_902
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_stat_bpd_mispredicted, T_26182_5_stat_bpd_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_stat_bpd_mispredicted,
+            T_26182_5_stat_bpd_mispredicted) @[rob.scala 350:34]
     node _GEN_903
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_stat_bpd_mispredicted, T_26182_6_stat_bpd_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_stat_bpd_mispredicted,
+            T_26182_6_stat_bpd_mispredicted) @[rob.scala 350:34]
     node _GEN_904
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_stat_bpd_mispredicted, T_26182_7_stat_bpd_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_stat_bpd_mispredicted,
+            T_26182_7_stat_bpd_mispredicted) @[rob.scala 350:34]
     node _GEN_905
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_stat_bpd_mispredicted, T_26182_8_stat_bpd_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_stat_bpd_mispredicted,
+            T_26182_8_stat_bpd_mispredicted) @[rob.scala 350:34]
     node _GEN_906
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_stat_bpd_mispredicted, T_26182_9_stat_bpd_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_stat_bpd_mispredicted,
+            T_26182_9_stat_bpd_mispredicted) @[rob.scala 350:34]
     node _GEN_907
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_stat_bpd_mispredicted, T_26182_10_stat_bpd_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_stat_bpd_mispredicted,
+            T_26182_10_stat_bpd_mispredicted) @[rob.scala 350:34]
     node _GEN_908
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_stat_bpd_mispredicted, T_26182_11_stat_bpd_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_stat_bpd_mispredicted,
+            T_26182_11_stat_bpd_mispredicted) @[rob.scala 350:34]
     node _GEN_909
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_stat_bpd_mispredicted, T_26182_12_stat_bpd_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_stat_bpd_mispredicted,
+            T_26182_12_stat_bpd_mispredicted) @[rob.scala 350:34]
     node _GEN_910
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_stat_bpd_mispredicted, T_26182_13_stat_bpd_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_stat_bpd_mispredicted,
+            T_26182_13_stat_bpd_mispredicted) @[rob.scala 350:34]
     node _GEN_911
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_stat_bpd_mispredicted, T_26182_14_stat_bpd_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_stat_bpd_mispredicted,
+            T_26182_14_stat_bpd_mispredicted) @[rob.scala 350:34]
     node _GEN_912
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_stat_bpd_mispredicted, T_26182_15_stat_bpd_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_stat_bpd_mispredicted,
+            T_26182_15_stat_bpd_mispredicted) @[rob.scala 350:34]
     node _GEN_913
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_stat_bpd_mispredicted, T_26182_16_stat_bpd_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_stat_bpd_mispredicted,
+            T_26182_16_stat_bpd_mispredicted) @[rob.scala 350:34]
     node _GEN_914
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_stat_bpd_mispredicted, T_26182_17_stat_bpd_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_stat_bpd_mispredicted,
+            T_26182_17_stat_bpd_mispredicted) @[rob.scala 350:34]
     node _GEN_915
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_stat_bpd_mispredicted, T_26182_18_stat_bpd_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_stat_bpd_mispredicted,
+            T_26182_18_stat_bpd_mispredicted) @[rob.scala 350:34]
     node _GEN_916
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_stat_bpd_mispredicted, T_26182_19_stat_bpd_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_stat_bpd_mispredicted,
+            T_26182_19_stat_bpd_mispredicted) @[rob.scala 350:34]
     node _GEN_917
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_stat_bpd_mispredicted, T_26182_20_stat_bpd_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_stat_bpd_mispredicted,
+            T_26182_20_stat_bpd_mispredicted) @[rob.scala 350:34]
     node _GEN_918
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_stat_bpd_mispredicted, T_26182_21_stat_bpd_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_stat_bpd_mispredicted,
+            T_26182_21_stat_bpd_mispredicted) @[rob.scala 350:34]
     node _GEN_919
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_stat_bpd_mispredicted, T_26182_22_stat_bpd_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_stat_bpd_mispredicted,
+            T_26182_22_stat_bpd_mispredicted) @[rob.scala 350:34]
     node _GEN_920
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_stat_bpd_mispredicted, T_26182_23_stat_bpd_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_stat_bpd_mispredicted,
+            T_26182_23_stat_bpd_mispredicted) @[rob.scala 350:34]
     skip
     node _GEN_921
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_fetch_pc_lob, T_26182_0_fetch_pc_lob) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_fetch_pc_lob,
+            T_26182_0_fetch_pc_lob) @[rob.scala 350:34]
     node _GEN_922
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_fetch_pc_lob, T_26182_1_fetch_pc_lob) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_fetch_pc_lob,
+            T_26182_1_fetch_pc_lob) @[rob.scala 350:34]
     node _GEN_923
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_fetch_pc_lob, T_26182_2_fetch_pc_lob) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_fetch_pc_lob,
+            T_26182_2_fetch_pc_lob) @[rob.scala 350:34]
     node _GEN_924
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_fetch_pc_lob, T_26182_3_fetch_pc_lob) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_fetch_pc_lob,
+            T_26182_3_fetch_pc_lob) @[rob.scala 350:34]
     node _GEN_925
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_fetch_pc_lob, T_26182_4_fetch_pc_lob) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_fetch_pc_lob,
+            T_26182_4_fetch_pc_lob) @[rob.scala 350:34]
     node _GEN_926
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_fetch_pc_lob, T_26182_5_fetch_pc_lob) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_fetch_pc_lob,
+            T_26182_5_fetch_pc_lob) @[rob.scala 350:34]
     node _GEN_927
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_fetch_pc_lob, T_26182_6_fetch_pc_lob) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_fetch_pc_lob,
+            T_26182_6_fetch_pc_lob) @[rob.scala 350:34]
     node _GEN_928
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_fetch_pc_lob, T_26182_7_fetch_pc_lob) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_fetch_pc_lob,
+            T_26182_7_fetch_pc_lob) @[rob.scala 350:34]
     node _GEN_929
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_fetch_pc_lob, T_26182_8_fetch_pc_lob) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_fetch_pc_lob,
+            T_26182_8_fetch_pc_lob) @[rob.scala 350:34]
     node _GEN_930
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_fetch_pc_lob, T_26182_9_fetch_pc_lob) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_fetch_pc_lob,
+            T_26182_9_fetch_pc_lob) @[rob.scala 350:34]
     node _GEN_931
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_fetch_pc_lob, T_26182_10_fetch_pc_lob) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_fetch_pc_lob,
+            T_26182_10_fetch_pc_lob) @[rob.scala 350:34]
     node _GEN_932
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_fetch_pc_lob, T_26182_11_fetch_pc_lob) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_fetch_pc_lob,
+            T_26182_11_fetch_pc_lob) @[rob.scala 350:34]
     node _GEN_933
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_fetch_pc_lob, T_26182_12_fetch_pc_lob) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_fetch_pc_lob,
+            T_26182_12_fetch_pc_lob) @[rob.scala 350:34]
     node _GEN_934
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_fetch_pc_lob, T_26182_13_fetch_pc_lob) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_fetch_pc_lob,
+            T_26182_13_fetch_pc_lob) @[rob.scala 350:34]
     node _GEN_935
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_fetch_pc_lob, T_26182_14_fetch_pc_lob) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_fetch_pc_lob,
+            T_26182_14_fetch_pc_lob) @[rob.scala 350:34]
     node _GEN_936
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_fetch_pc_lob, T_26182_15_fetch_pc_lob) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_fetch_pc_lob,
+            T_26182_15_fetch_pc_lob) @[rob.scala 350:34]
     node _GEN_937
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_fetch_pc_lob, T_26182_16_fetch_pc_lob) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_fetch_pc_lob,
+            T_26182_16_fetch_pc_lob) @[rob.scala 350:34]
     node _GEN_938
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_fetch_pc_lob, T_26182_17_fetch_pc_lob) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_fetch_pc_lob,
+            T_26182_17_fetch_pc_lob) @[rob.scala 350:34]
     node _GEN_939
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_fetch_pc_lob, T_26182_18_fetch_pc_lob) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_fetch_pc_lob,
+            T_26182_18_fetch_pc_lob) @[rob.scala 350:34]
     node _GEN_940
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_fetch_pc_lob, T_26182_19_fetch_pc_lob) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_fetch_pc_lob,
+            T_26182_19_fetch_pc_lob) @[rob.scala 350:34]
     node _GEN_941
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_fetch_pc_lob, T_26182_20_fetch_pc_lob) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_fetch_pc_lob,
+            T_26182_20_fetch_pc_lob) @[rob.scala 350:34]
     node _GEN_942
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_fetch_pc_lob, T_26182_21_fetch_pc_lob) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_fetch_pc_lob,
+            T_26182_21_fetch_pc_lob) @[rob.scala 350:34]
     node _GEN_943
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_fetch_pc_lob, T_26182_22_fetch_pc_lob) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_fetch_pc_lob,
+            T_26182_22_fetch_pc_lob) @[rob.scala 350:34]
     node _GEN_944
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_fetch_pc_lob, T_26182_23_fetch_pc_lob) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_fetch_pc_lob,
+            T_26182_23_fetch_pc_lob) @[rob.scala 350:34]
     skip
     node _GEN_945
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_imm_packed, T_26182_0_imm_packed) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_imm_packed,
+            T_26182_0_imm_packed) @[rob.scala 350:34]
     node _GEN_946
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_imm_packed, T_26182_1_imm_packed) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_imm_packed,
+            T_26182_1_imm_packed) @[rob.scala 350:34]
     node _GEN_947
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_imm_packed, T_26182_2_imm_packed) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_imm_packed,
+            T_26182_2_imm_packed) @[rob.scala 350:34]
     node _GEN_948
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_imm_packed, T_26182_3_imm_packed) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_imm_packed,
+            T_26182_3_imm_packed) @[rob.scala 350:34]
     node _GEN_949
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_imm_packed, T_26182_4_imm_packed) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_imm_packed,
+            T_26182_4_imm_packed) @[rob.scala 350:34]
     node _GEN_950
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_imm_packed, T_26182_5_imm_packed) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_imm_packed,
+            T_26182_5_imm_packed) @[rob.scala 350:34]
     node _GEN_951
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_imm_packed, T_26182_6_imm_packed) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_imm_packed,
+            T_26182_6_imm_packed) @[rob.scala 350:34]
     node _GEN_952
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_imm_packed, T_26182_7_imm_packed) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_imm_packed,
+            T_26182_7_imm_packed) @[rob.scala 350:34]
     node _GEN_953
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_imm_packed, T_26182_8_imm_packed) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_imm_packed,
+            T_26182_8_imm_packed) @[rob.scala 350:34]
     node _GEN_954
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_imm_packed, T_26182_9_imm_packed) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_imm_packed,
+            T_26182_9_imm_packed) @[rob.scala 350:34]
     node _GEN_955
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_imm_packed, T_26182_10_imm_packed) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_imm_packed,
+            T_26182_10_imm_packed) @[rob.scala 350:34]
     node _GEN_956
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_imm_packed, T_26182_11_imm_packed) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_imm_packed,
+            T_26182_11_imm_packed) @[rob.scala 350:34]
     node _GEN_957
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_imm_packed, T_26182_12_imm_packed) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_imm_packed,
+            T_26182_12_imm_packed) @[rob.scala 350:34]
     node _GEN_958
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_imm_packed, T_26182_13_imm_packed) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_imm_packed,
+            T_26182_13_imm_packed) @[rob.scala 350:34]
     node _GEN_959
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_imm_packed, T_26182_14_imm_packed) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_imm_packed,
+            T_26182_14_imm_packed) @[rob.scala 350:34]
     node _GEN_960
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_imm_packed, T_26182_15_imm_packed) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_imm_packed,
+            T_26182_15_imm_packed) @[rob.scala 350:34]
     node _GEN_961
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_imm_packed, T_26182_16_imm_packed) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_imm_packed,
+            T_26182_16_imm_packed) @[rob.scala 350:34]
     node _GEN_962
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_imm_packed, T_26182_17_imm_packed) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_imm_packed,
+            T_26182_17_imm_packed) @[rob.scala 350:34]
     node _GEN_963
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_imm_packed, T_26182_18_imm_packed) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_imm_packed,
+            T_26182_18_imm_packed) @[rob.scala 350:34]
     node _GEN_964
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_imm_packed, T_26182_19_imm_packed) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_imm_packed,
+            T_26182_19_imm_packed) @[rob.scala 350:34]
     node _GEN_965
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_imm_packed, T_26182_20_imm_packed) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_imm_packed,
+            T_26182_20_imm_packed) @[rob.scala 350:34]
     node _GEN_966
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_imm_packed, T_26182_21_imm_packed) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_imm_packed,
+            T_26182_21_imm_packed) @[rob.scala 350:34]
     node _GEN_967
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_imm_packed, T_26182_22_imm_packed) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_imm_packed,
+            T_26182_22_imm_packed) @[rob.scala 350:34]
     node _GEN_968
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_imm_packed, T_26182_23_imm_packed) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_imm_packed,
+            T_26182_23_imm_packed) @[rob.scala 350:34]
     skip
     node _GEN_969
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_csr_addr, T_26182_0_csr_addr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_csr_addr,
+            T_26182_0_csr_addr) @[rob.scala 350:34]
     node _GEN_970
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_csr_addr, T_26182_1_csr_addr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_csr_addr,
+            T_26182_1_csr_addr) @[rob.scala 350:34]
     node _GEN_971
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_csr_addr, T_26182_2_csr_addr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_csr_addr,
+            T_26182_2_csr_addr) @[rob.scala 350:34]
     node _GEN_972
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_csr_addr, T_26182_3_csr_addr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_csr_addr,
+            T_26182_3_csr_addr) @[rob.scala 350:34]
     node _GEN_973
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_csr_addr, T_26182_4_csr_addr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_csr_addr,
+            T_26182_4_csr_addr) @[rob.scala 350:34]
     node _GEN_974
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_csr_addr, T_26182_5_csr_addr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_csr_addr,
+            T_26182_5_csr_addr) @[rob.scala 350:34]
     node _GEN_975
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_csr_addr, T_26182_6_csr_addr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_csr_addr,
+            T_26182_6_csr_addr) @[rob.scala 350:34]
     node _GEN_976
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_csr_addr, T_26182_7_csr_addr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_csr_addr,
+            T_26182_7_csr_addr) @[rob.scala 350:34]
     node _GEN_977
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_csr_addr, T_26182_8_csr_addr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_csr_addr,
+            T_26182_8_csr_addr) @[rob.scala 350:34]
     node _GEN_978
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_csr_addr, T_26182_9_csr_addr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_csr_addr,
+            T_26182_9_csr_addr) @[rob.scala 350:34]
     node _GEN_979
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_csr_addr, T_26182_10_csr_addr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_csr_addr,
+            T_26182_10_csr_addr) @[rob.scala 350:34]
     node _GEN_980
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_csr_addr, T_26182_11_csr_addr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_csr_addr,
+            T_26182_11_csr_addr) @[rob.scala 350:34]
     node _GEN_981
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_csr_addr, T_26182_12_csr_addr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_csr_addr,
+            T_26182_12_csr_addr) @[rob.scala 350:34]
     node _GEN_982
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_csr_addr, T_26182_13_csr_addr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_csr_addr,
+            T_26182_13_csr_addr) @[rob.scala 350:34]
     node _GEN_983
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_csr_addr, T_26182_14_csr_addr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_csr_addr,
+            T_26182_14_csr_addr) @[rob.scala 350:34]
     node _GEN_984
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_csr_addr, T_26182_15_csr_addr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_csr_addr,
+            T_26182_15_csr_addr) @[rob.scala 350:34]
     node _GEN_985
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_csr_addr, T_26182_16_csr_addr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_csr_addr,
+            T_26182_16_csr_addr) @[rob.scala 350:34]
     node _GEN_986
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_csr_addr, T_26182_17_csr_addr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_csr_addr,
+            T_26182_17_csr_addr) @[rob.scala 350:34]
     node _GEN_987
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_csr_addr, T_26182_18_csr_addr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_csr_addr,
+            T_26182_18_csr_addr) @[rob.scala 350:34]
     node _GEN_988
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_csr_addr, T_26182_19_csr_addr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_csr_addr,
+            T_26182_19_csr_addr) @[rob.scala 350:34]
     node _GEN_989
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_csr_addr, T_26182_20_csr_addr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_csr_addr,
+            T_26182_20_csr_addr) @[rob.scala 350:34]
     node _GEN_990
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_csr_addr, T_26182_21_csr_addr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_csr_addr,
+            T_26182_21_csr_addr) @[rob.scala 350:34]
     node _GEN_991
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_csr_addr, T_26182_22_csr_addr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_csr_addr,
+            T_26182_22_csr_addr) @[rob.scala 350:34]
     node _GEN_992
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_csr_addr, T_26182_23_csr_addr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_csr_addr,
+            T_26182_23_csr_addr) @[rob.scala 350:34]
     skip
     node _GEN_993
       = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_rob_idx, T_26182_0_rob_idx) @[rob.scala 350:34]
@@ -5685,33 +6489,47 @@ circuit Rob :
     node _GEN_1002
       = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_rob_idx, T_26182_9_rob_idx) @[rob.scala 350:34]
     node _GEN_1003
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_rob_idx, T_26182_10_rob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_rob_idx,
+            T_26182_10_rob_idx) @[rob.scala 350:34]
     node _GEN_1004
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_rob_idx, T_26182_11_rob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_rob_idx,
+            T_26182_11_rob_idx) @[rob.scala 350:34]
     node _GEN_1005
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_rob_idx, T_26182_12_rob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_rob_idx,
+            T_26182_12_rob_idx) @[rob.scala 350:34]
     node _GEN_1006
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_rob_idx, T_26182_13_rob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_rob_idx,
+            T_26182_13_rob_idx) @[rob.scala 350:34]
     node _GEN_1007
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_rob_idx, T_26182_14_rob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_rob_idx,
+            T_26182_14_rob_idx) @[rob.scala 350:34]
     node _GEN_1008
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_rob_idx, T_26182_15_rob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_rob_idx,
+            T_26182_15_rob_idx) @[rob.scala 350:34]
     node _GEN_1009
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_rob_idx, T_26182_16_rob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_rob_idx,
+            T_26182_16_rob_idx) @[rob.scala 350:34]
     node _GEN_1010
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_rob_idx, T_26182_17_rob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_rob_idx,
+            T_26182_17_rob_idx) @[rob.scala 350:34]
     node _GEN_1011
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_rob_idx, T_26182_18_rob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_rob_idx,
+            T_26182_18_rob_idx) @[rob.scala 350:34]
     node _GEN_1012
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_rob_idx, T_26182_19_rob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_rob_idx,
+            T_26182_19_rob_idx) @[rob.scala 350:34]
     node _GEN_1013
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_rob_idx, T_26182_20_rob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_rob_idx,
+            T_26182_20_rob_idx) @[rob.scala 350:34]
     node _GEN_1014
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_rob_idx, T_26182_21_rob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_rob_idx,
+            T_26182_21_rob_idx) @[rob.scala 350:34]
     node _GEN_1015
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_rob_idx, T_26182_22_rob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_rob_idx,
+            T_26182_22_rob_idx) @[rob.scala 350:34]
     node _GEN_1016
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_rob_idx, T_26182_23_rob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_rob_idx,
+            T_26182_23_rob_idx) @[rob.scala 350:34]
     skip
     node _GEN_1017
       = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_ldq_idx, T_26182_0_ldq_idx) @[rob.scala 350:34]
@@ -5734,33 +6552,47 @@ circuit Rob :
     node _GEN_1026
       = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_ldq_idx, T_26182_9_ldq_idx) @[rob.scala 350:34]
     node _GEN_1027
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_ldq_idx, T_26182_10_ldq_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_ldq_idx,
+            T_26182_10_ldq_idx) @[rob.scala 350:34]
     node _GEN_1028
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_ldq_idx, T_26182_11_ldq_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_ldq_idx,
+            T_26182_11_ldq_idx) @[rob.scala 350:34]
     node _GEN_1029
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_ldq_idx, T_26182_12_ldq_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_ldq_idx,
+            T_26182_12_ldq_idx) @[rob.scala 350:34]
     node _GEN_1030
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_ldq_idx, T_26182_13_ldq_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_ldq_idx,
+            T_26182_13_ldq_idx) @[rob.scala 350:34]
     node _GEN_1031
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_ldq_idx, T_26182_14_ldq_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_ldq_idx,
+            T_26182_14_ldq_idx) @[rob.scala 350:34]
     node _GEN_1032
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_ldq_idx, T_26182_15_ldq_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_ldq_idx,
+            T_26182_15_ldq_idx) @[rob.scala 350:34]
     node _GEN_1033
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_ldq_idx, T_26182_16_ldq_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_ldq_idx,
+            T_26182_16_ldq_idx) @[rob.scala 350:34]
     node _GEN_1034
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_ldq_idx, T_26182_17_ldq_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_ldq_idx,
+            T_26182_17_ldq_idx) @[rob.scala 350:34]
     node _GEN_1035
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_ldq_idx, T_26182_18_ldq_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_ldq_idx,
+            T_26182_18_ldq_idx) @[rob.scala 350:34]
     node _GEN_1036
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_ldq_idx, T_26182_19_ldq_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_ldq_idx,
+            T_26182_19_ldq_idx) @[rob.scala 350:34]
     node _GEN_1037
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_ldq_idx, T_26182_20_ldq_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_ldq_idx,
+            T_26182_20_ldq_idx) @[rob.scala 350:34]
     node _GEN_1038
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_ldq_idx, T_26182_21_ldq_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_ldq_idx,
+            T_26182_21_ldq_idx) @[rob.scala 350:34]
     node _GEN_1039
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_ldq_idx, T_26182_22_ldq_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_ldq_idx,
+            T_26182_22_ldq_idx) @[rob.scala 350:34]
     node _GEN_1040
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_ldq_idx, T_26182_23_ldq_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_ldq_idx,
+            T_26182_23_ldq_idx) @[rob.scala 350:34]
     skip
     node _GEN_1041
       = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_stq_idx, T_26182_0_stq_idx) @[rob.scala 350:34]
@@ -5783,82 +6615,120 @@ circuit Rob :
     node _GEN_1050
       = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_stq_idx, T_26182_9_stq_idx) @[rob.scala 350:34]
     node _GEN_1051
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_stq_idx, T_26182_10_stq_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_stq_idx,
+            T_26182_10_stq_idx) @[rob.scala 350:34]
     node _GEN_1052
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_stq_idx, T_26182_11_stq_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_stq_idx,
+            T_26182_11_stq_idx) @[rob.scala 350:34]
     node _GEN_1053
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_stq_idx, T_26182_12_stq_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_stq_idx,
+            T_26182_12_stq_idx) @[rob.scala 350:34]
     node _GEN_1054
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_stq_idx, T_26182_13_stq_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_stq_idx,
+            T_26182_13_stq_idx) @[rob.scala 350:34]
     node _GEN_1055
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_stq_idx, T_26182_14_stq_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_stq_idx,
+            T_26182_14_stq_idx) @[rob.scala 350:34]
     node _GEN_1056
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_stq_idx, T_26182_15_stq_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_stq_idx,
+            T_26182_15_stq_idx) @[rob.scala 350:34]
     node _GEN_1057
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_stq_idx, T_26182_16_stq_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_stq_idx,
+            T_26182_16_stq_idx) @[rob.scala 350:34]
     node _GEN_1058
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_stq_idx, T_26182_17_stq_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_stq_idx,
+            T_26182_17_stq_idx) @[rob.scala 350:34]
     node _GEN_1059
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_stq_idx, T_26182_18_stq_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_stq_idx,
+            T_26182_18_stq_idx) @[rob.scala 350:34]
     node _GEN_1060
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_stq_idx, T_26182_19_stq_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_stq_idx,
+            T_26182_19_stq_idx) @[rob.scala 350:34]
     node _GEN_1061
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_stq_idx, T_26182_20_stq_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_stq_idx,
+            T_26182_20_stq_idx) @[rob.scala 350:34]
     node _GEN_1062
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_stq_idx, T_26182_21_stq_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_stq_idx,
+            T_26182_21_stq_idx) @[rob.scala 350:34]
     node _GEN_1063
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_stq_idx, T_26182_22_stq_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_stq_idx,
+            T_26182_22_stq_idx) @[rob.scala 350:34]
     node _GEN_1064
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_stq_idx, T_26182_23_stq_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_stq_idx,
+            T_26182_23_stq_idx) @[rob.scala 350:34]
     skip
     node _GEN_1065
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_brob_idx, T_26182_0_brob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_brob_idx,
+            T_26182_0_brob_idx) @[rob.scala 350:34]
     node _GEN_1066
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_brob_idx, T_26182_1_brob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_brob_idx,
+            T_26182_1_brob_idx) @[rob.scala 350:34]
     node _GEN_1067
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_brob_idx, T_26182_2_brob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_brob_idx,
+            T_26182_2_brob_idx) @[rob.scala 350:34]
     node _GEN_1068
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_brob_idx, T_26182_3_brob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_brob_idx,
+            T_26182_3_brob_idx) @[rob.scala 350:34]
     node _GEN_1069
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_brob_idx, T_26182_4_brob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_brob_idx,
+            T_26182_4_brob_idx) @[rob.scala 350:34]
     node _GEN_1070
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_brob_idx, T_26182_5_brob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_brob_idx,
+            T_26182_5_brob_idx) @[rob.scala 350:34]
     node _GEN_1071
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_brob_idx, T_26182_6_brob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_brob_idx,
+            T_26182_6_brob_idx) @[rob.scala 350:34]
     node _GEN_1072
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_brob_idx, T_26182_7_brob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_brob_idx,
+            T_26182_7_brob_idx) @[rob.scala 350:34]
     node _GEN_1073
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_brob_idx, T_26182_8_brob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_brob_idx,
+            T_26182_8_brob_idx) @[rob.scala 350:34]
     node _GEN_1074
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_brob_idx, T_26182_9_brob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_brob_idx,
+            T_26182_9_brob_idx) @[rob.scala 350:34]
     node _GEN_1075
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_brob_idx, T_26182_10_brob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_brob_idx,
+            T_26182_10_brob_idx) @[rob.scala 350:34]
     node _GEN_1076
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_brob_idx, T_26182_11_brob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_brob_idx,
+            T_26182_11_brob_idx) @[rob.scala 350:34]
     node _GEN_1077
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_brob_idx, T_26182_12_brob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_brob_idx,
+            T_26182_12_brob_idx) @[rob.scala 350:34]
     node _GEN_1078
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_brob_idx, T_26182_13_brob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_brob_idx,
+            T_26182_13_brob_idx) @[rob.scala 350:34]
     node _GEN_1079
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_brob_idx, T_26182_14_brob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_brob_idx,
+            T_26182_14_brob_idx) @[rob.scala 350:34]
     node _GEN_1080
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_brob_idx, T_26182_15_brob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_brob_idx,
+            T_26182_15_brob_idx) @[rob.scala 350:34]
     node _GEN_1081
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_brob_idx, T_26182_16_brob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_brob_idx,
+            T_26182_16_brob_idx) @[rob.scala 350:34]
     node _GEN_1082
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_brob_idx, T_26182_17_brob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_brob_idx,
+            T_26182_17_brob_idx) @[rob.scala 350:34]
     node _GEN_1083
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_brob_idx, T_26182_18_brob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_brob_idx,
+            T_26182_18_brob_idx) @[rob.scala 350:34]
     node _GEN_1084
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_brob_idx, T_26182_19_brob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_brob_idx,
+            T_26182_19_brob_idx) @[rob.scala 350:34]
     node _GEN_1085
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_brob_idx, T_26182_20_brob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_brob_idx,
+            T_26182_20_brob_idx) @[rob.scala 350:34]
     node _GEN_1086
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_brob_idx, T_26182_21_brob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_brob_idx,
+            T_26182_21_brob_idx) @[rob.scala 350:34]
     node _GEN_1087
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_brob_idx, T_26182_22_brob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_brob_idx,
+            T_26182_22_brob_idx) @[rob.scala 350:34]
     node _GEN_1088
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_brob_idx, T_26182_23_brob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_brob_idx,
+            T_26182_23_brob_idx) @[rob.scala 350:34]
     skip
     node _GEN_1089
       = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_pdst, T_26182_0_pdst) @[rob.scala 350:34]
@@ -6057,347 +6927,515 @@ circuit Rob :
       = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_pop3, T_26182_23_pop3) @[rob.scala 350:34]
     skip
     node _GEN_1185
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_prs1_busy, T_26182_0_prs1_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_prs1_busy,
+            T_26182_0_prs1_busy) @[rob.scala 350:34]
     node _GEN_1186
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_prs1_busy, T_26182_1_prs1_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_prs1_busy,
+            T_26182_1_prs1_busy) @[rob.scala 350:34]
     node _GEN_1187
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_prs1_busy, T_26182_2_prs1_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_prs1_busy,
+            T_26182_2_prs1_busy) @[rob.scala 350:34]
     node _GEN_1188
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_prs1_busy, T_26182_3_prs1_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_prs1_busy,
+            T_26182_3_prs1_busy) @[rob.scala 350:34]
     node _GEN_1189
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_prs1_busy, T_26182_4_prs1_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_prs1_busy,
+            T_26182_4_prs1_busy) @[rob.scala 350:34]
     node _GEN_1190
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_prs1_busy, T_26182_5_prs1_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_prs1_busy,
+            T_26182_5_prs1_busy) @[rob.scala 350:34]
     node _GEN_1191
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_prs1_busy, T_26182_6_prs1_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_prs1_busy,
+            T_26182_6_prs1_busy) @[rob.scala 350:34]
     node _GEN_1192
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_prs1_busy, T_26182_7_prs1_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_prs1_busy,
+            T_26182_7_prs1_busy) @[rob.scala 350:34]
     node _GEN_1193
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_prs1_busy, T_26182_8_prs1_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_prs1_busy,
+            T_26182_8_prs1_busy) @[rob.scala 350:34]
     node _GEN_1194
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_prs1_busy, T_26182_9_prs1_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_prs1_busy,
+            T_26182_9_prs1_busy) @[rob.scala 350:34]
     node _GEN_1195
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_prs1_busy, T_26182_10_prs1_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_prs1_busy,
+            T_26182_10_prs1_busy) @[rob.scala 350:34]
     node _GEN_1196
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_prs1_busy, T_26182_11_prs1_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_prs1_busy,
+            T_26182_11_prs1_busy) @[rob.scala 350:34]
     node _GEN_1197
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_prs1_busy, T_26182_12_prs1_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_prs1_busy,
+            T_26182_12_prs1_busy) @[rob.scala 350:34]
     node _GEN_1198
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_prs1_busy, T_26182_13_prs1_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_prs1_busy,
+            T_26182_13_prs1_busy) @[rob.scala 350:34]
     node _GEN_1199
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_prs1_busy, T_26182_14_prs1_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_prs1_busy,
+            T_26182_14_prs1_busy) @[rob.scala 350:34]
     node _GEN_1200
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_prs1_busy, T_26182_15_prs1_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_prs1_busy,
+            T_26182_15_prs1_busy) @[rob.scala 350:34]
     node _GEN_1201
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_prs1_busy, T_26182_16_prs1_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_prs1_busy,
+            T_26182_16_prs1_busy) @[rob.scala 350:34]
     node _GEN_1202
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_prs1_busy, T_26182_17_prs1_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_prs1_busy,
+            T_26182_17_prs1_busy) @[rob.scala 350:34]
     node _GEN_1203
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_prs1_busy, T_26182_18_prs1_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_prs1_busy,
+            T_26182_18_prs1_busy) @[rob.scala 350:34]
     node _GEN_1204
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_prs1_busy, T_26182_19_prs1_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_prs1_busy,
+            T_26182_19_prs1_busy) @[rob.scala 350:34]
     node _GEN_1205
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_prs1_busy, T_26182_20_prs1_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_prs1_busy,
+            T_26182_20_prs1_busy) @[rob.scala 350:34]
     node _GEN_1206
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_prs1_busy, T_26182_21_prs1_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_prs1_busy,
+            T_26182_21_prs1_busy) @[rob.scala 350:34]
     node _GEN_1207
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_prs1_busy, T_26182_22_prs1_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_prs1_busy,
+            T_26182_22_prs1_busy) @[rob.scala 350:34]
     node _GEN_1208
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_prs1_busy, T_26182_23_prs1_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_prs1_busy,
+            T_26182_23_prs1_busy) @[rob.scala 350:34]
     skip
     node _GEN_1209
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_prs2_busy, T_26182_0_prs2_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_prs2_busy,
+            T_26182_0_prs2_busy) @[rob.scala 350:34]
     node _GEN_1210
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_prs2_busy, T_26182_1_prs2_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_prs2_busy,
+            T_26182_1_prs2_busy) @[rob.scala 350:34]
     node _GEN_1211
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_prs2_busy, T_26182_2_prs2_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_prs2_busy,
+            T_26182_2_prs2_busy) @[rob.scala 350:34]
     node _GEN_1212
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_prs2_busy, T_26182_3_prs2_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_prs2_busy,
+            T_26182_3_prs2_busy) @[rob.scala 350:34]
     node _GEN_1213
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_prs2_busy, T_26182_4_prs2_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_prs2_busy,
+            T_26182_4_prs2_busy) @[rob.scala 350:34]
     node _GEN_1214
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_prs2_busy, T_26182_5_prs2_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_prs2_busy,
+            T_26182_5_prs2_busy) @[rob.scala 350:34]
     node _GEN_1215
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_prs2_busy, T_26182_6_prs2_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_prs2_busy,
+            T_26182_6_prs2_busy) @[rob.scala 350:34]
     node _GEN_1216
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_prs2_busy, T_26182_7_prs2_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_prs2_busy,
+            T_26182_7_prs2_busy) @[rob.scala 350:34]
     node _GEN_1217
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_prs2_busy, T_26182_8_prs2_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_prs2_busy,
+            T_26182_8_prs2_busy) @[rob.scala 350:34]
     node _GEN_1218
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_prs2_busy, T_26182_9_prs2_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_prs2_busy,
+            T_26182_9_prs2_busy) @[rob.scala 350:34]
     node _GEN_1219
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_prs2_busy, T_26182_10_prs2_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_prs2_busy,
+            T_26182_10_prs2_busy) @[rob.scala 350:34]
     node _GEN_1220
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_prs2_busy, T_26182_11_prs2_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_prs2_busy,
+            T_26182_11_prs2_busy) @[rob.scala 350:34]
     node _GEN_1221
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_prs2_busy, T_26182_12_prs2_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_prs2_busy,
+            T_26182_12_prs2_busy) @[rob.scala 350:34]
     node _GEN_1222
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_prs2_busy, T_26182_13_prs2_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_prs2_busy,
+            T_26182_13_prs2_busy) @[rob.scala 350:34]
     node _GEN_1223
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_prs2_busy, T_26182_14_prs2_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_prs2_busy,
+            T_26182_14_prs2_busy) @[rob.scala 350:34]
     node _GEN_1224
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_prs2_busy, T_26182_15_prs2_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_prs2_busy,
+            T_26182_15_prs2_busy) @[rob.scala 350:34]
     node _GEN_1225
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_prs2_busy, T_26182_16_prs2_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_prs2_busy,
+            T_26182_16_prs2_busy) @[rob.scala 350:34]
     node _GEN_1226
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_prs2_busy, T_26182_17_prs2_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_prs2_busy,
+            T_26182_17_prs2_busy) @[rob.scala 350:34]
     node _GEN_1227
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_prs2_busy, T_26182_18_prs2_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_prs2_busy,
+            T_26182_18_prs2_busy) @[rob.scala 350:34]
     node _GEN_1228
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_prs2_busy, T_26182_19_prs2_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_prs2_busy,
+            T_26182_19_prs2_busy) @[rob.scala 350:34]
     node _GEN_1229
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_prs2_busy, T_26182_20_prs2_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_prs2_busy,
+            T_26182_20_prs2_busy) @[rob.scala 350:34]
     node _GEN_1230
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_prs2_busy, T_26182_21_prs2_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_prs2_busy,
+            T_26182_21_prs2_busy) @[rob.scala 350:34]
     node _GEN_1231
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_prs2_busy, T_26182_22_prs2_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_prs2_busy,
+            T_26182_22_prs2_busy) @[rob.scala 350:34]
     node _GEN_1232
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_prs2_busy, T_26182_23_prs2_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_prs2_busy,
+            T_26182_23_prs2_busy) @[rob.scala 350:34]
     skip
     node _GEN_1233
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_prs3_busy, T_26182_0_prs3_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_prs3_busy,
+            T_26182_0_prs3_busy) @[rob.scala 350:34]
     node _GEN_1234
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_prs3_busy, T_26182_1_prs3_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_prs3_busy,
+            T_26182_1_prs3_busy) @[rob.scala 350:34]
     node _GEN_1235
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_prs3_busy, T_26182_2_prs3_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_prs3_busy,
+            T_26182_2_prs3_busy) @[rob.scala 350:34]
     node _GEN_1236
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_prs3_busy, T_26182_3_prs3_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_prs3_busy,
+            T_26182_3_prs3_busy) @[rob.scala 350:34]
     node _GEN_1237
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_prs3_busy, T_26182_4_prs3_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_prs3_busy,
+            T_26182_4_prs3_busy) @[rob.scala 350:34]
     node _GEN_1238
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_prs3_busy, T_26182_5_prs3_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_prs3_busy,
+            T_26182_5_prs3_busy) @[rob.scala 350:34]
     node _GEN_1239
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_prs3_busy, T_26182_6_prs3_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_prs3_busy,
+            T_26182_6_prs3_busy) @[rob.scala 350:34]
     node _GEN_1240
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_prs3_busy, T_26182_7_prs3_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_prs3_busy,
+            T_26182_7_prs3_busy) @[rob.scala 350:34]
     node _GEN_1241
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_prs3_busy, T_26182_8_prs3_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_prs3_busy,
+            T_26182_8_prs3_busy) @[rob.scala 350:34]
     node _GEN_1242
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_prs3_busy, T_26182_9_prs3_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_prs3_busy,
+            T_26182_9_prs3_busy) @[rob.scala 350:34]
     node _GEN_1243
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_prs3_busy, T_26182_10_prs3_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_prs3_busy,
+            T_26182_10_prs3_busy) @[rob.scala 350:34]
     node _GEN_1244
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_prs3_busy, T_26182_11_prs3_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_prs3_busy,
+            T_26182_11_prs3_busy) @[rob.scala 350:34]
     node _GEN_1245
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_prs3_busy, T_26182_12_prs3_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_prs3_busy,
+            T_26182_12_prs3_busy) @[rob.scala 350:34]
     node _GEN_1246
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_prs3_busy, T_26182_13_prs3_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_prs3_busy,
+            T_26182_13_prs3_busy) @[rob.scala 350:34]
     node _GEN_1247
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_prs3_busy, T_26182_14_prs3_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_prs3_busy,
+            T_26182_14_prs3_busy) @[rob.scala 350:34]
     node _GEN_1248
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_prs3_busy, T_26182_15_prs3_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_prs3_busy,
+            T_26182_15_prs3_busy) @[rob.scala 350:34]
     node _GEN_1249
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_prs3_busy, T_26182_16_prs3_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_prs3_busy,
+            T_26182_16_prs3_busy) @[rob.scala 350:34]
     node _GEN_1250
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_prs3_busy, T_26182_17_prs3_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_prs3_busy,
+            T_26182_17_prs3_busy) @[rob.scala 350:34]
     node _GEN_1251
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_prs3_busy, T_26182_18_prs3_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_prs3_busy,
+            T_26182_18_prs3_busy) @[rob.scala 350:34]
     node _GEN_1252
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_prs3_busy, T_26182_19_prs3_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_prs3_busy,
+            T_26182_19_prs3_busy) @[rob.scala 350:34]
     node _GEN_1253
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_prs3_busy, T_26182_20_prs3_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_prs3_busy,
+            T_26182_20_prs3_busy) @[rob.scala 350:34]
     node _GEN_1254
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_prs3_busy, T_26182_21_prs3_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_prs3_busy,
+            T_26182_21_prs3_busy) @[rob.scala 350:34]
     node _GEN_1255
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_prs3_busy, T_26182_22_prs3_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_prs3_busy,
+            T_26182_22_prs3_busy) @[rob.scala 350:34]
     node _GEN_1256
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_prs3_busy, T_26182_23_prs3_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_prs3_busy,
+            T_26182_23_prs3_busy) @[rob.scala 350:34]
     skip
     node _GEN_1257
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_stale_pdst, T_26182_0_stale_pdst) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_stale_pdst,
+            T_26182_0_stale_pdst) @[rob.scala 350:34]
     node _GEN_1258
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_stale_pdst, T_26182_1_stale_pdst) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_stale_pdst,
+            T_26182_1_stale_pdst) @[rob.scala 350:34]
     node _GEN_1259
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_stale_pdst, T_26182_2_stale_pdst) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_stale_pdst,
+            T_26182_2_stale_pdst) @[rob.scala 350:34]
     node _GEN_1260
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_stale_pdst, T_26182_3_stale_pdst) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_stale_pdst,
+            T_26182_3_stale_pdst) @[rob.scala 350:34]
     node _GEN_1261
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_stale_pdst, T_26182_4_stale_pdst) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_stale_pdst,
+            T_26182_4_stale_pdst) @[rob.scala 350:34]
     node _GEN_1262
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_stale_pdst, T_26182_5_stale_pdst) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_stale_pdst,
+            T_26182_5_stale_pdst) @[rob.scala 350:34]
     node _GEN_1263
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_stale_pdst, T_26182_6_stale_pdst) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_stale_pdst,
+            T_26182_6_stale_pdst) @[rob.scala 350:34]
     node _GEN_1264
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_stale_pdst, T_26182_7_stale_pdst) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_stale_pdst,
+            T_26182_7_stale_pdst) @[rob.scala 350:34]
     node _GEN_1265
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_stale_pdst, T_26182_8_stale_pdst) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_stale_pdst,
+            T_26182_8_stale_pdst) @[rob.scala 350:34]
     node _GEN_1266
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_stale_pdst, T_26182_9_stale_pdst) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_stale_pdst,
+            T_26182_9_stale_pdst) @[rob.scala 350:34]
     node _GEN_1267
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_stale_pdst, T_26182_10_stale_pdst) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_stale_pdst,
+            T_26182_10_stale_pdst) @[rob.scala 350:34]
     node _GEN_1268
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_stale_pdst, T_26182_11_stale_pdst) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_stale_pdst,
+            T_26182_11_stale_pdst) @[rob.scala 350:34]
     node _GEN_1269
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_stale_pdst, T_26182_12_stale_pdst) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_stale_pdst,
+            T_26182_12_stale_pdst) @[rob.scala 350:34]
     node _GEN_1270
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_stale_pdst, T_26182_13_stale_pdst) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_stale_pdst,
+            T_26182_13_stale_pdst) @[rob.scala 350:34]
     node _GEN_1271
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_stale_pdst, T_26182_14_stale_pdst) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_stale_pdst,
+            T_26182_14_stale_pdst) @[rob.scala 350:34]
     node _GEN_1272
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_stale_pdst, T_26182_15_stale_pdst) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_stale_pdst,
+            T_26182_15_stale_pdst) @[rob.scala 350:34]
     node _GEN_1273
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_stale_pdst, T_26182_16_stale_pdst) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_stale_pdst,
+            T_26182_16_stale_pdst) @[rob.scala 350:34]
     node _GEN_1274
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_stale_pdst, T_26182_17_stale_pdst) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_stale_pdst,
+            T_26182_17_stale_pdst) @[rob.scala 350:34]
     node _GEN_1275
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_stale_pdst, T_26182_18_stale_pdst) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_stale_pdst,
+            T_26182_18_stale_pdst) @[rob.scala 350:34]
     node _GEN_1276
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_stale_pdst, T_26182_19_stale_pdst) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_stale_pdst,
+            T_26182_19_stale_pdst) @[rob.scala 350:34]
     node _GEN_1277
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_stale_pdst, T_26182_20_stale_pdst) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_stale_pdst,
+            T_26182_20_stale_pdst) @[rob.scala 350:34]
     node _GEN_1278
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_stale_pdst, T_26182_21_stale_pdst) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_stale_pdst,
+            T_26182_21_stale_pdst) @[rob.scala 350:34]
     node _GEN_1279
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_stale_pdst, T_26182_22_stale_pdst) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_stale_pdst,
+            T_26182_22_stale_pdst) @[rob.scala 350:34]
     node _GEN_1280
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_stale_pdst, T_26182_23_stale_pdst) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_stale_pdst,
+            T_26182_23_stale_pdst) @[rob.scala 350:34]
     skip
     node _GEN_1281
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_exception, T_26182_0_exception) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_exception,
+            T_26182_0_exception) @[rob.scala 350:34]
     node _GEN_1282
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_exception, T_26182_1_exception) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_exception,
+            T_26182_1_exception) @[rob.scala 350:34]
     node _GEN_1283
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_exception, T_26182_2_exception) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_exception,
+            T_26182_2_exception) @[rob.scala 350:34]
     node _GEN_1284
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_exception, T_26182_3_exception) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_exception,
+            T_26182_3_exception) @[rob.scala 350:34]
     node _GEN_1285
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_exception, T_26182_4_exception) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_exception,
+            T_26182_4_exception) @[rob.scala 350:34]
     node _GEN_1286
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_exception, T_26182_5_exception) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_exception,
+            T_26182_5_exception) @[rob.scala 350:34]
     node _GEN_1287
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_exception, T_26182_6_exception) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_exception,
+            T_26182_6_exception) @[rob.scala 350:34]
     node _GEN_1288
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_exception, T_26182_7_exception) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_exception,
+            T_26182_7_exception) @[rob.scala 350:34]
     node _GEN_1289
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_exception, T_26182_8_exception) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_exception,
+            T_26182_8_exception) @[rob.scala 350:34]
     node _GEN_1290
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_exception, T_26182_9_exception) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_exception,
+            T_26182_9_exception) @[rob.scala 350:34]
     node _GEN_1291
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_exception, T_26182_10_exception) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_exception,
+            T_26182_10_exception) @[rob.scala 350:34]
     node _GEN_1292
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_exception, T_26182_11_exception) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_exception,
+            T_26182_11_exception) @[rob.scala 350:34]
     node _GEN_1293
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_exception, T_26182_12_exception) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_exception,
+            T_26182_12_exception) @[rob.scala 350:34]
     node _GEN_1294
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_exception, T_26182_13_exception) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_exception,
+            T_26182_13_exception) @[rob.scala 350:34]
     node _GEN_1295
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_exception, T_26182_14_exception) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_exception,
+            T_26182_14_exception) @[rob.scala 350:34]
     node _GEN_1296
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_exception, T_26182_15_exception) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_exception,
+            T_26182_15_exception) @[rob.scala 350:34]
     node _GEN_1297
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_exception, T_26182_16_exception) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_exception,
+            T_26182_16_exception) @[rob.scala 350:34]
     node _GEN_1298
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_exception, T_26182_17_exception) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_exception,
+            T_26182_17_exception) @[rob.scala 350:34]
     node _GEN_1299
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_exception, T_26182_18_exception) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_exception,
+            T_26182_18_exception) @[rob.scala 350:34]
     node _GEN_1300
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_exception, T_26182_19_exception) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_exception,
+            T_26182_19_exception) @[rob.scala 350:34]
     node _GEN_1301
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_exception, T_26182_20_exception) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_exception,
+            T_26182_20_exception) @[rob.scala 350:34]
     node _GEN_1302
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_exception, T_26182_21_exception) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_exception,
+            T_26182_21_exception) @[rob.scala 350:34]
     node _GEN_1303
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_exception, T_26182_22_exception) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_exception,
+            T_26182_22_exception) @[rob.scala 350:34]
     node _GEN_1304
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_exception, T_26182_23_exception) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_exception,
+            T_26182_23_exception) @[rob.scala 350:34]
     skip
     node _GEN_1305
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_exc_cause, T_26182_0_exc_cause) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_exc_cause,
+            T_26182_0_exc_cause) @[rob.scala 350:34]
     node _GEN_1306
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_exc_cause, T_26182_1_exc_cause) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_exc_cause,
+            T_26182_1_exc_cause) @[rob.scala 350:34]
     node _GEN_1307
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_exc_cause, T_26182_2_exc_cause) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_exc_cause,
+            T_26182_2_exc_cause) @[rob.scala 350:34]
     node _GEN_1308
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_exc_cause, T_26182_3_exc_cause) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_exc_cause,
+            T_26182_3_exc_cause) @[rob.scala 350:34]
     node _GEN_1309
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_exc_cause, T_26182_4_exc_cause) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_exc_cause,
+            T_26182_4_exc_cause) @[rob.scala 350:34]
     node _GEN_1310
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_exc_cause, T_26182_5_exc_cause) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_exc_cause,
+            T_26182_5_exc_cause) @[rob.scala 350:34]
     node _GEN_1311
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_exc_cause, T_26182_6_exc_cause) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_exc_cause,
+            T_26182_6_exc_cause) @[rob.scala 350:34]
     node _GEN_1312
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_exc_cause, T_26182_7_exc_cause) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_exc_cause,
+            T_26182_7_exc_cause) @[rob.scala 350:34]
     node _GEN_1313
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_exc_cause, T_26182_8_exc_cause) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_exc_cause,
+            T_26182_8_exc_cause) @[rob.scala 350:34]
     node _GEN_1314
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_exc_cause, T_26182_9_exc_cause) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_exc_cause,
+            T_26182_9_exc_cause) @[rob.scala 350:34]
     node _GEN_1315
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_exc_cause, T_26182_10_exc_cause) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_exc_cause,
+            T_26182_10_exc_cause) @[rob.scala 350:34]
     node _GEN_1316
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_exc_cause, T_26182_11_exc_cause) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_exc_cause,
+            T_26182_11_exc_cause) @[rob.scala 350:34]
     node _GEN_1317
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_exc_cause, T_26182_12_exc_cause) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_exc_cause,
+            T_26182_12_exc_cause) @[rob.scala 350:34]
     node _GEN_1318
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_exc_cause, T_26182_13_exc_cause) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_exc_cause,
+            T_26182_13_exc_cause) @[rob.scala 350:34]
     node _GEN_1319
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_exc_cause, T_26182_14_exc_cause) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_exc_cause,
+            T_26182_14_exc_cause) @[rob.scala 350:34]
     node _GEN_1320
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_exc_cause, T_26182_15_exc_cause) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_exc_cause,
+            T_26182_15_exc_cause) @[rob.scala 350:34]
     node _GEN_1321
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_exc_cause, T_26182_16_exc_cause) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_exc_cause,
+            T_26182_16_exc_cause) @[rob.scala 350:34]
     node _GEN_1322
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_exc_cause, T_26182_17_exc_cause) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_exc_cause,
+            T_26182_17_exc_cause) @[rob.scala 350:34]
     node _GEN_1323
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_exc_cause, T_26182_18_exc_cause) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_exc_cause,
+            T_26182_18_exc_cause) @[rob.scala 350:34]
     node _GEN_1324
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_exc_cause, T_26182_19_exc_cause) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_exc_cause,
+            T_26182_19_exc_cause) @[rob.scala 350:34]
     node _GEN_1325
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_exc_cause, T_26182_20_exc_cause) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_exc_cause,
+            T_26182_20_exc_cause) @[rob.scala 350:34]
     node _GEN_1326
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_exc_cause, T_26182_21_exc_cause) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_exc_cause,
+            T_26182_21_exc_cause) @[rob.scala 350:34]
     node _GEN_1327
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_exc_cause, T_26182_22_exc_cause) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_exc_cause,
+            T_26182_22_exc_cause) @[rob.scala 350:34]
     node _GEN_1328
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_exc_cause, T_26182_23_exc_cause) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_exc_cause,
+            T_26182_23_exc_cause) @[rob.scala 350:34]
     skip
     node _GEN_1329
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_bypassable, T_26182_0_bypassable) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_bypassable,
+            T_26182_0_bypassable) @[rob.scala 350:34]
     node _GEN_1330
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_bypassable, T_26182_1_bypassable) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_bypassable,
+            T_26182_1_bypassable) @[rob.scala 350:34]
     node _GEN_1331
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_bypassable, T_26182_2_bypassable) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_bypassable,
+            T_26182_2_bypassable) @[rob.scala 350:34]
     node _GEN_1332
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_bypassable, T_26182_3_bypassable) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_bypassable,
+            T_26182_3_bypassable) @[rob.scala 350:34]
     node _GEN_1333
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_bypassable, T_26182_4_bypassable) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_bypassable,
+            T_26182_4_bypassable) @[rob.scala 350:34]
     node _GEN_1334
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_bypassable, T_26182_5_bypassable) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_bypassable,
+            T_26182_5_bypassable) @[rob.scala 350:34]
     node _GEN_1335
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_bypassable, T_26182_6_bypassable) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_bypassable,
+            T_26182_6_bypassable) @[rob.scala 350:34]
     node _GEN_1336
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_bypassable, T_26182_7_bypassable) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_bypassable,
+            T_26182_7_bypassable) @[rob.scala 350:34]
     node _GEN_1337
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_bypassable, T_26182_8_bypassable) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_bypassable,
+            T_26182_8_bypassable) @[rob.scala 350:34]
     node _GEN_1338
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_bypassable, T_26182_9_bypassable) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_bypassable,
+            T_26182_9_bypassable) @[rob.scala 350:34]
     node _GEN_1339
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_bypassable, T_26182_10_bypassable) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_bypassable,
+            T_26182_10_bypassable) @[rob.scala 350:34]
     node _GEN_1340
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_bypassable, T_26182_11_bypassable) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_bypassable,
+            T_26182_11_bypassable) @[rob.scala 350:34]
     node _GEN_1341
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_bypassable, T_26182_12_bypassable) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_bypassable,
+            T_26182_12_bypassable) @[rob.scala 350:34]
     node _GEN_1342
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_bypassable, T_26182_13_bypassable) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_bypassable,
+            T_26182_13_bypassable) @[rob.scala 350:34]
     node _GEN_1343
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_bypassable, T_26182_14_bypassable) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_bypassable,
+            T_26182_14_bypassable) @[rob.scala 350:34]
     node _GEN_1344
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_bypassable, T_26182_15_bypassable) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_bypassable,
+            T_26182_15_bypassable) @[rob.scala 350:34]
     node _GEN_1345
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_bypassable, T_26182_16_bypassable) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_bypassable,
+            T_26182_16_bypassable) @[rob.scala 350:34]
     node _GEN_1346
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_bypassable, T_26182_17_bypassable) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_bypassable,
+            T_26182_17_bypassable) @[rob.scala 350:34]
     node _GEN_1347
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_bypassable, T_26182_18_bypassable) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_bypassable,
+            T_26182_18_bypassable) @[rob.scala 350:34]
     node _GEN_1348
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_bypassable, T_26182_19_bypassable) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_bypassable,
+            T_26182_19_bypassable) @[rob.scala 350:34]
     node _GEN_1349
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_bypassable, T_26182_20_bypassable) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_bypassable,
+            T_26182_20_bypassable) @[rob.scala 350:34]
     node _GEN_1350
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_bypassable, T_26182_21_bypassable) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_bypassable,
+            T_26182_21_bypassable) @[rob.scala 350:34]
     node _GEN_1351
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_bypassable, T_26182_22_bypassable) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_bypassable,
+            T_26182_22_bypassable) @[rob.scala 350:34]
     node _GEN_1352
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_bypassable, T_26182_23_bypassable) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_bypassable,
+            T_26182_23_bypassable) @[rob.scala 350:34]
     skip
     node _GEN_1353
       = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_mem_cmd, T_26182_0_mem_cmd) @[rob.scala 350:34]
@@ -6420,33 +7458,47 @@ circuit Rob :
     node _GEN_1362
       = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_mem_cmd, T_26182_9_mem_cmd) @[rob.scala 350:34]
     node _GEN_1363
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_mem_cmd, T_26182_10_mem_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_mem_cmd,
+            T_26182_10_mem_cmd) @[rob.scala 350:34]
     node _GEN_1364
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_mem_cmd, T_26182_11_mem_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_mem_cmd,
+            T_26182_11_mem_cmd) @[rob.scala 350:34]
     node _GEN_1365
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_mem_cmd, T_26182_12_mem_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_mem_cmd,
+            T_26182_12_mem_cmd) @[rob.scala 350:34]
     node _GEN_1366
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_mem_cmd, T_26182_13_mem_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_mem_cmd,
+            T_26182_13_mem_cmd) @[rob.scala 350:34]
     node _GEN_1367
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_mem_cmd, T_26182_14_mem_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_mem_cmd,
+            T_26182_14_mem_cmd) @[rob.scala 350:34]
     node _GEN_1368
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_mem_cmd, T_26182_15_mem_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_mem_cmd,
+            T_26182_15_mem_cmd) @[rob.scala 350:34]
     node _GEN_1369
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_mem_cmd, T_26182_16_mem_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_mem_cmd,
+            T_26182_16_mem_cmd) @[rob.scala 350:34]
     node _GEN_1370
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_mem_cmd, T_26182_17_mem_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_mem_cmd,
+            T_26182_17_mem_cmd) @[rob.scala 350:34]
     node _GEN_1371
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_mem_cmd, T_26182_18_mem_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_mem_cmd,
+            T_26182_18_mem_cmd) @[rob.scala 350:34]
     node _GEN_1372
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_mem_cmd, T_26182_19_mem_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_mem_cmd,
+            T_26182_19_mem_cmd) @[rob.scala 350:34]
     node _GEN_1373
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_mem_cmd, T_26182_20_mem_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_mem_cmd,
+            T_26182_20_mem_cmd) @[rob.scala 350:34]
     node _GEN_1374
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_mem_cmd, T_26182_21_mem_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_mem_cmd,
+            T_26182_21_mem_cmd) @[rob.scala 350:34]
     node _GEN_1375
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_mem_cmd, T_26182_22_mem_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_mem_cmd,
+            T_26182_22_mem_cmd) @[rob.scala 350:34]
     node _GEN_1376
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_mem_cmd, T_26182_23_mem_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_mem_cmd,
+            T_26182_23_mem_cmd) @[rob.scala 350:34]
     skip
     node _GEN_1377
       = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_mem_typ, T_26182_0_mem_typ) @[rob.scala 350:34]
@@ -6469,180 +7521,266 @@ circuit Rob :
     node _GEN_1386
       = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_mem_typ, T_26182_9_mem_typ) @[rob.scala 350:34]
     node _GEN_1387
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_mem_typ, T_26182_10_mem_typ) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_mem_typ,
+            T_26182_10_mem_typ) @[rob.scala 350:34]
     node _GEN_1388
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_mem_typ, T_26182_11_mem_typ) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_mem_typ,
+            T_26182_11_mem_typ) @[rob.scala 350:34]
     node _GEN_1389
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_mem_typ, T_26182_12_mem_typ) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_mem_typ,
+            T_26182_12_mem_typ) @[rob.scala 350:34]
     node _GEN_1390
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_mem_typ, T_26182_13_mem_typ) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_mem_typ,
+            T_26182_13_mem_typ) @[rob.scala 350:34]
     node _GEN_1391
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_mem_typ, T_26182_14_mem_typ) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_mem_typ,
+            T_26182_14_mem_typ) @[rob.scala 350:34]
     node _GEN_1392
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_mem_typ, T_26182_15_mem_typ) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_mem_typ,
+            T_26182_15_mem_typ) @[rob.scala 350:34]
     node _GEN_1393
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_mem_typ, T_26182_16_mem_typ) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_mem_typ,
+            T_26182_16_mem_typ) @[rob.scala 350:34]
     node _GEN_1394
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_mem_typ, T_26182_17_mem_typ) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_mem_typ,
+            T_26182_17_mem_typ) @[rob.scala 350:34]
     node _GEN_1395
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_mem_typ, T_26182_18_mem_typ) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_mem_typ,
+            T_26182_18_mem_typ) @[rob.scala 350:34]
     node _GEN_1396
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_mem_typ, T_26182_19_mem_typ) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_mem_typ,
+            T_26182_19_mem_typ) @[rob.scala 350:34]
     node _GEN_1397
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_mem_typ, T_26182_20_mem_typ) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_mem_typ,
+            T_26182_20_mem_typ) @[rob.scala 350:34]
     node _GEN_1398
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_mem_typ, T_26182_21_mem_typ) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_mem_typ,
+            T_26182_21_mem_typ) @[rob.scala 350:34]
     node _GEN_1399
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_mem_typ, T_26182_22_mem_typ) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_mem_typ,
+            T_26182_22_mem_typ) @[rob.scala 350:34]
     node _GEN_1400
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_mem_typ, T_26182_23_mem_typ) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_mem_typ,
+            T_26182_23_mem_typ) @[rob.scala 350:34]
     skip
     node _GEN_1401
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_is_fence, T_26182_0_is_fence) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_is_fence,
+            T_26182_0_is_fence) @[rob.scala 350:34]
     node _GEN_1402
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_is_fence, T_26182_1_is_fence) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_is_fence,
+            T_26182_1_is_fence) @[rob.scala 350:34]
     node _GEN_1403
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_is_fence, T_26182_2_is_fence) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_is_fence,
+            T_26182_2_is_fence) @[rob.scala 350:34]
     node _GEN_1404
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_is_fence, T_26182_3_is_fence) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_is_fence,
+            T_26182_3_is_fence) @[rob.scala 350:34]
     node _GEN_1405
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_is_fence, T_26182_4_is_fence) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_is_fence,
+            T_26182_4_is_fence) @[rob.scala 350:34]
     node _GEN_1406
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_is_fence, T_26182_5_is_fence) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_is_fence,
+            T_26182_5_is_fence) @[rob.scala 350:34]
     node _GEN_1407
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_is_fence, T_26182_6_is_fence) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_is_fence,
+            T_26182_6_is_fence) @[rob.scala 350:34]
     node _GEN_1408
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_is_fence, T_26182_7_is_fence) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_is_fence,
+            T_26182_7_is_fence) @[rob.scala 350:34]
     node _GEN_1409
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_is_fence, T_26182_8_is_fence) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_is_fence,
+            T_26182_8_is_fence) @[rob.scala 350:34]
     node _GEN_1410
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_is_fence, T_26182_9_is_fence) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_is_fence,
+            T_26182_9_is_fence) @[rob.scala 350:34]
     node _GEN_1411
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_is_fence, T_26182_10_is_fence) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_is_fence,
+            T_26182_10_is_fence) @[rob.scala 350:34]
     node _GEN_1412
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_is_fence, T_26182_11_is_fence) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_is_fence,
+            T_26182_11_is_fence) @[rob.scala 350:34]
     node _GEN_1413
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_is_fence, T_26182_12_is_fence) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_is_fence,
+            T_26182_12_is_fence) @[rob.scala 350:34]
     node _GEN_1414
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_is_fence, T_26182_13_is_fence) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_is_fence,
+            T_26182_13_is_fence) @[rob.scala 350:34]
     node _GEN_1415
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_is_fence, T_26182_14_is_fence) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_is_fence,
+            T_26182_14_is_fence) @[rob.scala 350:34]
     node _GEN_1416
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_is_fence, T_26182_15_is_fence) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_is_fence,
+            T_26182_15_is_fence) @[rob.scala 350:34]
     node _GEN_1417
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_is_fence, T_26182_16_is_fence) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_is_fence,
+            T_26182_16_is_fence) @[rob.scala 350:34]
     node _GEN_1418
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_is_fence, T_26182_17_is_fence) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_is_fence,
+            T_26182_17_is_fence) @[rob.scala 350:34]
     node _GEN_1419
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_is_fence, T_26182_18_is_fence) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_is_fence,
+            T_26182_18_is_fence) @[rob.scala 350:34]
     node _GEN_1420
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_is_fence, T_26182_19_is_fence) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_is_fence,
+            T_26182_19_is_fence) @[rob.scala 350:34]
     node _GEN_1421
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_is_fence, T_26182_20_is_fence) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_is_fence,
+            T_26182_20_is_fence) @[rob.scala 350:34]
     node _GEN_1422
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_is_fence, T_26182_21_is_fence) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_is_fence,
+            T_26182_21_is_fence) @[rob.scala 350:34]
     node _GEN_1423
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_is_fence, T_26182_22_is_fence) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_is_fence,
+            T_26182_22_is_fence) @[rob.scala 350:34]
     node _GEN_1424
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_is_fence, T_26182_23_is_fence) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_is_fence,
+            T_26182_23_is_fence) @[rob.scala 350:34]
     skip
     node _GEN_1425
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_is_fencei, T_26182_0_is_fencei) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_is_fencei,
+            T_26182_0_is_fencei) @[rob.scala 350:34]
     node _GEN_1426
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_is_fencei, T_26182_1_is_fencei) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_is_fencei,
+            T_26182_1_is_fencei) @[rob.scala 350:34]
     node _GEN_1427
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_is_fencei, T_26182_2_is_fencei) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_is_fencei,
+            T_26182_2_is_fencei) @[rob.scala 350:34]
     node _GEN_1428
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_is_fencei, T_26182_3_is_fencei) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_is_fencei,
+            T_26182_3_is_fencei) @[rob.scala 350:34]
     node _GEN_1429
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_is_fencei, T_26182_4_is_fencei) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_is_fencei,
+            T_26182_4_is_fencei) @[rob.scala 350:34]
     node _GEN_1430
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_is_fencei, T_26182_5_is_fencei) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_is_fencei,
+            T_26182_5_is_fencei) @[rob.scala 350:34]
     node _GEN_1431
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_is_fencei, T_26182_6_is_fencei) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_is_fencei,
+            T_26182_6_is_fencei) @[rob.scala 350:34]
     node _GEN_1432
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_is_fencei, T_26182_7_is_fencei) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_is_fencei,
+            T_26182_7_is_fencei) @[rob.scala 350:34]
     node _GEN_1433
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_is_fencei, T_26182_8_is_fencei) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_is_fencei,
+            T_26182_8_is_fencei) @[rob.scala 350:34]
     node _GEN_1434
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_is_fencei, T_26182_9_is_fencei) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_is_fencei,
+            T_26182_9_is_fencei) @[rob.scala 350:34]
     node _GEN_1435
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_is_fencei, T_26182_10_is_fencei) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_is_fencei,
+            T_26182_10_is_fencei) @[rob.scala 350:34]
     node _GEN_1436
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_is_fencei, T_26182_11_is_fencei) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_is_fencei,
+            T_26182_11_is_fencei) @[rob.scala 350:34]
     node _GEN_1437
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_is_fencei, T_26182_12_is_fencei) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_is_fencei,
+            T_26182_12_is_fencei) @[rob.scala 350:34]
     node _GEN_1438
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_is_fencei, T_26182_13_is_fencei) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_is_fencei,
+            T_26182_13_is_fencei) @[rob.scala 350:34]
     node _GEN_1439
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_is_fencei, T_26182_14_is_fencei) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_is_fencei,
+            T_26182_14_is_fencei) @[rob.scala 350:34]
     node _GEN_1440
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_is_fencei, T_26182_15_is_fencei) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_is_fencei,
+            T_26182_15_is_fencei) @[rob.scala 350:34]
     node _GEN_1441
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_is_fencei, T_26182_16_is_fencei) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_is_fencei,
+            T_26182_16_is_fencei) @[rob.scala 350:34]
     node _GEN_1442
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_is_fencei, T_26182_17_is_fencei) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_is_fencei,
+            T_26182_17_is_fencei) @[rob.scala 350:34]
     node _GEN_1443
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_is_fencei, T_26182_18_is_fencei) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_is_fencei,
+            T_26182_18_is_fencei) @[rob.scala 350:34]
     node _GEN_1444
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_is_fencei, T_26182_19_is_fencei) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_is_fencei,
+            T_26182_19_is_fencei) @[rob.scala 350:34]
     node _GEN_1445
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_is_fencei, T_26182_20_is_fencei) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_is_fencei,
+            T_26182_20_is_fencei) @[rob.scala 350:34]
     node _GEN_1446
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_is_fencei, T_26182_21_is_fencei) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_is_fencei,
+            T_26182_21_is_fencei) @[rob.scala 350:34]
     node _GEN_1447
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_is_fencei, T_26182_22_is_fencei) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_is_fencei,
+            T_26182_22_is_fencei) @[rob.scala 350:34]
     node _GEN_1448
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_is_fencei, T_26182_23_is_fencei) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_is_fencei,
+            T_26182_23_is_fencei) @[rob.scala 350:34]
     skip
     node _GEN_1449
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_is_store, T_26182_0_is_store) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_is_store,
+            T_26182_0_is_store) @[rob.scala 350:34]
     node _GEN_1450
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_is_store, T_26182_1_is_store) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_is_store,
+            T_26182_1_is_store) @[rob.scala 350:34]
     node _GEN_1451
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_is_store, T_26182_2_is_store) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_is_store,
+            T_26182_2_is_store) @[rob.scala 350:34]
     node _GEN_1452
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_is_store, T_26182_3_is_store) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_is_store,
+            T_26182_3_is_store) @[rob.scala 350:34]
     node _GEN_1453
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_is_store, T_26182_4_is_store) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_is_store,
+            T_26182_4_is_store) @[rob.scala 350:34]
     node _GEN_1454
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_is_store, T_26182_5_is_store) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_is_store,
+            T_26182_5_is_store) @[rob.scala 350:34]
     node _GEN_1455
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_is_store, T_26182_6_is_store) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_is_store,
+            T_26182_6_is_store) @[rob.scala 350:34]
     node _GEN_1456
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_is_store, T_26182_7_is_store) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_is_store,
+            T_26182_7_is_store) @[rob.scala 350:34]
     node _GEN_1457
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_is_store, T_26182_8_is_store) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_is_store,
+            T_26182_8_is_store) @[rob.scala 350:34]
     node _GEN_1458
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_is_store, T_26182_9_is_store) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_is_store,
+            T_26182_9_is_store) @[rob.scala 350:34]
     node _GEN_1459
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_is_store, T_26182_10_is_store) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_is_store,
+            T_26182_10_is_store) @[rob.scala 350:34]
     node _GEN_1460
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_is_store, T_26182_11_is_store) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_is_store,
+            T_26182_11_is_store) @[rob.scala 350:34]
     node _GEN_1461
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_is_store, T_26182_12_is_store) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_is_store,
+            T_26182_12_is_store) @[rob.scala 350:34]
     node _GEN_1462
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_is_store, T_26182_13_is_store) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_is_store,
+            T_26182_13_is_store) @[rob.scala 350:34]
     node _GEN_1463
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_is_store, T_26182_14_is_store) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_is_store,
+            T_26182_14_is_store) @[rob.scala 350:34]
     node _GEN_1464
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_is_store, T_26182_15_is_store) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_is_store,
+            T_26182_15_is_store) @[rob.scala 350:34]
     node _GEN_1465
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_is_store, T_26182_16_is_store) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_is_store,
+            T_26182_16_is_store) @[rob.scala 350:34]
     node _GEN_1466
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_is_store, T_26182_17_is_store) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_is_store,
+            T_26182_17_is_store) @[rob.scala 350:34]
     node _GEN_1467
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_is_store, T_26182_18_is_store) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_is_store,
+            T_26182_18_is_store) @[rob.scala 350:34]
     node _GEN_1468
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_is_store, T_26182_19_is_store) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_is_store,
+            T_26182_19_is_store) @[rob.scala 350:34]
     node _GEN_1469
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_is_store, T_26182_20_is_store) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_is_store,
+            T_26182_20_is_store) @[rob.scala 350:34]
     node _GEN_1470
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_is_store, T_26182_21_is_store) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_is_store,
+            T_26182_21_is_store) @[rob.scala 350:34]
     node _GEN_1471
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_is_store, T_26182_22_is_store) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_is_store,
+            T_26182_22_is_store) @[rob.scala 350:34]
     node _GEN_1472
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_is_store, T_26182_23_is_store) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_is_store,
+            T_26182_23_is_store) @[rob.scala 350:34]
     skip
     node _GEN_1473
       = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_is_amo, T_26182_0_is_amo) @[rob.scala 350:34]
@@ -6714,131 +7852,193 @@ circuit Rob :
     node _GEN_1506
       = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_is_load, T_26182_9_is_load) @[rob.scala 350:34]
     node _GEN_1507
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_is_load, T_26182_10_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_is_load,
+            T_26182_10_is_load) @[rob.scala 350:34]
     node _GEN_1508
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_is_load, T_26182_11_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_is_load,
+            T_26182_11_is_load) @[rob.scala 350:34]
     node _GEN_1509
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_is_load, T_26182_12_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_is_load,
+            T_26182_12_is_load) @[rob.scala 350:34]
     node _GEN_1510
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_is_load, T_26182_13_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_is_load,
+            T_26182_13_is_load) @[rob.scala 350:34]
     node _GEN_1511
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_is_load, T_26182_14_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_is_load,
+            T_26182_14_is_load) @[rob.scala 350:34]
     node _GEN_1512
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_is_load, T_26182_15_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_is_load,
+            T_26182_15_is_load) @[rob.scala 350:34]
     node _GEN_1513
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_is_load, T_26182_16_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_is_load,
+            T_26182_16_is_load) @[rob.scala 350:34]
     node _GEN_1514
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_is_load, T_26182_17_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_is_load,
+            T_26182_17_is_load) @[rob.scala 350:34]
     node _GEN_1515
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_is_load, T_26182_18_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_is_load,
+            T_26182_18_is_load) @[rob.scala 350:34]
     node _GEN_1516
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_is_load, T_26182_19_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_is_load,
+            T_26182_19_is_load) @[rob.scala 350:34]
     node _GEN_1517
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_is_load, T_26182_20_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_is_load,
+            T_26182_20_is_load) @[rob.scala 350:34]
     node _GEN_1518
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_is_load, T_26182_21_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_is_load,
+            T_26182_21_is_load) @[rob.scala 350:34]
     node _GEN_1519
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_is_load, T_26182_22_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_is_load,
+            T_26182_22_is_load) @[rob.scala 350:34]
     node _GEN_1520
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_is_load, T_26182_23_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_is_load,
+            T_26182_23_is_load) @[rob.scala 350:34]
     skip
     node _GEN_1521
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_is_unique, T_26182_0_is_unique) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_is_unique,
+            T_26182_0_is_unique) @[rob.scala 350:34]
     node _GEN_1522
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_is_unique, T_26182_1_is_unique) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_is_unique,
+            T_26182_1_is_unique) @[rob.scala 350:34]
     node _GEN_1523
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_is_unique, T_26182_2_is_unique) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_is_unique,
+            T_26182_2_is_unique) @[rob.scala 350:34]
     node _GEN_1524
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_is_unique, T_26182_3_is_unique) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_is_unique,
+            T_26182_3_is_unique) @[rob.scala 350:34]
     node _GEN_1525
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_is_unique, T_26182_4_is_unique) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_is_unique,
+            T_26182_4_is_unique) @[rob.scala 350:34]
     node _GEN_1526
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_is_unique, T_26182_5_is_unique) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_is_unique,
+            T_26182_5_is_unique) @[rob.scala 350:34]
     node _GEN_1527
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_is_unique, T_26182_6_is_unique) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_is_unique,
+            T_26182_6_is_unique) @[rob.scala 350:34]
     node _GEN_1528
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_is_unique, T_26182_7_is_unique) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_is_unique,
+            T_26182_7_is_unique) @[rob.scala 350:34]
     node _GEN_1529
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_is_unique, T_26182_8_is_unique) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_is_unique,
+            T_26182_8_is_unique) @[rob.scala 350:34]
     node _GEN_1530
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_is_unique, T_26182_9_is_unique) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_is_unique,
+            T_26182_9_is_unique) @[rob.scala 350:34]
     node _GEN_1531
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_is_unique, T_26182_10_is_unique) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_is_unique,
+            T_26182_10_is_unique) @[rob.scala 350:34]
     node _GEN_1532
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_is_unique, T_26182_11_is_unique) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_is_unique,
+            T_26182_11_is_unique) @[rob.scala 350:34]
     node _GEN_1533
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_is_unique, T_26182_12_is_unique) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_is_unique,
+            T_26182_12_is_unique) @[rob.scala 350:34]
     node _GEN_1534
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_is_unique, T_26182_13_is_unique) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_is_unique,
+            T_26182_13_is_unique) @[rob.scala 350:34]
     node _GEN_1535
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_is_unique, T_26182_14_is_unique) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_is_unique,
+            T_26182_14_is_unique) @[rob.scala 350:34]
     node _GEN_1536
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_is_unique, T_26182_15_is_unique) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_is_unique,
+            T_26182_15_is_unique) @[rob.scala 350:34]
     node _GEN_1537
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_is_unique, T_26182_16_is_unique) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_is_unique,
+            T_26182_16_is_unique) @[rob.scala 350:34]
     node _GEN_1538
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_is_unique, T_26182_17_is_unique) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_is_unique,
+            T_26182_17_is_unique) @[rob.scala 350:34]
     node _GEN_1539
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_is_unique, T_26182_18_is_unique) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_is_unique,
+            T_26182_18_is_unique) @[rob.scala 350:34]
     node _GEN_1540
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_is_unique, T_26182_19_is_unique) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_is_unique,
+            T_26182_19_is_unique) @[rob.scala 350:34]
     node _GEN_1541
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_is_unique, T_26182_20_is_unique) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_is_unique,
+            T_26182_20_is_unique) @[rob.scala 350:34]
     node _GEN_1542
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_is_unique, T_26182_21_is_unique) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_is_unique,
+            T_26182_21_is_unique) @[rob.scala 350:34]
     node _GEN_1543
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_is_unique, T_26182_22_is_unique) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_is_unique,
+            T_26182_22_is_unique) @[rob.scala 350:34]
     node _GEN_1544
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_is_unique, T_26182_23_is_unique) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_is_unique,
+            T_26182_23_is_unique) @[rob.scala 350:34]
     skip
     node _GEN_1545
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_flush_on_commit, T_26182_0_flush_on_commit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_flush_on_commit,
+            T_26182_0_flush_on_commit) @[rob.scala 350:34]
     node _GEN_1546
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_flush_on_commit, T_26182_1_flush_on_commit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_flush_on_commit,
+            T_26182_1_flush_on_commit) @[rob.scala 350:34]
     node _GEN_1547
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_flush_on_commit, T_26182_2_flush_on_commit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_flush_on_commit,
+            T_26182_2_flush_on_commit) @[rob.scala 350:34]
     node _GEN_1548
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_flush_on_commit, T_26182_3_flush_on_commit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_flush_on_commit,
+            T_26182_3_flush_on_commit) @[rob.scala 350:34]
     node _GEN_1549
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_flush_on_commit, T_26182_4_flush_on_commit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_flush_on_commit,
+            T_26182_4_flush_on_commit) @[rob.scala 350:34]
     node _GEN_1550
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_flush_on_commit, T_26182_5_flush_on_commit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_flush_on_commit,
+            T_26182_5_flush_on_commit) @[rob.scala 350:34]
     node _GEN_1551
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_flush_on_commit, T_26182_6_flush_on_commit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_flush_on_commit,
+            T_26182_6_flush_on_commit) @[rob.scala 350:34]
     node _GEN_1552
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_flush_on_commit, T_26182_7_flush_on_commit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_flush_on_commit,
+            T_26182_7_flush_on_commit) @[rob.scala 350:34]
     node _GEN_1553
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_flush_on_commit, T_26182_8_flush_on_commit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_flush_on_commit,
+            T_26182_8_flush_on_commit) @[rob.scala 350:34]
     node _GEN_1554
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_flush_on_commit, T_26182_9_flush_on_commit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_flush_on_commit,
+            T_26182_9_flush_on_commit) @[rob.scala 350:34]
     node _GEN_1555
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_flush_on_commit, T_26182_10_flush_on_commit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_flush_on_commit,
+            T_26182_10_flush_on_commit) @[rob.scala 350:34]
     node _GEN_1556
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_flush_on_commit, T_26182_11_flush_on_commit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_flush_on_commit,
+            T_26182_11_flush_on_commit) @[rob.scala 350:34]
     node _GEN_1557
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_flush_on_commit, T_26182_12_flush_on_commit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_flush_on_commit,
+            T_26182_12_flush_on_commit) @[rob.scala 350:34]
     node _GEN_1558
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_flush_on_commit, T_26182_13_flush_on_commit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_flush_on_commit,
+            T_26182_13_flush_on_commit) @[rob.scala 350:34]
     node _GEN_1559
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_flush_on_commit, T_26182_14_flush_on_commit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_flush_on_commit,
+            T_26182_14_flush_on_commit) @[rob.scala 350:34]
     node _GEN_1560
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_flush_on_commit, T_26182_15_flush_on_commit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_flush_on_commit,
+            T_26182_15_flush_on_commit) @[rob.scala 350:34]
     node _GEN_1561
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_flush_on_commit, T_26182_16_flush_on_commit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_flush_on_commit,
+            T_26182_16_flush_on_commit) @[rob.scala 350:34]
     node _GEN_1562
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_flush_on_commit, T_26182_17_flush_on_commit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_flush_on_commit,
+            T_26182_17_flush_on_commit) @[rob.scala 350:34]
     node _GEN_1563
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_flush_on_commit, T_26182_18_flush_on_commit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_flush_on_commit,
+            T_26182_18_flush_on_commit) @[rob.scala 350:34]
     node _GEN_1564
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_flush_on_commit, T_26182_19_flush_on_commit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_flush_on_commit,
+            T_26182_19_flush_on_commit) @[rob.scala 350:34]
     node _GEN_1565
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_flush_on_commit, T_26182_20_flush_on_commit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_flush_on_commit,
+            T_26182_20_flush_on_commit) @[rob.scala 350:34]
     node _GEN_1566
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_flush_on_commit, T_26182_21_flush_on_commit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_flush_on_commit,
+            T_26182_21_flush_on_commit) @[rob.scala 350:34]
     node _GEN_1567
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_flush_on_commit, T_26182_22_flush_on_commit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_flush_on_commit,
+            T_26182_22_flush_on_commit) @[rob.scala 350:34]
     node _GEN_1568
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_flush_on_commit, T_26182_23_flush_on_commit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_flush_on_commit,
+            T_26182_23_flush_on_commit) @[rob.scala 350:34]
     skip
     node _GEN_1569
       = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_ldst, T_26182_0_ldst) @[rob.scala 350:34]
@@ -7037,200 +8237,296 @@ circuit Rob :
       = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_lrs3, T_26182_23_lrs3) @[rob.scala 350:34]
     skip
     node _GEN_1665
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_ldst_val, T_26182_0_ldst_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_ldst_val,
+            T_26182_0_ldst_val) @[rob.scala 350:34]
     node _GEN_1666
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_ldst_val, T_26182_1_ldst_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_ldst_val,
+            T_26182_1_ldst_val) @[rob.scala 350:34]
     node _GEN_1667
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_ldst_val, T_26182_2_ldst_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_ldst_val,
+            T_26182_2_ldst_val) @[rob.scala 350:34]
     node _GEN_1668
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_ldst_val, T_26182_3_ldst_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_ldst_val,
+            T_26182_3_ldst_val) @[rob.scala 350:34]
     node _GEN_1669
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_ldst_val, T_26182_4_ldst_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_ldst_val,
+            T_26182_4_ldst_val) @[rob.scala 350:34]
     node _GEN_1670
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_ldst_val, T_26182_5_ldst_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_ldst_val,
+            T_26182_5_ldst_val) @[rob.scala 350:34]
     node _GEN_1671
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_ldst_val, T_26182_6_ldst_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_ldst_val,
+            T_26182_6_ldst_val) @[rob.scala 350:34]
     node _GEN_1672
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_ldst_val, T_26182_7_ldst_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_ldst_val,
+            T_26182_7_ldst_val) @[rob.scala 350:34]
     node _GEN_1673
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_ldst_val, T_26182_8_ldst_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_ldst_val,
+            T_26182_8_ldst_val) @[rob.scala 350:34]
     node _GEN_1674
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_ldst_val, T_26182_9_ldst_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_ldst_val,
+            T_26182_9_ldst_val) @[rob.scala 350:34]
     node _GEN_1675
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_ldst_val, T_26182_10_ldst_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_ldst_val,
+            T_26182_10_ldst_val) @[rob.scala 350:34]
     node _GEN_1676
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_ldst_val, T_26182_11_ldst_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_ldst_val,
+            T_26182_11_ldst_val) @[rob.scala 350:34]
     node _GEN_1677
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_ldst_val, T_26182_12_ldst_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_ldst_val,
+            T_26182_12_ldst_val) @[rob.scala 350:34]
     node _GEN_1678
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_ldst_val, T_26182_13_ldst_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_ldst_val,
+            T_26182_13_ldst_val) @[rob.scala 350:34]
     node _GEN_1679
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_ldst_val, T_26182_14_ldst_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_ldst_val,
+            T_26182_14_ldst_val) @[rob.scala 350:34]
     node _GEN_1680
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_ldst_val, T_26182_15_ldst_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_ldst_val,
+            T_26182_15_ldst_val) @[rob.scala 350:34]
     node _GEN_1681
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_ldst_val, T_26182_16_ldst_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_ldst_val,
+            T_26182_16_ldst_val) @[rob.scala 350:34]
     node _GEN_1682
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_ldst_val, T_26182_17_ldst_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_ldst_val,
+            T_26182_17_ldst_val) @[rob.scala 350:34]
     node _GEN_1683
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_ldst_val, T_26182_18_ldst_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_ldst_val,
+            T_26182_18_ldst_val) @[rob.scala 350:34]
     node _GEN_1684
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_ldst_val, T_26182_19_ldst_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_ldst_val,
+            T_26182_19_ldst_val) @[rob.scala 350:34]
     node _GEN_1685
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_ldst_val, T_26182_20_ldst_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_ldst_val,
+            T_26182_20_ldst_val) @[rob.scala 350:34]
     node _GEN_1686
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_ldst_val, T_26182_21_ldst_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_ldst_val,
+            T_26182_21_ldst_val) @[rob.scala 350:34]
     node _GEN_1687
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_ldst_val, T_26182_22_ldst_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_ldst_val,
+            T_26182_22_ldst_val) @[rob.scala 350:34]
     node _GEN_1688
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_ldst_val, T_26182_23_ldst_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_ldst_val,
+            T_26182_23_ldst_val) @[rob.scala 350:34]
     skip
     node _GEN_1689
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_dst_rtype, T_26182_0_dst_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_dst_rtype,
+            T_26182_0_dst_rtype) @[rob.scala 350:34]
     node _GEN_1690
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_dst_rtype, T_26182_1_dst_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_dst_rtype,
+            T_26182_1_dst_rtype) @[rob.scala 350:34]
     node _GEN_1691
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_dst_rtype, T_26182_2_dst_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_dst_rtype,
+            T_26182_2_dst_rtype) @[rob.scala 350:34]
     node _GEN_1692
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_dst_rtype, T_26182_3_dst_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_dst_rtype,
+            T_26182_3_dst_rtype) @[rob.scala 350:34]
     node _GEN_1693
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_dst_rtype, T_26182_4_dst_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_dst_rtype,
+            T_26182_4_dst_rtype) @[rob.scala 350:34]
     node _GEN_1694
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_dst_rtype, T_26182_5_dst_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_dst_rtype,
+            T_26182_5_dst_rtype) @[rob.scala 350:34]
     node _GEN_1695
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_dst_rtype, T_26182_6_dst_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_dst_rtype,
+            T_26182_6_dst_rtype) @[rob.scala 350:34]
     node _GEN_1696
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_dst_rtype, T_26182_7_dst_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_dst_rtype,
+            T_26182_7_dst_rtype) @[rob.scala 350:34]
     node _GEN_1697
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_dst_rtype, T_26182_8_dst_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_dst_rtype,
+            T_26182_8_dst_rtype) @[rob.scala 350:34]
     node _GEN_1698
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_dst_rtype, T_26182_9_dst_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_dst_rtype,
+            T_26182_9_dst_rtype) @[rob.scala 350:34]
     node _GEN_1699
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_dst_rtype, T_26182_10_dst_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_dst_rtype,
+            T_26182_10_dst_rtype) @[rob.scala 350:34]
     node _GEN_1700
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_dst_rtype, T_26182_11_dst_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_dst_rtype,
+            T_26182_11_dst_rtype) @[rob.scala 350:34]
     node _GEN_1701
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_dst_rtype, T_26182_12_dst_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_dst_rtype,
+            T_26182_12_dst_rtype) @[rob.scala 350:34]
     node _GEN_1702
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_dst_rtype, T_26182_13_dst_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_dst_rtype,
+            T_26182_13_dst_rtype) @[rob.scala 350:34]
     node _GEN_1703
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_dst_rtype, T_26182_14_dst_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_dst_rtype,
+            T_26182_14_dst_rtype) @[rob.scala 350:34]
     node _GEN_1704
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_dst_rtype, T_26182_15_dst_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_dst_rtype,
+            T_26182_15_dst_rtype) @[rob.scala 350:34]
     node _GEN_1705
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_dst_rtype, T_26182_16_dst_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_dst_rtype,
+            T_26182_16_dst_rtype) @[rob.scala 350:34]
     node _GEN_1706
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_dst_rtype, T_26182_17_dst_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_dst_rtype,
+            T_26182_17_dst_rtype) @[rob.scala 350:34]
     node _GEN_1707
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_dst_rtype, T_26182_18_dst_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_dst_rtype,
+            T_26182_18_dst_rtype) @[rob.scala 350:34]
     node _GEN_1708
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_dst_rtype, T_26182_19_dst_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_dst_rtype,
+            T_26182_19_dst_rtype) @[rob.scala 350:34]
     node _GEN_1709
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_dst_rtype, T_26182_20_dst_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_dst_rtype,
+            T_26182_20_dst_rtype) @[rob.scala 350:34]
     node _GEN_1710
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_dst_rtype, T_26182_21_dst_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_dst_rtype,
+            T_26182_21_dst_rtype) @[rob.scala 350:34]
     node _GEN_1711
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_dst_rtype, T_26182_22_dst_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_dst_rtype,
+            T_26182_22_dst_rtype) @[rob.scala 350:34]
     node _GEN_1712
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_dst_rtype, T_26182_23_dst_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_dst_rtype,
+            T_26182_23_dst_rtype) @[rob.scala 350:34]
     skip
     node _GEN_1713
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_lrs1_rtype, T_26182_0_lrs1_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_lrs1_rtype,
+            T_26182_0_lrs1_rtype) @[rob.scala 350:34]
     node _GEN_1714
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_lrs1_rtype, T_26182_1_lrs1_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_lrs1_rtype,
+            T_26182_1_lrs1_rtype) @[rob.scala 350:34]
     node _GEN_1715
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_lrs1_rtype, T_26182_2_lrs1_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_lrs1_rtype,
+            T_26182_2_lrs1_rtype) @[rob.scala 350:34]
     node _GEN_1716
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_lrs1_rtype, T_26182_3_lrs1_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_lrs1_rtype,
+            T_26182_3_lrs1_rtype) @[rob.scala 350:34]
     node _GEN_1717
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_lrs1_rtype, T_26182_4_lrs1_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_lrs1_rtype,
+            T_26182_4_lrs1_rtype) @[rob.scala 350:34]
     node _GEN_1718
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_lrs1_rtype, T_26182_5_lrs1_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_lrs1_rtype,
+            T_26182_5_lrs1_rtype) @[rob.scala 350:34]
     node _GEN_1719
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_lrs1_rtype, T_26182_6_lrs1_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_lrs1_rtype,
+            T_26182_6_lrs1_rtype) @[rob.scala 350:34]
     node _GEN_1720
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_lrs1_rtype, T_26182_7_lrs1_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_lrs1_rtype,
+            T_26182_7_lrs1_rtype) @[rob.scala 350:34]
     node _GEN_1721
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_lrs1_rtype, T_26182_8_lrs1_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_lrs1_rtype,
+            T_26182_8_lrs1_rtype) @[rob.scala 350:34]
     node _GEN_1722
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_lrs1_rtype, T_26182_9_lrs1_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_lrs1_rtype,
+            T_26182_9_lrs1_rtype) @[rob.scala 350:34]
     node _GEN_1723
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_lrs1_rtype, T_26182_10_lrs1_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_lrs1_rtype,
+            T_26182_10_lrs1_rtype) @[rob.scala 350:34]
     node _GEN_1724
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_lrs1_rtype, T_26182_11_lrs1_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_lrs1_rtype,
+            T_26182_11_lrs1_rtype) @[rob.scala 350:34]
     node _GEN_1725
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_lrs1_rtype, T_26182_12_lrs1_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_lrs1_rtype,
+            T_26182_12_lrs1_rtype) @[rob.scala 350:34]
     node _GEN_1726
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_lrs1_rtype, T_26182_13_lrs1_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_lrs1_rtype,
+            T_26182_13_lrs1_rtype) @[rob.scala 350:34]
     node _GEN_1727
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_lrs1_rtype, T_26182_14_lrs1_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_lrs1_rtype,
+            T_26182_14_lrs1_rtype) @[rob.scala 350:34]
     node _GEN_1728
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_lrs1_rtype, T_26182_15_lrs1_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_lrs1_rtype,
+            T_26182_15_lrs1_rtype) @[rob.scala 350:34]
     node _GEN_1729
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_lrs1_rtype, T_26182_16_lrs1_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_lrs1_rtype,
+            T_26182_16_lrs1_rtype) @[rob.scala 350:34]
     node _GEN_1730
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_lrs1_rtype, T_26182_17_lrs1_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_lrs1_rtype,
+            T_26182_17_lrs1_rtype) @[rob.scala 350:34]
     node _GEN_1731
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_lrs1_rtype, T_26182_18_lrs1_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_lrs1_rtype,
+            T_26182_18_lrs1_rtype) @[rob.scala 350:34]
     node _GEN_1732
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_lrs1_rtype, T_26182_19_lrs1_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_lrs1_rtype,
+            T_26182_19_lrs1_rtype) @[rob.scala 350:34]
     node _GEN_1733
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_lrs1_rtype, T_26182_20_lrs1_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_lrs1_rtype,
+            T_26182_20_lrs1_rtype) @[rob.scala 350:34]
     node _GEN_1734
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_lrs1_rtype, T_26182_21_lrs1_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_lrs1_rtype,
+            T_26182_21_lrs1_rtype) @[rob.scala 350:34]
     node _GEN_1735
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_lrs1_rtype, T_26182_22_lrs1_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_lrs1_rtype,
+            T_26182_22_lrs1_rtype) @[rob.scala 350:34]
     node _GEN_1736
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_lrs1_rtype, T_26182_23_lrs1_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_lrs1_rtype,
+            T_26182_23_lrs1_rtype) @[rob.scala 350:34]
     skip
     node _GEN_1737
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_lrs2_rtype, T_26182_0_lrs2_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_lrs2_rtype,
+            T_26182_0_lrs2_rtype) @[rob.scala 350:34]
     node _GEN_1738
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_lrs2_rtype, T_26182_1_lrs2_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_lrs2_rtype,
+            T_26182_1_lrs2_rtype) @[rob.scala 350:34]
     node _GEN_1739
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_lrs2_rtype, T_26182_2_lrs2_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_lrs2_rtype,
+            T_26182_2_lrs2_rtype) @[rob.scala 350:34]
     node _GEN_1740
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_lrs2_rtype, T_26182_3_lrs2_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_lrs2_rtype,
+            T_26182_3_lrs2_rtype) @[rob.scala 350:34]
     node _GEN_1741
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_lrs2_rtype, T_26182_4_lrs2_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_lrs2_rtype,
+            T_26182_4_lrs2_rtype) @[rob.scala 350:34]
     node _GEN_1742
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_lrs2_rtype, T_26182_5_lrs2_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_lrs2_rtype,
+            T_26182_5_lrs2_rtype) @[rob.scala 350:34]
     node _GEN_1743
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_lrs2_rtype, T_26182_6_lrs2_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_lrs2_rtype,
+            T_26182_6_lrs2_rtype) @[rob.scala 350:34]
     node _GEN_1744
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_lrs2_rtype, T_26182_7_lrs2_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_lrs2_rtype,
+            T_26182_7_lrs2_rtype) @[rob.scala 350:34]
     node _GEN_1745
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_lrs2_rtype, T_26182_8_lrs2_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_lrs2_rtype,
+            T_26182_8_lrs2_rtype) @[rob.scala 350:34]
     node _GEN_1746
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_lrs2_rtype, T_26182_9_lrs2_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_lrs2_rtype,
+            T_26182_9_lrs2_rtype) @[rob.scala 350:34]
     node _GEN_1747
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_lrs2_rtype, T_26182_10_lrs2_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_lrs2_rtype,
+            T_26182_10_lrs2_rtype) @[rob.scala 350:34]
     node _GEN_1748
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_lrs2_rtype, T_26182_11_lrs2_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_lrs2_rtype,
+            T_26182_11_lrs2_rtype) @[rob.scala 350:34]
     node _GEN_1749
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_lrs2_rtype, T_26182_12_lrs2_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_lrs2_rtype,
+            T_26182_12_lrs2_rtype) @[rob.scala 350:34]
     node _GEN_1750
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_lrs2_rtype, T_26182_13_lrs2_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_lrs2_rtype,
+            T_26182_13_lrs2_rtype) @[rob.scala 350:34]
     node _GEN_1751
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_lrs2_rtype, T_26182_14_lrs2_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_lrs2_rtype,
+            T_26182_14_lrs2_rtype) @[rob.scala 350:34]
     node _GEN_1752
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_lrs2_rtype, T_26182_15_lrs2_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_lrs2_rtype,
+            T_26182_15_lrs2_rtype) @[rob.scala 350:34]
     node _GEN_1753
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_lrs2_rtype, T_26182_16_lrs2_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_lrs2_rtype,
+            T_26182_16_lrs2_rtype) @[rob.scala 350:34]
     node _GEN_1754
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_lrs2_rtype, T_26182_17_lrs2_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_lrs2_rtype,
+            T_26182_17_lrs2_rtype) @[rob.scala 350:34]
     node _GEN_1755
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_lrs2_rtype, T_26182_18_lrs2_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_lrs2_rtype,
+            T_26182_18_lrs2_rtype) @[rob.scala 350:34]
     node _GEN_1756
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_lrs2_rtype, T_26182_19_lrs2_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_lrs2_rtype,
+            T_26182_19_lrs2_rtype) @[rob.scala 350:34]
     node _GEN_1757
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_lrs2_rtype, T_26182_20_lrs2_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_lrs2_rtype,
+            T_26182_20_lrs2_rtype) @[rob.scala 350:34]
     node _GEN_1758
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_lrs2_rtype, T_26182_21_lrs2_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_lrs2_rtype,
+            T_26182_21_lrs2_rtype) @[rob.scala 350:34]
     node _GEN_1759
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_lrs2_rtype, T_26182_22_lrs2_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_lrs2_rtype,
+            T_26182_22_lrs2_rtype) @[rob.scala 350:34]
     node _GEN_1760
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_lrs2_rtype, T_26182_23_lrs2_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_lrs2_rtype,
+            T_26182_23_lrs2_rtype) @[rob.scala 350:34]
     skip
     node _GEN_1761
       = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_frs3_en, T_26182_0_frs3_en) @[rob.scala 350:34]
@@ -7253,33 +8549,47 @@ circuit Rob :
     node _GEN_1770
       = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_frs3_en, T_26182_9_frs3_en) @[rob.scala 350:34]
     node _GEN_1771
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_frs3_en, T_26182_10_frs3_en) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_frs3_en,
+            T_26182_10_frs3_en) @[rob.scala 350:34]
     node _GEN_1772
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_frs3_en, T_26182_11_frs3_en) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_frs3_en,
+            T_26182_11_frs3_en) @[rob.scala 350:34]
     node _GEN_1773
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_frs3_en, T_26182_12_frs3_en) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_frs3_en,
+            T_26182_12_frs3_en) @[rob.scala 350:34]
     node _GEN_1774
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_frs3_en, T_26182_13_frs3_en) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_frs3_en,
+            T_26182_13_frs3_en) @[rob.scala 350:34]
     node _GEN_1775
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_frs3_en, T_26182_14_frs3_en) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_frs3_en,
+            T_26182_14_frs3_en) @[rob.scala 350:34]
     node _GEN_1776
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_frs3_en, T_26182_15_frs3_en) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_frs3_en,
+            T_26182_15_frs3_en) @[rob.scala 350:34]
     node _GEN_1777
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_frs3_en, T_26182_16_frs3_en) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_frs3_en,
+            T_26182_16_frs3_en) @[rob.scala 350:34]
     node _GEN_1778
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_frs3_en, T_26182_17_frs3_en) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_frs3_en,
+            T_26182_17_frs3_en) @[rob.scala 350:34]
     node _GEN_1779
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_frs3_en, T_26182_18_frs3_en) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_frs3_en,
+            T_26182_18_frs3_en) @[rob.scala 350:34]
     node _GEN_1780
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_frs3_en, T_26182_19_frs3_en) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_frs3_en,
+            T_26182_19_frs3_en) @[rob.scala 350:34]
     node _GEN_1781
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_frs3_en, T_26182_20_frs3_en) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_frs3_en,
+            T_26182_20_frs3_en) @[rob.scala 350:34]
     node _GEN_1782
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_frs3_en, T_26182_21_frs3_en) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_frs3_en,
+            T_26182_21_frs3_en) @[rob.scala 350:34]
     node _GEN_1783
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_frs3_en, T_26182_22_frs3_en) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_frs3_en,
+            T_26182_22_frs3_en) @[rob.scala 350:34]
     node _GEN_1784
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_frs3_en, T_26182_23_frs3_en) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_frs3_en,
+            T_26182_23_frs3_en) @[rob.scala 350:34]
     skip
     node _GEN_1785
       = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_fp_val, T_26182_0_fp_val) @[rob.scala 350:34]
@@ -7331,53 +8641,77 @@ circuit Rob :
       = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_fp_val, T_26182_23_fp_val) @[rob.scala 350:34]
     skip
     node _GEN_1809
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_fp_single, T_26182_0_fp_single) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_fp_single,
+            T_26182_0_fp_single) @[rob.scala 350:34]
     node _GEN_1810
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_fp_single, T_26182_1_fp_single) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_fp_single,
+            T_26182_1_fp_single) @[rob.scala 350:34]
     node _GEN_1811
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_fp_single, T_26182_2_fp_single) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_fp_single,
+            T_26182_2_fp_single) @[rob.scala 350:34]
     node _GEN_1812
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_fp_single, T_26182_3_fp_single) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_fp_single,
+            T_26182_3_fp_single) @[rob.scala 350:34]
     node _GEN_1813
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_fp_single, T_26182_4_fp_single) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_fp_single,
+            T_26182_4_fp_single) @[rob.scala 350:34]
     node _GEN_1814
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_fp_single, T_26182_5_fp_single) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_fp_single,
+            T_26182_5_fp_single) @[rob.scala 350:34]
     node _GEN_1815
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_fp_single, T_26182_6_fp_single) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_fp_single,
+            T_26182_6_fp_single) @[rob.scala 350:34]
     node _GEN_1816
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_fp_single, T_26182_7_fp_single) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_fp_single,
+            T_26182_7_fp_single) @[rob.scala 350:34]
     node _GEN_1817
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_fp_single, T_26182_8_fp_single) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_fp_single,
+            T_26182_8_fp_single) @[rob.scala 350:34]
     node _GEN_1818
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_fp_single, T_26182_9_fp_single) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_fp_single,
+            T_26182_9_fp_single) @[rob.scala 350:34]
     node _GEN_1819
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_fp_single, T_26182_10_fp_single) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_fp_single,
+            T_26182_10_fp_single) @[rob.scala 350:34]
     node _GEN_1820
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_fp_single, T_26182_11_fp_single) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_fp_single,
+            T_26182_11_fp_single) @[rob.scala 350:34]
     node _GEN_1821
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_fp_single, T_26182_12_fp_single) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_fp_single,
+            T_26182_12_fp_single) @[rob.scala 350:34]
     node _GEN_1822
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_fp_single, T_26182_13_fp_single) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_fp_single,
+            T_26182_13_fp_single) @[rob.scala 350:34]
     node _GEN_1823
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_fp_single, T_26182_14_fp_single) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_fp_single,
+            T_26182_14_fp_single) @[rob.scala 350:34]
     node _GEN_1824
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_fp_single, T_26182_15_fp_single) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_fp_single,
+            T_26182_15_fp_single) @[rob.scala 350:34]
     node _GEN_1825
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_fp_single, T_26182_16_fp_single) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_fp_single,
+            T_26182_16_fp_single) @[rob.scala 350:34]
     node _GEN_1826
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_fp_single, T_26182_17_fp_single) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_fp_single,
+            T_26182_17_fp_single) @[rob.scala 350:34]
     node _GEN_1827
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_fp_single, T_26182_18_fp_single) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_fp_single,
+            T_26182_18_fp_single) @[rob.scala 350:34]
     node _GEN_1828
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_fp_single, T_26182_19_fp_single) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_fp_single,
+            T_26182_19_fp_single) @[rob.scala 350:34]
     node _GEN_1829
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_fp_single, T_26182_20_fp_single) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_fp_single,
+            T_26182_20_fp_single) @[rob.scala 350:34]
     node _GEN_1830
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_fp_single, T_26182_21_fp_single) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_fp_single,
+            T_26182_21_fp_single) @[rob.scala 350:34]
     node _GEN_1831
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_fp_single, T_26182_22_fp_single) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_fp_single,
+            T_26182_22_fp_single) @[rob.scala 350:34]
     node _GEN_1832
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_fp_single, T_26182_23_fp_single) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_fp_single,
+            T_26182_23_fp_single) @[rob.scala 350:34]
     skip
     node _GEN_1833
       = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_xcpt_if, T_26182_0_xcpt_if) @[rob.scala 350:34]
@@ -7400,180 +8734,266 @@ circuit Rob :
     node _GEN_1842
       = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_xcpt_if, T_26182_9_xcpt_if) @[rob.scala 350:34]
     node _GEN_1843
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_xcpt_if, T_26182_10_xcpt_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_xcpt_if,
+            T_26182_10_xcpt_if) @[rob.scala 350:34]
     node _GEN_1844
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_xcpt_if, T_26182_11_xcpt_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_xcpt_if,
+            T_26182_11_xcpt_if) @[rob.scala 350:34]
     node _GEN_1845
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_xcpt_if, T_26182_12_xcpt_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_xcpt_if,
+            T_26182_12_xcpt_if) @[rob.scala 350:34]
     node _GEN_1846
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_xcpt_if, T_26182_13_xcpt_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_xcpt_if,
+            T_26182_13_xcpt_if) @[rob.scala 350:34]
     node _GEN_1847
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_xcpt_if, T_26182_14_xcpt_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_xcpt_if,
+            T_26182_14_xcpt_if) @[rob.scala 350:34]
     node _GEN_1848
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_xcpt_if, T_26182_15_xcpt_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_xcpt_if,
+            T_26182_15_xcpt_if) @[rob.scala 350:34]
     node _GEN_1849
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_xcpt_if, T_26182_16_xcpt_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_xcpt_if,
+            T_26182_16_xcpt_if) @[rob.scala 350:34]
     node _GEN_1850
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_xcpt_if, T_26182_17_xcpt_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_xcpt_if,
+            T_26182_17_xcpt_if) @[rob.scala 350:34]
     node _GEN_1851
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_xcpt_if, T_26182_18_xcpt_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_xcpt_if,
+            T_26182_18_xcpt_if) @[rob.scala 350:34]
     node _GEN_1852
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_xcpt_if, T_26182_19_xcpt_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_xcpt_if,
+            T_26182_19_xcpt_if) @[rob.scala 350:34]
     node _GEN_1853
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_xcpt_if, T_26182_20_xcpt_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_xcpt_if,
+            T_26182_20_xcpt_if) @[rob.scala 350:34]
     node _GEN_1854
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_xcpt_if, T_26182_21_xcpt_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_xcpt_if,
+            T_26182_21_xcpt_if) @[rob.scala 350:34]
     node _GEN_1855
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_xcpt_if, T_26182_22_xcpt_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_xcpt_if,
+            T_26182_22_xcpt_if) @[rob.scala 350:34]
     node _GEN_1856
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_xcpt_if, T_26182_23_xcpt_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_xcpt_if,
+            T_26182_23_xcpt_if) @[rob.scala 350:34]
     skip
     node _GEN_1857
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_replay_if, T_26182_0_replay_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_replay_if,
+            T_26182_0_replay_if) @[rob.scala 350:34]
     node _GEN_1858
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_replay_if, T_26182_1_replay_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_replay_if,
+            T_26182_1_replay_if) @[rob.scala 350:34]
     node _GEN_1859
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_replay_if, T_26182_2_replay_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_replay_if,
+            T_26182_2_replay_if) @[rob.scala 350:34]
     node _GEN_1860
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_replay_if, T_26182_3_replay_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_replay_if,
+            T_26182_3_replay_if) @[rob.scala 350:34]
     node _GEN_1861
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_replay_if, T_26182_4_replay_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_replay_if,
+            T_26182_4_replay_if) @[rob.scala 350:34]
     node _GEN_1862
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_replay_if, T_26182_5_replay_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_replay_if,
+            T_26182_5_replay_if) @[rob.scala 350:34]
     node _GEN_1863
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_replay_if, T_26182_6_replay_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_replay_if,
+            T_26182_6_replay_if) @[rob.scala 350:34]
     node _GEN_1864
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_replay_if, T_26182_7_replay_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_replay_if,
+            T_26182_7_replay_if) @[rob.scala 350:34]
     node _GEN_1865
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_replay_if, T_26182_8_replay_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_replay_if,
+            T_26182_8_replay_if) @[rob.scala 350:34]
     node _GEN_1866
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_replay_if, T_26182_9_replay_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_replay_if,
+            T_26182_9_replay_if) @[rob.scala 350:34]
     node _GEN_1867
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_replay_if, T_26182_10_replay_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_replay_if,
+            T_26182_10_replay_if) @[rob.scala 350:34]
     node _GEN_1868
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_replay_if, T_26182_11_replay_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_replay_if,
+            T_26182_11_replay_if) @[rob.scala 350:34]
     node _GEN_1869
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_replay_if, T_26182_12_replay_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_replay_if,
+            T_26182_12_replay_if) @[rob.scala 350:34]
     node _GEN_1870
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_replay_if, T_26182_13_replay_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_replay_if,
+            T_26182_13_replay_if) @[rob.scala 350:34]
     node _GEN_1871
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_replay_if, T_26182_14_replay_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_replay_if,
+            T_26182_14_replay_if) @[rob.scala 350:34]
     node _GEN_1872
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_replay_if, T_26182_15_replay_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_replay_if,
+            T_26182_15_replay_if) @[rob.scala 350:34]
     node _GEN_1873
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_replay_if, T_26182_16_replay_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_replay_if,
+            T_26182_16_replay_if) @[rob.scala 350:34]
     node _GEN_1874
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_replay_if, T_26182_17_replay_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_replay_if,
+            T_26182_17_replay_if) @[rob.scala 350:34]
     node _GEN_1875
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_replay_if, T_26182_18_replay_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_replay_if,
+            T_26182_18_replay_if) @[rob.scala 350:34]
     node _GEN_1876
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_replay_if, T_26182_19_replay_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_replay_if,
+            T_26182_19_replay_if) @[rob.scala 350:34]
     node _GEN_1877
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_replay_if, T_26182_20_replay_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_replay_if,
+            T_26182_20_replay_if) @[rob.scala 350:34]
     node _GEN_1878
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_replay_if, T_26182_21_replay_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_replay_if,
+            T_26182_21_replay_if) @[rob.scala 350:34]
     node _GEN_1879
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_replay_if, T_26182_22_replay_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_replay_if,
+            T_26182_22_replay_if) @[rob.scala 350:34]
     node _GEN_1880
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_replay_if, T_26182_23_replay_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_replay_if,
+            T_26182_23_replay_if) @[rob.scala 350:34]
     skip
     node _GEN_1881
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_debug_wdata, T_26182_0_debug_wdata) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_debug_wdata,
+            T_26182_0_debug_wdata) @[rob.scala 350:34]
     node _GEN_1882
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_debug_wdata, T_26182_1_debug_wdata) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_debug_wdata,
+            T_26182_1_debug_wdata) @[rob.scala 350:34]
     node _GEN_1883
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_debug_wdata, T_26182_2_debug_wdata) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_debug_wdata,
+            T_26182_2_debug_wdata) @[rob.scala 350:34]
     node _GEN_1884
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_debug_wdata, T_26182_3_debug_wdata) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_debug_wdata,
+            T_26182_3_debug_wdata) @[rob.scala 350:34]
     node _GEN_1885
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_debug_wdata, T_26182_4_debug_wdata) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_debug_wdata,
+            T_26182_4_debug_wdata) @[rob.scala 350:34]
     node _GEN_1886
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_debug_wdata, T_26182_5_debug_wdata) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_debug_wdata,
+            T_26182_5_debug_wdata) @[rob.scala 350:34]
     node _GEN_1887
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_debug_wdata, T_26182_6_debug_wdata) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_debug_wdata,
+            T_26182_6_debug_wdata) @[rob.scala 350:34]
     node _GEN_1888
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_debug_wdata, T_26182_7_debug_wdata) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_debug_wdata,
+            T_26182_7_debug_wdata) @[rob.scala 350:34]
     node _GEN_1889
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_debug_wdata, T_26182_8_debug_wdata) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_debug_wdata,
+            T_26182_8_debug_wdata) @[rob.scala 350:34]
     node _GEN_1890
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_debug_wdata, T_26182_9_debug_wdata) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_debug_wdata,
+            T_26182_9_debug_wdata) @[rob.scala 350:34]
     node _GEN_1891
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_debug_wdata, T_26182_10_debug_wdata) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_debug_wdata,
+            T_26182_10_debug_wdata) @[rob.scala 350:34]
     node _GEN_1892
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_debug_wdata, T_26182_11_debug_wdata) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_debug_wdata,
+            T_26182_11_debug_wdata) @[rob.scala 350:34]
     node _GEN_1893
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_debug_wdata, T_26182_12_debug_wdata) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_debug_wdata,
+            T_26182_12_debug_wdata) @[rob.scala 350:34]
     node _GEN_1894
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_debug_wdata, T_26182_13_debug_wdata) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_debug_wdata,
+            T_26182_13_debug_wdata) @[rob.scala 350:34]
     node _GEN_1895
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_debug_wdata, T_26182_14_debug_wdata) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_debug_wdata,
+            T_26182_14_debug_wdata) @[rob.scala 350:34]
     node _GEN_1896
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_debug_wdata, T_26182_15_debug_wdata) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_debug_wdata,
+            T_26182_15_debug_wdata) @[rob.scala 350:34]
     node _GEN_1897
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_debug_wdata, T_26182_16_debug_wdata) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_debug_wdata,
+            T_26182_16_debug_wdata) @[rob.scala 350:34]
     node _GEN_1898
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_debug_wdata, T_26182_17_debug_wdata) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_debug_wdata,
+            T_26182_17_debug_wdata) @[rob.scala 350:34]
     node _GEN_1899
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_debug_wdata, T_26182_18_debug_wdata) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_debug_wdata,
+            T_26182_18_debug_wdata) @[rob.scala 350:34]
     node _GEN_1900
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_debug_wdata, T_26182_19_debug_wdata) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_debug_wdata,
+            T_26182_19_debug_wdata) @[rob.scala 350:34]
     node _GEN_1901
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_debug_wdata, T_26182_20_debug_wdata) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_debug_wdata,
+            T_26182_20_debug_wdata) @[rob.scala 350:34]
     node _GEN_1902
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_debug_wdata, T_26182_21_debug_wdata) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_debug_wdata,
+            T_26182_21_debug_wdata) @[rob.scala 350:34]
     node _GEN_1903
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_debug_wdata, T_26182_22_debug_wdata) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_debug_wdata,
+            T_26182_22_debug_wdata) @[rob.scala 350:34]
     node _GEN_1904
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_debug_wdata, T_26182_23_debug_wdata) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_debug_wdata,
+            T_26182_23_debug_wdata) @[rob.scala 350:34]
     skip
     node _GEN_1905
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_debug_events_fetch_seq, T_26182_0_debug_events_fetch_seq) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_0_debug_events_fetch_seq,
+            T_26182_0_debug_events_fetch_seq) @[rob.scala 350:34]
     node _GEN_1906
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_debug_events_fetch_seq, T_26182_1_debug_events_fetch_seq) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_0_debug_events_fetch_seq,
+            T_26182_1_debug_events_fetch_seq) @[rob.scala 350:34]
     node _GEN_1907
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_debug_events_fetch_seq, T_26182_2_debug_events_fetch_seq) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_0_debug_events_fetch_seq,
+            T_26182_2_debug_events_fetch_seq) @[rob.scala 350:34]
     node _GEN_1908
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_debug_events_fetch_seq, T_26182_3_debug_events_fetch_seq) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_0_debug_events_fetch_seq,
+            T_26182_3_debug_events_fetch_seq) @[rob.scala 350:34]
     node _GEN_1909
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_debug_events_fetch_seq, T_26182_4_debug_events_fetch_seq) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_0_debug_events_fetch_seq,
+            T_26182_4_debug_events_fetch_seq) @[rob.scala 350:34]
     node _GEN_1910
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_debug_events_fetch_seq, T_26182_5_debug_events_fetch_seq) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_0_debug_events_fetch_seq,
+            T_26182_5_debug_events_fetch_seq) @[rob.scala 350:34]
     node _GEN_1911
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_debug_events_fetch_seq, T_26182_6_debug_events_fetch_seq) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_0_debug_events_fetch_seq,
+            T_26182_6_debug_events_fetch_seq) @[rob.scala 350:34]
     node _GEN_1912
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_debug_events_fetch_seq, T_26182_7_debug_events_fetch_seq) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_0_debug_events_fetch_seq,
+            T_26182_7_debug_events_fetch_seq) @[rob.scala 350:34]
     node _GEN_1913
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_debug_events_fetch_seq, T_26182_8_debug_events_fetch_seq) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_0_debug_events_fetch_seq,
+            T_26182_8_debug_events_fetch_seq) @[rob.scala 350:34]
     node _GEN_1914
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_debug_events_fetch_seq, T_26182_9_debug_events_fetch_seq) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_0_debug_events_fetch_seq,
+            T_26182_9_debug_events_fetch_seq) @[rob.scala 350:34]
     node _GEN_1915
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_debug_events_fetch_seq, T_26182_10_debug_events_fetch_seq) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_0_debug_events_fetch_seq,
+            T_26182_10_debug_events_fetch_seq) @[rob.scala 350:34]
     node _GEN_1916
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_debug_events_fetch_seq, T_26182_11_debug_events_fetch_seq) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_0_debug_events_fetch_seq,
+            T_26182_11_debug_events_fetch_seq) @[rob.scala 350:34]
     node _GEN_1917
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_debug_events_fetch_seq, T_26182_12_debug_events_fetch_seq) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_0_debug_events_fetch_seq,
+            T_26182_12_debug_events_fetch_seq) @[rob.scala 350:34]
     node _GEN_1918
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_debug_events_fetch_seq, T_26182_13_debug_events_fetch_seq) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_0_debug_events_fetch_seq,
+            T_26182_13_debug_events_fetch_seq) @[rob.scala 350:34]
     node _GEN_1919
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_debug_events_fetch_seq, T_26182_14_debug_events_fetch_seq) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_0_debug_events_fetch_seq,
+            T_26182_14_debug_events_fetch_seq) @[rob.scala 350:34]
     node _GEN_1920
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_debug_events_fetch_seq, T_26182_15_debug_events_fetch_seq) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_0_debug_events_fetch_seq,
+            T_26182_15_debug_events_fetch_seq) @[rob.scala 350:34]
     node _GEN_1921
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_debug_events_fetch_seq, T_26182_16_debug_events_fetch_seq) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_0_debug_events_fetch_seq,
+            T_26182_16_debug_events_fetch_seq) @[rob.scala 350:34]
     node _GEN_1922
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_debug_events_fetch_seq, T_26182_17_debug_events_fetch_seq) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_0_debug_events_fetch_seq,
+            T_26182_17_debug_events_fetch_seq) @[rob.scala 350:34]
     node _GEN_1923
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_debug_events_fetch_seq, T_26182_18_debug_events_fetch_seq) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_0_debug_events_fetch_seq,
+            T_26182_18_debug_events_fetch_seq) @[rob.scala 350:34]
     node _GEN_1924
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_debug_events_fetch_seq, T_26182_19_debug_events_fetch_seq) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_0_debug_events_fetch_seq,
+            T_26182_19_debug_events_fetch_seq) @[rob.scala 350:34]
     node _GEN_1925
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_debug_events_fetch_seq, T_26182_20_debug_events_fetch_seq) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_0_debug_events_fetch_seq,
+            T_26182_20_debug_events_fetch_seq) @[rob.scala 350:34]
     node _GEN_1926
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_debug_events_fetch_seq, T_26182_21_debug_events_fetch_seq) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_0_debug_events_fetch_seq,
+            T_26182_21_debug_events_fetch_seq) @[rob.scala 350:34]
     node _GEN_1927
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_debug_events_fetch_seq, T_26182_22_debug_events_fetch_seq) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_0_debug_events_fetch_seq,
+            T_26182_22_debug_events_fetch_seq) @[rob.scala 350:34]
     node _GEN_1928
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_debug_events_fetch_seq, T_26182_23_debug_events_fetch_seq) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_0_debug_events_fetch_seq,
+            T_26182_23_debug_events_fetch_seq) @[rob.scala 350:34]
     skip
     node _GEN_1929 = mux(eq(UInt<5>(0), rob_tail), UInt<1>(0), _GEN_801) @[rob.scala 353:52]
     node _GEN_1930 = mux(eq(UInt<5>(1), rob_tail), UInt<1>(0), _GEN_802) @[rob.scala 353:52]
@@ -10277,33 +11697,47 @@ circuit Rob :
     node _GEN_4338
       = mux(eq(UInt<5>(1), T_29096), T_26182_1_fu_code, T_26182_0_fu_code) @[rob.scala 453:59]
     node _GEN_4339
-      = mux(eq(UInt<5>(1), T_29096), T_26182_1_ctrl_br_type, T_26182_0_ctrl_br_type) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(1), T_29096), T_26182_1_ctrl_br_type,
+            T_26182_0_ctrl_br_type) @[rob.scala 453:59]
     node _GEN_4340
-      = mux(eq(UInt<5>(1), T_29096), T_26182_1_ctrl_op1_sel, T_26182_0_ctrl_op1_sel) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(1), T_29096), T_26182_1_ctrl_op1_sel,
+            T_26182_0_ctrl_op1_sel) @[rob.scala 453:59]
     node _GEN_4341
-      = mux(eq(UInt<5>(1), T_29096), T_26182_1_ctrl_op2_sel, T_26182_0_ctrl_op2_sel) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(1), T_29096), T_26182_1_ctrl_op2_sel,
+            T_26182_0_ctrl_op2_sel) @[rob.scala 453:59]
     node _GEN_4342
-      = mux(eq(UInt<5>(1), T_29096), T_26182_1_ctrl_imm_sel, T_26182_0_ctrl_imm_sel) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(1), T_29096), T_26182_1_ctrl_imm_sel,
+            T_26182_0_ctrl_imm_sel) @[rob.scala 453:59]
     node _GEN_4343
-      = mux(eq(UInt<5>(1), T_29096), T_26182_1_ctrl_op_fcn, T_26182_0_ctrl_op_fcn) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(1), T_29096), T_26182_1_ctrl_op_fcn,
+            T_26182_0_ctrl_op_fcn) @[rob.scala 453:59]
     node _GEN_4344
-      = mux(eq(UInt<5>(1), T_29096), T_26182_1_ctrl_fcn_dw, T_26182_0_ctrl_fcn_dw) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(1), T_29096), T_26182_1_ctrl_fcn_dw,
+            T_26182_0_ctrl_fcn_dw) @[rob.scala 453:59]
     node _GEN_4345
-      = mux(eq(UInt<5>(1), T_29096), T_26182_1_ctrl_rf_wen, T_26182_0_ctrl_rf_wen) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(1), T_29096), T_26182_1_ctrl_rf_wen,
+            T_26182_0_ctrl_rf_wen) @[rob.scala 453:59]
     node _GEN_4346
-      = mux(eq(UInt<5>(1), T_29096), T_26182_1_ctrl_csr_cmd, T_26182_0_ctrl_csr_cmd) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(1), T_29096), T_26182_1_ctrl_csr_cmd,
+            T_26182_0_ctrl_csr_cmd) @[rob.scala 453:59]
     node _GEN_4347
-      = mux(eq(UInt<5>(1), T_29096), T_26182_1_ctrl_is_load, T_26182_0_ctrl_is_load) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(1), T_29096), T_26182_1_ctrl_is_load,
+            T_26182_0_ctrl_is_load) @[rob.scala 453:59]
     node _GEN_4348
-      = mux(eq(UInt<5>(1), T_29096), T_26182_1_ctrl_is_sta, T_26182_0_ctrl_is_sta) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(1), T_29096), T_26182_1_ctrl_is_sta,
+            T_26182_0_ctrl_is_sta) @[rob.scala 453:59]
     node _GEN_4349
-      = mux(eq(UInt<5>(1), T_29096), T_26182_1_ctrl_is_std, T_26182_0_ctrl_is_std) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(1), T_29096), T_26182_1_ctrl_is_std,
+            T_26182_0_ctrl_is_std) @[rob.scala 453:59]
     node _GEN_4350
-      = mux(eq(UInt<5>(1), T_29096), T_26182_1_wakeup_delay, T_26182_0_wakeup_delay) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(1), T_29096), T_26182_1_wakeup_delay,
+            T_26182_0_wakeup_delay) @[rob.scala 453:59]
     node _GEN_4351
-      = mux(eq(UInt<5>(1), T_29096), T_26182_1_allocate_brtag, T_26182_0_allocate_brtag) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(1), T_29096), T_26182_1_allocate_brtag,
+            T_26182_0_allocate_brtag) @[rob.scala 453:59]
     node _GEN_4352
-      = mux(eq(UInt<5>(1), T_29096), T_26182_1_is_br_or_jmp, T_26182_0_is_br_or_jmp) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(1), T_29096), T_26182_1_is_br_or_jmp,
+            T_26182_0_is_br_or_jmp) @[rob.scala 453:59]
     node _GEN_4353
       = mux(eq(UInt<5>(1), T_29096), T_26182_1_is_jump, T_26182_0_is_jump) @[rob.scala 453:59]
     node _GEN_4354
@@ -10317,27 +11751,38 @@ circuit Rob :
     node _GEN_4358
       = mux(eq(UInt<5>(1), T_29096), T_26182_1_br_tag, T_26182_0_br_tag) @[rob.scala 453:59]
     node _GEN_4359
-      = mux(eq(UInt<5>(1), T_29096), T_26182_1_br_prediction_bpd_predict_val, T_26182_0_br_prediction_bpd_predict_val) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(1), T_29096), T_26182_1_br_prediction_bpd_predict_val,
+            T_26182_0_br_prediction_bpd_predict_val) @[rob.scala 453:59]
     node _GEN_4360
-      = mux(eq(UInt<5>(1), T_29096), T_26182_1_br_prediction_bpd_predict_taken, T_26182_0_br_prediction_bpd_predict_taken) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(1), T_29096), T_26182_1_br_prediction_bpd_predict_taken,
+            T_26182_0_br_prediction_bpd_predict_taken) @[rob.scala 453:59]
     node _GEN_4361
-      = mux(eq(UInt<5>(1), T_29096), T_26182_1_br_prediction_btb_hit, T_26182_0_br_prediction_btb_hit) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(1), T_29096), T_26182_1_br_prediction_btb_hit,
+            T_26182_0_br_prediction_btb_hit) @[rob.scala 453:59]
     node _GEN_4362
-      = mux(eq(UInt<5>(1), T_29096), T_26182_1_br_prediction_btb_predicted, T_26182_0_br_prediction_btb_predicted) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(1), T_29096), T_26182_1_br_prediction_btb_predicted,
+            T_26182_0_br_prediction_btb_predicted) @[rob.scala 453:59]
     node _GEN_4363
-      = mux(eq(UInt<5>(1), T_29096), T_26182_1_br_prediction_is_br_or_jalr, T_26182_0_br_prediction_is_br_or_jalr) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(1), T_29096), T_26182_1_br_prediction_is_br_or_jalr,
+            T_26182_0_br_prediction_is_br_or_jalr) @[rob.scala 453:59]
     node _GEN_4364
-      = mux(eq(UInt<5>(1), T_29096), T_26182_1_stat_brjmp_mispredicted, T_26182_0_stat_brjmp_mispredicted) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(1), T_29096), T_26182_1_stat_brjmp_mispredicted,
+            T_26182_0_stat_brjmp_mispredicted) @[rob.scala 453:59]
     node _GEN_4365
-      = mux(eq(UInt<5>(1), T_29096), T_26182_1_stat_btb_made_pred, T_26182_0_stat_btb_made_pred) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(1), T_29096), T_26182_1_stat_btb_made_pred,
+            T_26182_0_stat_btb_made_pred) @[rob.scala 453:59]
     node _GEN_4366
-      = mux(eq(UInt<5>(1), T_29096), T_26182_1_stat_btb_mispredicted, T_26182_0_stat_btb_mispredicted) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(1), T_29096), T_26182_1_stat_btb_mispredicted,
+            T_26182_0_stat_btb_mispredicted) @[rob.scala 453:59]
     node _GEN_4367
-      = mux(eq(UInt<5>(1), T_29096), T_26182_1_stat_bpd_made_pred, T_26182_0_stat_bpd_made_pred) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(1), T_29096), T_26182_1_stat_bpd_made_pred,
+            T_26182_0_stat_bpd_made_pred) @[rob.scala 453:59]
     node _GEN_4368
-      = mux(eq(UInt<5>(1), T_29096), T_26182_1_stat_bpd_mispredicted, T_26182_0_stat_bpd_mispredicted) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(1), T_29096), T_26182_1_stat_bpd_mispredicted,
+            T_26182_0_stat_bpd_mispredicted) @[rob.scala 453:59]
     node _GEN_4369
-      = mux(eq(UInt<5>(1), T_29096), T_26182_1_fetch_pc_lob, T_26182_0_fetch_pc_lob) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(1), T_29096), T_26182_1_fetch_pc_lob,
+            T_26182_0_fetch_pc_lob) @[rob.scala 453:59]
     node _GEN_4370
       = mux(eq(UInt<5>(1), T_29096), T_26182_1_imm_packed, T_26182_0_imm_packed) @[rob.scala 453:59]
     node _GEN_4371
@@ -10389,7 +11834,8 @@ circuit Rob :
     node _GEN_4394
       = mux(eq(UInt<5>(1), T_29096), T_26182_1_is_unique, T_26182_0_is_unique) @[rob.scala 453:59]
     node _GEN_4395
-      = mux(eq(UInt<5>(1), T_29096), T_26182_1_flush_on_commit, T_26182_0_flush_on_commit) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(1), T_29096), T_26182_1_flush_on_commit,
+            T_26182_0_flush_on_commit) @[rob.scala 453:59]
     node _GEN_4396
       = mux(eq(UInt<5>(1), T_29096), T_26182_1_ldst, T_26182_0_ldst) @[rob.scala 453:59]
     node _GEN_4397
@@ -10418,7 +11864,8 @@ circuit Rob :
       = mux(eq(UInt<5>(1), T_29096), T_26182_1_replay_if, T_26182_0_replay_if) @[rob.scala 453:59]
     skip
     node _GEN_4410
-      = mux(eq(UInt<5>(1), T_29096), T_26182_1_debug_events_fetch_seq, T_26182_0_debug_events_fetch_seq) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(1), T_29096), T_26182_1_debug_events_fetch_seq,
+            T_26182_0_debug_events_fetch_seq) @[rob.scala 453:59]
     node _GEN_4411 = mux(eq(UInt<5>(2), T_29096), T_26182_2_valid, _GEN_4333) @[rob.scala 453:59]
     node _GEN_4412 = mux(eq(UInt<5>(2), T_29096), T_26182_2_iw_state, _GEN_4334) @[rob.scala 453:59]
     node _GEN_4413 = mux(eq(UInt<5>(2), T_29096), T_26182_2_uopc, _GEN_4335) @[rob.scala 453:59]
@@ -10460,17 +11907,22 @@ circuit Rob :
     node _GEN_4435 = mux(eq(UInt<5>(2), T_29096), T_26182_2_br_mask, _GEN_4357) @[rob.scala 453:59]
     node _GEN_4436 = mux(eq(UInt<5>(2), T_29096), T_26182_2_br_tag, _GEN_4358) @[rob.scala 453:59]
     node _GEN_4437
-      = mux(eq(UInt<5>(2), T_29096), T_26182_2_br_prediction_bpd_predict_val, _GEN_4359) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(2), T_29096), T_26182_2_br_prediction_bpd_predict_val,
+            _GEN_4359) @[rob.scala 453:59]
     node _GEN_4438
-      = mux(eq(UInt<5>(2), T_29096), T_26182_2_br_prediction_bpd_predict_taken, _GEN_4360) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(2), T_29096), T_26182_2_br_prediction_bpd_predict_taken,
+            _GEN_4360) @[rob.scala 453:59]
     node _GEN_4439
       = mux(eq(UInt<5>(2), T_29096), T_26182_2_br_prediction_btb_hit, _GEN_4361) @[rob.scala 453:59]
     node _GEN_4440
-      = mux(eq(UInt<5>(2), T_29096), T_26182_2_br_prediction_btb_predicted, _GEN_4362) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(2), T_29096), T_26182_2_br_prediction_btb_predicted,
+            _GEN_4362) @[rob.scala 453:59]
     node _GEN_4441
-      = mux(eq(UInt<5>(2), T_29096), T_26182_2_br_prediction_is_br_or_jalr, _GEN_4363) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(2), T_29096), T_26182_2_br_prediction_is_br_or_jalr,
+            _GEN_4363) @[rob.scala 453:59]
     node _GEN_4442
-      = mux(eq(UInt<5>(2), T_29096), T_26182_2_stat_brjmp_mispredicted, _GEN_4364) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(2), T_29096), T_26182_2_stat_brjmp_mispredicted,
+            _GEN_4364) @[rob.scala 453:59]
     node _GEN_4443
       = mux(eq(UInt<5>(2), T_29096), T_26182_2_stat_btb_made_pred, _GEN_4365) @[rob.scala 453:59]
     node _GEN_4444
@@ -10538,7 +11990,8 @@ circuit Rob :
       = mux(eq(UInt<5>(2), T_29096), T_26182_2_replay_if, _GEN_4408) @[rob.scala 453:59]
     skip
     node _GEN_4488
-      = mux(eq(UInt<5>(2), T_29096), T_26182_2_debug_events_fetch_seq, _GEN_4410) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(2), T_29096), T_26182_2_debug_events_fetch_seq,
+            _GEN_4410) @[rob.scala 453:59]
     node _GEN_4489 = mux(eq(UInt<5>(3), T_29096), T_26182_3_valid, _GEN_4411) @[rob.scala 453:59]
     node _GEN_4490 = mux(eq(UInt<5>(3), T_29096), T_26182_3_iw_state, _GEN_4412) @[rob.scala 453:59]
     node _GEN_4491 = mux(eq(UInt<5>(3), T_29096), T_26182_3_uopc, _GEN_4413) @[rob.scala 453:59]
@@ -10580,17 +12033,22 @@ circuit Rob :
     node _GEN_4513 = mux(eq(UInt<5>(3), T_29096), T_26182_3_br_mask, _GEN_4435) @[rob.scala 453:59]
     node _GEN_4514 = mux(eq(UInt<5>(3), T_29096), T_26182_3_br_tag, _GEN_4436) @[rob.scala 453:59]
     node _GEN_4515
-      = mux(eq(UInt<5>(3), T_29096), T_26182_3_br_prediction_bpd_predict_val, _GEN_4437) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(3), T_29096), T_26182_3_br_prediction_bpd_predict_val,
+            _GEN_4437) @[rob.scala 453:59]
     node _GEN_4516
-      = mux(eq(UInt<5>(3), T_29096), T_26182_3_br_prediction_bpd_predict_taken, _GEN_4438) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(3), T_29096), T_26182_3_br_prediction_bpd_predict_taken,
+            _GEN_4438) @[rob.scala 453:59]
     node _GEN_4517
       = mux(eq(UInt<5>(3), T_29096), T_26182_3_br_prediction_btb_hit, _GEN_4439) @[rob.scala 453:59]
     node _GEN_4518
-      = mux(eq(UInt<5>(3), T_29096), T_26182_3_br_prediction_btb_predicted, _GEN_4440) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(3), T_29096), T_26182_3_br_prediction_btb_predicted,
+            _GEN_4440) @[rob.scala 453:59]
     node _GEN_4519
-      = mux(eq(UInt<5>(3), T_29096), T_26182_3_br_prediction_is_br_or_jalr, _GEN_4441) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(3), T_29096), T_26182_3_br_prediction_is_br_or_jalr,
+            _GEN_4441) @[rob.scala 453:59]
     node _GEN_4520
-      = mux(eq(UInt<5>(3), T_29096), T_26182_3_stat_brjmp_mispredicted, _GEN_4442) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(3), T_29096), T_26182_3_stat_brjmp_mispredicted,
+            _GEN_4442) @[rob.scala 453:59]
     node _GEN_4521
       = mux(eq(UInt<5>(3), T_29096), T_26182_3_stat_btb_made_pred, _GEN_4443) @[rob.scala 453:59]
     node _GEN_4522
@@ -10658,7 +12116,8 @@ circuit Rob :
       = mux(eq(UInt<5>(3), T_29096), T_26182_3_replay_if, _GEN_4486) @[rob.scala 453:59]
     skip
     node _GEN_4566
-      = mux(eq(UInt<5>(3), T_29096), T_26182_3_debug_events_fetch_seq, _GEN_4488) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(3), T_29096), T_26182_3_debug_events_fetch_seq,
+            _GEN_4488) @[rob.scala 453:59]
     node _GEN_4567 = mux(eq(UInt<5>(4), T_29096), T_26182_4_valid, _GEN_4489) @[rob.scala 453:59]
     node _GEN_4568 = mux(eq(UInt<5>(4), T_29096), T_26182_4_iw_state, _GEN_4490) @[rob.scala 453:59]
     node _GEN_4569 = mux(eq(UInt<5>(4), T_29096), T_26182_4_uopc, _GEN_4491) @[rob.scala 453:59]
@@ -10700,17 +12159,22 @@ circuit Rob :
     node _GEN_4591 = mux(eq(UInt<5>(4), T_29096), T_26182_4_br_mask, _GEN_4513) @[rob.scala 453:59]
     node _GEN_4592 = mux(eq(UInt<5>(4), T_29096), T_26182_4_br_tag, _GEN_4514) @[rob.scala 453:59]
     node _GEN_4593
-      = mux(eq(UInt<5>(4), T_29096), T_26182_4_br_prediction_bpd_predict_val, _GEN_4515) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(4), T_29096), T_26182_4_br_prediction_bpd_predict_val,
+            _GEN_4515) @[rob.scala 453:59]
     node _GEN_4594
-      = mux(eq(UInt<5>(4), T_29096), T_26182_4_br_prediction_bpd_predict_taken, _GEN_4516) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(4), T_29096), T_26182_4_br_prediction_bpd_predict_taken,
+            _GEN_4516) @[rob.scala 453:59]
     node _GEN_4595
       = mux(eq(UInt<5>(4), T_29096), T_26182_4_br_prediction_btb_hit, _GEN_4517) @[rob.scala 453:59]
     node _GEN_4596
-      = mux(eq(UInt<5>(4), T_29096), T_26182_4_br_prediction_btb_predicted, _GEN_4518) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(4), T_29096), T_26182_4_br_prediction_btb_predicted,
+            _GEN_4518) @[rob.scala 453:59]
     node _GEN_4597
-      = mux(eq(UInt<5>(4), T_29096), T_26182_4_br_prediction_is_br_or_jalr, _GEN_4519) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(4), T_29096), T_26182_4_br_prediction_is_br_or_jalr,
+            _GEN_4519) @[rob.scala 453:59]
     node _GEN_4598
-      = mux(eq(UInt<5>(4), T_29096), T_26182_4_stat_brjmp_mispredicted, _GEN_4520) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(4), T_29096), T_26182_4_stat_brjmp_mispredicted,
+            _GEN_4520) @[rob.scala 453:59]
     node _GEN_4599
       = mux(eq(UInt<5>(4), T_29096), T_26182_4_stat_btb_made_pred, _GEN_4521) @[rob.scala 453:59]
     node _GEN_4600
@@ -10778,7 +12242,8 @@ circuit Rob :
       = mux(eq(UInt<5>(4), T_29096), T_26182_4_replay_if, _GEN_4564) @[rob.scala 453:59]
     skip
     node _GEN_4644
-      = mux(eq(UInt<5>(4), T_29096), T_26182_4_debug_events_fetch_seq, _GEN_4566) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(4), T_29096), T_26182_4_debug_events_fetch_seq,
+            _GEN_4566) @[rob.scala 453:59]
     node _GEN_4645 = mux(eq(UInt<5>(5), T_29096), T_26182_5_valid, _GEN_4567) @[rob.scala 453:59]
     node _GEN_4646 = mux(eq(UInt<5>(5), T_29096), T_26182_5_iw_state, _GEN_4568) @[rob.scala 453:59]
     node _GEN_4647 = mux(eq(UInt<5>(5), T_29096), T_26182_5_uopc, _GEN_4569) @[rob.scala 453:59]
@@ -10820,17 +12285,22 @@ circuit Rob :
     node _GEN_4669 = mux(eq(UInt<5>(5), T_29096), T_26182_5_br_mask, _GEN_4591) @[rob.scala 453:59]
     node _GEN_4670 = mux(eq(UInt<5>(5), T_29096), T_26182_5_br_tag, _GEN_4592) @[rob.scala 453:59]
     node _GEN_4671
-      = mux(eq(UInt<5>(5), T_29096), T_26182_5_br_prediction_bpd_predict_val, _GEN_4593) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(5), T_29096), T_26182_5_br_prediction_bpd_predict_val,
+            _GEN_4593) @[rob.scala 453:59]
     node _GEN_4672
-      = mux(eq(UInt<5>(5), T_29096), T_26182_5_br_prediction_bpd_predict_taken, _GEN_4594) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(5), T_29096), T_26182_5_br_prediction_bpd_predict_taken,
+            _GEN_4594) @[rob.scala 453:59]
     node _GEN_4673
       = mux(eq(UInt<5>(5), T_29096), T_26182_5_br_prediction_btb_hit, _GEN_4595) @[rob.scala 453:59]
     node _GEN_4674
-      = mux(eq(UInt<5>(5), T_29096), T_26182_5_br_prediction_btb_predicted, _GEN_4596) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(5), T_29096), T_26182_5_br_prediction_btb_predicted,
+            _GEN_4596) @[rob.scala 453:59]
     node _GEN_4675
-      = mux(eq(UInt<5>(5), T_29096), T_26182_5_br_prediction_is_br_or_jalr, _GEN_4597) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(5), T_29096), T_26182_5_br_prediction_is_br_or_jalr,
+            _GEN_4597) @[rob.scala 453:59]
     node _GEN_4676
-      = mux(eq(UInt<5>(5), T_29096), T_26182_5_stat_brjmp_mispredicted, _GEN_4598) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(5), T_29096), T_26182_5_stat_brjmp_mispredicted,
+            _GEN_4598) @[rob.scala 453:59]
     node _GEN_4677
       = mux(eq(UInt<5>(5), T_29096), T_26182_5_stat_btb_made_pred, _GEN_4599) @[rob.scala 453:59]
     node _GEN_4678
@@ -10898,7 +12368,8 @@ circuit Rob :
       = mux(eq(UInt<5>(5), T_29096), T_26182_5_replay_if, _GEN_4642) @[rob.scala 453:59]
     skip
     node _GEN_4722
-      = mux(eq(UInt<5>(5), T_29096), T_26182_5_debug_events_fetch_seq, _GEN_4644) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(5), T_29096), T_26182_5_debug_events_fetch_seq,
+            _GEN_4644) @[rob.scala 453:59]
     node _GEN_4723 = mux(eq(UInt<5>(6), T_29096), T_26182_6_valid, _GEN_4645) @[rob.scala 453:59]
     node _GEN_4724 = mux(eq(UInt<5>(6), T_29096), T_26182_6_iw_state, _GEN_4646) @[rob.scala 453:59]
     node _GEN_4725 = mux(eq(UInt<5>(6), T_29096), T_26182_6_uopc, _GEN_4647) @[rob.scala 453:59]
@@ -10940,17 +12411,22 @@ circuit Rob :
     node _GEN_4747 = mux(eq(UInt<5>(6), T_29096), T_26182_6_br_mask, _GEN_4669) @[rob.scala 453:59]
     node _GEN_4748 = mux(eq(UInt<5>(6), T_29096), T_26182_6_br_tag, _GEN_4670) @[rob.scala 453:59]
     node _GEN_4749
-      = mux(eq(UInt<5>(6), T_29096), T_26182_6_br_prediction_bpd_predict_val, _GEN_4671) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(6), T_29096), T_26182_6_br_prediction_bpd_predict_val,
+            _GEN_4671) @[rob.scala 453:59]
     node _GEN_4750
-      = mux(eq(UInt<5>(6), T_29096), T_26182_6_br_prediction_bpd_predict_taken, _GEN_4672) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(6), T_29096), T_26182_6_br_prediction_bpd_predict_taken,
+            _GEN_4672) @[rob.scala 453:59]
     node _GEN_4751
       = mux(eq(UInt<5>(6), T_29096), T_26182_6_br_prediction_btb_hit, _GEN_4673) @[rob.scala 453:59]
     node _GEN_4752
-      = mux(eq(UInt<5>(6), T_29096), T_26182_6_br_prediction_btb_predicted, _GEN_4674) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(6), T_29096), T_26182_6_br_prediction_btb_predicted,
+            _GEN_4674) @[rob.scala 453:59]
     node _GEN_4753
-      = mux(eq(UInt<5>(6), T_29096), T_26182_6_br_prediction_is_br_or_jalr, _GEN_4675) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(6), T_29096), T_26182_6_br_prediction_is_br_or_jalr,
+            _GEN_4675) @[rob.scala 453:59]
     node _GEN_4754
-      = mux(eq(UInt<5>(6), T_29096), T_26182_6_stat_brjmp_mispredicted, _GEN_4676) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(6), T_29096), T_26182_6_stat_brjmp_mispredicted,
+            _GEN_4676) @[rob.scala 453:59]
     node _GEN_4755
       = mux(eq(UInt<5>(6), T_29096), T_26182_6_stat_btb_made_pred, _GEN_4677) @[rob.scala 453:59]
     node _GEN_4756
@@ -11018,7 +12494,8 @@ circuit Rob :
       = mux(eq(UInt<5>(6), T_29096), T_26182_6_replay_if, _GEN_4720) @[rob.scala 453:59]
     skip
     node _GEN_4800
-      = mux(eq(UInt<5>(6), T_29096), T_26182_6_debug_events_fetch_seq, _GEN_4722) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(6), T_29096), T_26182_6_debug_events_fetch_seq,
+            _GEN_4722) @[rob.scala 453:59]
     node _GEN_4801 = mux(eq(UInt<5>(7), T_29096), T_26182_7_valid, _GEN_4723) @[rob.scala 453:59]
     node _GEN_4802 = mux(eq(UInt<5>(7), T_29096), T_26182_7_iw_state, _GEN_4724) @[rob.scala 453:59]
     node _GEN_4803 = mux(eq(UInt<5>(7), T_29096), T_26182_7_uopc, _GEN_4725) @[rob.scala 453:59]
@@ -11060,17 +12537,22 @@ circuit Rob :
     node _GEN_4825 = mux(eq(UInt<5>(7), T_29096), T_26182_7_br_mask, _GEN_4747) @[rob.scala 453:59]
     node _GEN_4826 = mux(eq(UInt<5>(7), T_29096), T_26182_7_br_tag, _GEN_4748) @[rob.scala 453:59]
     node _GEN_4827
-      = mux(eq(UInt<5>(7), T_29096), T_26182_7_br_prediction_bpd_predict_val, _GEN_4749) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(7), T_29096), T_26182_7_br_prediction_bpd_predict_val,
+            _GEN_4749) @[rob.scala 453:59]
     node _GEN_4828
-      = mux(eq(UInt<5>(7), T_29096), T_26182_7_br_prediction_bpd_predict_taken, _GEN_4750) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(7), T_29096), T_26182_7_br_prediction_bpd_predict_taken,
+            _GEN_4750) @[rob.scala 453:59]
     node _GEN_4829
       = mux(eq(UInt<5>(7), T_29096), T_26182_7_br_prediction_btb_hit, _GEN_4751) @[rob.scala 453:59]
     node _GEN_4830
-      = mux(eq(UInt<5>(7), T_29096), T_26182_7_br_prediction_btb_predicted, _GEN_4752) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(7), T_29096), T_26182_7_br_prediction_btb_predicted,
+            _GEN_4752) @[rob.scala 453:59]
     node _GEN_4831
-      = mux(eq(UInt<5>(7), T_29096), T_26182_7_br_prediction_is_br_or_jalr, _GEN_4753) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(7), T_29096), T_26182_7_br_prediction_is_br_or_jalr,
+            _GEN_4753) @[rob.scala 453:59]
     node _GEN_4832
-      = mux(eq(UInt<5>(7), T_29096), T_26182_7_stat_brjmp_mispredicted, _GEN_4754) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(7), T_29096), T_26182_7_stat_brjmp_mispredicted,
+            _GEN_4754) @[rob.scala 453:59]
     node _GEN_4833
       = mux(eq(UInt<5>(7), T_29096), T_26182_7_stat_btb_made_pred, _GEN_4755) @[rob.scala 453:59]
     node _GEN_4834
@@ -11138,7 +12620,8 @@ circuit Rob :
       = mux(eq(UInt<5>(7), T_29096), T_26182_7_replay_if, _GEN_4798) @[rob.scala 453:59]
     skip
     node _GEN_4878
-      = mux(eq(UInt<5>(7), T_29096), T_26182_7_debug_events_fetch_seq, _GEN_4800) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(7), T_29096), T_26182_7_debug_events_fetch_seq,
+            _GEN_4800) @[rob.scala 453:59]
     node _GEN_4879 = mux(eq(UInt<5>(8), T_29096), T_26182_8_valid, _GEN_4801) @[rob.scala 453:59]
     node _GEN_4880 = mux(eq(UInt<5>(8), T_29096), T_26182_8_iw_state, _GEN_4802) @[rob.scala 453:59]
     node _GEN_4881 = mux(eq(UInt<5>(8), T_29096), T_26182_8_uopc, _GEN_4803) @[rob.scala 453:59]
@@ -11180,17 +12663,22 @@ circuit Rob :
     node _GEN_4903 = mux(eq(UInt<5>(8), T_29096), T_26182_8_br_mask, _GEN_4825) @[rob.scala 453:59]
     node _GEN_4904 = mux(eq(UInt<5>(8), T_29096), T_26182_8_br_tag, _GEN_4826) @[rob.scala 453:59]
     node _GEN_4905
-      = mux(eq(UInt<5>(8), T_29096), T_26182_8_br_prediction_bpd_predict_val, _GEN_4827) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(8), T_29096), T_26182_8_br_prediction_bpd_predict_val,
+            _GEN_4827) @[rob.scala 453:59]
     node _GEN_4906
-      = mux(eq(UInt<5>(8), T_29096), T_26182_8_br_prediction_bpd_predict_taken, _GEN_4828) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(8), T_29096), T_26182_8_br_prediction_bpd_predict_taken,
+            _GEN_4828) @[rob.scala 453:59]
     node _GEN_4907
       = mux(eq(UInt<5>(8), T_29096), T_26182_8_br_prediction_btb_hit, _GEN_4829) @[rob.scala 453:59]
     node _GEN_4908
-      = mux(eq(UInt<5>(8), T_29096), T_26182_8_br_prediction_btb_predicted, _GEN_4830) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(8), T_29096), T_26182_8_br_prediction_btb_predicted,
+            _GEN_4830) @[rob.scala 453:59]
     node _GEN_4909
-      = mux(eq(UInt<5>(8), T_29096), T_26182_8_br_prediction_is_br_or_jalr, _GEN_4831) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(8), T_29096), T_26182_8_br_prediction_is_br_or_jalr,
+            _GEN_4831) @[rob.scala 453:59]
     node _GEN_4910
-      = mux(eq(UInt<5>(8), T_29096), T_26182_8_stat_brjmp_mispredicted, _GEN_4832) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(8), T_29096), T_26182_8_stat_brjmp_mispredicted,
+            _GEN_4832) @[rob.scala 453:59]
     node _GEN_4911
       = mux(eq(UInt<5>(8), T_29096), T_26182_8_stat_btb_made_pred, _GEN_4833) @[rob.scala 453:59]
     node _GEN_4912
@@ -11258,7 +12746,8 @@ circuit Rob :
       = mux(eq(UInt<5>(8), T_29096), T_26182_8_replay_if, _GEN_4876) @[rob.scala 453:59]
     skip
     node _GEN_4956
-      = mux(eq(UInt<5>(8), T_29096), T_26182_8_debug_events_fetch_seq, _GEN_4878) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(8), T_29096), T_26182_8_debug_events_fetch_seq,
+            _GEN_4878) @[rob.scala 453:59]
     node _GEN_4957 = mux(eq(UInt<5>(9), T_29096), T_26182_9_valid, _GEN_4879) @[rob.scala 453:59]
     node _GEN_4958 = mux(eq(UInt<5>(9), T_29096), T_26182_9_iw_state, _GEN_4880) @[rob.scala 453:59]
     node _GEN_4959 = mux(eq(UInt<5>(9), T_29096), T_26182_9_uopc, _GEN_4881) @[rob.scala 453:59]
@@ -11300,17 +12789,22 @@ circuit Rob :
     node _GEN_4981 = mux(eq(UInt<5>(9), T_29096), T_26182_9_br_mask, _GEN_4903) @[rob.scala 453:59]
     node _GEN_4982 = mux(eq(UInt<5>(9), T_29096), T_26182_9_br_tag, _GEN_4904) @[rob.scala 453:59]
     node _GEN_4983
-      = mux(eq(UInt<5>(9), T_29096), T_26182_9_br_prediction_bpd_predict_val, _GEN_4905) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(9), T_29096), T_26182_9_br_prediction_bpd_predict_val,
+            _GEN_4905) @[rob.scala 453:59]
     node _GEN_4984
-      = mux(eq(UInt<5>(9), T_29096), T_26182_9_br_prediction_bpd_predict_taken, _GEN_4906) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(9), T_29096), T_26182_9_br_prediction_bpd_predict_taken,
+            _GEN_4906) @[rob.scala 453:59]
     node _GEN_4985
       = mux(eq(UInt<5>(9), T_29096), T_26182_9_br_prediction_btb_hit, _GEN_4907) @[rob.scala 453:59]
     node _GEN_4986
-      = mux(eq(UInt<5>(9), T_29096), T_26182_9_br_prediction_btb_predicted, _GEN_4908) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(9), T_29096), T_26182_9_br_prediction_btb_predicted,
+            _GEN_4908) @[rob.scala 453:59]
     node _GEN_4987
-      = mux(eq(UInt<5>(9), T_29096), T_26182_9_br_prediction_is_br_or_jalr, _GEN_4909) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(9), T_29096), T_26182_9_br_prediction_is_br_or_jalr,
+            _GEN_4909) @[rob.scala 453:59]
     node _GEN_4988
-      = mux(eq(UInt<5>(9), T_29096), T_26182_9_stat_brjmp_mispredicted, _GEN_4910) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(9), T_29096), T_26182_9_stat_brjmp_mispredicted,
+            _GEN_4910) @[rob.scala 453:59]
     node _GEN_4989
       = mux(eq(UInt<5>(9), T_29096), T_26182_9_stat_btb_made_pred, _GEN_4911) @[rob.scala 453:59]
     node _GEN_4990
@@ -11378,7 +12872,8 @@ circuit Rob :
       = mux(eq(UInt<5>(9), T_29096), T_26182_9_replay_if, _GEN_4954) @[rob.scala 453:59]
     skip
     node _GEN_5034
-      = mux(eq(UInt<5>(9), T_29096), T_26182_9_debug_events_fetch_seq, _GEN_4956) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(9), T_29096), T_26182_9_debug_events_fetch_seq,
+            _GEN_4956) @[rob.scala 453:59]
     node _GEN_5035 = mux(eq(UInt<5>(10), T_29096), T_26182_10_valid, _GEN_4957) @[rob.scala 453:59]
     node _GEN_5036
       = mux(eq(UInt<5>(10), T_29096), T_26182_10_iw_state, _GEN_4958) @[rob.scala 453:59]
@@ -11425,25 +12920,33 @@ circuit Rob :
       = mux(eq(UInt<5>(10), T_29096), T_26182_10_br_mask, _GEN_4981) @[rob.scala 453:59]
     node _GEN_5060 = mux(eq(UInt<5>(10), T_29096), T_26182_10_br_tag, _GEN_4982) @[rob.scala 453:59]
     node _GEN_5061
-      = mux(eq(UInt<5>(10), T_29096), T_26182_10_br_prediction_bpd_predict_val, _GEN_4983) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(10), T_29096), T_26182_10_br_prediction_bpd_predict_val,
+            _GEN_4983) @[rob.scala 453:59]
     node _GEN_5062
-      = mux(eq(UInt<5>(10), T_29096), T_26182_10_br_prediction_bpd_predict_taken, _GEN_4984) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(10), T_29096),
+            T_26182_10_br_prediction_bpd_predict_taken, _GEN_4984) @[rob.scala 453:59]
     node _GEN_5063
-      = mux(eq(UInt<5>(10), T_29096), T_26182_10_br_prediction_btb_hit, _GEN_4985) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(10), T_29096), T_26182_10_br_prediction_btb_hit,
+            _GEN_4985) @[rob.scala 453:59]
     node _GEN_5064
-      = mux(eq(UInt<5>(10), T_29096), T_26182_10_br_prediction_btb_predicted, _GEN_4986) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(10), T_29096), T_26182_10_br_prediction_btb_predicted,
+            _GEN_4986) @[rob.scala 453:59]
     node _GEN_5065
-      = mux(eq(UInt<5>(10), T_29096), T_26182_10_br_prediction_is_br_or_jalr, _GEN_4987) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(10), T_29096), T_26182_10_br_prediction_is_br_or_jalr,
+            _GEN_4987) @[rob.scala 453:59]
     node _GEN_5066
-      = mux(eq(UInt<5>(10), T_29096), T_26182_10_stat_brjmp_mispredicted, _GEN_4988) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(10), T_29096), T_26182_10_stat_brjmp_mispredicted,
+            _GEN_4988) @[rob.scala 453:59]
     node _GEN_5067
       = mux(eq(UInt<5>(10), T_29096), T_26182_10_stat_btb_made_pred, _GEN_4989) @[rob.scala 453:59]
     node _GEN_5068
-      = mux(eq(UInt<5>(10), T_29096), T_26182_10_stat_btb_mispredicted, _GEN_4990) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(10), T_29096), T_26182_10_stat_btb_mispredicted,
+            _GEN_4990) @[rob.scala 453:59]
     node _GEN_5069
       = mux(eq(UInt<5>(10), T_29096), T_26182_10_stat_bpd_made_pred, _GEN_4991) @[rob.scala 453:59]
     node _GEN_5070
-      = mux(eq(UInt<5>(10), T_29096), T_26182_10_stat_bpd_mispredicted, _GEN_4992) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(10), T_29096), T_26182_10_stat_bpd_mispredicted,
+            _GEN_4992) @[rob.scala 453:59]
     node _GEN_5071
       = mux(eq(UInt<5>(10), T_29096), T_26182_10_fetch_pc_lob, _GEN_4993) @[rob.scala 453:59]
     node _GEN_5072
@@ -11516,7 +13019,8 @@ circuit Rob :
       = mux(eq(UInt<5>(10), T_29096), T_26182_10_replay_if, _GEN_5032) @[rob.scala 453:59]
     skip
     node _GEN_5112
-      = mux(eq(UInt<5>(10), T_29096), T_26182_10_debug_events_fetch_seq, _GEN_5034) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(10), T_29096), T_26182_10_debug_events_fetch_seq,
+            _GEN_5034) @[rob.scala 453:59]
     node _GEN_5113 = mux(eq(UInt<5>(11), T_29096), T_26182_11_valid, _GEN_5035) @[rob.scala 453:59]
     node _GEN_5114
       = mux(eq(UInt<5>(11), T_29096), T_26182_11_iw_state, _GEN_5036) @[rob.scala 453:59]
@@ -11563,25 +13067,33 @@ circuit Rob :
       = mux(eq(UInt<5>(11), T_29096), T_26182_11_br_mask, _GEN_5059) @[rob.scala 453:59]
     node _GEN_5138 = mux(eq(UInt<5>(11), T_29096), T_26182_11_br_tag, _GEN_5060) @[rob.scala 453:59]
     node _GEN_5139
-      = mux(eq(UInt<5>(11), T_29096), T_26182_11_br_prediction_bpd_predict_val, _GEN_5061) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(11), T_29096), T_26182_11_br_prediction_bpd_predict_val,
+            _GEN_5061) @[rob.scala 453:59]
     node _GEN_5140
-      = mux(eq(UInt<5>(11), T_29096), T_26182_11_br_prediction_bpd_predict_taken, _GEN_5062) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(11), T_29096),
+            T_26182_11_br_prediction_bpd_predict_taken, _GEN_5062) @[rob.scala 453:59]
     node _GEN_5141
-      = mux(eq(UInt<5>(11), T_29096), T_26182_11_br_prediction_btb_hit, _GEN_5063) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(11), T_29096), T_26182_11_br_prediction_btb_hit,
+            _GEN_5063) @[rob.scala 453:59]
     node _GEN_5142
-      = mux(eq(UInt<5>(11), T_29096), T_26182_11_br_prediction_btb_predicted, _GEN_5064) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(11), T_29096), T_26182_11_br_prediction_btb_predicted,
+            _GEN_5064) @[rob.scala 453:59]
     node _GEN_5143
-      = mux(eq(UInt<5>(11), T_29096), T_26182_11_br_prediction_is_br_or_jalr, _GEN_5065) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(11), T_29096), T_26182_11_br_prediction_is_br_or_jalr,
+            _GEN_5065) @[rob.scala 453:59]
     node _GEN_5144
-      = mux(eq(UInt<5>(11), T_29096), T_26182_11_stat_brjmp_mispredicted, _GEN_5066) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(11), T_29096), T_26182_11_stat_brjmp_mispredicted,
+            _GEN_5066) @[rob.scala 453:59]
     node _GEN_5145
       = mux(eq(UInt<5>(11), T_29096), T_26182_11_stat_btb_made_pred, _GEN_5067) @[rob.scala 453:59]
     node _GEN_5146
-      = mux(eq(UInt<5>(11), T_29096), T_26182_11_stat_btb_mispredicted, _GEN_5068) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(11), T_29096), T_26182_11_stat_btb_mispredicted,
+            _GEN_5068) @[rob.scala 453:59]
     node _GEN_5147
       = mux(eq(UInt<5>(11), T_29096), T_26182_11_stat_bpd_made_pred, _GEN_5069) @[rob.scala 453:59]
     node _GEN_5148
-      = mux(eq(UInt<5>(11), T_29096), T_26182_11_stat_bpd_mispredicted, _GEN_5070) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(11), T_29096), T_26182_11_stat_bpd_mispredicted,
+            _GEN_5070) @[rob.scala 453:59]
     node _GEN_5149
       = mux(eq(UInt<5>(11), T_29096), T_26182_11_fetch_pc_lob, _GEN_5071) @[rob.scala 453:59]
     node _GEN_5150
@@ -11654,7 +13166,8 @@ circuit Rob :
       = mux(eq(UInt<5>(11), T_29096), T_26182_11_replay_if, _GEN_5110) @[rob.scala 453:59]
     skip
     node _GEN_5190
-      = mux(eq(UInt<5>(11), T_29096), T_26182_11_debug_events_fetch_seq, _GEN_5112) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(11), T_29096), T_26182_11_debug_events_fetch_seq,
+            _GEN_5112) @[rob.scala 453:59]
     node _GEN_5191 = mux(eq(UInt<5>(12), T_29096), T_26182_12_valid, _GEN_5113) @[rob.scala 453:59]
     node _GEN_5192
       = mux(eq(UInt<5>(12), T_29096), T_26182_12_iw_state, _GEN_5114) @[rob.scala 453:59]
@@ -11701,25 +13214,33 @@ circuit Rob :
       = mux(eq(UInt<5>(12), T_29096), T_26182_12_br_mask, _GEN_5137) @[rob.scala 453:59]
     node _GEN_5216 = mux(eq(UInt<5>(12), T_29096), T_26182_12_br_tag, _GEN_5138) @[rob.scala 453:59]
     node _GEN_5217
-      = mux(eq(UInt<5>(12), T_29096), T_26182_12_br_prediction_bpd_predict_val, _GEN_5139) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(12), T_29096), T_26182_12_br_prediction_bpd_predict_val,
+            _GEN_5139) @[rob.scala 453:59]
     node _GEN_5218
-      = mux(eq(UInt<5>(12), T_29096), T_26182_12_br_prediction_bpd_predict_taken, _GEN_5140) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(12), T_29096),
+            T_26182_12_br_prediction_bpd_predict_taken, _GEN_5140) @[rob.scala 453:59]
     node _GEN_5219
-      = mux(eq(UInt<5>(12), T_29096), T_26182_12_br_prediction_btb_hit, _GEN_5141) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(12), T_29096), T_26182_12_br_prediction_btb_hit,
+            _GEN_5141) @[rob.scala 453:59]
     node _GEN_5220
-      = mux(eq(UInt<5>(12), T_29096), T_26182_12_br_prediction_btb_predicted, _GEN_5142) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(12), T_29096), T_26182_12_br_prediction_btb_predicted,
+            _GEN_5142) @[rob.scala 453:59]
     node _GEN_5221
-      = mux(eq(UInt<5>(12), T_29096), T_26182_12_br_prediction_is_br_or_jalr, _GEN_5143) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(12), T_29096), T_26182_12_br_prediction_is_br_or_jalr,
+            _GEN_5143) @[rob.scala 453:59]
     node _GEN_5222
-      = mux(eq(UInt<5>(12), T_29096), T_26182_12_stat_brjmp_mispredicted, _GEN_5144) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(12), T_29096), T_26182_12_stat_brjmp_mispredicted,
+            _GEN_5144) @[rob.scala 453:59]
     node _GEN_5223
       = mux(eq(UInt<5>(12), T_29096), T_26182_12_stat_btb_made_pred, _GEN_5145) @[rob.scala 453:59]
     node _GEN_5224
-      = mux(eq(UInt<5>(12), T_29096), T_26182_12_stat_btb_mispredicted, _GEN_5146) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(12), T_29096), T_26182_12_stat_btb_mispredicted,
+            _GEN_5146) @[rob.scala 453:59]
     node _GEN_5225
       = mux(eq(UInt<5>(12), T_29096), T_26182_12_stat_bpd_made_pred, _GEN_5147) @[rob.scala 453:59]
     node _GEN_5226
-      = mux(eq(UInt<5>(12), T_29096), T_26182_12_stat_bpd_mispredicted, _GEN_5148) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(12), T_29096), T_26182_12_stat_bpd_mispredicted,
+            _GEN_5148) @[rob.scala 453:59]
     node _GEN_5227
       = mux(eq(UInt<5>(12), T_29096), T_26182_12_fetch_pc_lob, _GEN_5149) @[rob.scala 453:59]
     node _GEN_5228
@@ -11792,7 +13313,8 @@ circuit Rob :
       = mux(eq(UInt<5>(12), T_29096), T_26182_12_replay_if, _GEN_5188) @[rob.scala 453:59]
     skip
     node _GEN_5268
-      = mux(eq(UInt<5>(12), T_29096), T_26182_12_debug_events_fetch_seq, _GEN_5190) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(12), T_29096), T_26182_12_debug_events_fetch_seq,
+            _GEN_5190) @[rob.scala 453:59]
     node _GEN_5269 = mux(eq(UInt<5>(13), T_29096), T_26182_13_valid, _GEN_5191) @[rob.scala 453:59]
     node _GEN_5270
       = mux(eq(UInt<5>(13), T_29096), T_26182_13_iw_state, _GEN_5192) @[rob.scala 453:59]
@@ -11839,25 +13361,33 @@ circuit Rob :
       = mux(eq(UInt<5>(13), T_29096), T_26182_13_br_mask, _GEN_5215) @[rob.scala 453:59]
     node _GEN_5294 = mux(eq(UInt<5>(13), T_29096), T_26182_13_br_tag, _GEN_5216) @[rob.scala 453:59]
     node _GEN_5295
-      = mux(eq(UInt<5>(13), T_29096), T_26182_13_br_prediction_bpd_predict_val, _GEN_5217) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(13), T_29096), T_26182_13_br_prediction_bpd_predict_val,
+            _GEN_5217) @[rob.scala 453:59]
     node _GEN_5296
-      = mux(eq(UInt<5>(13), T_29096), T_26182_13_br_prediction_bpd_predict_taken, _GEN_5218) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(13), T_29096),
+            T_26182_13_br_prediction_bpd_predict_taken, _GEN_5218) @[rob.scala 453:59]
     node _GEN_5297
-      = mux(eq(UInt<5>(13), T_29096), T_26182_13_br_prediction_btb_hit, _GEN_5219) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(13), T_29096), T_26182_13_br_prediction_btb_hit,
+            _GEN_5219) @[rob.scala 453:59]
     node _GEN_5298
-      = mux(eq(UInt<5>(13), T_29096), T_26182_13_br_prediction_btb_predicted, _GEN_5220) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(13), T_29096), T_26182_13_br_prediction_btb_predicted,
+            _GEN_5220) @[rob.scala 453:59]
     node _GEN_5299
-      = mux(eq(UInt<5>(13), T_29096), T_26182_13_br_prediction_is_br_or_jalr, _GEN_5221) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(13), T_29096), T_26182_13_br_prediction_is_br_or_jalr,
+            _GEN_5221) @[rob.scala 453:59]
     node _GEN_5300
-      = mux(eq(UInt<5>(13), T_29096), T_26182_13_stat_brjmp_mispredicted, _GEN_5222) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(13), T_29096), T_26182_13_stat_brjmp_mispredicted,
+            _GEN_5222) @[rob.scala 453:59]
     node _GEN_5301
       = mux(eq(UInt<5>(13), T_29096), T_26182_13_stat_btb_made_pred, _GEN_5223) @[rob.scala 453:59]
     node _GEN_5302
-      = mux(eq(UInt<5>(13), T_29096), T_26182_13_stat_btb_mispredicted, _GEN_5224) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(13), T_29096), T_26182_13_stat_btb_mispredicted,
+            _GEN_5224) @[rob.scala 453:59]
     node _GEN_5303
       = mux(eq(UInt<5>(13), T_29096), T_26182_13_stat_bpd_made_pred, _GEN_5225) @[rob.scala 453:59]
     node _GEN_5304
-      = mux(eq(UInt<5>(13), T_29096), T_26182_13_stat_bpd_mispredicted, _GEN_5226) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(13), T_29096), T_26182_13_stat_bpd_mispredicted,
+            _GEN_5226) @[rob.scala 453:59]
     node _GEN_5305
       = mux(eq(UInt<5>(13), T_29096), T_26182_13_fetch_pc_lob, _GEN_5227) @[rob.scala 453:59]
     node _GEN_5306
@@ -11930,7 +13460,8 @@ circuit Rob :
       = mux(eq(UInt<5>(13), T_29096), T_26182_13_replay_if, _GEN_5266) @[rob.scala 453:59]
     skip
     node _GEN_5346
-      = mux(eq(UInt<5>(13), T_29096), T_26182_13_debug_events_fetch_seq, _GEN_5268) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(13), T_29096), T_26182_13_debug_events_fetch_seq,
+            _GEN_5268) @[rob.scala 453:59]
     node _GEN_5347 = mux(eq(UInt<5>(14), T_29096), T_26182_14_valid, _GEN_5269) @[rob.scala 453:59]
     node _GEN_5348
       = mux(eq(UInt<5>(14), T_29096), T_26182_14_iw_state, _GEN_5270) @[rob.scala 453:59]
@@ -11977,25 +13508,33 @@ circuit Rob :
       = mux(eq(UInt<5>(14), T_29096), T_26182_14_br_mask, _GEN_5293) @[rob.scala 453:59]
     node _GEN_5372 = mux(eq(UInt<5>(14), T_29096), T_26182_14_br_tag, _GEN_5294) @[rob.scala 453:59]
     node _GEN_5373
-      = mux(eq(UInt<5>(14), T_29096), T_26182_14_br_prediction_bpd_predict_val, _GEN_5295) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(14), T_29096), T_26182_14_br_prediction_bpd_predict_val,
+            _GEN_5295) @[rob.scala 453:59]
     node _GEN_5374
-      = mux(eq(UInt<5>(14), T_29096), T_26182_14_br_prediction_bpd_predict_taken, _GEN_5296) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(14), T_29096),
+            T_26182_14_br_prediction_bpd_predict_taken, _GEN_5296) @[rob.scala 453:59]
     node _GEN_5375
-      = mux(eq(UInt<5>(14), T_29096), T_26182_14_br_prediction_btb_hit, _GEN_5297) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(14), T_29096), T_26182_14_br_prediction_btb_hit,
+            _GEN_5297) @[rob.scala 453:59]
     node _GEN_5376
-      = mux(eq(UInt<5>(14), T_29096), T_26182_14_br_prediction_btb_predicted, _GEN_5298) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(14), T_29096), T_26182_14_br_prediction_btb_predicted,
+            _GEN_5298) @[rob.scala 453:59]
     node _GEN_5377
-      = mux(eq(UInt<5>(14), T_29096), T_26182_14_br_prediction_is_br_or_jalr, _GEN_5299) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(14), T_29096), T_26182_14_br_prediction_is_br_or_jalr,
+            _GEN_5299) @[rob.scala 453:59]
     node _GEN_5378
-      = mux(eq(UInt<5>(14), T_29096), T_26182_14_stat_brjmp_mispredicted, _GEN_5300) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(14), T_29096), T_26182_14_stat_brjmp_mispredicted,
+            _GEN_5300) @[rob.scala 453:59]
     node _GEN_5379
       = mux(eq(UInt<5>(14), T_29096), T_26182_14_stat_btb_made_pred, _GEN_5301) @[rob.scala 453:59]
     node _GEN_5380
-      = mux(eq(UInt<5>(14), T_29096), T_26182_14_stat_btb_mispredicted, _GEN_5302) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(14), T_29096), T_26182_14_stat_btb_mispredicted,
+            _GEN_5302) @[rob.scala 453:59]
     node _GEN_5381
       = mux(eq(UInt<5>(14), T_29096), T_26182_14_stat_bpd_made_pred, _GEN_5303) @[rob.scala 453:59]
     node _GEN_5382
-      = mux(eq(UInt<5>(14), T_29096), T_26182_14_stat_bpd_mispredicted, _GEN_5304) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(14), T_29096), T_26182_14_stat_bpd_mispredicted,
+            _GEN_5304) @[rob.scala 453:59]
     node _GEN_5383
       = mux(eq(UInt<5>(14), T_29096), T_26182_14_fetch_pc_lob, _GEN_5305) @[rob.scala 453:59]
     node _GEN_5384
@@ -12068,7 +13607,8 @@ circuit Rob :
       = mux(eq(UInt<5>(14), T_29096), T_26182_14_replay_if, _GEN_5344) @[rob.scala 453:59]
     skip
     node _GEN_5424
-      = mux(eq(UInt<5>(14), T_29096), T_26182_14_debug_events_fetch_seq, _GEN_5346) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(14), T_29096), T_26182_14_debug_events_fetch_seq,
+            _GEN_5346) @[rob.scala 453:59]
     node _GEN_5425 = mux(eq(UInt<5>(15), T_29096), T_26182_15_valid, _GEN_5347) @[rob.scala 453:59]
     node _GEN_5426
       = mux(eq(UInt<5>(15), T_29096), T_26182_15_iw_state, _GEN_5348) @[rob.scala 453:59]
@@ -12115,25 +13655,33 @@ circuit Rob :
       = mux(eq(UInt<5>(15), T_29096), T_26182_15_br_mask, _GEN_5371) @[rob.scala 453:59]
     node _GEN_5450 = mux(eq(UInt<5>(15), T_29096), T_26182_15_br_tag, _GEN_5372) @[rob.scala 453:59]
     node _GEN_5451
-      = mux(eq(UInt<5>(15), T_29096), T_26182_15_br_prediction_bpd_predict_val, _GEN_5373) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(15), T_29096), T_26182_15_br_prediction_bpd_predict_val,
+            _GEN_5373) @[rob.scala 453:59]
     node _GEN_5452
-      = mux(eq(UInt<5>(15), T_29096), T_26182_15_br_prediction_bpd_predict_taken, _GEN_5374) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(15), T_29096),
+            T_26182_15_br_prediction_bpd_predict_taken, _GEN_5374) @[rob.scala 453:59]
     node _GEN_5453
-      = mux(eq(UInt<5>(15), T_29096), T_26182_15_br_prediction_btb_hit, _GEN_5375) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(15), T_29096), T_26182_15_br_prediction_btb_hit,
+            _GEN_5375) @[rob.scala 453:59]
     node _GEN_5454
-      = mux(eq(UInt<5>(15), T_29096), T_26182_15_br_prediction_btb_predicted, _GEN_5376) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(15), T_29096), T_26182_15_br_prediction_btb_predicted,
+            _GEN_5376) @[rob.scala 453:59]
     node _GEN_5455
-      = mux(eq(UInt<5>(15), T_29096), T_26182_15_br_prediction_is_br_or_jalr, _GEN_5377) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(15), T_29096), T_26182_15_br_prediction_is_br_or_jalr,
+            _GEN_5377) @[rob.scala 453:59]
     node _GEN_5456
-      = mux(eq(UInt<5>(15), T_29096), T_26182_15_stat_brjmp_mispredicted, _GEN_5378) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(15), T_29096), T_26182_15_stat_brjmp_mispredicted,
+            _GEN_5378) @[rob.scala 453:59]
     node _GEN_5457
       = mux(eq(UInt<5>(15), T_29096), T_26182_15_stat_btb_made_pred, _GEN_5379) @[rob.scala 453:59]
     node _GEN_5458
-      = mux(eq(UInt<5>(15), T_29096), T_26182_15_stat_btb_mispredicted, _GEN_5380) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(15), T_29096), T_26182_15_stat_btb_mispredicted,
+            _GEN_5380) @[rob.scala 453:59]
     node _GEN_5459
       = mux(eq(UInt<5>(15), T_29096), T_26182_15_stat_bpd_made_pred, _GEN_5381) @[rob.scala 453:59]
     node _GEN_5460
-      = mux(eq(UInt<5>(15), T_29096), T_26182_15_stat_bpd_mispredicted, _GEN_5382) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(15), T_29096), T_26182_15_stat_bpd_mispredicted,
+            _GEN_5382) @[rob.scala 453:59]
     node _GEN_5461
       = mux(eq(UInt<5>(15), T_29096), T_26182_15_fetch_pc_lob, _GEN_5383) @[rob.scala 453:59]
     node _GEN_5462
@@ -12206,7 +13754,8 @@ circuit Rob :
       = mux(eq(UInt<5>(15), T_29096), T_26182_15_replay_if, _GEN_5422) @[rob.scala 453:59]
     skip
     node _GEN_5502
-      = mux(eq(UInt<5>(15), T_29096), T_26182_15_debug_events_fetch_seq, _GEN_5424) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(15), T_29096), T_26182_15_debug_events_fetch_seq,
+            _GEN_5424) @[rob.scala 453:59]
     node _GEN_5503 = mux(eq(UInt<5>(16), T_29096), T_26182_16_valid, _GEN_5425) @[rob.scala 453:59]
     node _GEN_5504
       = mux(eq(UInt<5>(16), T_29096), T_26182_16_iw_state, _GEN_5426) @[rob.scala 453:59]
@@ -12253,25 +13802,33 @@ circuit Rob :
       = mux(eq(UInt<5>(16), T_29096), T_26182_16_br_mask, _GEN_5449) @[rob.scala 453:59]
     node _GEN_5528 = mux(eq(UInt<5>(16), T_29096), T_26182_16_br_tag, _GEN_5450) @[rob.scala 453:59]
     node _GEN_5529
-      = mux(eq(UInt<5>(16), T_29096), T_26182_16_br_prediction_bpd_predict_val, _GEN_5451) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(16), T_29096), T_26182_16_br_prediction_bpd_predict_val,
+            _GEN_5451) @[rob.scala 453:59]
     node _GEN_5530
-      = mux(eq(UInt<5>(16), T_29096), T_26182_16_br_prediction_bpd_predict_taken, _GEN_5452) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(16), T_29096),
+            T_26182_16_br_prediction_bpd_predict_taken, _GEN_5452) @[rob.scala 453:59]
     node _GEN_5531
-      = mux(eq(UInt<5>(16), T_29096), T_26182_16_br_prediction_btb_hit, _GEN_5453) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(16), T_29096), T_26182_16_br_prediction_btb_hit,
+            _GEN_5453) @[rob.scala 453:59]
     node _GEN_5532
-      = mux(eq(UInt<5>(16), T_29096), T_26182_16_br_prediction_btb_predicted, _GEN_5454) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(16), T_29096), T_26182_16_br_prediction_btb_predicted,
+            _GEN_5454) @[rob.scala 453:59]
     node _GEN_5533
-      = mux(eq(UInt<5>(16), T_29096), T_26182_16_br_prediction_is_br_or_jalr, _GEN_5455) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(16), T_29096), T_26182_16_br_prediction_is_br_or_jalr,
+            _GEN_5455) @[rob.scala 453:59]
     node _GEN_5534
-      = mux(eq(UInt<5>(16), T_29096), T_26182_16_stat_brjmp_mispredicted, _GEN_5456) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(16), T_29096), T_26182_16_stat_brjmp_mispredicted,
+            _GEN_5456) @[rob.scala 453:59]
     node _GEN_5535
       = mux(eq(UInt<5>(16), T_29096), T_26182_16_stat_btb_made_pred, _GEN_5457) @[rob.scala 453:59]
     node _GEN_5536
-      = mux(eq(UInt<5>(16), T_29096), T_26182_16_stat_btb_mispredicted, _GEN_5458) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(16), T_29096), T_26182_16_stat_btb_mispredicted,
+            _GEN_5458) @[rob.scala 453:59]
     node _GEN_5537
       = mux(eq(UInt<5>(16), T_29096), T_26182_16_stat_bpd_made_pred, _GEN_5459) @[rob.scala 453:59]
     node _GEN_5538
-      = mux(eq(UInt<5>(16), T_29096), T_26182_16_stat_bpd_mispredicted, _GEN_5460) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(16), T_29096), T_26182_16_stat_bpd_mispredicted,
+            _GEN_5460) @[rob.scala 453:59]
     node _GEN_5539
       = mux(eq(UInt<5>(16), T_29096), T_26182_16_fetch_pc_lob, _GEN_5461) @[rob.scala 453:59]
     node _GEN_5540
@@ -12344,7 +13901,8 @@ circuit Rob :
       = mux(eq(UInt<5>(16), T_29096), T_26182_16_replay_if, _GEN_5500) @[rob.scala 453:59]
     skip
     node _GEN_5580
-      = mux(eq(UInt<5>(16), T_29096), T_26182_16_debug_events_fetch_seq, _GEN_5502) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(16), T_29096), T_26182_16_debug_events_fetch_seq,
+            _GEN_5502) @[rob.scala 453:59]
     node _GEN_5581 = mux(eq(UInt<5>(17), T_29096), T_26182_17_valid, _GEN_5503) @[rob.scala 453:59]
     node _GEN_5582
       = mux(eq(UInt<5>(17), T_29096), T_26182_17_iw_state, _GEN_5504) @[rob.scala 453:59]
@@ -12391,25 +13949,33 @@ circuit Rob :
       = mux(eq(UInt<5>(17), T_29096), T_26182_17_br_mask, _GEN_5527) @[rob.scala 453:59]
     node _GEN_5606 = mux(eq(UInt<5>(17), T_29096), T_26182_17_br_tag, _GEN_5528) @[rob.scala 453:59]
     node _GEN_5607
-      = mux(eq(UInt<5>(17), T_29096), T_26182_17_br_prediction_bpd_predict_val, _GEN_5529) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(17), T_29096), T_26182_17_br_prediction_bpd_predict_val,
+            _GEN_5529) @[rob.scala 453:59]
     node _GEN_5608
-      = mux(eq(UInt<5>(17), T_29096), T_26182_17_br_prediction_bpd_predict_taken, _GEN_5530) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(17), T_29096),
+            T_26182_17_br_prediction_bpd_predict_taken, _GEN_5530) @[rob.scala 453:59]
     node _GEN_5609
-      = mux(eq(UInt<5>(17), T_29096), T_26182_17_br_prediction_btb_hit, _GEN_5531) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(17), T_29096), T_26182_17_br_prediction_btb_hit,
+            _GEN_5531) @[rob.scala 453:59]
     node _GEN_5610
-      = mux(eq(UInt<5>(17), T_29096), T_26182_17_br_prediction_btb_predicted, _GEN_5532) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(17), T_29096), T_26182_17_br_prediction_btb_predicted,
+            _GEN_5532) @[rob.scala 453:59]
     node _GEN_5611
-      = mux(eq(UInt<5>(17), T_29096), T_26182_17_br_prediction_is_br_or_jalr, _GEN_5533) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(17), T_29096), T_26182_17_br_prediction_is_br_or_jalr,
+            _GEN_5533) @[rob.scala 453:59]
     node _GEN_5612
-      = mux(eq(UInt<5>(17), T_29096), T_26182_17_stat_brjmp_mispredicted, _GEN_5534) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(17), T_29096), T_26182_17_stat_brjmp_mispredicted,
+            _GEN_5534) @[rob.scala 453:59]
     node _GEN_5613
       = mux(eq(UInt<5>(17), T_29096), T_26182_17_stat_btb_made_pred, _GEN_5535) @[rob.scala 453:59]
     node _GEN_5614
-      = mux(eq(UInt<5>(17), T_29096), T_26182_17_stat_btb_mispredicted, _GEN_5536) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(17), T_29096), T_26182_17_stat_btb_mispredicted,
+            _GEN_5536) @[rob.scala 453:59]
     node _GEN_5615
       = mux(eq(UInt<5>(17), T_29096), T_26182_17_stat_bpd_made_pred, _GEN_5537) @[rob.scala 453:59]
     node _GEN_5616
-      = mux(eq(UInt<5>(17), T_29096), T_26182_17_stat_bpd_mispredicted, _GEN_5538) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(17), T_29096), T_26182_17_stat_bpd_mispredicted,
+            _GEN_5538) @[rob.scala 453:59]
     node _GEN_5617
       = mux(eq(UInt<5>(17), T_29096), T_26182_17_fetch_pc_lob, _GEN_5539) @[rob.scala 453:59]
     node _GEN_5618
@@ -12482,7 +14048,8 @@ circuit Rob :
       = mux(eq(UInt<5>(17), T_29096), T_26182_17_replay_if, _GEN_5578) @[rob.scala 453:59]
     skip
     node _GEN_5658
-      = mux(eq(UInt<5>(17), T_29096), T_26182_17_debug_events_fetch_seq, _GEN_5580) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(17), T_29096), T_26182_17_debug_events_fetch_seq,
+            _GEN_5580) @[rob.scala 453:59]
     node _GEN_5659 = mux(eq(UInt<5>(18), T_29096), T_26182_18_valid, _GEN_5581) @[rob.scala 453:59]
     node _GEN_5660
       = mux(eq(UInt<5>(18), T_29096), T_26182_18_iw_state, _GEN_5582) @[rob.scala 453:59]
@@ -12529,25 +14096,33 @@ circuit Rob :
       = mux(eq(UInt<5>(18), T_29096), T_26182_18_br_mask, _GEN_5605) @[rob.scala 453:59]
     node _GEN_5684 = mux(eq(UInt<5>(18), T_29096), T_26182_18_br_tag, _GEN_5606) @[rob.scala 453:59]
     node _GEN_5685
-      = mux(eq(UInt<5>(18), T_29096), T_26182_18_br_prediction_bpd_predict_val, _GEN_5607) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(18), T_29096), T_26182_18_br_prediction_bpd_predict_val,
+            _GEN_5607) @[rob.scala 453:59]
     node _GEN_5686
-      = mux(eq(UInt<5>(18), T_29096), T_26182_18_br_prediction_bpd_predict_taken, _GEN_5608) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(18), T_29096),
+            T_26182_18_br_prediction_bpd_predict_taken, _GEN_5608) @[rob.scala 453:59]
     node _GEN_5687
-      = mux(eq(UInt<5>(18), T_29096), T_26182_18_br_prediction_btb_hit, _GEN_5609) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(18), T_29096), T_26182_18_br_prediction_btb_hit,
+            _GEN_5609) @[rob.scala 453:59]
     node _GEN_5688
-      = mux(eq(UInt<5>(18), T_29096), T_26182_18_br_prediction_btb_predicted, _GEN_5610) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(18), T_29096), T_26182_18_br_prediction_btb_predicted,
+            _GEN_5610) @[rob.scala 453:59]
     node _GEN_5689
-      = mux(eq(UInt<5>(18), T_29096), T_26182_18_br_prediction_is_br_or_jalr, _GEN_5611) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(18), T_29096), T_26182_18_br_prediction_is_br_or_jalr,
+            _GEN_5611) @[rob.scala 453:59]
     node _GEN_5690
-      = mux(eq(UInt<5>(18), T_29096), T_26182_18_stat_brjmp_mispredicted, _GEN_5612) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(18), T_29096), T_26182_18_stat_brjmp_mispredicted,
+            _GEN_5612) @[rob.scala 453:59]
     node _GEN_5691
       = mux(eq(UInt<5>(18), T_29096), T_26182_18_stat_btb_made_pred, _GEN_5613) @[rob.scala 453:59]
     node _GEN_5692
-      = mux(eq(UInt<5>(18), T_29096), T_26182_18_stat_btb_mispredicted, _GEN_5614) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(18), T_29096), T_26182_18_stat_btb_mispredicted,
+            _GEN_5614) @[rob.scala 453:59]
     node _GEN_5693
       = mux(eq(UInt<5>(18), T_29096), T_26182_18_stat_bpd_made_pred, _GEN_5615) @[rob.scala 453:59]
     node _GEN_5694
-      = mux(eq(UInt<5>(18), T_29096), T_26182_18_stat_bpd_mispredicted, _GEN_5616) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(18), T_29096), T_26182_18_stat_bpd_mispredicted,
+            _GEN_5616) @[rob.scala 453:59]
     node _GEN_5695
       = mux(eq(UInt<5>(18), T_29096), T_26182_18_fetch_pc_lob, _GEN_5617) @[rob.scala 453:59]
     node _GEN_5696
@@ -12620,7 +14195,8 @@ circuit Rob :
       = mux(eq(UInt<5>(18), T_29096), T_26182_18_replay_if, _GEN_5656) @[rob.scala 453:59]
     skip
     node _GEN_5736
-      = mux(eq(UInt<5>(18), T_29096), T_26182_18_debug_events_fetch_seq, _GEN_5658) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(18), T_29096), T_26182_18_debug_events_fetch_seq,
+            _GEN_5658) @[rob.scala 453:59]
     node _GEN_5737 = mux(eq(UInt<5>(19), T_29096), T_26182_19_valid, _GEN_5659) @[rob.scala 453:59]
     node _GEN_5738
       = mux(eq(UInt<5>(19), T_29096), T_26182_19_iw_state, _GEN_5660) @[rob.scala 453:59]
@@ -12667,25 +14243,33 @@ circuit Rob :
       = mux(eq(UInt<5>(19), T_29096), T_26182_19_br_mask, _GEN_5683) @[rob.scala 453:59]
     node _GEN_5762 = mux(eq(UInt<5>(19), T_29096), T_26182_19_br_tag, _GEN_5684) @[rob.scala 453:59]
     node _GEN_5763
-      = mux(eq(UInt<5>(19), T_29096), T_26182_19_br_prediction_bpd_predict_val, _GEN_5685) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(19), T_29096), T_26182_19_br_prediction_bpd_predict_val,
+            _GEN_5685) @[rob.scala 453:59]
     node _GEN_5764
-      = mux(eq(UInt<5>(19), T_29096), T_26182_19_br_prediction_bpd_predict_taken, _GEN_5686) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(19), T_29096),
+            T_26182_19_br_prediction_bpd_predict_taken, _GEN_5686) @[rob.scala 453:59]
     node _GEN_5765
-      = mux(eq(UInt<5>(19), T_29096), T_26182_19_br_prediction_btb_hit, _GEN_5687) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(19), T_29096), T_26182_19_br_prediction_btb_hit,
+            _GEN_5687) @[rob.scala 453:59]
     node _GEN_5766
-      = mux(eq(UInt<5>(19), T_29096), T_26182_19_br_prediction_btb_predicted, _GEN_5688) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(19), T_29096), T_26182_19_br_prediction_btb_predicted,
+            _GEN_5688) @[rob.scala 453:59]
     node _GEN_5767
-      = mux(eq(UInt<5>(19), T_29096), T_26182_19_br_prediction_is_br_or_jalr, _GEN_5689) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(19), T_29096), T_26182_19_br_prediction_is_br_or_jalr,
+            _GEN_5689) @[rob.scala 453:59]
     node _GEN_5768
-      = mux(eq(UInt<5>(19), T_29096), T_26182_19_stat_brjmp_mispredicted, _GEN_5690) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(19), T_29096), T_26182_19_stat_brjmp_mispredicted,
+            _GEN_5690) @[rob.scala 453:59]
     node _GEN_5769
       = mux(eq(UInt<5>(19), T_29096), T_26182_19_stat_btb_made_pred, _GEN_5691) @[rob.scala 453:59]
     node _GEN_5770
-      = mux(eq(UInt<5>(19), T_29096), T_26182_19_stat_btb_mispredicted, _GEN_5692) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(19), T_29096), T_26182_19_stat_btb_mispredicted,
+            _GEN_5692) @[rob.scala 453:59]
     node _GEN_5771
       = mux(eq(UInt<5>(19), T_29096), T_26182_19_stat_bpd_made_pred, _GEN_5693) @[rob.scala 453:59]
     node _GEN_5772
-      = mux(eq(UInt<5>(19), T_29096), T_26182_19_stat_bpd_mispredicted, _GEN_5694) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(19), T_29096), T_26182_19_stat_bpd_mispredicted,
+            _GEN_5694) @[rob.scala 453:59]
     node _GEN_5773
       = mux(eq(UInt<5>(19), T_29096), T_26182_19_fetch_pc_lob, _GEN_5695) @[rob.scala 453:59]
     node _GEN_5774
@@ -12758,7 +14342,8 @@ circuit Rob :
       = mux(eq(UInt<5>(19), T_29096), T_26182_19_replay_if, _GEN_5734) @[rob.scala 453:59]
     skip
     node _GEN_5814
-      = mux(eq(UInt<5>(19), T_29096), T_26182_19_debug_events_fetch_seq, _GEN_5736) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(19), T_29096), T_26182_19_debug_events_fetch_seq,
+            _GEN_5736) @[rob.scala 453:59]
     node _GEN_5815 = mux(eq(UInt<5>(20), T_29096), T_26182_20_valid, _GEN_5737) @[rob.scala 453:59]
     node _GEN_5816
       = mux(eq(UInt<5>(20), T_29096), T_26182_20_iw_state, _GEN_5738) @[rob.scala 453:59]
@@ -12805,25 +14390,33 @@ circuit Rob :
       = mux(eq(UInt<5>(20), T_29096), T_26182_20_br_mask, _GEN_5761) @[rob.scala 453:59]
     node _GEN_5840 = mux(eq(UInt<5>(20), T_29096), T_26182_20_br_tag, _GEN_5762) @[rob.scala 453:59]
     node _GEN_5841
-      = mux(eq(UInt<5>(20), T_29096), T_26182_20_br_prediction_bpd_predict_val, _GEN_5763) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(20), T_29096), T_26182_20_br_prediction_bpd_predict_val,
+            _GEN_5763) @[rob.scala 453:59]
     node _GEN_5842
-      = mux(eq(UInt<5>(20), T_29096), T_26182_20_br_prediction_bpd_predict_taken, _GEN_5764) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(20), T_29096),
+            T_26182_20_br_prediction_bpd_predict_taken, _GEN_5764) @[rob.scala 453:59]
     node _GEN_5843
-      = mux(eq(UInt<5>(20), T_29096), T_26182_20_br_prediction_btb_hit, _GEN_5765) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(20), T_29096), T_26182_20_br_prediction_btb_hit,
+            _GEN_5765) @[rob.scala 453:59]
     node _GEN_5844
-      = mux(eq(UInt<5>(20), T_29096), T_26182_20_br_prediction_btb_predicted, _GEN_5766) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(20), T_29096), T_26182_20_br_prediction_btb_predicted,
+            _GEN_5766) @[rob.scala 453:59]
     node _GEN_5845
-      = mux(eq(UInt<5>(20), T_29096), T_26182_20_br_prediction_is_br_or_jalr, _GEN_5767) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(20), T_29096), T_26182_20_br_prediction_is_br_or_jalr,
+            _GEN_5767) @[rob.scala 453:59]
     node _GEN_5846
-      = mux(eq(UInt<5>(20), T_29096), T_26182_20_stat_brjmp_mispredicted, _GEN_5768) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(20), T_29096), T_26182_20_stat_brjmp_mispredicted,
+            _GEN_5768) @[rob.scala 453:59]
     node _GEN_5847
       = mux(eq(UInt<5>(20), T_29096), T_26182_20_stat_btb_made_pred, _GEN_5769) @[rob.scala 453:59]
     node _GEN_5848
-      = mux(eq(UInt<5>(20), T_29096), T_26182_20_stat_btb_mispredicted, _GEN_5770) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(20), T_29096), T_26182_20_stat_btb_mispredicted,
+            _GEN_5770) @[rob.scala 453:59]
     node _GEN_5849
       = mux(eq(UInt<5>(20), T_29096), T_26182_20_stat_bpd_made_pred, _GEN_5771) @[rob.scala 453:59]
     node _GEN_5850
-      = mux(eq(UInt<5>(20), T_29096), T_26182_20_stat_bpd_mispredicted, _GEN_5772) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(20), T_29096), T_26182_20_stat_bpd_mispredicted,
+            _GEN_5772) @[rob.scala 453:59]
     node _GEN_5851
       = mux(eq(UInt<5>(20), T_29096), T_26182_20_fetch_pc_lob, _GEN_5773) @[rob.scala 453:59]
     node _GEN_5852
@@ -12896,7 +14489,8 @@ circuit Rob :
       = mux(eq(UInt<5>(20), T_29096), T_26182_20_replay_if, _GEN_5812) @[rob.scala 453:59]
     skip
     node _GEN_5892
-      = mux(eq(UInt<5>(20), T_29096), T_26182_20_debug_events_fetch_seq, _GEN_5814) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(20), T_29096), T_26182_20_debug_events_fetch_seq,
+            _GEN_5814) @[rob.scala 453:59]
     node _GEN_5893 = mux(eq(UInt<5>(21), T_29096), T_26182_21_valid, _GEN_5815) @[rob.scala 453:59]
     node _GEN_5894
       = mux(eq(UInt<5>(21), T_29096), T_26182_21_iw_state, _GEN_5816) @[rob.scala 453:59]
@@ -12943,25 +14537,33 @@ circuit Rob :
       = mux(eq(UInt<5>(21), T_29096), T_26182_21_br_mask, _GEN_5839) @[rob.scala 453:59]
     node _GEN_5918 = mux(eq(UInt<5>(21), T_29096), T_26182_21_br_tag, _GEN_5840) @[rob.scala 453:59]
     node _GEN_5919
-      = mux(eq(UInt<5>(21), T_29096), T_26182_21_br_prediction_bpd_predict_val, _GEN_5841) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(21), T_29096), T_26182_21_br_prediction_bpd_predict_val,
+            _GEN_5841) @[rob.scala 453:59]
     node _GEN_5920
-      = mux(eq(UInt<5>(21), T_29096), T_26182_21_br_prediction_bpd_predict_taken, _GEN_5842) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(21), T_29096),
+            T_26182_21_br_prediction_bpd_predict_taken, _GEN_5842) @[rob.scala 453:59]
     node _GEN_5921
-      = mux(eq(UInt<5>(21), T_29096), T_26182_21_br_prediction_btb_hit, _GEN_5843) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(21), T_29096), T_26182_21_br_prediction_btb_hit,
+            _GEN_5843) @[rob.scala 453:59]
     node _GEN_5922
-      = mux(eq(UInt<5>(21), T_29096), T_26182_21_br_prediction_btb_predicted, _GEN_5844) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(21), T_29096), T_26182_21_br_prediction_btb_predicted,
+            _GEN_5844) @[rob.scala 453:59]
     node _GEN_5923
-      = mux(eq(UInt<5>(21), T_29096), T_26182_21_br_prediction_is_br_or_jalr, _GEN_5845) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(21), T_29096), T_26182_21_br_prediction_is_br_or_jalr,
+            _GEN_5845) @[rob.scala 453:59]
     node _GEN_5924
-      = mux(eq(UInt<5>(21), T_29096), T_26182_21_stat_brjmp_mispredicted, _GEN_5846) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(21), T_29096), T_26182_21_stat_brjmp_mispredicted,
+            _GEN_5846) @[rob.scala 453:59]
     node _GEN_5925
       = mux(eq(UInt<5>(21), T_29096), T_26182_21_stat_btb_made_pred, _GEN_5847) @[rob.scala 453:59]
     node _GEN_5926
-      = mux(eq(UInt<5>(21), T_29096), T_26182_21_stat_btb_mispredicted, _GEN_5848) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(21), T_29096), T_26182_21_stat_btb_mispredicted,
+            _GEN_5848) @[rob.scala 453:59]
     node _GEN_5927
       = mux(eq(UInt<5>(21), T_29096), T_26182_21_stat_bpd_made_pred, _GEN_5849) @[rob.scala 453:59]
     node _GEN_5928
-      = mux(eq(UInt<5>(21), T_29096), T_26182_21_stat_bpd_mispredicted, _GEN_5850) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(21), T_29096), T_26182_21_stat_bpd_mispredicted,
+            _GEN_5850) @[rob.scala 453:59]
     node _GEN_5929
       = mux(eq(UInt<5>(21), T_29096), T_26182_21_fetch_pc_lob, _GEN_5851) @[rob.scala 453:59]
     node _GEN_5930
@@ -13034,7 +14636,8 @@ circuit Rob :
       = mux(eq(UInt<5>(21), T_29096), T_26182_21_replay_if, _GEN_5890) @[rob.scala 453:59]
     skip
     node _GEN_5970
-      = mux(eq(UInt<5>(21), T_29096), T_26182_21_debug_events_fetch_seq, _GEN_5892) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(21), T_29096), T_26182_21_debug_events_fetch_seq,
+            _GEN_5892) @[rob.scala 453:59]
     node _GEN_5971 = mux(eq(UInt<5>(22), T_29096), T_26182_22_valid, _GEN_5893) @[rob.scala 453:59]
     node _GEN_5972
       = mux(eq(UInt<5>(22), T_29096), T_26182_22_iw_state, _GEN_5894) @[rob.scala 453:59]
@@ -13081,25 +14684,33 @@ circuit Rob :
       = mux(eq(UInt<5>(22), T_29096), T_26182_22_br_mask, _GEN_5917) @[rob.scala 453:59]
     node _GEN_5996 = mux(eq(UInt<5>(22), T_29096), T_26182_22_br_tag, _GEN_5918) @[rob.scala 453:59]
     node _GEN_5997
-      = mux(eq(UInt<5>(22), T_29096), T_26182_22_br_prediction_bpd_predict_val, _GEN_5919) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(22), T_29096), T_26182_22_br_prediction_bpd_predict_val,
+            _GEN_5919) @[rob.scala 453:59]
     node _GEN_5998
-      = mux(eq(UInt<5>(22), T_29096), T_26182_22_br_prediction_bpd_predict_taken, _GEN_5920) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(22), T_29096),
+            T_26182_22_br_prediction_bpd_predict_taken, _GEN_5920) @[rob.scala 453:59]
     node _GEN_5999
-      = mux(eq(UInt<5>(22), T_29096), T_26182_22_br_prediction_btb_hit, _GEN_5921) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(22), T_29096), T_26182_22_br_prediction_btb_hit,
+            _GEN_5921) @[rob.scala 453:59]
     node _GEN_6000
-      = mux(eq(UInt<5>(22), T_29096), T_26182_22_br_prediction_btb_predicted, _GEN_5922) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(22), T_29096), T_26182_22_br_prediction_btb_predicted,
+            _GEN_5922) @[rob.scala 453:59]
     node _GEN_6001
-      = mux(eq(UInt<5>(22), T_29096), T_26182_22_br_prediction_is_br_or_jalr, _GEN_5923) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(22), T_29096), T_26182_22_br_prediction_is_br_or_jalr,
+            _GEN_5923) @[rob.scala 453:59]
     node _GEN_6002
-      = mux(eq(UInt<5>(22), T_29096), T_26182_22_stat_brjmp_mispredicted, _GEN_5924) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(22), T_29096), T_26182_22_stat_brjmp_mispredicted,
+            _GEN_5924) @[rob.scala 453:59]
     node _GEN_6003
       = mux(eq(UInt<5>(22), T_29096), T_26182_22_stat_btb_made_pred, _GEN_5925) @[rob.scala 453:59]
     node _GEN_6004
-      = mux(eq(UInt<5>(22), T_29096), T_26182_22_stat_btb_mispredicted, _GEN_5926) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(22), T_29096), T_26182_22_stat_btb_mispredicted,
+            _GEN_5926) @[rob.scala 453:59]
     node _GEN_6005
       = mux(eq(UInt<5>(22), T_29096), T_26182_22_stat_bpd_made_pred, _GEN_5927) @[rob.scala 453:59]
     node _GEN_6006
-      = mux(eq(UInt<5>(22), T_29096), T_26182_22_stat_bpd_mispredicted, _GEN_5928) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(22), T_29096), T_26182_22_stat_bpd_mispredicted,
+            _GEN_5928) @[rob.scala 453:59]
     node _GEN_6007
       = mux(eq(UInt<5>(22), T_29096), T_26182_22_fetch_pc_lob, _GEN_5929) @[rob.scala 453:59]
     node _GEN_6008
@@ -13172,7 +14783,8 @@ circuit Rob :
       = mux(eq(UInt<5>(22), T_29096), T_26182_22_replay_if, _GEN_5968) @[rob.scala 453:59]
     skip
     node _GEN_6048
-      = mux(eq(UInt<5>(22), T_29096), T_26182_22_debug_events_fetch_seq, _GEN_5970) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(22), T_29096), T_26182_22_debug_events_fetch_seq,
+            _GEN_5970) @[rob.scala 453:59]
     skip
     skip
     skip
@@ -13880,7 +15492,8 @@ circuit Rob :
     skip
     skip
     node _GEN_6454
-      = mux(eq(UInt<5>(1), rob_head), T_26182_1_debug_wdata, T_26182_0_debug_wdata) @[rob.scala 507:28]
+      = mux(eq(UInt<5>(1), rob_head), T_26182_1_debug_wdata,
+            T_26182_0_debug_wdata) @[rob.scala 507:28]
     skip
     skip
     skip
@@ -24129,53 +25742,77 @@ circuit Rob :
       = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_valid, T_38110_23_valid) @[rob.scala 350:34]
     skip
     node _GEN_14224
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_iw_state, T_38110_0_iw_state) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_iw_state,
+            T_38110_0_iw_state) @[rob.scala 350:34]
     node _GEN_14225
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_iw_state, T_38110_1_iw_state) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_iw_state,
+            T_38110_1_iw_state) @[rob.scala 350:34]
     node _GEN_14226
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_iw_state, T_38110_2_iw_state) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_iw_state,
+            T_38110_2_iw_state) @[rob.scala 350:34]
     node _GEN_14227
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_iw_state, T_38110_3_iw_state) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_iw_state,
+            T_38110_3_iw_state) @[rob.scala 350:34]
     node _GEN_14228
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_iw_state, T_38110_4_iw_state) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_iw_state,
+            T_38110_4_iw_state) @[rob.scala 350:34]
     node _GEN_14229
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_iw_state, T_38110_5_iw_state) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_iw_state,
+            T_38110_5_iw_state) @[rob.scala 350:34]
     node _GEN_14230
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_iw_state, T_38110_6_iw_state) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_iw_state,
+            T_38110_6_iw_state) @[rob.scala 350:34]
     node _GEN_14231
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_iw_state, T_38110_7_iw_state) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_iw_state,
+            T_38110_7_iw_state) @[rob.scala 350:34]
     node _GEN_14232
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_iw_state, T_38110_8_iw_state) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_iw_state,
+            T_38110_8_iw_state) @[rob.scala 350:34]
     node _GEN_14233
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_iw_state, T_38110_9_iw_state) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_iw_state,
+            T_38110_9_iw_state) @[rob.scala 350:34]
     node _GEN_14234
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_iw_state, T_38110_10_iw_state) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_iw_state,
+            T_38110_10_iw_state) @[rob.scala 350:34]
     node _GEN_14235
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_iw_state, T_38110_11_iw_state) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_iw_state,
+            T_38110_11_iw_state) @[rob.scala 350:34]
     node _GEN_14236
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_iw_state, T_38110_12_iw_state) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_iw_state,
+            T_38110_12_iw_state) @[rob.scala 350:34]
     node _GEN_14237
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_iw_state, T_38110_13_iw_state) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_iw_state,
+            T_38110_13_iw_state) @[rob.scala 350:34]
     node _GEN_14238
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_iw_state, T_38110_14_iw_state) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_iw_state,
+            T_38110_14_iw_state) @[rob.scala 350:34]
     node _GEN_14239
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_iw_state, T_38110_15_iw_state) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_iw_state,
+            T_38110_15_iw_state) @[rob.scala 350:34]
     node _GEN_14240
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_iw_state, T_38110_16_iw_state) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_iw_state,
+            T_38110_16_iw_state) @[rob.scala 350:34]
     node _GEN_14241
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_iw_state, T_38110_17_iw_state) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_iw_state,
+            T_38110_17_iw_state) @[rob.scala 350:34]
     node _GEN_14242
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_iw_state, T_38110_18_iw_state) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_iw_state,
+            T_38110_18_iw_state) @[rob.scala 350:34]
     node _GEN_14243
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_iw_state, T_38110_19_iw_state) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_iw_state,
+            T_38110_19_iw_state) @[rob.scala 350:34]
     node _GEN_14244
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_iw_state, T_38110_20_iw_state) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_iw_state,
+            T_38110_20_iw_state) @[rob.scala 350:34]
     node _GEN_14245
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_iw_state, T_38110_21_iw_state) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_iw_state,
+            T_38110_21_iw_state) @[rob.scala 350:34]
     node _GEN_14246
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_iw_state, T_38110_22_iw_state) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_iw_state,
+            T_38110_22_iw_state) @[rob.scala 350:34]
     node _GEN_14247
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_iw_state, T_38110_23_iw_state) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_iw_state,
+            T_38110_23_iw_state) @[rob.scala 350:34]
     skip
     node _GEN_14248
       = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_uopc, T_38110_0_uopc) @[rob.scala 350:34]
@@ -24345,719 +25982,1069 @@ circuit Rob :
     node _GEN_14329
       = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_fu_code, T_38110_9_fu_code) @[rob.scala 350:34]
     node _GEN_14330
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_fu_code, T_38110_10_fu_code) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_fu_code,
+            T_38110_10_fu_code) @[rob.scala 350:34]
     node _GEN_14331
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_fu_code, T_38110_11_fu_code) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_fu_code,
+            T_38110_11_fu_code) @[rob.scala 350:34]
     node _GEN_14332
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_fu_code, T_38110_12_fu_code) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_fu_code,
+            T_38110_12_fu_code) @[rob.scala 350:34]
     node _GEN_14333
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_fu_code, T_38110_13_fu_code) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_fu_code,
+            T_38110_13_fu_code) @[rob.scala 350:34]
     node _GEN_14334
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_fu_code, T_38110_14_fu_code) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_fu_code,
+            T_38110_14_fu_code) @[rob.scala 350:34]
     node _GEN_14335
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_fu_code, T_38110_15_fu_code) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_fu_code,
+            T_38110_15_fu_code) @[rob.scala 350:34]
     node _GEN_14336
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_fu_code, T_38110_16_fu_code) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_fu_code,
+            T_38110_16_fu_code) @[rob.scala 350:34]
     node _GEN_14337
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_fu_code, T_38110_17_fu_code) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_fu_code,
+            T_38110_17_fu_code) @[rob.scala 350:34]
     node _GEN_14338
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_fu_code, T_38110_18_fu_code) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_fu_code,
+            T_38110_18_fu_code) @[rob.scala 350:34]
     node _GEN_14339
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_fu_code, T_38110_19_fu_code) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_fu_code,
+            T_38110_19_fu_code) @[rob.scala 350:34]
     node _GEN_14340
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_fu_code, T_38110_20_fu_code) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_fu_code,
+            T_38110_20_fu_code) @[rob.scala 350:34]
     node _GEN_14341
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_fu_code, T_38110_21_fu_code) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_fu_code,
+            T_38110_21_fu_code) @[rob.scala 350:34]
     node _GEN_14342
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_fu_code, T_38110_22_fu_code) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_fu_code,
+            T_38110_22_fu_code) @[rob.scala 350:34]
     node _GEN_14343
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_fu_code, T_38110_23_fu_code) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_fu_code,
+            T_38110_23_fu_code) @[rob.scala 350:34]
     skip
     node _GEN_14344
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_ctrl_br_type, T_38110_0_ctrl_br_type) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_ctrl_br_type,
+            T_38110_0_ctrl_br_type) @[rob.scala 350:34]
     node _GEN_14345
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_ctrl_br_type, T_38110_1_ctrl_br_type) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_ctrl_br_type,
+            T_38110_1_ctrl_br_type) @[rob.scala 350:34]
     node _GEN_14346
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_ctrl_br_type, T_38110_2_ctrl_br_type) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_ctrl_br_type,
+            T_38110_2_ctrl_br_type) @[rob.scala 350:34]
     node _GEN_14347
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_ctrl_br_type, T_38110_3_ctrl_br_type) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_ctrl_br_type,
+            T_38110_3_ctrl_br_type) @[rob.scala 350:34]
     node _GEN_14348
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_ctrl_br_type, T_38110_4_ctrl_br_type) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_ctrl_br_type,
+            T_38110_4_ctrl_br_type) @[rob.scala 350:34]
     node _GEN_14349
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_ctrl_br_type, T_38110_5_ctrl_br_type) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_ctrl_br_type,
+            T_38110_5_ctrl_br_type) @[rob.scala 350:34]
     node _GEN_14350
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_ctrl_br_type, T_38110_6_ctrl_br_type) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_ctrl_br_type,
+            T_38110_6_ctrl_br_type) @[rob.scala 350:34]
     node _GEN_14351
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_ctrl_br_type, T_38110_7_ctrl_br_type) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_ctrl_br_type,
+            T_38110_7_ctrl_br_type) @[rob.scala 350:34]
     node _GEN_14352
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_ctrl_br_type, T_38110_8_ctrl_br_type) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_ctrl_br_type,
+            T_38110_8_ctrl_br_type) @[rob.scala 350:34]
     node _GEN_14353
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_ctrl_br_type, T_38110_9_ctrl_br_type) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_ctrl_br_type,
+            T_38110_9_ctrl_br_type) @[rob.scala 350:34]
     node _GEN_14354
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_ctrl_br_type, T_38110_10_ctrl_br_type) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_ctrl_br_type,
+            T_38110_10_ctrl_br_type) @[rob.scala 350:34]
     node _GEN_14355
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_ctrl_br_type, T_38110_11_ctrl_br_type) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_ctrl_br_type,
+            T_38110_11_ctrl_br_type) @[rob.scala 350:34]
     node _GEN_14356
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_ctrl_br_type, T_38110_12_ctrl_br_type) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_ctrl_br_type,
+            T_38110_12_ctrl_br_type) @[rob.scala 350:34]
     node _GEN_14357
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_ctrl_br_type, T_38110_13_ctrl_br_type) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_ctrl_br_type,
+            T_38110_13_ctrl_br_type) @[rob.scala 350:34]
     node _GEN_14358
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_ctrl_br_type, T_38110_14_ctrl_br_type) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_ctrl_br_type,
+            T_38110_14_ctrl_br_type) @[rob.scala 350:34]
     node _GEN_14359
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_ctrl_br_type, T_38110_15_ctrl_br_type) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_ctrl_br_type,
+            T_38110_15_ctrl_br_type) @[rob.scala 350:34]
     node _GEN_14360
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_ctrl_br_type, T_38110_16_ctrl_br_type) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_ctrl_br_type,
+            T_38110_16_ctrl_br_type) @[rob.scala 350:34]
     node _GEN_14361
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_ctrl_br_type, T_38110_17_ctrl_br_type) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_ctrl_br_type,
+            T_38110_17_ctrl_br_type) @[rob.scala 350:34]
     node _GEN_14362
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_ctrl_br_type, T_38110_18_ctrl_br_type) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_ctrl_br_type,
+            T_38110_18_ctrl_br_type) @[rob.scala 350:34]
     node _GEN_14363
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_ctrl_br_type, T_38110_19_ctrl_br_type) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_ctrl_br_type,
+            T_38110_19_ctrl_br_type) @[rob.scala 350:34]
     node _GEN_14364
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_ctrl_br_type, T_38110_20_ctrl_br_type) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_ctrl_br_type,
+            T_38110_20_ctrl_br_type) @[rob.scala 350:34]
     node _GEN_14365
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_ctrl_br_type, T_38110_21_ctrl_br_type) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_ctrl_br_type,
+            T_38110_21_ctrl_br_type) @[rob.scala 350:34]
     node _GEN_14366
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_ctrl_br_type, T_38110_22_ctrl_br_type) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_ctrl_br_type,
+            T_38110_22_ctrl_br_type) @[rob.scala 350:34]
     node _GEN_14367
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_ctrl_br_type, T_38110_23_ctrl_br_type) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_ctrl_br_type,
+            T_38110_23_ctrl_br_type) @[rob.scala 350:34]
     skip
     node _GEN_14368
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_ctrl_op1_sel, T_38110_0_ctrl_op1_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_ctrl_op1_sel,
+            T_38110_0_ctrl_op1_sel) @[rob.scala 350:34]
     node _GEN_14369
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_ctrl_op1_sel, T_38110_1_ctrl_op1_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_ctrl_op1_sel,
+            T_38110_1_ctrl_op1_sel) @[rob.scala 350:34]
     node _GEN_14370
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_ctrl_op1_sel, T_38110_2_ctrl_op1_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_ctrl_op1_sel,
+            T_38110_2_ctrl_op1_sel) @[rob.scala 350:34]
     node _GEN_14371
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_ctrl_op1_sel, T_38110_3_ctrl_op1_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_ctrl_op1_sel,
+            T_38110_3_ctrl_op1_sel) @[rob.scala 350:34]
     node _GEN_14372
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_ctrl_op1_sel, T_38110_4_ctrl_op1_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_ctrl_op1_sel,
+            T_38110_4_ctrl_op1_sel) @[rob.scala 350:34]
     node _GEN_14373
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_ctrl_op1_sel, T_38110_5_ctrl_op1_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_ctrl_op1_sel,
+            T_38110_5_ctrl_op1_sel) @[rob.scala 350:34]
     node _GEN_14374
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_ctrl_op1_sel, T_38110_6_ctrl_op1_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_ctrl_op1_sel,
+            T_38110_6_ctrl_op1_sel) @[rob.scala 350:34]
     node _GEN_14375
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_ctrl_op1_sel, T_38110_7_ctrl_op1_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_ctrl_op1_sel,
+            T_38110_7_ctrl_op1_sel) @[rob.scala 350:34]
     node _GEN_14376
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_ctrl_op1_sel, T_38110_8_ctrl_op1_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_ctrl_op1_sel,
+            T_38110_8_ctrl_op1_sel) @[rob.scala 350:34]
     node _GEN_14377
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_ctrl_op1_sel, T_38110_9_ctrl_op1_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_ctrl_op1_sel,
+            T_38110_9_ctrl_op1_sel) @[rob.scala 350:34]
     node _GEN_14378
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_ctrl_op1_sel, T_38110_10_ctrl_op1_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_ctrl_op1_sel,
+            T_38110_10_ctrl_op1_sel) @[rob.scala 350:34]
     node _GEN_14379
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_ctrl_op1_sel, T_38110_11_ctrl_op1_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_ctrl_op1_sel,
+            T_38110_11_ctrl_op1_sel) @[rob.scala 350:34]
     node _GEN_14380
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_ctrl_op1_sel, T_38110_12_ctrl_op1_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_ctrl_op1_sel,
+            T_38110_12_ctrl_op1_sel) @[rob.scala 350:34]
     node _GEN_14381
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_ctrl_op1_sel, T_38110_13_ctrl_op1_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_ctrl_op1_sel,
+            T_38110_13_ctrl_op1_sel) @[rob.scala 350:34]
     node _GEN_14382
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_ctrl_op1_sel, T_38110_14_ctrl_op1_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_ctrl_op1_sel,
+            T_38110_14_ctrl_op1_sel) @[rob.scala 350:34]
     node _GEN_14383
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_ctrl_op1_sel, T_38110_15_ctrl_op1_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_ctrl_op1_sel,
+            T_38110_15_ctrl_op1_sel) @[rob.scala 350:34]
     node _GEN_14384
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_ctrl_op1_sel, T_38110_16_ctrl_op1_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_ctrl_op1_sel,
+            T_38110_16_ctrl_op1_sel) @[rob.scala 350:34]
     node _GEN_14385
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_ctrl_op1_sel, T_38110_17_ctrl_op1_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_ctrl_op1_sel,
+            T_38110_17_ctrl_op1_sel) @[rob.scala 350:34]
     node _GEN_14386
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_ctrl_op1_sel, T_38110_18_ctrl_op1_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_ctrl_op1_sel,
+            T_38110_18_ctrl_op1_sel) @[rob.scala 350:34]
     node _GEN_14387
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_ctrl_op1_sel, T_38110_19_ctrl_op1_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_ctrl_op1_sel,
+            T_38110_19_ctrl_op1_sel) @[rob.scala 350:34]
     node _GEN_14388
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_ctrl_op1_sel, T_38110_20_ctrl_op1_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_ctrl_op1_sel,
+            T_38110_20_ctrl_op1_sel) @[rob.scala 350:34]
     node _GEN_14389
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_ctrl_op1_sel, T_38110_21_ctrl_op1_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_ctrl_op1_sel,
+            T_38110_21_ctrl_op1_sel) @[rob.scala 350:34]
     node _GEN_14390
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_ctrl_op1_sel, T_38110_22_ctrl_op1_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_ctrl_op1_sel,
+            T_38110_22_ctrl_op1_sel) @[rob.scala 350:34]
     node _GEN_14391
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_ctrl_op1_sel, T_38110_23_ctrl_op1_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_ctrl_op1_sel,
+            T_38110_23_ctrl_op1_sel) @[rob.scala 350:34]
     skip
     node _GEN_14392
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_ctrl_op2_sel, T_38110_0_ctrl_op2_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_ctrl_op2_sel,
+            T_38110_0_ctrl_op2_sel) @[rob.scala 350:34]
     node _GEN_14393
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_ctrl_op2_sel, T_38110_1_ctrl_op2_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_ctrl_op2_sel,
+            T_38110_1_ctrl_op2_sel) @[rob.scala 350:34]
     node _GEN_14394
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_ctrl_op2_sel, T_38110_2_ctrl_op2_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_ctrl_op2_sel,
+            T_38110_2_ctrl_op2_sel) @[rob.scala 350:34]
     node _GEN_14395
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_ctrl_op2_sel, T_38110_3_ctrl_op2_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_ctrl_op2_sel,
+            T_38110_3_ctrl_op2_sel) @[rob.scala 350:34]
     node _GEN_14396
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_ctrl_op2_sel, T_38110_4_ctrl_op2_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_ctrl_op2_sel,
+            T_38110_4_ctrl_op2_sel) @[rob.scala 350:34]
     node _GEN_14397
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_ctrl_op2_sel, T_38110_5_ctrl_op2_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_ctrl_op2_sel,
+            T_38110_5_ctrl_op2_sel) @[rob.scala 350:34]
     node _GEN_14398
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_ctrl_op2_sel, T_38110_6_ctrl_op2_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_ctrl_op2_sel,
+            T_38110_6_ctrl_op2_sel) @[rob.scala 350:34]
     node _GEN_14399
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_ctrl_op2_sel, T_38110_7_ctrl_op2_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_ctrl_op2_sel,
+            T_38110_7_ctrl_op2_sel) @[rob.scala 350:34]
     node _GEN_14400
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_ctrl_op2_sel, T_38110_8_ctrl_op2_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_ctrl_op2_sel,
+            T_38110_8_ctrl_op2_sel) @[rob.scala 350:34]
     node _GEN_14401
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_ctrl_op2_sel, T_38110_9_ctrl_op2_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_ctrl_op2_sel,
+            T_38110_9_ctrl_op2_sel) @[rob.scala 350:34]
     node _GEN_14402
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_ctrl_op2_sel, T_38110_10_ctrl_op2_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_ctrl_op2_sel,
+            T_38110_10_ctrl_op2_sel) @[rob.scala 350:34]
     node _GEN_14403
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_ctrl_op2_sel, T_38110_11_ctrl_op2_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_ctrl_op2_sel,
+            T_38110_11_ctrl_op2_sel) @[rob.scala 350:34]
     node _GEN_14404
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_ctrl_op2_sel, T_38110_12_ctrl_op2_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_ctrl_op2_sel,
+            T_38110_12_ctrl_op2_sel) @[rob.scala 350:34]
     node _GEN_14405
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_ctrl_op2_sel, T_38110_13_ctrl_op2_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_ctrl_op2_sel,
+            T_38110_13_ctrl_op2_sel) @[rob.scala 350:34]
     node _GEN_14406
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_ctrl_op2_sel, T_38110_14_ctrl_op2_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_ctrl_op2_sel,
+            T_38110_14_ctrl_op2_sel) @[rob.scala 350:34]
     node _GEN_14407
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_ctrl_op2_sel, T_38110_15_ctrl_op2_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_ctrl_op2_sel,
+            T_38110_15_ctrl_op2_sel) @[rob.scala 350:34]
     node _GEN_14408
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_ctrl_op2_sel, T_38110_16_ctrl_op2_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_ctrl_op2_sel,
+            T_38110_16_ctrl_op2_sel) @[rob.scala 350:34]
     node _GEN_14409
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_ctrl_op2_sel, T_38110_17_ctrl_op2_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_ctrl_op2_sel,
+            T_38110_17_ctrl_op2_sel) @[rob.scala 350:34]
     node _GEN_14410
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_ctrl_op2_sel, T_38110_18_ctrl_op2_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_ctrl_op2_sel,
+            T_38110_18_ctrl_op2_sel) @[rob.scala 350:34]
     node _GEN_14411
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_ctrl_op2_sel, T_38110_19_ctrl_op2_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_ctrl_op2_sel,
+            T_38110_19_ctrl_op2_sel) @[rob.scala 350:34]
     node _GEN_14412
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_ctrl_op2_sel, T_38110_20_ctrl_op2_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_ctrl_op2_sel,
+            T_38110_20_ctrl_op2_sel) @[rob.scala 350:34]
     node _GEN_14413
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_ctrl_op2_sel, T_38110_21_ctrl_op2_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_ctrl_op2_sel,
+            T_38110_21_ctrl_op2_sel) @[rob.scala 350:34]
     node _GEN_14414
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_ctrl_op2_sel, T_38110_22_ctrl_op2_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_ctrl_op2_sel,
+            T_38110_22_ctrl_op2_sel) @[rob.scala 350:34]
     node _GEN_14415
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_ctrl_op2_sel, T_38110_23_ctrl_op2_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_ctrl_op2_sel,
+            T_38110_23_ctrl_op2_sel) @[rob.scala 350:34]
     skip
     node _GEN_14416
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_ctrl_imm_sel, T_38110_0_ctrl_imm_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_ctrl_imm_sel,
+            T_38110_0_ctrl_imm_sel) @[rob.scala 350:34]
     node _GEN_14417
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_ctrl_imm_sel, T_38110_1_ctrl_imm_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_ctrl_imm_sel,
+            T_38110_1_ctrl_imm_sel) @[rob.scala 350:34]
     node _GEN_14418
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_ctrl_imm_sel, T_38110_2_ctrl_imm_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_ctrl_imm_sel,
+            T_38110_2_ctrl_imm_sel) @[rob.scala 350:34]
     node _GEN_14419
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_ctrl_imm_sel, T_38110_3_ctrl_imm_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_ctrl_imm_sel,
+            T_38110_3_ctrl_imm_sel) @[rob.scala 350:34]
     node _GEN_14420
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_ctrl_imm_sel, T_38110_4_ctrl_imm_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_ctrl_imm_sel,
+            T_38110_4_ctrl_imm_sel) @[rob.scala 350:34]
     node _GEN_14421
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_ctrl_imm_sel, T_38110_5_ctrl_imm_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_ctrl_imm_sel,
+            T_38110_5_ctrl_imm_sel) @[rob.scala 350:34]
     node _GEN_14422
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_ctrl_imm_sel, T_38110_6_ctrl_imm_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_ctrl_imm_sel,
+            T_38110_6_ctrl_imm_sel) @[rob.scala 350:34]
     node _GEN_14423
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_ctrl_imm_sel, T_38110_7_ctrl_imm_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_ctrl_imm_sel,
+            T_38110_7_ctrl_imm_sel) @[rob.scala 350:34]
     node _GEN_14424
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_ctrl_imm_sel, T_38110_8_ctrl_imm_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_ctrl_imm_sel,
+            T_38110_8_ctrl_imm_sel) @[rob.scala 350:34]
     node _GEN_14425
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_ctrl_imm_sel, T_38110_9_ctrl_imm_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_ctrl_imm_sel,
+            T_38110_9_ctrl_imm_sel) @[rob.scala 350:34]
     node _GEN_14426
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_ctrl_imm_sel, T_38110_10_ctrl_imm_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_ctrl_imm_sel,
+            T_38110_10_ctrl_imm_sel) @[rob.scala 350:34]
     node _GEN_14427
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_ctrl_imm_sel, T_38110_11_ctrl_imm_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_ctrl_imm_sel,
+            T_38110_11_ctrl_imm_sel) @[rob.scala 350:34]
     node _GEN_14428
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_ctrl_imm_sel, T_38110_12_ctrl_imm_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_ctrl_imm_sel,
+            T_38110_12_ctrl_imm_sel) @[rob.scala 350:34]
     node _GEN_14429
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_ctrl_imm_sel, T_38110_13_ctrl_imm_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_ctrl_imm_sel,
+            T_38110_13_ctrl_imm_sel) @[rob.scala 350:34]
     node _GEN_14430
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_ctrl_imm_sel, T_38110_14_ctrl_imm_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_ctrl_imm_sel,
+            T_38110_14_ctrl_imm_sel) @[rob.scala 350:34]
     node _GEN_14431
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_ctrl_imm_sel, T_38110_15_ctrl_imm_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_ctrl_imm_sel,
+            T_38110_15_ctrl_imm_sel) @[rob.scala 350:34]
     node _GEN_14432
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_ctrl_imm_sel, T_38110_16_ctrl_imm_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_ctrl_imm_sel,
+            T_38110_16_ctrl_imm_sel) @[rob.scala 350:34]
     node _GEN_14433
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_ctrl_imm_sel, T_38110_17_ctrl_imm_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_ctrl_imm_sel,
+            T_38110_17_ctrl_imm_sel) @[rob.scala 350:34]
     node _GEN_14434
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_ctrl_imm_sel, T_38110_18_ctrl_imm_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_ctrl_imm_sel,
+            T_38110_18_ctrl_imm_sel) @[rob.scala 350:34]
     node _GEN_14435
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_ctrl_imm_sel, T_38110_19_ctrl_imm_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_ctrl_imm_sel,
+            T_38110_19_ctrl_imm_sel) @[rob.scala 350:34]
     node _GEN_14436
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_ctrl_imm_sel, T_38110_20_ctrl_imm_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_ctrl_imm_sel,
+            T_38110_20_ctrl_imm_sel) @[rob.scala 350:34]
     node _GEN_14437
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_ctrl_imm_sel, T_38110_21_ctrl_imm_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_ctrl_imm_sel,
+            T_38110_21_ctrl_imm_sel) @[rob.scala 350:34]
     node _GEN_14438
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_ctrl_imm_sel, T_38110_22_ctrl_imm_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_ctrl_imm_sel,
+            T_38110_22_ctrl_imm_sel) @[rob.scala 350:34]
     node _GEN_14439
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_ctrl_imm_sel, T_38110_23_ctrl_imm_sel) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_ctrl_imm_sel,
+            T_38110_23_ctrl_imm_sel) @[rob.scala 350:34]
     skip
     node _GEN_14440
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_ctrl_op_fcn, T_38110_0_ctrl_op_fcn) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_ctrl_op_fcn,
+            T_38110_0_ctrl_op_fcn) @[rob.scala 350:34]
     node _GEN_14441
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_ctrl_op_fcn, T_38110_1_ctrl_op_fcn) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_ctrl_op_fcn,
+            T_38110_1_ctrl_op_fcn) @[rob.scala 350:34]
     node _GEN_14442
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_ctrl_op_fcn, T_38110_2_ctrl_op_fcn) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_ctrl_op_fcn,
+            T_38110_2_ctrl_op_fcn) @[rob.scala 350:34]
     node _GEN_14443
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_ctrl_op_fcn, T_38110_3_ctrl_op_fcn) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_ctrl_op_fcn,
+            T_38110_3_ctrl_op_fcn) @[rob.scala 350:34]
     node _GEN_14444
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_ctrl_op_fcn, T_38110_4_ctrl_op_fcn) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_ctrl_op_fcn,
+            T_38110_4_ctrl_op_fcn) @[rob.scala 350:34]
     node _GEN_14445
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_ctrl_op_fcn, T_38110_5_ctrl_op_fcn) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_ctrl_op_fcn,
+            T_38110_5_ctrl_op_fcn) @[rob.scala 350:34]
     node _GEN_14446
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_ctrl_op_fcn, T_38110_6_ctrl_op_fcn) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_ctrl_op_fcn,
+            T_38110_6_ctrl_op_fcn) @[rob.scala 350:34]
     node _GEN_14447
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_ctrl_op_fcn, T_38110_7_ctrl_op_fcn) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_ctrl_op_fcn,
+            T_38110_7_ctrl_op_fcn) @[rob.scala 350:34]
     node _GEN_14448
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_ctrl_op_fcn, T_38110_8_ctrl_op_fcn) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_ctrl_op_fcn,
+            T_38110_8_ctrl_op_fcn) @[rob.scala 350:34]
     node _GEN_14449
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_ctrl_op_fcn, T_38110_9_ctrl_op_fcn) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_ctrl_op_fcn,
+            T_38110_9_ctrl_op_fcn) @[rob.scala 350:34]
     node _GEN_14450
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_ctrl_op_fcn, T_38110_10_ctrl_op_fcn) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_ctrl_op_fcn,
+            T_38110_10_ctrl_op_fcn) @[rob.scala 350:34]
     node _GEN_14451
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_ctrl_op_fcn, T_38110_11_ctrl_op_fcn) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_ctrl_op_fcn,
+            T_38110_11_ctrl_op_fcn) @[rob.scala 350:34]
     node _GEN_14452
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_ctrl_op_fcn, T_38110_12_ctrl_op_fcn) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_ctrl_op_fcn,
+            T_38110_12_ctrl_op_fcn) @[rob.scala 350:34]
     node _GEN_14453
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_ctrl_op_fcn, T_38110_13_ctrl_op_fcn) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_ctrl_op_fcn,
+            T_38110_13_ctrl_op_fcn) @[rob.scala 350:34]
     node _GEN_14454
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_ctrl_op_fcn, T_38110_14_ctrl_op_fcn) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_ctrl_op_fcn,
+            T_38110_14_ctrl_op_fcn) @[rob.scala 350:34]
     node _GEN_14455
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_ctrl_op_fcn, T_38110_15_ctrl_op_fcn) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_ctrl_op_fcn,
+            T_38110_15_ctrl_op_fcn) @[rob.scala 350:34]
     node _GEN_14456
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_ctrl_op_fcn, T_38110_16_ctrl_op_fcn) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_ctrl_op_fcn,
+            T_38110_16_ctrl_op_fcn) @[rob.scala 350:34]
     node _GEN_14457
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_ctrl_op_fcn, T_38110_17_ctrl_op_fcn) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_ctrl_op_fcn,
+            T_38110_17_ctrl_op_fcn) @[rob.scala 350:34]
     node _GEN_14458
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_ctrl_op_fcn, T_38110_18_ctrl_op_fcn) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_ctrl_op_fcn,
+            T_38110_18_ctrl_op_fcn) @[rob.scala 350:34]
     node _GEN_14459
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_ctrl_op_fcn, T_38110_19_ctrl_op_fcn) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_ctrl_op_fcn,
+            T_38110_19_ctrl_op_fcn) @[rob.scala 350:34]
     node _GEN_14460
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_ctrl_op_fcn, T_38110_20_ctrl_op_fcn) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_ctrl_op_fcn,
+            T_38110_20_ctrl_op_fcn) @[rob.scala 350:34]
     node _GEN_14461
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_ctrl_op_fcn, T_38110_21_ctrl_op_fcn) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_ctrl_op_fcn,
+            T_38110_21_ctrl_op_fcn) @[rob.scala 350:34]
     node _GEN_14462
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_ctrl_op_fcn, T_38110_22_ctrl_op_fcn) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_ctrl_op_fcn,
+            T_38110_22_ctrl_op_fcn) @[rob.scala 350:34]
     node _GEN_14463
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_ctrl_op_fcn, T_38110_23_ctrl_op_fcn) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_ctrl_op_fcn,
+            T_38110_23_ctrl_op_fcn) @[rob.scala 350:34]
     skip
     node _GEN_14464
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_ctrl_fcn_dw, T_38110_0_ctrl_fcn_dw) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_ctrl_fcn_dw,
+            T_38110_0_ctrl_fcn_dw) @[rob.scala 350:34]
     node _GEN_14465
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_ctrl_fcn_dw, T_38110_1_ctrl_fcn_dw) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_ctrl_fcn_dw,
+            T_38110_1_ctrl_fcn_dw) @[rob.scala 350:34]
     node _GEN_14466
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_ctrl_fcn_dw, T_38110_2_ctrl_fcn_dw) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_ctrl_fcn_dw,
+            T_38110_2_ctrl_fcn_dw) @[rob.scala 350:34]
     node _GEN_14467
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_ctrl_fcn_dw, T_38110_3_ctrl_fcn_dw) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_ctrl_fcn_dw,
+            T_38110_3_ctrl_fcn_dw) @[rob.scala 350:34]
     node _GEN_14468
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_ctrl_fcn_dw, T_38110_4_ctrl_fcn_dw) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_ctrl_fcn_dw,
+            T_38110_4_ctrl_fcn_dw) @[rob.scala 350:34]
     node _GEN_14469
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_ctrl_fcn_dw, T_38110_5_ctrl_fcn_dw) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_ctrl_fcn_dw,
+            T_38110_5_ctrl_fcn_dw) @[rob.scala 350:34]
     node _GEN_14470
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_ctrl_fcn_dw, T_38110_6_ctrl_fcn_dw) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_ctrl_fcn_dw,
+            T_38110_6_ctrl_fcn_dw) @[rob.scala 350:34]
     node _GEN_14471
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_ctrl_fcn_dw, T_38110_7_ctrl_fcn_dw) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_ctrl_fcn_dw,
+            T_38110_7_ctrl_fcn_dw) @[rob.scala 350:34]
     node _GEN_14472
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_ctrl_fcn_dw, T_38110_8_ctrl_fcn_dw) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_ctrl_fcn_dw,
+            T_38110_8_ctrl_fcn_dw) @[rob.scala 350:34]
     node _GEN_14473
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_ctrl_fcn_dw, T_38110_9_ctrl_fcn_dw) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_ctrl_fcn_dw,
+            T_38110_9_ctrl_fcn_dw) @[rob.scala 350:34]
     node _GEN_14474
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_ctrl_fcn_dw, T_38110_10_ctrl_fcn_dw) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_ctrl_fcn_dw,
+            T_38110_10_ctrl_fcn_dw) @[rob.scala 350:34]
     node _GEN_14475
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_ctrl_fcn_dw, T_38110_11_ctrl_fcn_dw) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_ctrl_fcn_dw,
+            T_38110_11_ctrl_fcn_dw) @[rob.scala 350:34]
     node _GEN_14476
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_ctrl_fcn_dw, T_38110_12_ctrl_fcn_dw) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_ctrl_fcn_dw,
+            T_38110_12_ctrl_fcn_dw) @[rob.scala 350:34]
     node _GEN_14477
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_ctrl_fcn_dw, T_38110_13_ctrl_fcn_dw) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_ctrl_fcn_dw,
+            T_38110_13_ctrl_fcn_dw) @[rob.scala 350:34]
     node _GEN_14478
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_ctrl_fcn_dw, T_38110_14_ctrl_fcn_dw) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_ctrl_fcn_dw,
+            T_38110_14_ctrl_fcn_dw) @[rob.scala 350:34]
     node _GEN_14479
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_ctrl_fcn_dw, T_38110_15_ctrl_fcn_dw) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_ctrl_fcn_dw,
+            T_38110_15_ctrl_fcn_dw) @[rob.scala 350:34]
     node _GEN_14480
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_ctrl_fcn_dw, T_38110_16_ctrl_fcn_dw) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_ctrl_fcn_dw,
+            T_38110_16_ctrl_fcn_dw) @[rob.scala 350:34]
     node _GEN_14481
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_ctrl_fcn_dw, T_38110_17_ctrl_fcn_dw) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_ctrl_fcn_dw,
+            T_38110_17_ctrl_fcn_dw) @[rob.scala 350:34]
     node _GEN_14482
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_ctrl_fcn_dw, T_38110_18_ctrl_fcn_dw) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_ctrl_fcn_dw,
+            T_38110_18_ctrl_fcn_dw) @[rob.scala 350:34]
     node _GEN_14483
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_ctrl_fcn_dw, T_38110_19_ctrl_fcn_dw) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_ctrl_fcn_dw,
+            T_38110_19_ctrl_fcn_dw) @[rob.scala 350:34]
     node _GEN_14484
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_ctrl_fcn_dw, T_38110_20_ctrl_fcn_dw) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_ctrl_fcn_dw,
+            T_38110_20_ctrl_fcn_dw) @[rob.scala 350:34]
     node _GEN_14485
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_ctrl_fcn_dw, T_38110_21_ctrl_fcn_dw) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_ctrl_fcn_dw,
+            T_38110_21_ctrl_fcn_dw) @[rob.scala 350:34]
     node _GEN_14486
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_ctrl_fcn_dw, T_38110_22_ctrl_fcn_dw) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_ctrl_fcn_dw,
+            T_38110_22_ctrl_fcn_dw) @[rob.scala 350:34]
     node _GEN_14487
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_ctrl_fcn_dw, T_38110_23_ctrl_fcn_dw) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_ctrl_fcn_dw,
+            T_38110_23_ctrl_fcn_dw) @[rob.scala 350:34]
     skip
     node _GEN_14488
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_ctrl_rf_wen, T_38110_0_ctrl_rf_wen) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_ctrl_rf_wen,
+            T_38110_0_ctrl_rf_wen) @[rob.scala 350:34]
     node _GEN_14489
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_ctrl_rf_wen, T_38110_1_ctrl_rf_wen) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_ctrl_rf_wen,
+            T_38110_1_ctrl_rf_wen) @[rob.scala 350:34]
     node _GEN_14490
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_ctrl_rf_wen, T_38110_2_ctrl_rf_wen) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_ctrl_rf_wen,
+            T_38110_2_ctrl_rf_wen) @[rob.scala 350:34]
     node _GEN_14491
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_ctrl_rf_wen, T_38110_3_ctrl_rf_wen) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_ctrl_rf_wen,
+            T_38110_3_ctrl_rf_wen) @[rob.scala 350:34]
     node _GEN_14492
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_ctrl_rf_wen, T_38110_4_ctrl_rf_wen) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_ctrl_rf_wen,
+            T_38110_4_ctrl_rf_wen) @[rob.scala 350:34]
     node _GEN_14493
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_ctrl_rf_wen, T_38110_5_ctrl_rf_wen) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_ctrl_rf_wen,
+            T_38110_5_ctrl_rf_wen) @[rob.scala 350:34]
     node _GEN_14494
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_ctrl_rf_wen, T_38110_6_ctrl_rf_wen) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_ctrl_rf_wen,
+            T_38110_6_ctrl_rf_wen) @[rob.scala 350:34]
     node _GEN_14495
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_ctrl_rf_wen, T_38110_7_ctrl_rf_wen) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_ctrl_rf_wen,
+            T_38110_7_ctrl_rf_wen) @[rob.scala 350:34]
     node _GEN_14496
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_ctrl_rf_wen, T_38110_8_ctrl_rf_wen) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_ctrl_rf_wen,
+            T_38110_8_ctrl_rf_wen) @[rob.scala 350:34]
     node _GEN_14497
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_ctrl_rf_wen, T_38110_9_ctrl_rf_wen) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_ctrl_rf_wen,
+            T_38110_9_ctrl_rf_wen) @[rob.scala 350:34]
     node _GEN_14498
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_ctrl_rf_wen, T_38110_10_ctrl_rf_wen) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_ctrl_rf_wen,
+            T_38110_10_ctrl_rf_wen) @[rob.scala 350:34]
     node _GEN_14499
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_ctrl_rf_wen, T_38110_11_ctrl_rf_wen) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_ctrl_rf_wen,
+            T_38110_11_ctrl_rf_wen) @[rob.scala 350:34]
     node _GEN_14500
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_ctrl_rf_wen, T_38110_12_ctrl_rf_wen) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_ctrl_rf_wen,
+            T_38110_12_ctrl_rf_wen) @[rob.scala 350:34]
     node _GEN_14501
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_ctrl_rf_wen, T_38110_13_ctrl_rf_wen) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_ctrl_rf_wen,
+            T_38110_13_ctrl_rf_wen) @[rob.scala 350:34]
     node _GEN_14502
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_ctrl_rf_wen, T_38110_14_ctrl_rf_wen) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_ctrl_rf_wen,
+            T_38110_14_ctrl_rf_wen) @[rob.scala 350:34]
     node _GEN_14503
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_ctrl_rf_wen, T_38110_15_ctrl_rf_wen) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_ctrl_rf_wen,
+            T_38110_15_ctrl_rf_wen) @[rob.scala 350:34]
     node _GEN_14504
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_ctrl_rf_wen, T_38110_16_ctrl_rf_wen) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_ctrl_rf_wen,
+            T_38110_16_ctrl_rf_wen) @[rob.scala 350:34]
     node _GEN_14505
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_ctrl_rf_wen, T_38110_17_ctrl_rf_wen) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_ctrl_rf_wen,
+            T_38110_17_ctrl_rf_wen) @[rob.scala 350:34]
     node _GEN_14506
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_ctrl_rf_wen, T_38110_18_ctrl_rf_wen) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_ctrl_rf_wen,
+            T_38110_18_ctrl_rf_wen) @[rob.scala 350:34]
     node _GEN_14507
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_ctrl_rf_wen, T_38110_19_ctrl_rf_wen) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_ctrl_rf_wen,
+            T_38110_19_ctrl_rf_wen) @[rob.scala 350:34]
     node _GEN_14508
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_ctrl_rf_wen, T_38110_20_ctrl_rf_wen) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_ctrl_rf_wen,
+            T_38110_20_ctrl_rf_wen) @[rob.scala 350:34]
     node _GEN_14509
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_ctrl_rf_wen, T_38110_21_ctrl_rf_wen) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_ctrl_rf_wen,
+            T_38110_21_ctrl_rf_wen) @[rob.scala 350:34]
     node _GEN_14510
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_ctrl_rf_wen, T_38110_22_ctrl_rf_wen) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_ctrl_rf_wen,
+            T_38110_22_ctrl_rf_wen) @[rob.scala 350:34]
     node _GEN_14511
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_ctrl_rf_wen, T_38110_23_ctrl_rf_wen) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_ctrl_rf_wen,
+            T_38110_23_ctrl_rf_wen) @[rob.scala 350:34]
     skip
     node _GEN_14512
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_ctrl_csr_cmd, T_38110_0_ctrl_csr_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_ctrl_csr_cmd,
+            T_38110_0_ctrl_csr_cmd) @[rob.scala 350:34]
     node _GEN_14513
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_ctrl_csr_cmd, T_38110_1_ctrl_csr_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_ctrl_csr_cmd,
+            T_38110_1_ctrl_csr_cmd) @[rob.scala 350:34]
     node _GEN_14514
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_ctrl_csr_cmd, T_38110_2_ctrl_csr_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_ctrl_csr_cmd,
+            T_38110_2_ctrl_csr_cmd) @[rob.scala 350:34]
     node _GEN_14515
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_ctrl_csr_cmd, T_38110_3_ctrl_csr_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_ctrl_csr_cmd,
+            T_38110_3_ctrl_csr_cmd) @[rob.scala 350:34]
     node _GEN_14516
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_ctrl_csr_cmd, T_38110_4_ctrl_csr_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_ctrl_csr_cmd,
+            T_38110_4_ctrl_csr_cmd) @[rob.scala 350:34]
     node _GEN_14517
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_ctrl_csr_cmd, T_38110_5_ctrl_csr_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_ctrl_csr_cmd,
+            T_38110_5_ctrl_csr_cmd) @[rob.scala 350:34]
     node _GEN_14518
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_ctrl_csr_cmd, T_38110_6_ctrl_csr_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_ctrl_csr_cmd,
+            T_38110_6_ctrl_csr_cmd) @[rob.scala 350:34]
     node _GEN_14519
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_ctrl_csr_cmd, T_38110_7_ctrl_csr_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_ctrl_csr_cmd,
+            T_38110_7_ctrl_csr_cmd) @[rob.scala 350:34]
     node _GEN_14520
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_ctrl_csr_cmd, T_38110_8_ctrl_csr_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_ctrl_csr_cmd,
+            T_38110_8_ctrl_csr_cmd) @[rob.scala 350:34]
     node _GEN_14521
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_ctrl_csr_cmd, T_38110_9_ctrl_csr_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_ctrl_csr_cmd,
+            T_38110_9_ctrl_csr_cmd) @[rob.scala 350:34]
     node _GEN_14522
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_ctrl_csr_cmd, T_38110_10_ctrl_csr_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_ctrl_csr_cmd,
+            T_38110_10_ctrl_csr_cmd) @[rob.scala 350:34]
     node _GEN_14523
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_ctrl_csr_cmd, T_38110_11_ctrl_csr_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_ctrl_csr_cmd,
+            T_38110_11_ctrl_csr_cmd) @[rob.scala 350:34]
     node _GEN_14524
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_ctrl_csr_cmd, T_38110_12_ctrl_csr_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_ctrl_csr_cmd,
+            T_38110_12_ctrl_csr_cmd) @[rob.scala 350:34]
     node _GEN_14525
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_ctrl_csr_cmd, T_38110_13_ctrl_csr_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_ctrl_csr_cmd,
+            T_38110_13_ctrl_csr_cmd) @[rob.scala 350:34]
     node _GEN_14526
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_ctrl_csr_cmd, T_38110_14_ctrl_csr_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_ctrl_csr_cmd,
+            T_38110_14_ctrl_csr_cmd) @[rob.scala 350:34]
     node _GEN_14527
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_ctrl_csr_cmd, T_38110_15_ctrl_csr_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_ctrl_csr_cmd,
+            T_38110_15_ctrl_csr_cmd) @[rob.scala 350:34]
     node _GEN_14528
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_ctrl_csr_cmd, T_38110_16_ctrl_csr_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_ctrl_csr_cmd,
+            T_38110_16_ctrl_csr_cmd) @[rob.scala 350:34]
     node _GEN_14529
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_ctrl_csr_cmd, T_38110_17_ctrl_csr_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_ctrl_csr_cmd,
+            T_38110_17_ctrl_csr_cmd) @[rob.scala 350:34]
     node _GEN_14530
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_ctrl_csr_cmd, T_38110_18_ctrl_csr_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_ctrl_csr_cmd,
+            T_38110_18_ctrl_csr_cmd) @[rob.scala 350:34]
     node _GEN_14531
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_ctrl_csr_cmd, T_38110_19_ctrl_csr_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_ctrl_csr_cmd,
+            T_38110_19_ctrl_csr_cmd) @[rob.scala 350:34]
     node _GEN_14532
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_ctrl_csr_cmd, T_38110_20_ctrl_csr_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_ctrl_csr_cmd,
+            T_38110_20_ctrl_csr_cmd) @[rob.scala 350:34]
     node _GEN_14533
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_ctrl_csr_cmd, T_38110_21_ctrl_csr_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_ctrl_csr_cmd,
+            T_38110_21_ctrl_csr_cmd) @[rob.scala 350:34]
     node _GEN_14534
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_ctrl_csr_cmd, T_38110_22_ctrl_csr_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_ctrl_csr_cmd,
+            T_38110_22_ctrl_csr_cmd) @[rob.scala 350:34]
     node _GEN_14535
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_ctrl_csr_cmd, T_38110_23_ctrl_csr_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_ctrl_csr_cmd,
+            T_38110_23_ctrl_csr_cmd) @[rob.scala 350:34]
     skip
     node _GEN_14536
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_ctrl_is_load, T_38110_0_ctrl_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_ctrl_is_load,
+            T_38110_0_ctrl_is_load) @[rob.scala 350:34]
     node _GEN_14537
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_ctrl_is_load, T_38110_1_ctrl_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_ctrl_is_load,
+            T_38110_1_ctrl_is_load) @[rob.scala 350:34]
     node _GEN_14538
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_ctrl_is_load, T_38110_2_ctrl_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_ctrl_is_load,
+            T_38110_2_ctrl_is_load) @[rob.scala 350:34]
     node _GEN_14539
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_ctrl_is_load, T_38110_3_ctrl_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_ctrl_is_load,
+            T_38110_3_ctrl_is_load) @[rob.scala 350:34]
     node _GEN_14540
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_ctrl_is_load, T_38110_4_ctrl_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_ctrl_is_load,
+            T_38110_4_ctrl_is_load) @[rob.scala 350:34]
     node _GEN_14541
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_ctrl_is_load, T_38110_5_ctrl_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_ctrl_is_load,
+            T_38110_5_ctrl_is_load) @[rob.scala 350:34]
     node _GEN_14542
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_ctrl_is_load, T_38110_6_ctrl_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_ctrl_is_load,
+            T_38110_6_ctrl_is_load) @[rob.scala 350:34]
     node _GEN_14543
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_ctrl_is_load, T_38110_7_ctrl_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_ctrl_is_load,
+            T_38110_7_ctrl_is_load) @[rob.scala 350:34]
     node _GEN_14544
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_ctrl_is_load, T_38110_8_ctrl_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_ctrl_is_load,
+            T_38110_8_ctrl_is_load) @[rob.scala 350:34]
     node _GEN_14545
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_ctrl_is_load, T_38110_9_ctrl_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_ctrl_is_load,
+            T_38110_9_ctrl_is_load) @[rob.scala 350:34]
     node _GEN_14546
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_ctrl_is_load, T_38110_10_ctrl_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_ctrl_is_load,
+            T_38110_10_ctrl_is_load) @[rob.scala 350:34]
     node _GEN_14547
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_ctrl_is_load, T_38110_11_ctrl_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_ctrl_is_load,
+            T_38110_11_ctrl_is_load) @[rob.scala 350:34]
     node _GEN_14548
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_ctrl_is_load, T_38110_12_ctrl_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_ctrl_is_load,
+            T_38110_12_ctrl_is_load) @[rob.scala 350:34]
     node _GEN_14549
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_ctrl_is_load, T_38110_13_ctrl_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_ctrl_is_load,
+            T_38110_13_ctrl_is_load) @[rob.scala 350:34]
     node _GEN_14550
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_ctrl_is_load, T_38110_14_ctrl_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_ctrl_is_load,
+            T_38110_14_ctrl_is_load) @[rob.scala 350:34]
     node _GEN_14551
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_ctrl_is_load, T_38110_15_ctrl_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_ctrl_is_load,
+            T_38110_15_ctrl_is_load) @[rob.scala 350:34]
     node _GEN_14552
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_ctrl_is_load, T_38110_16_ctrl_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_ctrl_is_load,
+            T_38110_16_ctrl_is_load) @[rob.scala 350:34]
     node _GEN_14553
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_ctrl_is_load, T_38110_17_ctrl_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_ctrl_is_load,
+            T_38110_17_ctrl_is_load) @[rob.scala 350:34]
     node _GEN_14554
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_ctrl_is_load, T_38110_18_ctrl_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_ctrl_is_load,
+            T_38110_18_ctrl_is_load) @[rob.scala 350:34]
     node _GEN_14555
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_ctrl_is_load, T_38110_19_ctrl_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_ctrl_is_load,
+            T_38110_19_ctrl_is_load) @[rob.scala 350:34]
     node _GEN_14556
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_ctrl_is_load, T_38110_20_ctrl_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_ctrl_is_load,
+            T_38110_20_ctrl_is_load) @[rob.scala 350:34]
     node _GEN_14557
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_ctrl_is_load, T_38110_21_ctrl_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_ctrl_is_load,
+            T_38110_21_ctrl_is_load) @[rob.scala 350:34]
     node _GEN_14558
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_ctrl_is_load, T_38110_22_ctrl_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_ctrl_is_load,
+            T_38110_22_ctrl_is_load) @[rob.scala 350:34]
     node _GEN_14559
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_ctrl_is_load, T_38110_23_ctrl_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_ctrl_is_load,
+            T_38110_23_ctrl_is_load) @[rob.scala 350:34]
     skip
     node _GEN_14560
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_ctrl_is_sta, T_38110_0_ctrl_is_sta) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_ctrl_is_sta,
+            T_38110_0_ctrl_is_sta) @[rob.scala 350:34]
     node _GEN_14561
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_ctrl_is_sta, T_38110_1_ctrl_is_sta) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_ctrl_is_sta,
+            T_38110_1_ctrl_is_sta) @[rob.scala 350:34]
     node _GEN_14562
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_ctrl_is_sta, T_38110_2_ctrl_is_sta) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_ctrl_is_sta,
+            T_38110_2_ctrl_is_sta) @[rob.scala 350:34]
     node _GEN_14563
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_ctrl_is_sta, T_38110_3_ctrl_is_sta) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_ctrl_is_sta,
+            T_38110_3_ctrl_is_sta) @[rob.scala 350:34]
     node _GEN_14564
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_ctrl_is_sta, T_38110_4_ctrl_is_sta) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_ctrl_is_sta,
+            T_38110_4_ctrl_is_sta) @[rob.scala 350:34]
     node _GEN_14565
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_ctrl_is_sta, T_38110_5_ctrl_is_sta) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_ctrl_is_sta,
+            T_38110_5_ctrl_is_sta) @[rob.scala 350:34]
     node _GEN_14566
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_ctrl_is_sta, T_38110_6_ctrl_is_sta) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_ctrl_is_sta,
+            T_38110_6_ctrl_is_sta) @[rob.scala 350:34]
     node _GEN_14567
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_ctrl_is_sta, T_38110_7_ctrl_is_sta) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_ctrl_is_sta,
+            T_38110_7_ctrl_is_sta) @[rob.scala 350:34]
     node _GEN_14568
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_ctrl_is_sta, T_38110_8_ctrl_is_sta) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_ctrl_is_sta,
+            T_38110_8_ctrl_is_sta) @[rob.scala 350:34]
     node _GEN_14569
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_ctrl_is_sta, T_38110_9_ctrl_is_sta) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_ctrl_is_sta,
+            T_38110_9_ctrl_is_sta) @[rob.scala 350:34]
     node _GEN_14570
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_ctrl_is_sta, T_38110_10_ctrl_is_sta) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_ctrl_is_sta,
+            T_38110_10_ctrl_is_sta) @[rob.scala 350:34]
     node _GEN_14571
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_ctrl_is_sta, T_38110_11_ctrl_is_sta) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_ctrl_is_sta,
+            T_38110_11_ctrl_is_sta) @[rob.scala 350:34]
     node _GEN_14572
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_ctrl_is_sta, T_38110_12_ctrl_is_sta) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_ctrl_is_sta,
+            T_38110_12_ctrl_is_sta) @[rob.scala 350:34]
     node _GEN_14573
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_ctrl_is_sta, T_38110_13_ctrl_is_sta) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_ctrl_is_sta,
+            T_38110_13_ctrl_is_sta) @[rob.scala 350:34]
     node _GEN_14574
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_ctrl_is_sta, T_38110_14_ctrl_is_sta) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_ctrl_is_sta,
+            T_38110_14_ctrl_is_sta) @[rob.scala 350:34]
     node _GEN_14575
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_ctrl_is_sta, T_38110_15_ctrl_is_sta) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_ctrl_is_sta,
+            T_38110_15_ctrl_is_sta) @[rob.scala 350:34]
     node _GEN_14576
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_ctrl_is_sta, T_38110_16_ctrl_is_sta) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_ctrl_is_sta,
+            T_38110_16_ctrl_is_sta) @[rob.scala 350:34]
     node _GEN_14577
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_ctrl_is_sta, T_38110_17_ctrl_is_sta) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_ctrl_is_sta,
+            T_38110_17_ctrl_is_sta) @[rob.scala 350:34]
     node _GEN_14578
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_ctrl_is_sta, T_38110_18_ctrl_is_sta) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_ctrl_is_sta,
+            T_38110_18_ctrl_is_sta) @[rob.scala 350:34]
     node _GEN_14579
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_ctrl_is_sta, T_38110_19_ctrl_is_sta) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_ctrl_is_sta,
+            T_38110_19_ctrl_is_sta) @[rob.scala 350:34]
     node _GEN_14580
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_ctrl_is_sta, T_38110_20_ctrl_is_sta) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_ctrl_is_sta,
+            T_38110_20_ctrl_is_sta) @[rob.scala 350:34]
     node _GEN_14581
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_ctrl_is_sta, T_38110_21_ctrl_is_sta) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_ctrl_is_sta,
+            T_38110_21_ctrl_is_sta) @[rob.scala 350:34]
     node _GEN_14582
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_ctrl_is_sta, T_38110_22_ctrl_is_sta) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_ctrl_is_sta,
+            T_38110_22_ctrl_is_sta) @[rob.scala 350:34]
     node _GEN_14583
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_ctrl_is_sta, T_38110_23_ctrl_is_sta) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_ctrl_is_sta,
+            T_38110_23_ctrl_is_sta) @[rob.scala 350:34]
     skip
     node _GEN_14584
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_ctrl_is_std, T_38110_0_ctrl_is_std) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_ctrl_is_std,
+            T_38110_0_ctrl_is_std) @[rob.scala 350:34]
     node _GEN_14585
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_ctrl_is_std, T_38110_1_ctrl_is_std) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_ctrl_is_std,
+            T_38110_1_ctrl_is_std) @[rob.scala 350:34]
     node _GEN_14586
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_ctrl_is_std, T_38110_2_ctrl_is_std) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_ctrl_is_std,
+            T_38110_2_ctrl_is_std) @[rob.scala 350:34]
     node _GEN_14587
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_ctrl_is_std, T_38110_3_ctrl_is_std) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_ctrl_is_std,
+            T_38110_3_ctrl_is_std) @[rob.scala 350:34]
     node _GEN_14588
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_ctrl_is_std, T_38110_4_ctrl_is_std) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_ctrl_is_std,
+            T_38110_4_ctrl_is_std) @[rob.scala 350:34]
     node _GEN_14589
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_ctrl_is_std, T_38110_5_ctrl_is_std) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_ctrl_is_std,
+            T_38110_5_ctrl_is_std) @[rob.scala 350:34]
     node _GEN_14590
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_ctrl_is_std, T_38110_6_ctrl_is_std) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_ctrl_is_std,
+            T_38110_6_ctrl_is_std) @[rob.scala 350:34]
     node _GEN_14591
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_ctrl_is_std, T_38110_7_ctrl_is_std) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_ctrl_is_std,
+            T_38110_7_ctrl_is_std) @[rob.scala 350:34]
     node _GEN_14592
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_ctrl_is_std, T_38110_8_ctrl_is_std) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_ctrl_is_std,
+            T_38110_8_ctrl_is_std) @[rob.scala 350:34]
     node _GEN_14593
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_ctrl_is_std, T_38110_9_ctrl_is_std) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_ctrl_is_std,
+            T_38110_9_ctrl_is_std) @[rob.scala 350:34]
     node _GEN_14594
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_ctrl_is_std, T_38110_10_ctrl_is_std) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_ctrl_is_std,
+            T_38110_10_ctrl_is_std) @[rob.scala 350:34]
     node _GEN_14595
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_ctrl_is_std, T_38110_11_ctrl_is_std) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_ctrl_is_std,
+            T_38110_11_ctrl_is_std) @[rob.scala 350:34]
     node _GEN_14596
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_ctrl_is_std, T_38110_12_ctrl_is_std) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_ctrl_is_std,
+            T_38110_12_ctrl_is_std) @[rob.scala 350:34]
     node _GEN_14597
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_ctrl_is_std, T_38110_13_ctrl_is_std) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_ctrl_is_std,
+            T_38110_13_ctrl_is_std) @[rob.scala 350:34]
     node _GEN_14598
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_ctrl_is_std, T_38110_14_ctrl_is_std) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_ctrl_is_std,
+            T_38110_14_ctrl_is_std) @[rob.scala 350:34]
     node _GEN_14599
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_ctrl_is_std, T_38110_15_ctrl_is_std) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_ctrl_is_std,
+            T_38110_15_ctrl_is_std) @[rob.scala 350:34]
     node _GEN_14600
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_ctrl_is_std, T_38110_16_ctrl_is_std) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_ctrl_is_std,
+            T_38110_16_ctrl_is_std) @[rob.scala 350:34]
     node _GEN_14601
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_ctrl_is_std, T_38110_17_ctrl_is_std) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_ctrl_is_std,
+            T_38110_17_ctrl_is_std) @[rob.scala 350:34]
     node _GEN_14602
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_ctrl_is_std, T_38110_18_ctrl_is_std) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_ctrl_is_std,
+            T_38110_18_ctrl_is_std) @[rob.scala 350:34]
     node _GEN_14603
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_ctrl_is_std, T_38110_19_ctrl_is_std) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_ctrl_is_std,
+            T_38110_19_ctrl_is_std) @[rob.scala 350:34]
     node _GEN_14604
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_ctrl_is_std, T_38110_20_ctrl_is_std) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_ctrl_is_std,
+            T_38110_20_ctrl_is_std) @[rob.scala 350:34]
     node _GEN_14605
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_ctrl_is_std, T_38110_21_ctrl_is_std) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_ctrl_is_std,
+            T_38110_21_ctrl_is_std) @[rob.scala 350:34]
     node _GEN_14606
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_ctrl_is_std, T_38110_22_ctrl_is_std) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_ctrl_is_std,
+            T_38110_22_ctrl_is_std) @[rob.scala 350:34]
     node _GEN_14607
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_ctrl_is_std, T_38110_23_ctrl_is_std) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_ctrl_is_std,
+            T_38110_23_ctrl_is_std) @[rob.scala 350:34]
     skip
     node _GEN_14608
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_wakeup_delay, T_38110_0_wakeup_delay) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_wakeup_delay,
+            T_38110_0_wakeup_delay) @[rob.scala 350:34]
     node _GEN_14609
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_wakeup_delay, T_38110_1_wakeup_delay) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_wakeup_delay,
+            T_38110_1_wakeup_delay) @[rob.scala 350:34]
     node _GEN_14610
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_wakeup_delay, T_38110_2_wakeup_delay) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_wakeup_delay,
+            T_38110_2_wakeup_delay) @[rob.scala 350:34]
     node _GEN_14611
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_wakeup_delay, T_38110_3_wakeup_delay) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_wakeup_delay,
+            T_38110_3_wakeup_delay) @[rob.scala 350:34]
     node _GEN_14612
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_wakeup_delay, T_38110_4_wakeup_delay) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_wakeup_delay,
+            T_38110_4_wakeup_delay) @[rob.scala 350:34]
     node _GEN_14613
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_wakeup_delay, T_38110_5_wakeup_delay) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_wakeup_delay,
+            T_38110_5_wakeup_delay) @[rob.scala 350:34]
     node _GEN_14614
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_wakeup_delay, T_38110_6_wakeup_delay) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_wakeup_delay,
+            T_38110_6_wakeup_delay) @[rob.scala 350:34]
     node _GEN_14615
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_wakeup_delay, T_38110_7_wakeup_delay) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_wakeup_delay,
+            T_38110_7_wakeup_delay) @[rob.scala 350:34]
     node _GEN_14616
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_wakeup_delay, T_38110_8_wakeup_delay) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_wakeup_delay,
+            T_38110_8_wakeup_delay) @[rob.scala 350:34]
     node _GEN_14617
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_wakeup_delay, T_38110_9_wakeup_delay) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_wakeup_delay,
+            T_38110_9_wakeup_delay) @[rob.scala 350:34]
     node _GEN_14618
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_wakeup_delay, T_38110_10_wakeup_delay) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_wakeup_delay,
+            T_38110_10_wakeup_delay) @[rob.scala 350:34]
     node _GEN_14619
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_wakeup_delay, T_38110_11_wakeup_delay) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_wakeup_delay,
+            T_38110_11_wakeup_delay) @[rob.scala 350:34]
     node _GEN_14620
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_wakeup_delay, T_38110_12_wakeup_delay) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_wakeup_delay,
+            T_38110_12_wakeup_delay) @[rob.scala 350:34]
     node _GEN_14621
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_wakeup_delay, T_38110_13_wakeup_delay) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_wakeup_delay,
+            T_38110_13_wakeup_delay) @[rob.scala 350:34]
     node _GEN_14622
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_wakeup_delay, T_38110_14_wakeup_delay) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_wakeup_delay,
+            T_38110_14_wakeup_delay) @[rob.scala 350:34]
     node _GEN_14623
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_wakeup_delay, T_38110_15_wakeup_delay) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_wakeup_delay,
+            T_38110_15_wakeup_delay) @[rob.scala 350:34]
     node _GEN_14624
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_wakeup_delay, T_38110_16_wakeup_delay) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_wakeup_delay,
+            T_38110_16_wakeup_delay) @[rob.scala 350:34]
     node _GEN_14625
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_wakeup_delay, T_38110_17_wakeup_delay) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_wakeup_delay,
+            T_38110_17_wakeup_delay) @[rob.scala 350:34]
     node _GEN_14626
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_wakeup_delay, T_38110_18_wakeup_delay) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_wakeup_delay,
+            T_38110_18_wakeup_delay) @[rob.scala 350:34]
     node _GEN_14627
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_wakeup_delay, T_38110_19_wakeup_delay) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_wakeup_delay,
+            T_38110_19_wakeup_delay) @[rob.scala 350:34]
     node _GEN_14628
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_wakeup_delay, T_38110_20_wakeup_delay) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_wakeup_delay,
+            T_38110_20_wakeup_delay) @[rob.scala 350:34]
     node _GEN_14629
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_wakeup_delay, T_38110_21_wakeup_delay) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_wakeup_delay,
+            T_38110_21_wakeup_delay) @[rob.scala 350:34]
     node _GEN_14630
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_wakeup_delay, T_38110_22_wakeup_delay) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_wakeup_delay,
+            T_38110_22_wakeup_delay) @[rob.scala 350:34]
     node _GEN_14631
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_wakeup_delay, T_38110_23_wakeup_delay) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_wakeup_delay,
+            T_38110_23_wakeup_delay) @[rob.scala 350:34]
     skip
     node _GEN_14632
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_allocate_brtag, T_38110_0_allocate_brtag) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_allocate_brtag,
+            T_38110_0_allocate_brtag) @[rob.scala 350:34]
     node _GEN_14633
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_allocate_brtag, T_38110_1_allocate_brtag) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_allocate_brtag,
+            T_38110_1_allocate_brtag) @[rob.scala 350:34]
     node _GEN_14634
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_allocate_brtag, T_38110_2_allocate_brtag) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_allocate_brtag,
+            T_38110_2_allocate_brtag) @[rob.scala 350:34]
     node _GEN_14635
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_allocate_brtag, T_38110_3_allocate_brtag) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_allocate_brtag,
+            T_38110_3_allocate_brtag) @[rob.scala 350:34]
     node _GEN_14636
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_allocate_brtag, T_38110_4_allocate_brtag) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_allocate_brtag,
+            T_38110_4_allocate_brtag) @[rob.scala 350:34]
     node _GEN_14637
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_allocate_brtag, T_38110_5_allocate_brtag) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_allocate_brtag,
+            T_38110_5_allocate_brtag) @[rob.scala 350:34]
     node _GEN_14638
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_allocate_brtag, T_38110_6_allocate_brtag) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_allocate_brtag,
+            T_38110_6_allocate_brtag) @[rob.scala 350:34]
     node _GEN_14639
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_allocate_brtag, T_38110_7_allocate_brtag) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_allocate_brtag,
+            T_38110_7_allocate_brtag) @[rob.scala 350:34]
     node _GEN_14640
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_allocate_brtag, T_38110_8_allocate_brtag) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_allocate_brtag,
+            T_38110_8_allocate_brtag) @[rob.scala 350:34]
     node _GEN_14641
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_allocate_brtag, T_38110_9_allocate_brtag) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_allocate_brtag,
+            T_38110_9_allocate_brtag) @[rob.scala 350:34]
     node _GEN_14642
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_allocate_brtag, T_38110_10_allocate_brtag) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_allocate_brtag,
+            T_38110_10_allocate_brtag) @[rob.scala 350:34]
     node _GEN_14643
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_allocate_brtag, T_38110_11_allocate_brtag) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_allocate_brtag,
+            T_38110_11_allocate_brtag) @[rob.scala 350:34]
     node _GEN_14644
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_allocate_brtag, T_38110_12_allocate_brtag) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_allocate_brtag,
+            T_38110_12_allocate_brtag) @[rob.scala 350:34]
     node _GEN_14645
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_allocate_brtag, T_38110_13_allocate_brtag) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_allocate_brtag,
+            T_38110_13_allocate_brtag) @[rob.scala 350:34]
     node _GEN_14646
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_allocate_brtag, T_38110_14_allocate_brtag) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_allocate_brtag,
+            T_38110_14_allocate_brtag) @[rob.scala 350:34]
     node _GEN_14647
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_allocate_brtag, T_38110_15_allocate_brtag) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_allocate_brtag,
+            T_38110_15_allocate_brtag) @[rob.scala 350:34]
     node _GEN_14648
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_allocate_brtag, T_38110_16_allocate_brtag) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_allocate_brtag,
+            T_38110_16_allocate_brtag) @[rob.scala 350:34]
     node _GEN_14649
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_allocate_brtag, T_38110_17_allocate_brtag) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_allocate_brtag,
+            T_38110_17_allocate_brtag) @[rob.scala 350:34]
     node _GEN_14650
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_allocate_brtag, T_38110_18_allocate_brtag) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_allocate_brtag,
+            T_38110_18_allocate_brtag) @[rob.scala 350:34]
     node _GEN_14651
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_allocate_brtag, T_38110_19_allocate_brtag) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_allocate_brtag,
+            T_38110_19_allocate_brtag) @[rob.scala 350:34]
     node _GEN_14652
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_allocate_brtag, T_38110_20_allocate_brtag) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_allocate_brtag,
+            T_38110_20_allocate_brtag) @[rob.scala 350:34]
     node _GEN_14653
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_allocate_brtag, T_38110_21_allocate_brtag) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_allocate_brtag,
+            T_38110_21_allocate_brtag) @[rob.scala 350:34]
     node _GEN_14654
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_allocate_brtag, T_38110_22_allocate_brtag) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_allocate_brtag,
+            T_38110_22_allocate_brtag) @[rob.scala 350:34]
     node _GEN_14655
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_allocate_brtag, T_38110_23_allocate_brtag) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_allocate_brtag,
+            T_38110_23_allocate_brtag) @[rob.scala 350:34]
     skip
     node _GEN_14656
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_is_br_or_jmp, T_38110_0_is_br_or_jmp) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_is_br_or_jmp,
+            T_38110_0_is_br_or_jmp) @[rob.scala 350:34]
     node _GEN_14657
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_is_br_or_jmp, T_38110_1_is_br_or_jmp) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_is_br_or_jmp,
+            T_38110_1_is_br_or_jmp) @[rob.scala 350:34]
     node _GEN_14658
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_is_br_or_jmp, T_38110_2_is_br_or_jmp) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_is_br_or_jmp,
+            T_38110_2_is_br_or_jmp) @[rob.scala 350:34]
     node _GEN_14659
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_is_br_or_jmp, T_38110_3_is_br_or_jmp) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_is_br_or_jmp,
+            T_38110_3_is_br_or_jmp) @[rob.scala 350:34]
     node _GEN_14660
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_is_br_or_jmp, T_38110_4_is_br_or_jmp) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_is_br_or_jmp,
+            T_38110_4_is_br_or_jmp) @[rob.scala 350:34]
     node _GEN_14661
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_is_br_or_jmp, T_38110_5_is_br_or_jmp) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_is_br_or_jmp,
+            T_38110_5_is_br_or_jmp) @[rob.scala 350:34]
     node _GEN_14662
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_is_br_or_jmp, T_38110_6_is_br_or_jmp) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_is_br_or_jmp,
+            T_38110_6_is_br_or_jmp) @[rob.scala 350:34]
     node _GEN_14663
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_is_br_or_jmp, T_38110_7_is_br_or_jmp) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_is_br_or_jmp,
+            T_38110_7_is_br_or_jmp) @[rob.scala 350:34]
     node _GEN_14664
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_is_br_or_jmp, T_38110_8_is_br_or_jmp) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_is_br_or_jmp,
+            T_38110_8_is_br_or_jmp) @[rob.scala 350:34]
     node _GEN_14665
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_is_br_or_jmp, T_38110_9_is_br_or_jmp) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_is_br_or_jmp,
+            T_38110_9_is_br_or_jmp) @[rob.scala 350:34]
     node _GEN_14666
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_is_br_or_jmp, T_38110_10_is_br_or_jmp) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_is_br_or_jmp,
+            T_38110_10_is_br_or_jmp) @[rob.scala 350:34]
     node _GEN_14667
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_is_br_or_jmp, T_38110_11_is_br_or_jmp) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_is_br_or_jmp,
+            T_38110_11_is_br_or_jmp) @[rob.scala 350:34]
     node _GEN_14668
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_is_br_or_jmp, T_38110_12_is_br_or_jmp) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_is_br_or_jmp,
+            T_38110_12_is_br_or_jmp) @[rob.scala 350:34]
     node _GEN_14669
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_is_br_or_jmp, T_38110_13_is_br_or_jmp) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_is_br_or_jmp,
+            T_38110_13_is_br_or_jmp) @[rob.scala 350:34]
     node _GEN_14670
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_is_br_or_jmp, T_38110_14_is_br_or_jmp) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_is_br_or_jmp,
+            T_38110_14_is_br_or_jmp) @[rob.scala 350:34]
     node _GEN_14671
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_is_br_or_jmp, T_38110_15_is_br_or_jmp) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_is_br_or_jmp,
+            T_38110_15_is_br_or_jmp) @[rob.scala 350:34]
     node _GEN_14672
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_is_br_or_jmp, T_38110_16_is_br_or_jmp) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_is_br_or_jmp,
+            T_38110_16_is_br_or_jmp) @[rob.scala 350:34]
     node _GEN_14673
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_is_br_or_jmp, T_38110_17_is_br_or_jmp) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_is_br_or_jmp,
+            T_38110_17_is_br_or_jmp) @[rob.scala 350:34]
     node _GEN_14674
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_is_br_or_jmp, T_38110_18_is_br_or_jmp) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_is_br_or_jmp,
+            T_38110_18_is_br_or_jmp) @[rob.scala 350:34]
     node _GEN_14675
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_is_br_or_jmp, T_38110_19_is_br_or_jmp) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_is_br_or_jmp,
+            T_38110_19_is_br_or_jmp) @[rob.scala 350:34]
     node _GEN_14676
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_is_br_or_jmp, T_38110_20_is_br_or_jmp) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_is_br_or_jmp,
+            T_38110_20_is_br_or_jmp) @[rob.scala 350:34]
     node _GEN_14677
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_is_br_or_jmp, T_38110_21_is_br_or_jmp) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_is_br_or_jmp,
+            T_38110_21_is_br_or_jmp) @[rob.scala 350:34]
     node _GEN_14678
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_is_br_or_jmp, T_38110_22_is_br_or_jmp) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_is_br_or_jmp,
+            T_38110_22_is_br_or_jmp) @[rob.scala 350:34]
     node _GEN_14679
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_is_br_or_jmp, T_38110_23_is_br_or_jmp) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_is_br_or_jmp,
+            T_38110_23_is_br_or_jmp) @[rob.scala 350:34]
     skip
     node _GEN_14680
       = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_is_jump, T_38110_0_is_jump) @[rob.scala 350:34]
@@ -25080,33 +27067,47 @@ circuit Rob :
     node _GEN_14689
       = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_is_jump, T_38110_9_is_jump) @[rob.scala 350:34]
     node _GEN_14690
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_is_jump, T_38110_10_is_jump) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_is_jump,
+            T_38110_10_is_jump) @[rob.scala 350:34]
     node _GEN_14691
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_is_jump, T_38110_11_is_jump) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_is_jump,
+            T_38110_11_is_jump) @[rob.scala 350:34]
     node _GEN_14692
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_is_jump, T_38110_12_is_jump) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_is_jump,
+            T_38110_12_is_jump) @[rob.scala 350:34]
     node _GEN_14693
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_is_jump, T_38110_13_is_jump) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_is_jump,
+            T_38110_13_is_jump) @[rob.scala 350:34]
     node _GEN_14694
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_is_jump, T_38110_14_is_jump) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_is_jump,
+            T_38110_14_is_jump) @[rob.scala 350:34]
     node _GEN_14695
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_is_jump, T_38110_15_is_jump) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_is_jump,
+            T_38110_15_is_jump) @[rob.scala 350:34]
     node _GEN_14696
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_is_jump, T_38110_16_is_jump) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_is_jump,
+            T_38110_16_is_jump) @[rob.scala 350:34]
     node _GEN_14697
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_is_jump, T_38110_17_is_jump) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_is_jump,
+            T_38110_17_is_jump) @[rob.scala 350:34]
     node _GEN_14698
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_is_jump, T_38110_18_is_jump) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_is_jump,
+            T_38110_18_is_jump) @[rob.scala 350:34]
     node _GEN_14699
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_is_jump, T_38110_19_is_jump) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_is_jump,
+            T_38110_19_is_jump) @[rob.scala 350:34]
     node _GEN_14700
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_is_jump, T_38110_20_is_jump) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_is_jump,
+            T_38110_20_is_jump) @[rob.scala 350:34]
     node _GEN_14701
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_is_jump, T_38110_21_is_jump) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_is_jump,
+            T_38110_21_is_jump) @[rob.scala 350:34]
     node _GEN_14702
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_is_jump, T_38110_22_is_jump) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_is_jump,
+            T_38110_22_is_jump) @[rob.scala 350:34]
     node _GEN_14703
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_is_jump, T_38110_23_is_jump) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_is_jump,
+            T_38110_23_is_jump) @[rob.scala 350:34]
     skip
     node _GEN_14704
       = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_is_jal, T_38110_0_is_jal) @[rob.scala 350:34]
@@ -25227,33 +27228,47 @@ circuit Rob :
     node _GEN_14761
       = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_is_call, T_38110_9_is_call) @[rob.scala 350:34]
     node _GEN_14762
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_is_call, T_38110_10_is_call) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_is_call,
+            T_38110_10_is_call) @[rob.scala 350:34]
     node _GEN_14763
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_is_call, T_38110_11_is_call) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_is_call,
+            T_38110_11_is_call) @[rob.scala 350:34]
     node _GEN_14764
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_is_call, T_38110_12_is_call) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_is_call,
+            T_38110_12_is_call) @[rob.scala 350:34]
     node _GEN_14765
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_is_call, T_38110_13_is_call) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_is_call,
+            T_38110_13_is_call) @[rob.scala 350:34]
     node _GEN_14766
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_is_call, T_38110_14_is_call) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_is_call,
+            T_38110_14_is_call) @[rob.scala 350:34]
     node _GEN_14767
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_is_call, T_38110_15_is_call) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_is_call,
+            T_38110_15_is_call) @[rob.scala 350:34]
     node _GEN_14768
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_is_call, T_38110_16_is_call) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_is_call,
+            T_38110_16_is_call) @[rob.scala 350:34]
     node _GEN_14769
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_is_call, T_38110_17_is_call) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_is_call,
+            T_38110_17_is_call) @[rob.scala 350:34]
     node _GEN_14770
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_is_call, T_38110_18_is_call) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_is_call,
+            T_38110_18_is_call) @[rob.scala 350:34]
     node _GEN_14771
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_is_call, T_38110_19_is_call) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_is_call,
+            T_38110_19_is_call) @[rob.scala 350:34]
     node _GEN_14772
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_is_call, T_38110_20_is_call) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_is_call,
+            T_38110_20_is_call) @[rob.scala 350:34]
     node _GEN_14773
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_is_call, T_38110_21_is_call) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_is_call,
+            T_38110_21_is_call) @[rob.scala 350:34]
     node _GEN_14774
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_is_call, T_38110_22_is_call) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_is_call,
+            T_38110_22_is_call) @[rob.scala 350:34]
     node _GEN_14775
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_is_call, T_38110_23_is_call) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_is_call,
+            T_38110_23_is_call) @[rob.scala 350:34]
     skip
     node _GEN_14776
       = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_br_mask, T_38110_0_br_mask) @[rob.scala 350:34]
@@ -25276,33 +27291,47 @@ circuit Rob :
     node _GEN_14785
       = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_br_mask, T_38110_9_br_mask) @[rob.scala 350:34]
     node _GEN_14786
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_br_mask, T_38110_10_br_mask) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_br_mask,
+            T_38110_10_br_mask) @[rob.scala 350:34]
     node _GEN_14787
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_br_mask, T_38110_11_br_mask) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_br_mask,
+            T_38110_11_br_mask) @[rob.scala 350:34]
     node _GEN_14788
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_br_mask, T_38110_12_br_mask) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_br_mask,
+            T_38110_12_br_mask) @[rob.scala 350:34]
     node _GEN_14789
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_br_mask, T_38110_13_br_mask) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_br_mask,
+            T_38110_13_br_mask) @[rob.scala 350:34]
     node _GEN_14790
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_br_mask, T_38110_14_br_mask) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_br_mask,
+            T_38110_14_br_mask) @[rob.scala 350:34]
     node _GEN_14791
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_br_mask, T_38110_15_br_mask) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_br_mask,
+            T_38110_15_br_mask) @[rob.scala 350:34]
     node _GEN_14792
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_br_mask, T_38110_16_br_mask) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_br_mask,
+            T_38110_16_br_mask) @[rob.scala 350:34]
     node _GEN_14793
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_br_mask, T_38110_17_br_mask) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_br_mask,
+            T_38110_17_br_mask) @[rob.scala 350:34]
     node _GEN_14794
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_br_mask, T_38110_18_br_mask) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_br_mask,
+            T_38110_18_br_mask) @[rob.scala 350:34]
     node _GEN_14795
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_br_mask, T_38110_19_br_mask) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_br_mask,
+            T_38110_19_br_mask) @[rob.scala 350:34]
     node _GEN_14796
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_br_mask, T_38110_20_br_mask) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_br_mask,
+            T_38110_20_br_mask) @[rob.scala 350:34]
     node _GEN_14797
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_br_mask, T_38110_21_br_mask) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_br_mask,
+            T_38110_21_br_mask) @[rob.scala 350:34]
     node _GEN_14798
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_br_mask, T_38110_22_br_mask) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_br_mask,
+            T_38110_22_br_mask) @[rob.scala 350:34]
     node _GEN_14799
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_br_mask, T_38110_23_br_mask) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_br_mask,
+            T_38110_23_br_mask) @[rob.scala 350:34]
     skip
     node _GEN_14800
       = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_br_tag, T_38110_0_br_tag) @[rob.scala 350:34]
@@ -25354,641 +27383,1029 @@ circuit Rob :
       = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_br_tag, T_38110_23_br_tag) @[rob.scala 350:34]
     skip
     node _GEN_14824
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_br_prediction_bpd_predict_val, T_38110_0_br_prediction_bpd_predict_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail),
+            io_dis_uops_1_br_prediction_bpd_predict_val,
+            T_38110_0_br_prediction_bpd_predict_val) @[rob.scala 350:34]
     node _GEN_14825
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_br_prediction_bpd_predict_val, T_38110_1_br_prediction_bpd_predict_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail),
+            io_dis_uops_1_br_prediction_bpd_predict_val,
+            T_38110_1_br_prediction_bpd_predict_val) @[rob.scala 350:34]
     node _GEN_14826
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_br_prediction_bpd_predict_val, T_38110_2_br_prediction_bpd_predict_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail),
+            io_dis_uops_1_br_prediction_bpd_predict_val,
+            T_38110_2_br_prediction_bpd_predict_val) @[rob.scala 350:34]
     node _GEN_14827
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_br_prediction_bpd_predict_val, T_38110_3_br_prediction_bpd_predict_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail),
+            io_dis_uops_1_br_prediction_bpd_predict_val,
+            T_38110_3_br_prediction_bpd_predict_val) @[rob.scala 350:34]
     node _GEN_14828
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_br_prediction_bpd_predict_val, T_38110_4_br_prediction_bpd_predict_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail),
+            io_dis_uops_1_br_prediction_bpd_predict_val,
+            T_38110_4_br_prediction_bpd_predict_val) @[rob.scala 350:34]
     node _GEN_14829
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_br_prediction_bpd_predict_val, T_38110_5_br_prediction_bpd_predict_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail),
+            io_dis_uops_1_br_prediction_bpd_predict_val,
+            T_38110_5_br_prediction_bpd_predict_val) @[rob.scala 350:34]
     node _GEN_14830
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_br_prediction_bpd_predict_val, T_38110_6_br_prediction_bpd_predict_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail),
+            io_dis_uops_1_br_prediction_bpd_predict_val,
+            T_38110_6_br_prediction_bpd_predict_val) @[rob.scala 350:34]
     node _GEN_14831
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_br_prediction_bpd_predict_val, T_38110_7_br_prediction_bpd_predict_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail),
+            io_dis_uops_1_br_prediction_bpd_predict_val,
+            T_38110_7_br_prediction_bpd_predict_val) @[rob.scala 350:34]
     node _GEN_14832
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_br_prediction_bpd_predict_val, T_38110_8_br_prediction_bpd_predict_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail),
+            io_dis_uops_1_br_prediction_bpd_predict_val,
+            T_38110_8_br_prediction_bpd_predict_val) @[rob.scala 350:34]
     node _GEN_14833
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_br_prediction_bpd_predict_val, T_38110_9_br_prediction_bpd_predict_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail),
+            io_dis_uops_1_br_prediction_bpd_predict_val,
+            T_38110_9_br_prediction_bpd_predict_val) @[rob.scala 350:34]
     node _GEN_14834
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_br_prediction_bpd_predict_val, T_38110_10_br_prediction_bpd_predict_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail),
+            io_dis_uops_1_br_prediction_bpd_predict_val,
+            T_38110_10_br_prediction_bpd_predict_val) @[rob.scala 350:34]
     node _GEN_14835
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_br_prediction_bpd_predict_val, T_38110_11_br_prediction_bpd_predict_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail),
+            io_dis_uops_1_br_prediction_bpd_predict_val,
+            T_38110_11_br_prediction_bpd_predict_val) @[rob.scala 350:34]
     node _GEN_14836
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_br_prediction_bpd_predict_val, T_38110_12_br_prediction_bpd_predict_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail),
+            io_dis_uops_1_br_prediction_bpd_predict_val,
+            T_38110_12_br_prediction_bpd_predict_val) @[rob.scala 350:34]
     node _GEN_14837
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_br_prediction_bpd_predict_val, T_38110_13_br_prediction_bpd_predict_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail),
+            io_dis_uops_1_br_prediction_bpd_predict_val,
+            T_38110_13_br_prediction_bpd_predict_val) @[rob.scala 350:34]
     node _GEN_14838
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_br_prediction_bpd_predict_val, T_38110_14_br_prediction_bpd_predict_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail),
+            io_dis_uops_1_br_prediction_bpd_predict_val,
+            T_38110_14_br_prediction_bpd_predict_val) @[rob.scala 350:34]
     node _GEN_14839
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_br_prediction_bpd_predict_val, T_38110_15_br_prediction_bpd_predict_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail),
+            io_dis_uops_1_br_prediction_bpd_predict_val,
+            T_38110_15_br_prediction_bpd_predict_val) @[rob.scala 350:34]
     node _GEN_14840
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_br_prediction_bpd_predict_val, T_38110_16_br_prediction_bpd_predict_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail),
+            io_dis_uops_1_br_prediction_bpd_predict_val,
+            T_38110_16_br_prediction_bpd_predict_val) @[rob.scala 350:34]
     node _GEN_14841
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_br_prediction_bpd_predict_val, T_38110_17_br_prediction_bpd_predict_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail),
+            io_dis_uops_1_br_prediction_bpd_predict_val,
+            T_38110_17_br_prediction_bpd_predict_val) @[rob.scala 350:34]
     node _GEN_14842
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_br_prediction_bpd_predict_val, T_38110_18_br_prediction_bpd_predict_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail),
+            io_dis_uops_1_br_prediction_bpd_predict_val,
+            T_38110_18_br_prediction_bpd_predict_val) @[rob.scala 350:34]
     node _GEN_14843
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_br_prediction_bpd_predict_val, T_38110_19_br_prediction_bpd_predict_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail),
+            io_dis_uops_1_br_prediction_bpd_predict_val,
+            T_38110_19_br_prediction_bpd_predict_val) @[rob.scala 350:34]
     node _GEN_14844
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_br_prediction_bpd_predict_val, T_38110_20_br_prediction_bpd_predict_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail),
+            io_dis_uops_1_br_prediction_bpd_predict_val,
+            T_38110_20_br_prediction_bpd_predict_val) @[rob.scala 350:34]
     node _GEN_14845
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_br_prediction_bpd_predict_val, T_38110_21_br_prediction_bpd_predict_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail),
+            io_dis_uops_1_br_prediction_bpd_predict_val,
+            T_38110_21_br_prediction_bpd_predict_val) @[rob.scala 350:34]
     node _GEN_14846
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_br_prediction_bpd_predict_val, T_38110_22_br_prediction_bpd_predict_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail),
+            io_dis_uops_1_br_prediction_bpd_predict_val,
+            T_38110_22_br_prediction_bpd_predict_val) @[rob.scala 350:34]
     node _GEN_14847
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_br_prediction_bpd_predict_val, T_38110_23_br_prediction_bpd_predict_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail),
+            io_dis_uops_1_br_prediction_bpd_predict_val,
+            T_38110_23_br_prediction_bpd_predict_val) @[rob.scala 350:34]
     skip
     node _GEN_14848
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_br_prediction_bpd_predict_taken, T_38110_0_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail),
+            io_dis_uops_1_br_prediction_bpd_predict_taken,
+            T_38110_0_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
     node _GEN_14849
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_br_prediction_bpd_predict_taken, T_38110_1_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail),
+            io_dis_uops_1_br_prediction_bpd_predict_taken,
+            T_38110_1_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
     node _GEN_14850
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_br_prediction_bpd_predict_taken, T_38110_2_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail),
+            io_dis_uops_1_br_prediction_bpd_predict_taken,
+            T_38110_2_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
     node _GEN_14851
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_br_prediction_bpd_predict_taken, T_38110_3_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail),
+            io_dis_uops_1_br_prediction_bpd_predict_taken,
+            T_38110_3_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
     node _GEN_14852
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_br_prediction_bpd_predict_taken, T_38110_4_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail),
+            io_dis_uops_1_br_prediction_bpd_predict_taken,
+            T_38110_4_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
     node _GEN_14853
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_br_prediction_bpd_predict_taken, T_38110_5_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail),
+            io_dis_uops_1_br_prediction_bpd_predict_taken,
+            T_38110_5_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
     node _GEN_14854
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_br_prediction_bpd_predict_taken, T_38110_6_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail),
+            io_dis_uops_1_br_prediction_bpd_predict_taken,
+            T_38110_6_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
     node _GEN_14855
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_br_prediction_bpd_predict_taken, T_38110_7_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail),
+            io_dis_uops_1_br_prediction_bpd_predict_taken,
+            T_38110_7_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
     node _GEN_14856
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_br_prediction_bpd_predict_taken, T_38110_8_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail),
+            io_dis_uops_1_br_prediction_bpd_predict_taken,
+            T_38110_8_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
     node _GEN_14857
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_br_prediction_bpd_predict_taken, T_38110_9_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail),
+            io_dis_uops_1_br_prediction_bpd_predict_taken,
+            T_38110_9_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
     node _GEN_14858
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_br_prediction_bpd_predict_taken, T_38110_10_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail),
+            io_dis_uops_1_br_prediction_bpd_predict_taken,
+            T_38110_10_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
     node _GEN_14859
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_br_prediction_bpd_predict_taken, T_38110_11_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail),
+            io_dis_uops_1_br_prediction_bpd_predict_taken,
+            T_38110_11_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
     node _GEN_14860
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_br_prediction_bpd_predict_taken, T_38110_12_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail),
+            io_dis_uops_1_br_prediction_bpd_predict_taken,
+            T_38110_12_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
     node _GEN_14861
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_br_prediction_bpd_predict_taken, T_38110_13_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail),
+            io_dis_uops_1_br_prediction_bpd_predict_taken,
+            T_38110_13_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
     node _GEN_14862
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_br_prediction_bpd_predict_taken, T_38110_14_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail),
+            io_dis_uops_1_br_prediction_bpd_predict_taken,
+            T_38110_14_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
     node _GEN_14863
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_br_prediction_bpd_predict_taken, T_38110_15_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail),
+            io_dis_uops_1_br_prediction_bpd_predict_taken,
+            T_38110_15_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
     node _GEN_14864
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_br_prediction_bpd_predict_taken, T_38110_16_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail),
+            io_dis_uops_1_br_prediction_bpd_predict_taken,
+            T_38110_16_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
     node _GEN_14865
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_br_prediction_bpd_predict_taken, T_38110_17_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail),
+            io_dis_uops_1_br_prediction_bpd_predict_taken,
+            T_38110_17_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
     node _GEN_14866
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_br_prediction_bpd_predict_taken, T_38110_18_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail),
+            io_dis_uops_1_br_prediction_bpd_predict_taken,
+            T_38110_18_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
     node _GEN_14867
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_br_prediction_bpd_predict_taken, T_38110_19_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail),
+            io_dis_uops_1_br_prediction_bpd_predict_taken,
+            T_38110_19_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
     node _GEN_14868
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_br_prediction_bpd_predict_taken, T_38110_20_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail),
+            io_dis_uops_1_br_prediction_bpd_predict_taken,
+            T_38110_20_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
     node _GEN_14869
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_br_prediction_bpd_predict_taken, T_38110_21_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail),
+            io_dis_uops_1_br_prediction_bpd_predict_taken,
+            T_38110_21_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
     node _GEN_14870
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_br_prediction_bpd_predict_taken, T_38110_22_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail),
+            io_dis_uops_1_br_prediction_bpd_predict_taken,
+            T_38110_22_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
     node _GEN_14871
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_br_prediction_bpd_predict_taken, T_38110_23_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail),
+            io_dis_uops_1_br_prediction_bpd_predict_taken,
+            T_38110_23_br_prediction_bpd_predict_taken) @[rob.scala 350:34]
     skip
     node _GEN_14872
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_br_prediction_btb_hit, T_38110_0_br_prediction_btb_hit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_br_prediction_btb_hit,
+            T_38110_0_br_prediction_btb_hit) @[rob.scala 350:34]
     node _GEN_14873
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_br_prediction_btb_hit, T_38110_1_br_prediction_btb_hit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_br_prediction_btb_hit,
+            T_38110_1_br_prediction_btb_hit) @[rob.scala 350:34]
     node _GEN_14874
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_br_prediction_btb_hit, T_38110_2_br_prediction_btb_hit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_br_prediction_btb_hit,
+            T_38110_2_br_prediction_btb_hit) @[rob.scala 350:34]
     node _GEN_14875
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_br_prediction_btb_hit, T_38110_3_br_prediction_btb_hit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_br_prediction_btb_hit,
+            T_38110_3_br_prediction_btb_hit) @[rob.scala 350:34]
     node _GEN_14876
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_br_prediction_btb_hit, T_38110_4_br_prediction_btb_hit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_br_prediction_btb_hit,
+            T_38110_4_br_prediction_btb_hit) @[rob.scala 350:34]
     node _GEN_14877
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_br_prediction_btb_hit, T_38110_5_br_prediction_btb_hit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_br_prediction_btb_hit,
+            T_38110_5_br_prediction_btb_hit) @[rob.scala 350:34]
     node _GEN_14878
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_br_prediction_btb_hit, T_38110_6_br_prediction_btb_hit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_br_prediction_btb_hit,
+            T_38110_6_br_prediction_btb_hit) @[rob.scala 350:34]
     node _GEN_14879
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_br_prediction_btb_hit, T_38110_7_br_prediction_btb_hit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_br_prediction_btb_hit,
+            T_38110_7_br_prediction_btb_hit) @[rob.scala 350:34]
     node _GEN_14880
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_br_prediction_btb_hit, T_38110_8_br_prediction_btb_hit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_br_prediction_btb_hit,
+            T_38110_8_br_prediction_btb_hit) @[rob.scala 350:34]
     node _GEN_14881
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_br_prediction_btb_hit, T_38110_9_br_prediction_btb_hit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_br_prediction_btb_hit,
+            T_38110_9_br_prediction_btb_hit) @[rob.scala 350:34]
     node _GEN_14882
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_br_prediction_btb_hit, T_38110_10_br_prediction_btb_hit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_br_prediction_btb_hit,
+            T_38110_10_br_prediction_btb_hit) @[rob.scala 350:34]
     node _GEN_14883
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_br_prediction_btb_hit, T_38110_11_br_prediction_btb_hit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_br_prediction_btb_hit,
+            T_38110_11_br_prediction_btb_hit) @[rob.scala 350:34]
     node _GEN_14884
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_br_prediction_btb_hit, T_38110_12_br_prediction_btb_hit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_br_prediction_btb_hit,
+            T_38110_12_br_prediction_btb_hit) @[rob.scala 350:34]
     node _GEN_14885
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_br_prediction_btb_hit, T_38110_13_br_prediction_btb_hit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_br_prediction_btb_hit,
+            T_38110_13_br_prediction_btb_hit) @[rob.scala 350:34]
     node _GEN_14886
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_br_prediction_btb_hit, T_38110_14_br_prediction_btb_hit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_br_prediction_btb_hit,
+            T_38110_14_br_prediction_btb_hit) @[rob.scala 350:34]
     node _GEN_14887
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_br_prediction_btb_hit, T_38110_15_br_prediction_btb_hit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_br_prediction_btb_hit,
+            T_38110_15_br_prediction_btb_hit) @[rob.scala 350:34]
     node _GEN_14888
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_br_prediction_btb_hit, T_38110_16_br_prediction_btb_hit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_br_prediction_btb_hit,
+            T_38110_16_br_prediction_btb_hit) @[rob.scala 350:34]
     node _GEN_14889
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_br_prediction_btb_hit, T_38110_17_br_prediction_btb_hit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_br_prediction_btb_hit,
+            T_38110_17_br_prediction_btb_hit) @[rob.scala 350:34]
     node _GEN_14890
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_br_prediction_btb_hit, T_38110_18_br_prediction_btb_hit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_br_prediction_btb_hit,
+            T_38110_18_br_prediction_btb_hit) @[rob.scala 350:34]
     node _GEN_14891
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_br_prediction_btb_hit, T_38110_19_br_prediction_btb_hit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_br_prediction_btb_hit,
+            T_38110_19_br_prediction_btb_hit) @[rob.scala 350:34]
     node _GEN_14892
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_br_prediction_btb_hit, T_38110_20_br_prediction_btb_hit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_br_prediction_btb_hit,
+            T_38110_20_br_prediction_btb_hit) @[rob.scala 350:34]
     node _GEN_14893
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_br_prediction_btb_hit, T_38110_21_br_prediction_btb_hit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_br_prediction_btb_hit,
+            T_38110_21_br_prediction_btb_hit) @[rob.scala 350:34]
     node _GEN_14894
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_br_prediction_btb_hit, T_38110_22_br_prediction_btb_hit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_br_prediction_btb_hit,
+            T_38110_22_br_prediction_btb_hit) @[rob.scala 350:34]
     node _GEN_14895
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_br_prediction_btb_hit, T_38110_23_br_prediction_btb_hit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_br_prediction_btb_hit,
+            T_38110_23_br_prediction_btb_hit) @[rob.scala 350:34]
     skip
     node _GEN_14896
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_br_prediction_btb_predicted, T_38110_0_br_prediction_btb_predicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_br_prediction_btb_predicted,
+            T_38110_0_br_prediction_btb_predicted) @[rob.scala 350:34]
     node _GEN_14897
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_br_prediction_btb_predicted, T_38110_1_br_prediction_btb_predicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_br_prediction_btb_predicted,
+            T_38110_1_br_prediction_btb_predicted) @[rob.scala 350:34]
     node _GEN_14898
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_br_prediction_btb_predicted, T_38110_2_br_prediction_btb_predicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_br_prediction_btb_predicted,
+            T_38110_2_br_prediction_btb_predicted) @[rob.scala 350:34]
     node _GEN_14899
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_br_prediction_btb_predicted, T_38110_3_br_prediction_btb_predicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_br_prediction_btb_predicted,
+            T_38110_3_br_prediction_btb_predicted) @[rob.scala 350:34]
     node _GEN_14900
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_br_prediction_btb_predicted, T_38110_4_br_prediction_btb_predicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_br_prediction_btb_predicted,
+            T_38110_4_br_prediction_btb_predicted) @[rob.scala 350:34]
     node _GEN_14901
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_br_prediction_btb_predicted, T_38110_5_br_prediction_btb_predicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_br_prediction_btb_predicted,
+            T_38110_5_br_prediction_btb_predicted) @[rob.scala 350:34]
     node _GEN_14902
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_br_prediction_btb_predicted, T_38110_6_br_prediction_btb_predicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_br_prediction_btb_predicted,
+            T_38110_6_br_prediction_btb_predicted) @[rob.scala 350:34]
     node _GEN_14903
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_br_prediction_btb_predicted, T_38110_7_br_prediction_btb_predicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_br_prediction_btb_predicted,
+            T_38110_7_br_prediction_btb_predicted) @[rob.scala 350:34]
     node _GEN_14904
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_br_prediction_btb_predicted, T_38110_8_br_prediction_btb_predicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_br_prediction_btb_predicted,
+            T_38110_8_br_prediction_btb_predicted) @[rob.scala 350:34]
     node _GEN_14905
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_br_prediction_btb_predicted, T_38110_9_br_prediction_btb_predicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_br_prediction_btb_predicted,
+            T_38110_9_br_prediction_btb_predicted) @[rob.scala 350:34]
     node _GEN_14906
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_br_prediction_btb_predicted, T_38110_10_br_prediction_btb_predicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail),
+            io_dis_uops_1_br_prediction_btb_predicted,
+            T_38110_10_br_prediction_btb_predicted) @[rob.scala 350:34]
     node _GEN_14907
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_br_prediction_btb_predicted, T_38110_11_br_prediction_btb_predicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail),
+            io_dis_uops_1_br_prediction_btb_predicted,
+            T_38110_11_br_prediction_btb_predicted) @[rob.scala 350:34]
     node _GEN_14908
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_br_prediction_btb_predicted, T_38110_12_br_prediction_btb_predicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail),
+            io_dis_uops_1_br_prediction_btb_predicted,
+            T_38110_12_br_prediction_btb_predicted) @[rob.scala 350:34]
     node _GEN_14909
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_br_prediction_btb_predicted, T_38110_13_br_prediction_btb_predicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail),
+            io_dis_uops_1_br_prediction_btb_predicted,
+            T_38110_13_br_prediction_btb_predicted) @[rob.scala 350:34]
     node _GEN_14910
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_br_prediction_btb_predicted, T_38110_14_br_prediction_btb_predicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail),
+            io_dis_uops_1_br_prediction_btb_predicted,
+            T_38110_14_br_prediction_btb_predicted) @[rob.scala 350:34]
     node _GEN_14911
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_br_prediction_btb_predicted, T_38110_15_br_prediction_btb_predicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail),
+            io_dis_uops_1_br_prediction_btb_predicted,
+            T_38110_15_br_prediction_btb_predicted) @[rob.scala 350:34]
     node _GEN_14912
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_br_prediction_btb_predicted, T_38110_16_br_prediction_btb_predicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail),
+            io_dis_uops_1_br_prediction_btb_predicted,
+            T_38110_16_br_prediction_btb_predicted) @[rob.scala 350:34]
     node _GEN_14913
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_br_prediction_btb_predicted, T_38110_17_br_prediction_btb_predicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail),
+            io_dis_uops_1_br_prediction_btb_predicted,
+            T_38110_17_br_prediction_btb_predicted) @[rob.scala 350:34]
     node _GEN_14914
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_br_prediction_btb_predicted, T_38110_18_br_prediction_btb_predicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail),
+            io_dis_uops_1_br_prediction_btb_predicted,
+            T_38110_18_br_prediction_btb_predicted) @[rob.scala 350:34]
     node _GEN_14915
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_br_prediction_btb_predicted, T_38110_19_br_prediction_btb_predicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail),
+            io_dis_uops_1_br_prediction_btb_predicted,
+            T_38110_19_br_prediction_btb_predicted) @[rob.scala 350:34]
     node _GEN_14916
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_br_prediction_btb_predicted, T_38110_20_br_prediction_btb_predicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail),
+            io_dis_uops_1_br_prediction_btb_predicted,
+            T_38110_20_br_prediction_btb_predicted) @[rob.scala 350:34]
     node _GEN_14917
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_br_prediction_btb_predicted, T_38110_21_br_prediction_btb_predicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail),
+            io_dis_uops_1_br_prediction_btb_predicted,
+            T_38110_21_br_prediction_btb_predicted) @[rob.scala 350:34]
     node _GEN_14918
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_br_prediction_btb_predicted, T_38110_22_br_prediction_btb_predicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail),
+            io_dis_uops_1_br_prediction_btb_predicted,
+            T_38110_22_br_prediction_btb_predicted) @[rob.scala 350:34]
     node _GEN_14919
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_br_prediction_btb_predicted, T_38110_23_br_prediction_btb_predicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail),
+            io_dis_uops_1_br_prediction_btb_predicted,
+            T_38110_23_br_prediction_btb_predicted) @[rob.scala 350:34]
     skip
     node _GEN_14920
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_br_prediction_is_br_or_jalr, T_38110_0_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_br_prediction_is_br_or_jalr,
+            T_38110_0_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
     node _GEN_14921
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_br_prediction_is_br_or_jalr, T_38110_1_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_br_prediction_is_br_or_jalr,
+            T_38110_1_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
     node _GEN_14922
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_br_prediction_is_br_or_jalr, T_38110_2_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_br_prediction_is_br_or_jalr,
+            T_38110_2_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
     node _GEN_14923
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_br_prediction_is_br_or_jalr, T_38110_3_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_br_prediction_is_br_or_jalr,
+            T_38110_3_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
     node _GEN_14924
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_br_prediction_is_br_or_jalr, T_38110_4_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_br_prediction_is_br_or_jalr,
+            T_38110_4_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
     node _GEN_14925
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_br_prediction_is_br_or_jalr, T_38110_5_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_br_prediction_is_br_or_jalr,
+            T_38110_5_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
     node _GEN_14926
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_br_prediction_is_br_or_jalr, T_38110_6_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_br_prediction_is_br_or_jalr,
+            T_38110_6_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
     node _GEN_14927
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_br_prediction_is_br_or_jalr, T_38110_7_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_br_prediction_is_br_or_jalr,
+            T_38110_7_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
     node _GEN_14928
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_br_prediction_is_br_or_jalr, T_38110_8_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_br_prediction_is_br_or_jalr,
+            T_38110_8_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
     node _GEN_14929
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_br_prediction_is_br_or_jalr, T_38110_9_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_br_prediction_is_br_or_jalr,
+            T_38110_9_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
     node _GEN_14930
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_br_prediction_is_br_or_jalr, T_38110_10_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail),
+            io_dis_uops_1_br_prediction_is_br_or_jalr,
+            T_38110_10_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
     node _GEN_14931
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_br_prediction_is_br_or_jalr, T_38110_11_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail),
+            io_dis_uops_1_br_prediction_is_br_or_jalr,
+            T_38110_11_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
     node _GEN_14932
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_br_prediction_is_br_or_jalr, T_38110_12_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail),
+            io_dis_uops_1_br_prediction_is_br_or_jalr,
+            T_38110_12_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
     node _GEN_14933
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_br_prediction_is_br_or_jalr, T_38110_13_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail),
+            io_dis_uops_1_br_prediction_is_br_or_jalr,
+            T_38110_13_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
     node _GEN_14934
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_br_prediction_is_br_or_jalr, T_38110_14_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail),
+            io_dis_uops_1_br_prediction_is_br_or_jalr,
+            T_38110_14_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
     node _GEN_14935
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_br_prediction_is_br_or_jalr, T_38110_15_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail),
+            io_dis_uops_1_br_prediction_is_br_or_jalr,
+            T_38110_15_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
     node _GEN_14936
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_br_prediction_is_br_or_jalr, T_38110_16_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail),
+            io_dis_uops_1_br_prediction_is_br_or_jalr,
+            T_38110_16_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
     node _GEN_14937
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_br_prediction_is_br_or_jalr, T_38110_17_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail),
+            io_dis_uops_1_br_prediction_is_br_or_jalr,
+            T_38110_17_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
     node _GEN_14938
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_br_prediction_is_br_or_jalr, T_38110_18_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail),
+            io_dis_uops_1_br_prediction_is_br_or_jalr,
+            T_38110_18_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
     node _GEN_14939
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_br_prediction_is_br_or_jalr, T_38110_19_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail),
+            io_dis_uops_1_br_prediction_is_br_or_jalr,
+            T_38110_19_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
     node _GEN_14940
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_br_prediction_is_br_or_jalr, T_38110_20_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail),
+            io_dis_uops_1_br_prediction_is_br_or_jalr,
+            T_38110_20_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
     node _GEN_14941
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_br_prediction_is_br_or_jalr, T_38110_21_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail),
+            io_dis_uops_1_br_prediction_is_br_or_jalr,
+            T_38110_21_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
     node _GEN_14942
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_br_prediction_is_br_or_jalr, T_38110_22_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail),
+            io_dis_uops_1_br_prediction_is_br_or_jalr,
+            T_38110_22_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
     node _GEN_14943
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_br_prediction_is_br_or_jalr, T_38110_23_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail),
+            io_dis_uops_1_br_prediction_is_br_or_jalr,
+            T_38110_23_br_prediction_is_br_or_jalr) @[rob.scala 350:34]
     skip
     node _GEN_14944
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_stat_brjmp_mispredicted, T_38110_0_stat_brjmp_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_stat_brjmp_mispredicted,
+            T_38110_0_stat_brjmp_mispredicted) @[rob.scala 350:34]
     node _GEN_14945
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_stat_brjmp_mispredicted, T_38110_1_stat_brjmp_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_stat_brjmp_mispredicted,
+            T_38110_1_stat_brjmp_mispredicted) @[rob.scala 350:34]
     node _GEN_14946
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_stat_brjmp_mispredicted, T_38110_2_stat_brjmp_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_stat_brjmp_mispredicted,
+            T_38110_2_stat_brjmp_mispredicted) @[rob.scala 350:34]
     node _GEN_14947
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_stat_brjmp_mispredicted, T_38110_3_stat_brjmp_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_stat_brjmp_mispredicted,
+            T_38110_3_stat_brjmp_mispredicted) @[rob.scala 350:34]
     node _GEN_14948
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_stat_brjmp_mispredicted, T_38110_4_stat_brjmp_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_stat_brjmp_mispredicted,
+            T_38110_4_stat_brjmp_mispredicted) @[rob.scala 350:34]
     node _GEN_14949
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_stat_brjmp_mispredicted, T_38110_5_stat_brjmp_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_stat_brjmp_mispredicted,
+            T_38110_5_stat_brjmp_mispredicted) @[rob.scala 350:34]
     node _GEN_14950
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_stat_brjmp_mispredicted, T_38110_6_stat_brjmp_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_stat_brjmp_mispredicted,
+            T_38110_6_stat_brjmp_mispredicted) @[rob.scala 350:34]
     node _GEN_14951
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_stat_brjmp_mispredicted, T_38110_7_stat_brjmp_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_stat_brjmp_mispredicted,
+            T_38110_7_stat_brjmp_mispredicted) @[rob.scala 350:34]
     node _GEN_14952
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_stat_brjmp_mispredicted, T_38110_8_stat_brjmp_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_stat_brjmp_mispredicted,
+            T_38110_8_stat_brjmp_mispredicted) @[rob.scala 350:34]
     node _GEN_14953
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_stat_brjmp_mispredicted, T_38110_9_stat_brjmp_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_stat_brjmp_mispredicted,
+            T_38110_9_stat_brjmp_mispredicted) @[rob.scala 350:34]
     node _GEN_14954
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_stat_brjmp_mispredicted, T_38110_10_stat_brjmp_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_stat_brjmp_mispredicted,
+            T_38110_10_stat_brjmp_mispredicted) @[rob.scala 350:34]
     node _GEN_14955
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_stat_brjmp_mispredicted, T_38110_11_stat_brjmp_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_stat_brjmp_mispredicted,
+            T_38110_11_stat_brjmp_mispredicted) @[rob.scala 350:34]
     node _GEN_14956
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_stat_brjmp_mispredicted, T_38110_12_stat_brjmp_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_stat_brjmp_mispredicted,
+            T_38110_12_stat_brjmp_mispredicted) @[rob.scala 350:34]
     node _GEN_14957
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_stat_brjmp_mispredicted, T_38110_13_stat_brjmp_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_stat_brjmp_mispredicted,
+            T_38110_13_stat_brjmp_mispredicted) @[rob.scala 350:34]
     node _GEN_14958
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_stat_brjmp_mispredicted, T_38110_14_stat_brjmp_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_stat_brjmp_mispredicted,
+            T_38110_14_stat_brjmp_mispredicted) @[rob.scala 350:34]
     node _GEN_14959
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_stat_brjmp_mispredicted, T_38110_15_stat_brjmp_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_stat_brjmp_mispredicted,
+            T_38110_15_stat_brjmp_mispredicted) @[rob.scala 350:34]
     node _GEN_14960
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_stat_brjmp_mispredicted, T_38110_16_stat_brjmp_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_stat_brjmp_mispredicted,
+            T_38110_16_stat_brjmp_mispredicted) @[rob.scala 350:34]
     node _GEN_14961
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_stat_brjmp_mispredicted, T_38110_17_stat_brjmp_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_stat_brjmp_mispredicted,
+            T_38110_17_stat_brjmp_mispredicted) @[rob.scala 350:34]
     node _GEN_14962
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_stat_brjmp_mispredicted, T_38110_18_stat_brjmp_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_stat_brjmp_mispredicted,
+            T_38110_18_stat_brjmp_mispredicted) @[rob.scala 350:34]
     node _GEN_14963
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_stat_brjmp_mispredicted, T_38110_19_stat_brjmp_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_stat_brjmp_mispredicted,
+            T_38110_19_stat_brjmp_mispredicted) @[rob.scala 350:34]
     node _GEN_14964
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_stat_brjmp_mispredicted, T_38110_20_stat_brjmp_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_stat_brjmp_mispredicted,
+            T_38110_20_stat_brjmp_mispredicted) @[rob.scala 350:34]
     node _GEN_14965
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_stat_brjmp_mispredicted, T_38110_21_stat_brjmp_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_stat_brjmp_mispredicted,
+            T_38110_21_stat_brjmp_mispredicted) @[rob.scala 350:34]
     node _GEN_14966
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_stat_brjmp_mispredicted, T_38110_22_stat_brjmp_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_stat_brjmp_mispredicted,
+            T_38110_22_stat_brjmp_mispredicted) @[rob.scala 350:34]
     node _GEN_14967
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_stat_brjmp_mispredicted, T_38110_23_stat_brjmp_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_stat_brjmp_mispredicted,
+            T_38110_23_stat_brjmp_mispredicted) @[rob.scala 350:34]
     skip
     node _GEN_14968
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_stat_btb_made_pred, T_38110_0_stat_btb_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_stat_btb_made_pred,
+            T_38110_0_stat_btb_made_pred) @[rob.scala 350:34]
     node _GEN_14969
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_stat_btb_made_pred, T_38110_1_stat_btb_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_stat_btb_made_pred,
+            T_38110_1_stat_btb_made_pred) @[rob.scala 350:34]
     node _GEN_14970
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_stat_btb_made_pred, T_38110_2_stat_btb_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_stat_btb_made_pred,
+            T_38110_2_stat_btb_made_pred) @[rob.scala 350:34]
     node _GEN_14971
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_stat_btb_made_pred, T_38110_3_stat_btb_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_stat_btb_made_pred,
+            T_38110_3_stat_btb_made_pred) @[rob.scala 350:34]
     node _GEN_14972
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_stat_btb_made_pred, T_38110_4_stat_btb_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_stat_btb_made_pred,
+            T_38110_4_stat_btb_made_pred) @[rob.scala 350:34]
     node _GEN_14973
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_stat_btb_made_pred, T_38110_5_stat_btb_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_stat_btb_made_pred,
+            T_38110_5_stat_btb_made_pred) @[rob.scala 350:34]
     node _GEN_14974
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_stat_btb_made_pred, T_38110_6_stat_btb_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_stat_btb_made_pred,
+            T_38110_6_stat_btb_made_pred) @[rob.scala 350:34]
     node _GEN_14975
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_stat_btb_made_pred, T_38110_7_stat_btb_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_stat_btb_made_pred,
+            T_38110_7_stat_btb_made_pred) @[rob.scala 350:34]
     node _GEN_14976
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_stat_btb_made_pred, T_38110_8_stat_btb_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_stat_btb_made_pred,
+            T_38110_8_stat_btb_made_pred) @[rob.scala 350:34]
     node _GEN_14977
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_stat_btb_made_pred, T_38110_9_stat_btb_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_stat_btb_made_pred,
+            T_38110_9_stat_btb_made_pred) @[rob.scala 350:34]
     node _GEN_14978
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_stat_btb_made_pred, T_38110_10_stat_btb_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_stat_btb_made_pred,
+            T_38110_10_stat_btb_made_pred) @[rob.scala 350:34]
     node _GEN_14979
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_stat_btb_made_pred, T_38110_11_stat_btb_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_stat_btb_made_pred,
+            T_38110_11_stat_btb_made_pred) @[rob.scala 350:34]
     node _GEN_14980
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_stat_btb_made_pred, T_38110_12_stat_btb_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_stat_btb_made_pred,
+            T_38110_12_stat_btb_made_pred) @[rob.scala 350:34]
     node _GEN_14981
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_stat_btb_made_pred, T_38110_13_stat_btb_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_stat_btb_made_pred,
+            T_38110_13_stat_btb_made_pred) @[rob.scala 350:34]
     node _GEN_14982
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_stat_btb_made_pred, T_38110_14_stat_btb_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_stat_btb_made_pred,
+            T_38110_14_stat_btb_made_pred) @[rob.scala 350:34]
     node _GEN_14983
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_stat_btb_made_pred, T_38110_15_stat_btb_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_stat_btb_made_pred,
+            T_38110_15_stat_btb_made_pred) @[rob.scala 350:34]
     node _GEN_14984
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_stat_btb_made_pred, T_38110_16_stat_btb_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_stat_btb_made_pred,
+            T_38110_16_stat_btb_made_pred) @[rob.scala 350:34]
     node _GEN_14985
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_stat_btb_made_pred, T_38110_17_stat_btb_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_stat_btb_made_pred,
+            T_38110_17_stat_btb_made_pred) @[rob.scala 350:34]
     node _GEN_14986
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_stat_btb_made_pred, T_38110_18_stat_btb_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_stat_btb_made_pred,
+            T_38110_18_stat_btb_made_pred) @[rob.scala 350:34]
     node _GEN_14987
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_stat_btb_made_pred, T_38110_19_stat_btb_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_stat_btb_made_pred,
+            T_38110_19_stat_btb_made_pred) @[rob.scala 350:34]
     node _GEN_14988
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_stat_btb_made_pred, T_38110_20_stat_btb_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_stat_btb_made_pred,
+            T_38110_20_stat_btb_made_pred) @[rob.scala 350:34]
     node _GEN_14989
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_stat_btb_made_pred, T_38110_21_stat_btb_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_stat_btb_made_pred,
+            T_38110_21_stat_btb_made_pred) @[rob.scala 350:34]
     node _GEN_14990
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_stat_btb_made_pred, T_38110_22_stat_btb_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_stat_btb_made_pred,
+            T_38110_22_stat_btb_made_pred) @[rob.scala 350:34]
     node _GEN_14991
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_stat_btb_made_pred, T_38110_23_stat_btb_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_stat_btb_made_pred,
+            T_38110_23_stat_btb_made_pred) @[rob.scala 350:34]
     skip
     node _GEN_14992
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_stat_btb_mispredicted, T_38110_0_stat_btb_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_stat_btb_mispredicted,
+            T_38110_0_stat_btb_mispredicted) @[rob.scala 350:34]
     node _GEN_14993
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_stat_btb_mispredicted, T_38110_1_stat_btb_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_stat_btb_mispredicted,
+            T_38110_1_stat_btb_mispredicted) @[rob.scala 350:34]
     node _GEN_14994
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_stat_btb_mispredicted, T_38110_2_stat_btb_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_stat_btb_mispredicted,
+            T_38110_2_stat_btb_mispredicted) @[rob.scala 350:34]
     node _GEN_14995
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_stat_btb_mispredicted, T_38110_3_stat_btb_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_stat_btb_mispredicted,
+            T_38110_3_stat_btb_mispredicted) @[rob.scala 350:34]
     node _GEN_14996
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_stat_btb_mispredicted, T_38110_4_stat_btb_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_stat_btb_mispredicted,
+            T_38110_4_stat_btb_mispredicted) @[rob.scala 350:34]
     node _GEN_14997
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_stat_btb_mispredicted, T_38110_5_stat_btb_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_stat_btb_mispredicted,
+            T_38110_5_stat_btb_mispredicted) @[rob.scala 350:34]
     node _GEN_14998
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_stat_btb_mispredicted, T_38110_6_stat_btb_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_stat_btb_mispredicted,
+            T_38110_6_stat_btb_mispredicted) @[rob.scala 350:34]
     node _GEN_14999
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_stat_btb_mispredicted, T_38110_7_stat_btb_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_stat_btb_mispredicted,
+            T_38110_7_stat_btb_mispredicted) @[rob.scala 350:34]
     node _GEN_15000
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_stat_btb_mispredicted, T_38110_8_stat_btb_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_stat_btb_mispredicted,
+            T_38110_8_stat_btb_mispredicted) @[rob.scala 350:34]
     node _GEN_15001
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_stat_btb_mispredicted, T_38110_9_stat_btb_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_stat_btb_mispredicted,
+            T_38110_9_stat_btb_mispredicted) @[rob.scala 350:34]
     node _GEN_15002
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_stat_btb_mispredicted, T_38110_10_stat_btb_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_stat_btb_mispredicted,
+            T_38110_10_stat_btb_mispredicted) @[rob.scala 350:34]
     node _GEN_15003
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_stat_btb_mispredicted, T_38110_11_stat_btb_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_stat_btb_mispredicted,
+            T_38110_11_stat_btb_mispredicted) @[rob.scala 350:34]
     node _GEN_15004
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_stat_btb_mispredicted, T_38110_12_stat_btb_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_stat_btb_mispredicted,
+            T_38110_12_stat_btb_mispredicted) @[rob.scala 350:34]
     node _GEN_15005
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_stat_btb_mispredicted, T_38110_13_stat_btb_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_stat_btb_mispredicted,
+            T_38110_13_stat_btb_mispredicted) @[rob.scala 350:34]
     node _GEN_15006
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_stat_btb_mispredicted, T_38110_14_stat_btb_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_stat_btb_mispredicted,
+            T_38110_14_stat_btb_mispredicted) @[rob.scala 350:34]
     node _GEN_15007
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_stat_btb_mispredicted, T_38110_15_stat_btb_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_stat_btb_mispredicted,
+            T_38110_15_stat_btb_mispredicted) @[rob.scala 350:34]
     node _GEN_15008
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_stat_btb_mispredicted, T_38110_16_stat_btb_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_stat_btb_mispredicted,
+            T_38110_16_stat_btb_mispredicted) @[rob.scala 350:34]
     node _GEN_15009
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_stat_btb_mispredicted, T_38110_17_stat_btb_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_stat_btb_mispredicted,
+            T_38110_17_stat_btb_mispredicted) @[rob.scala 350:34]
     node _GEN_15010
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_stat_btb_mispredicted, T_38110_18_stat_btb_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_stat_btb_mispredicted,
+            T_38110_18_stat_btb_mispredicted) @[rob.scala 350:34]
     node _GEN_15011
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_stat_btb_mispredicted, T_38110_19_stat_btb_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_stat_btb_mispredicted,
+            T_38110_19_stat_btb_mispredicted) @[rob.scala 350:34]
     node _GEN_15012
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_stat_btb_mispredicted, T_38110_20_stat_btb_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_stat_btb_mispredicted,
+            T_38110_20_stat_btb_mispredicted) @[rob.scala 350:34]
     node _GEN_15013
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_stat_btb_mispredicted, T_38110_21_stat_btb_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_stat_btb_mispredicted,
+            T_38110_21_stat_btb_mispredicted) @[rob.scala 350:34]
     node _GEN_15014
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_stat_btb_mispredicted, T_38110_22_stat_btb_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_stat_btb_mispredicted,
+            T_38110_22_stat_btb_mispredicted) @[rob.scala 350:34]
     node _GEN_15015
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_stat_btb_mispredicted, T_38110_23_stat_btb_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_stat_btb_mispredicted,
+            T_38110_23_stat_btb_mispredicted) @[rob.scala 350:34]
     skip
     node _GEN_15016
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_stat_bpd_made_pred, T_38110_0_stat_bpd_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_stat_bpd_made_pred,
+            T_38110_0_stat_bpd_made_pred) @[rob.scala 350:34]
     node _GEN_15017
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_stat_bpd_made_pred, T_38110_1_stat_bpd_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_stat_bpd_made_pred,
+            T_38110_1_stat_bpd_made_pred) @[rob.scala 350:34]
     node _GEN_15018
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_stat_bpd_made_pred, T_38110_2_stat_bpd_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_stat_bpd_made_pred,
+            T_38110_2_stat_bpd_made_pred) @[rob.scala 350:34]
     node _GEN_15019
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_stat_bpd_made_pred, T_38110_3_stat_bpd_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_stat_bpd_made_pred,
+            T_38110_3_stat_bpd_made_pred) @[rob.scala 350:34]
     node _GEN_15020
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_stat_bpd_made_pred, T_38110_4_stat_bpd_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_stat_bpd_made_pred,
+            T_38110_4_stat_bpd_made_pred) @[rob.scala 350:34]
     node _GEN_15021
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_stat_bpd_made_pred, T_38110_5_stat_bpd_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_stat_bpd_made_pred,
+            T_38110_5_stat_bpd_made_pred) @[rob.scala 350:34]
     node _GEN_15022
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_stat_bpd_made_pred, T_38110_6_stat_bpd_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_stat_bpd_made_pred,
+            T_38110_6_stat_bpd_made_pred) @[rob.scala 350:34]
     node _GEN_15023
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_stat_bpd_made_pred, T_38110_7_stat_bpd_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_stat_bpd_made_pred,
+            T_38110_7_stat_bpd_made_pred) @[rob.scala 350:34]
     node _GEN_15024
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_stat_bpd_made_pred, T_38110_8_stat_bpd_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_stat_bpd_made_pred,
+            T_38110_8_stat_bpd_made_pred) @[rob.scala 350:34]
     node _GEN_15025
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_stat_bpd_made_pred, T_38110_9_stat_bpd_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_stat_bpd_made_pred,
+            T_38110_9_stat_bpd_made_pred) @[rob.scala 350:34]
     node _GEN_15026
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_stat_bpd_made_pred, T_38110_10_stat_bpd_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_stat_bpd_made_pred,
+            T_38110_10_stat_bpd_made_pred) @[rob.scala 350:34]
     node _GEN_15027
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_stat_bpd_made_pred, T_38110_11_stat_bpd_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_stat_bpd_made_pred,
+            T_38110_11_stat_bpd_made_pred) @[rob.scala 350:34]
     node _GEN_15028
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_stat_bpd_made_pred, T_38110_12_stat_bpd_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_stat_bpd_made_pred,
+            T_38110_12_stat_bpd_made_pred) @[rob.scala 350:34]
     node _GEN_15029
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_stat_bpd_made_pred, T_38110_13_stat_bpd_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_stat_bpd_made_pred,
+            T_38110_13_stat_bpd_made_pred) @[rob.scala 350:34]
     node _GEN_15030
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_stat_bpd_made_pred, T_38110_14_stat_bpd_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_stat_bpd_made_pred,
+            T_38110_14_stat_bpd_made_pred) @[rob.scala 350:34]
     node _GEN_15031
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_stat_bpd_made_pred, T_38110_15_stat_bpd_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_stat_bpd_made_pred,
+            T_38110_15_stat_bpd_made_pred) @[rob.scala 350:34]
     node _GEN_15032
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_stat_bpd_made_pred, T_38110_16_stat_bpd_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_stat_bpd_made_pred,
+            T_38110_16_stat_bpd_made_pred) @[rob.scala 350:34]
     node _GEN_15033
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_stat_bpd_made_pred, T_38110_17_stat_bpd_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_stat_bpd_made_pred,
+            T_38110_17_stat_bpd_made_pred) @[rob.scala 350:34]
     node _GEN_15034
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_stat_bpd_made_pred, T_38110_18_stat_bpd_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_stat_bpd_made_pred,
+            T_38110_18_stat_bpd_made_pred) @[rob.scala 350:34]
     node _GEN_15035
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_stat_bpd_made_pred, T_38110_19_stat_bpd_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_stat_bpd_made_pred,
+            T_38110_19_stat_bpd_made_pred) @[rob.scala 350:34]
     node _GEN_15036
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_stat_bpd_made_pred, T_38110_20_stat_bpd_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_stat_bpd_made_pred,
+            T_38110_20_stat_bpd_made_pred) @[rob.scala 350:34]
     node _GEN_15037
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_stat_bpd_made_pred, T_38110_21_stat_bpd_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_stat_bpd_made_pred,
+            T_38110_21_stat_bpd_made_pred) @[rob.scala 350:34]
     node _GEN_15038
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_stat_bpd_made_pred, T_38110_22_stat_bpd_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_stat_bpd_made_pred,
+            T_38110_22_stat_bpd_made_pred) @[rob.scala 350:34]
     node _GEN_15039
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_stat_bpd_made_pred, T_38110_23_stat_bpd_made_pred) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_stat_bpd_made_pred,
+            T_38110_23_stat_bpd_made_pred) @[rob.scala 350:34]
     skip
     node _GEN_15040
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_stat_bpd_mispredicted, T_38110_0_stat_bpd_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_stat_bpd_mispredicted,
+            T_38110_0_stat_bpd_mispredicted) @[rob.scala 350:34]
     node _GEN_15041
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_stat_bpd_mispredicted, T_38110_1_stat_bpd_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_stat_bpd_mispredicted,
+            T_38110_1_stat_bpd_mispredicted) @[rob.scala 350:34]
     node _GEN_15042
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_stat_bpd_mispredicted, T_38110_2_stat_bpd_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_stat_bpd_mispredicted,
+            T_38110_2_stat_bpd_mispredicted) @[rob.scala 350:34]
     node _GEN_15043
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_stat_bpd_mispredicted, T_38110_3_stat_bpd_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_stat_bpd_mispredicted,
+            T_38110_3_stat_bpd_mispredicted) @[rob.scala 350:34]
     node _GEN_15044
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_stat_bpd_mispredicted, T_38110_4_stat_bpd_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_stat_bpd_mispredicted,
+            T_38110_4_stat_bpd_mispredicted) @[rob.scala 350:34]
     node _GEN_15045
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_stat_bpd_mispredicted, T_38110_5_stat_bpd_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_stat_bpd_mispredicted,
+            T_38110_5_stat_bpd_mispredicted) @[rob.scala 350:34]
     node _GEN_15046
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_stat_bpd_mispredicted, T_38110_6_stat_bpd_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_stat_bpd_mispredicted,
+            T_38110_6_stat_bpd_mispredicted) @[rob.scala 350:34]
     node _GEN_15047
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_stat_bpd_mispredicted, T_38110_7_stat_bpd_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_stat_bpd_mispredicted,
+            T_38110_7_stat_bpd_mispredicted) @[rob.scala 350:34]
     node _GEN_15048
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_stat_bpd_mispredicted, T_38110_8_stat_bpd_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_stat_bpd_mispredicted,
+            T_38110_8_stat_bpd_mispredicted) @[rob.scala 350:34]
     node _GEN_15049
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_stat_bpd_mispredicted, T_38110_9_stat_bpd_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_stat_bpd_mispredicted,
+            T_38110_9_stat_bpd_mispredicted) @[rob.scala 350:34]
     node _GEN_15050
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_stat_bpd_mispredicted, T_38110_10_stat_bpd_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_stat_bpd_mispredicted,
+            T_38110_10_stat_bpd_mispredicted) @[rob.scala 350:34]
     node _GEN_15051
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_stat_bpd_mispredicted, T_38110_11_stat_bpd_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_stat_bpd_mispredicted,
+            T_38110_11_stat_bpd_mispredicted) @[rob.scala 350:34]
     node _GEN_15052
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_stat_bpd_mispredicted, T_38110_12_stat_bpd_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_stat_bpd_mispredicted,
+            T_38110_12_stat_bpd_mispredicted) @[rob.scala 350:34]
     node _GEN_15053
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_stat_bpd_mispredicted, T_38110_13_stat_bpd_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_stat_bpd_mispredicted,
+            T_38110_13_stat_bpd_mispredicted) @[rob.scala 350:34]
     node _GEN_15054
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_stat_bpd_mispredicted, T_38110_14_stat_bpd_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_stat_bpd_mispredicted,
+            T_38110_14_stat_bpd_mispredicted) @[rob.scala 350:34]
     node _GEN_15055
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_stat_bpd_mispredicted, T_38110_15_stat_bpd_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_stat_bpd_mispredicted,
+            T_38110_15_stat_bpd_mispredicted) @[rob.scala 350:34]
     node _GEN_15056
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_stat_bpd_mispredicted, T_38110_16_stat_bpd_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_stat_bpd_mispredicted,
+            T_38110_16_stat_bpd_mispredicted) @[rob.scala 350:34]
     node _GEN_15057
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_stat_bpd_mispredicted, T_38110_17_stat_bpd_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_stat_bpd_mispredicted,
+            T_38110_17_stat_bpd_mispredicted) @[rob.scala 350:34]
     node _GEN_15058
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_stat_bpd_mispredicted, T_38110_18_stat_bpd_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_stat_bpd_mispredicted,
+            T_38110_18_stat_bpd_mispredicted) @[rob.scala 350:34]
     node _GEN_15059
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_stat_bpd_mispredicted, T_38110_19_stat_bpd_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_stat_bpd_mispredicted,
+            T_38110_19_stat_bpd_mispredicted) @[rob.scala 350:34]
     node _GEN_15060
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_stat_bpd_mispredicted, T_38110_20_stat_bpd_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_stat_bpd_mispredicted,
+            T_38110_20_stat_bpd_mispredicted) @[rob.scala 350:34]
     node _GEN_15061
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_stat_bpd_mispredicted, T_38110_21_stat_bpd_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_stat_bpd_mispredicted,
+            T_38110_21_stat_bpd_mispredicted) @[rob.scala 350:34]
     node _GEN_15062
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_stat_bpd_mispredicted, T_38110_22_stat_bpd_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_stat_bpd_mispredicted,
+            T_38110_22_stat_bpd_mispredicted) @[rob.scala 350:34]
     node _GEN_15063
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_stat_bpd_mispredicted, T_38110_23_stat_bpd_mispredicted) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_stat_bpd_mispredicted,
+            T_38110_23_stat_bpd_mispredicted) @[rob.scala 350:34]
     skip
     node _GEN_15064
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_fetch_pc_lob, T_38110_0_fetch_pc_lob) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_fetch_pc_lob,
+            T_38110_0_fetch_pc_lob) @[rob.scala 350:34]
     node _GEN_15065
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_fetch_pc_lob, T_38110_1_fetch_pc_lob) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_fetch_pc_lob,
+            T_38110_1_fetch_pc_lob) @[rob.scala 350:34]
     node _GEN_15066
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_fetch_pc_lob, T_38110_2_fetch_pc_lob) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_fetch_pc_lob,
+            T_38110_2_fetch_pc_lob) @[rob.scala 350:34]
     node _GEN_15067
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_fetch_pc_lob, T_38110_3_fetch_pc_lob) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_fetch_pc_lob,
+            T_38110_3_fetch_pc_lob) @[rob.scala 350:34]
     node _GEN_15068
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_fetch_pc_lob, T_38110_4_fetch_pc_lob) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_fetch_pc_lob,
+            T_38110_4_fetch_pc_lob) @[rob.scala 350:34]
     node _GEN_15069
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_fetch_pc_lob, T_38110_5_fetch_pc_lob) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_fetch_pc_lob,
+            T_38110_5_fetch_pc_lob) @[rob.scala 350:34]
     node _GEN_15070
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_fetch_pc_lob, T_38110_6_fetch_pc_lob) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_fetch_pc_lob,
+            T_38110_6_fetch_pc_lob) @[rob.scala 350:34]
     node _GEN_15071
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_fetch_pc_lob, T_38110_7_fetch_pc_lob) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_fetch_pc_lob,
+            T_38110_7_fetch_pc_lob) @[rob.scala 350:34]
     node _GEN_15072
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_fetch_pc_lob, T_38110_8_fetch_pc_lob) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_fetch_pc_lob,
+            T_38110_8_fetch_pc_lob) @[rob.scala 350:34]
     node _GEN_15073
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_fetch_pc_lob, T_38110_9_fetch_pc_lob) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_fetch_pc_lob,
+            T_38110_9_fetch_pc_lob) @[rob.scala 350:34]
     node _GEN_15074
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_fetch_pc_lob, T_38110_10_fetch_pc_lob) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_fetch_pc_lob,
+            T_38110_10_fetch_pc_lob) @[rob.scala 350:34]
     node _GEN_15075
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_fetch_pc_lob, T_38110_11_fetch_pc_lob) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_fetch_pc_lob,
+            T_38110_11_fetch_pc_lob) @[rob.scala 350:34]
     node _GEN_15076
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_fetch_pc_lob, T_38110_12_fetch_pc_lob) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_fetch_pc_lob,
+            T_38110_12_fetch_pc_lob) @[rob.scala 350:34]
     node _GEN_15077
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_fetch_pc_lob, T_38110_13_fetch_pc_lob) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_fetch_pc_lob,
+            T_38110_13_fetch_pc_lob) @[rob.scala 350:34]
     node _GEN_15078
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_fetch_pc_lob, T_38110_14_fetch_pc_lob) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_fetch_pc_lob,
+            T_38110_14_fetch_pc_lob) @[rob.scala 350:34]
     node _GEN_15079
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_fetch_pc_lob, T_38110_15_fetch_pc_lob) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_fetch_pc_lob,
+            T_38110_15_fetch_pc_lob) @[rob.scala 350:34]
     node _GEN_15080
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_fetch_pc_lob, T_38110_16_fetch_pc_lob) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_fetch_pc_lob,
+            T_38110_16_fetch_pc_lob) @[rob.scala 350:34]
     node _GEN_15081
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_fetch_pc_lob, T_38110_17_fetch_pc_lob) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_fetch_pc_lob,
+            T_38110_17_fetch_pc_lob) @[rob.scala 350:34]
     node _GEN_15082
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_fetch_pc_lob, T_38110_18_fetch_pc_lob) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_fetch_pc_lob,
+            T_38110_18_fetch_pc_lob) @[rob.scala 350:34]
     node _GEN_15083
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_fetch_pc_lob, T_38110_19_fetch_pc_lob) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_fetch_pc_lob,
+            T_38110_19_fetch_pc_lob) @[rob.scala 350:34]
     node _GEN_15084
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_fetch_pc_lob, T_38110_20_fetch_pc_lob) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_fetch_pc_lob,
+            T_38110_20_fetch_pc_lob) @[rob.scala 350:34]
     node _GEN_15085
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_fetch_pc_lob, T_38110_21_fetch_pc_lob) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_fetch_pc_lob,
+            T_38110_21_fetch_pc_lob) @[rob.scala 350:34]
     node _GEN_15086
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_fetch_pc_lob, T_38110_22_fetch_pc_lob) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_fetch_pc_lob,
+            T_38110_22_fetch_pc_lob) @[rob.scala 350:34]
     node _GEN_15087
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_fetch_pc_lob, T_38110_23_fetch_pc_lob) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_fetch_pc_lob,
+            T_38110_23_fetch_pc_lob) @[rob.scala 350:34]
     skip
     node _GEN_15088
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_imm_packed, T_38110_0_imm_packed) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_imm_packed,
+            T_38110_0_imm_packed) @[rob.scala 350:34]
     node _GEN_15089
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_imm_packed, T_38110_1_imm_packed) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_imm_packed,
+            T_38110_1_imm_packed) @[rob.scala 350:34]
     node _GEN_15090
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_imm_packed, T_38110_2_imm_packed) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_imm_packed,
+            T_38110_2_imm_packed) @[rob.scala 350:34]
     node _GEN_15091
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_imm_packed, T_38110_3_imm_packed) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_imm_packed,
+            T_38110_3_imm_packed) @[rob.scala 350:34]
     node _GEN_15092
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_imm_packed, T_38110_4_imm_packed) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_imm_packed,
+            T_38110_4_imm_packed) @[rob.scala 350:34]
     node _GEN_15093
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_imm_packed, T_38110_5_imm_packed) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_imm_packed,
+            T_38110_5_imm_packed) @[rob.scala 350:34]
     node _GEN_15094
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_imm_packed, T_38110_6_imm_packed) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_imm_packed,
+            T_38110_6_imm_packed) @[rob.scala 350:34]
     node _GEN_15095
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_imm_packed, T_38110_7_imm_packed) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_imm_packed,
+            T_38110_7_imm_packed) @[rob.scala 350:34]
     node _GEN_15096
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_imm_packed, T_38110_8_imm_packed) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_imm_packed,
+            T_38110_8_imm_packed) @[rob.scala 350:34]
     node _GEN_15097
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_imm_packed, T_38110_9_imm_packed) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_imm_packed,
+            T_38110_9_imm_packed) @[rob.scala 350:34]
     node _GEN_15098
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_imm_packed, T_38110_10_imm_packed) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_imm_packed,
+            T_38110_10_imm_packed) @[rob.scala 350:34]
     node _GEN_15099
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_imm_packed, T_38110_11_imm_packed) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_imm_packed,
+            T_38110_11_imm_packed) @[rob.scala 350:34]
     node _GEN_15100
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_imm_packed, T_38110_12_imm_packed) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_imm_packed,
+            T_38110_12_imm_packed) @[rob.scala 350:34]
     node _GEN_15101
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_imm_packed, T_38110_13_imm_packed) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_imm_packed,
+            T_38110_13_imm_packed) @[rob.scala 350:34]
     node _GEN_15102
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_imm_packed, T_38110_14_imm_packed) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_imm_packed,
+            T_38110_14_imm_packed) @[rob.scala 350:34]
     node _GEN_15103
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_imm_packed, T_38110_15_imm_packed) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_imm_packed,
+            T_38110_15_imm_packed) @[rob.scala 350:34]
     node _GEN_15104
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_imm_packed, T_38110_16_imm_packed) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_imm_packed,
+            T_38110_16_imm_packed) @[rob.scala 350:34]
     node _GEN_15105
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_imm_packed, T_38110_17_imm_packed) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_imm_packed,
+            T_38110_17_imm_packed) @[rob.scala 350:34]
     node _GEN_15106
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_imm_packed, T_38110_18_imm_packed) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_imm_packed,
+            T_38110_18_imm_packed) @[rob.scala 350:34]
     node _GEN_15107
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_imm_packed, T_38110_19_imm_packed) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_imm_packed,
+            T_38110_19_imm_packed) @[rob.scala 350:34]
     node _GEN_15108
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_imm_packed, T_38110_20_imm_packed) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_imm_packed,
+            T_38110_20_imm_packed) @[rob.scala 350:34]
     node _GEN_15109
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_imm_packed, T_38110_21_imm_packed) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_imm_packed,
+            T_38110_21_imm_packed) @[rob.scala 350:34]
     node _GEN_15110
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_imm_packed, T_38110_22_imm_packed) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_imm_packed,
+            T_38110_22_imm_packed) @[rob.scala 350:34]
     node _GEN_15111
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_imm_packed, T_38110_23_imm_packed) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_imm_packed,
+            T_38110_23_imm_packed) @[rob.scala 350:34]
     skip
     node _GEN_15112
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_csr_addr, T_38110_0_csr_addr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_csr_addr,
+            T_38110_0_csr_addr) @[rob.scala 350:34]
     node _GEN_15113
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_csr_addr, T_38110_1_csr_addr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_csr_addr,
+            T_38110_1_csr_addr) @[rob.scala 350:34]
     node _GEN_15114
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_csr_addr, T_38110_2_csr_addr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_csr_addr,
+            T_38110_2_csr_addr) @[rob.scala 350:34]
     node _GEN_15115
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_csr_addr, T_38110_3_csr_addr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_csr_addr,
+            T_38110_3_csr_addr) @[rob.scala 350:34]
     node _GEN_15116
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_csr_addr, T_38110_4_csr_addr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_csr_addr,
+            T_38110_4_csr_addr) @[rob.scala 350:34]
     node _GEN_15117
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_csr_addr, T_38110_5_csr_addr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_csr_addr,
+            T_38110_5_csr_addr) @[rob.scala 350:34]
     node _GEN_15118
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_csr_addr, T_38110_6_csr_addr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_csr_addr,
+            T_38110_6_csr_addr) @[rob.scala 350:34]
     node _GEN_15119
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_csr_addr, T_38110_7_csr_addr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_csr_addr,
+            T_38110_7_csr_addr) @[rob.scala 350:34]
     node _GEN_15120
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_csr_addr, T_38110_8_csr_addr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_csr_addr,
+            T_38110_8_csr_addr) @[rob.scala 350:34]
     node _GEN_15121
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_csr_addr, T_38110_9_csr_addr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_csr_addr,
+            T_38110_9_csr_addr) @[rob.scala 350:34]
     node _GEN_15122
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_csr_addr, T_38110_10_csr_addr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_csr_addr,
+            T_38110_10_csr_addr) @[rob.scala 350:34]
     node _GEN_15123
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_csr_addr, T_38110_11_csr_addr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_csr_addr,
+            T_38110_11_csr_addr) @[rob.scala 350:34]
     node _GEN_15124
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_csr_addr, T_38110_12_csr_addr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_csr_addr,
+            T_38110_12_csr_addr) @[rob.scala 350:34]
     node _GEN_15125
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_csr_addr, T_38110_13_csr_addr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_csr_addr,
+            T_38110_13_csr_addr) @[rob.scala 350:34]
     node _GEN_15126
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_csr_addr, T_38110_14_csr_addr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_csr_addr,
+            T_38110_14_csr_addr) @[rob.scala 350:34]
     node _GEN_15127
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_csr_addr, T_38110_15_csr_addr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_csr_addr,
+            T_38110_15_csr_addr) @[rob.scala 350:34]
     node _GEN_15128
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_csr_addr, T_38110_16_csr_addr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_csr_addr,
+            T_38110_16_csr_addr) @[rob.scala 350:34]
     node _GEN_15129
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_csr_addr, T_38110_17_csr_addr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_csr_addr,
+            T_38110_17_csr_addr) @[rob.scala 350:34]
     node _GEN_15130
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_csr_addr, T_38110_18_csr_addr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_csr_addr,
+            T_38110_18_csr_addr) @[rob.scala 350:34]
     node _GEN_15131
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_csr_addr, T_38110_19_csr_addr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_csr_addr,
+            T_38110_19_csr_addr) @[rob.scala 350:34]
     node _GEN_15132
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_csr_addr, T_38110_20_csr_addr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_csr_addr,
+            T_38110_20_csr_addr) @[rob.scala 350:34]
     node _GEN_15133
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_csr_addr, T_38110_21_csr_addr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_csr_addr,
+            T_38110_21_csr_addr) @[rob.scala 350:34]
     node _GEN_15134
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_csr_addr, T_38110_22_csr_addr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_csr_addr,
+            T_38110_22_csr_addr) @[rob.scala 350:34]
     node _GEN_15135
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_csr_addr, T_38110_23_csr_addr) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_csr_addr,
+            T_38110_23_csr_addr) @[rob.scala 350:34]
     skip
     node _GEN_15136
       = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_rob_idx, T_38110_0_rob_idx) @[rob.scala 350:34]
@@ -26011,33 +28428,47 @@ circuit Rob :
     node _GEN_15145
       = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_rob_idx, T_38110_9_rob_idx) @[rob.scala 350:34]
     node _GEN_15146
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_rob_idx, T_38110_10_rob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_rob_idx,
+            T_38110_10_rob_idx) @[rob.scala 350:34]
     node _GEN_15147
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_rob_idx, T_38110_11_rob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_rob_idx,
+            T_38110_11_rob_idx) @[rob.scala 350:34]
     node _GEN_15148
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_rob_idx, T_38110_12_rob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_rob_idx,
+            T_38110_12_rob_idx) @[rob.scala 350:34]
     node _GEN_15149
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_rob_idx, T_38110_13_rob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_rob_idx,
+            T_38110_13_rob_idx) @[rob.scala 350:34]
     node _GEN_15150
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_rob_idx, T_38110_14_rob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_rob_idx,
+            T_38110_14_rob_idx) @[rob.scala 350:34]
     node _GEN_15151
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_rob_idx, T_38110_15_rob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_rob_idx,
+            T_38110_15_rob_idx) @[rob.scala 350:34]
     node _GEN_15152
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_rob_idx, T_38110_16_rob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_rob_idx,
+            T_38110_16_rob_idx) @[rob.scala 350:34]
     node _GEN_15153
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_rob_idx, T_38110_17_rob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_rob_idx,
+            T_38110_17_rob_idx) @[rob.scala 350:34]
     node _GEN_15154
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_rob_idx, T_38110_18_rob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_rob_idx,
+            T_38110_18_rob_idx) @[rob.scala 350:34]
     node _GEN_15155
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_rob_idx, T_38110_19_rob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_rob_idx,
+            T_38110_19_rob_idx) @[rob.scala 350:34]
     node _GEN_15156
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_rob_idx, T_38110_20_rob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_rob_idx,
+            T_38110_20_rob_idx) @[rob.scala 350:34]
     node _GEN_15157
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_rob_idx, T_38110_21_rob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_rob_idx,
+            T_38110_21_rob_idx) @[rob.scala 350:34]
     node _GEN_15158
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_rob_idx, T_38110_22_rob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_rob_idx,
+            T_38110_22_rob_idx) @[rob.scala 350:34]
     node _GEN_15159
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_rob_idx, T_38110_23_rob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_rob_idx,
+            T_38110_23_rob_idx) @[rob.scala 350:34]
     skip
     node _GEN_15160
       = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_ldq_idx, T_38110_0_ldq_idx) @[rob.scala 350:34]
@@ -26060,33 +28491,47 @@ circuit Rob :
     node _GEN_15169
       = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_ldq_idx, T_38110_9_ldq_idx) @[rob.scala 350:34]
     node _GEN_15170
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_ldq_idx, T_38110_10_ldq_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_ldq_idx,
+            T_38110_10_ldq_idx) @[rob.scala 350:34]
     node _GEN_15171
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_ldq_idx, T_38110_11_ldq_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_ldq_idx,
+            T_38110_11_ldq_idx) @[rob.scala 350:34]
     node _GEN_15172
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_ldq_idx, T_38110_12_ldq_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_ldq_idx,
+            T_38110_12_ldq_idx) @[rob.scala 350:34]
     node _GEN_15173
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_ldq_idx, T_38110_13_ldq_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_ldq_idx,
+            T_38110_13_ldq_idx) @[rob.scala 350:34]
     node _GEN_15174
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_ldq_idx, T_38110_14_ldq_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_ldq_idx,
+            T_38110_14_ldq_idx) @[rob.scala 350:34]
     node _GEN_15175
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_ldq_idx, T_38110_15_ldq_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_ldq_idx,
+            T_38110_15_ldq_idx) @[rob.scala 350:34]
     node _GEN_15176
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_ldq_idx, T_38110_16_ldq_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_ldq_idx,
+            T_38110_16_ldq_idx) @[rob.scala 350:34]
     node _GEN_15177
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_ldq_idx, T_38110_17_ldq_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_ldq_idx,
+            T_38110_17_ldq_idx) @[rob.scala 350:34]
     node _GEN_15178
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_ldq_idx, T_38110_18_ldq_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_ldq_idx,
+            T_38110_18_ldq_idx) @[rob.scala 350:34]
     node _GEN_15179
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_ldq_idx, T_38110_19_ldq_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_ldq_idx,
+            T_38110_19_ldq_idx) @[rob.scala 350:34]
     node _GEN_15180
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_ldq_idx, T_38110_20_ldq_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_ldq_idx,
+            T_38110_20_ldq_idx) @[rob.scala 350:34]
     node _GEN_15181
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_ldq_idx, T_38110_21_ldq_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_ldq_idx,
+            T_38110_21_ldq_idx) @[rob.scala 350:34]
     node _GEN_15182
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_ldq_idx, T_38110_22_ldq_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_ldq_idx,
+            T_38110_22_ldq_idx) @[rob.scala 350:34]
     node _GEN_15183
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_ldq_idx, T_38110_23_ldq_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_ldq_idx,
+            T_38110_23_ldq_idx) @[rob.scala 350:34]
     skip
     node _GEN_15184
       = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_stq_idx, T_38110_0_stq_idx) @[rob.scala 350:34]
@@ -26109,82 +28554,120 @@ circuit Rob :
     node _GEN_15193
       = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_stq_idx, T_38110_9_stq_idx) @[rob.scala 350:34]
     node _GEN_15194
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_stq_idx, T_38110_10_stq_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_stq_idx,
+            T_38110_10_stq_idx) @[rob.scala 350:34]
     node _GEN_15195
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_stq_idx, T_38110_11_stq_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_stq_idx,
+            T_38110_11_stq_idx) @[rob.scala 350:34]
     node _GEN_15196
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_stq_idx, T_38110_12_stq_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_stq_idx,
+            T_38110_12_stq_idx) @[rob.scala 350:34]
     node _GEN_15197
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_stq_idx, T_38110_13_stq_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_stq_idx,
+            T_38110_13_stq_idx) @[rob.scala 350:34]
     node _GEN_15198
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_stq_idx, T_38110_14_stq_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_stq_idx,
+            T_38110_14_stq_idx) @[rob.scala 350:34]
     node _GEN_15199
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_stq_idx, T_38110_15_stq_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_stq_idx,
+            T_38110_15_stq_idx) @[rob.scala 350:34]
     node _GEN_15200
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_stq_idx, T_38110_16_stq_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_stq_idx,
+            T_38110_16_stq_idx) @[rob.scala 350:34]
     node _GEN_15201
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_stq_idx, T_38110_17_stq_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_stq_idx,
+            T_38110_17_stq_idx) @[rob.scala 350:34]
     node _GEN_15202
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_stq_idx, T_38110_18_stq_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_stq_idx,
+            T_38110_18_stq_idx) @[rob.scala 350:34]
     node _GEN_15203
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_stq_idx, T_38110_19_stq_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_stq_idx,
+            T_38110_19_stq_idx) @[rob.scala 350:34]
     node _GEN_15204
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_stq_idx, T_38110_20_stq_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_stq_idx,
+            T_38110_20_stq_idx) @[rob.scala 350:34]
     node _GEN_15205
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_stq_idx, T_38110_21_stq_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_stq_idx,
+            T_38110_21_stq_idx) @[rob.scala 350:34]
     node _GEN_15206
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_stq_idx, T_38110_22_stq_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_stq_idx,
+            T_38110_22_stq_idx) @[rob.scala 350:34]
     node _GEN_15207
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_stq_idx, T_38110_23_stq_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_stq_idx,
+            T_38110_23_stq_idx) @[rob.scala 350:34]
     skip
     node _GEN_15208
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_brob_idx, T_38110_0_brob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_brob_idx,
+            T_38110_0_brob_idx) @[rob.scala 350:34]
     node _GEN_15209
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_brob_idx, T_38110_1_brob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_brob_idx,
+            T_38110_1_brob_idx) @[rob.scala 350:34]
     node _GEN_15210
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_brob_idx, T_38110_2_brob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_brob_idx,
+            T_38110_2_brob_idx) @[rob.scala 350:34]
     node _GEN_15211
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_brob_idx, T_38110_3_brob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_brob_idx,
+            T_38110_3_brob_idx) @[rob.scala 350:34]
     node _GEN_15212
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_brob_idx, T_38110_4_brob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_brob_idx,
+            T_38110_4_brob_idx) @[rob.scala 350:34]
     node _GEN_15213
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_brob_idx, T_38110_5_brob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_brob_idx,
+            T_38110_5_brob_idx) @[rob.scala 350:34]
     node _GEN_15214
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_brob_idx, T_38110_6_brob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_brob_idx,
+            T_38110_6_brob_idx) @[rob.scala 350:34]
     node _GEN_15215
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_brob_idx, T_38110_7_brob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_brob_idx,
+            T_38110_7_brob_idx) @[rob.scala 350:34]
     node _GEN_15216
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_brob_idx, T_38110_8_brob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_brob_idx,
+            T_38110_8_brob_idx) @[rob.scala 350:34]
     node _GEN_15217
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_brob_idx, T_38110_9_brob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_brob_idx,
+            T_38110_9_brob_idx) @[rob.scala 350:34]
     node _GEN_15218
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_brob_idx, T_38110_10_brob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_brob_idx,
+            T_38110_10_brob_idx) @[rob.scala 350:34]
     node _GEN_15219
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_brob_idx, T_38110_11_brob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_brob_idx,
+            T_38110_11_brob_idx) @[rob.scala 350:34]
     node _GEN_15220
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_brob_idx, T_38110_12_brob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_brob_idx,
+            T_38110_12_brob_idx) @[rob.scala 350:34]
     node _GEN_15221
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_brob_idx, T_38110_13_brob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_brob_idx,
+            T_38110_13_brob_idx) @[rob.scala 350:34]
     node _GEN_15222
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_brob_idx, T_38110_14_brob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_brob_idx,
+            T_38110_14_brob_idx) @[rob.scala 350:34]
     node _GEN_15223
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_brob_idx, T_38110_15_brob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_brob_idx,
+            T_38110_15_brob_idx) @[rob.scala 350:34]
     node _GEN_15224
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_brob_idx, T_38110_16_brob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_brob_idx,
+            T_38110_16_brob_idx) @[rob.scala 350:34]
     node _GEN_15225
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_brob_idx, T_38110_17_brob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_brob_idx,
+            T_38110_17_brob_idx) @[rob.scala 350:34]
     node _GEN_15226
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_brob_idx, T_38110_18_brob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_brob_idx,
+            T_38110_18_brob_idx) @[rob.scala 350:34]
     node _GEN_15227
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_brob_idx, T_38110_19_brob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_brob_idx,
+            T_38110_19_brob_idx) @[rob.scala 350:34]
     node _GEN_15228
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_brob_idx, T_38110_20_brob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_brob_idx,
+            T_38110_20_brob_idx) @[rob.scala 350:34]
     node _GEN_15229
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_brob_idx, T_38110_21_brob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_brob_idx,
+            T_38110_21_brob_idx) @[rob.scala 350:34]
     node _GEN_15230
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_brob_idx, T_38110_22_brob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_brob_idx,
+            T_38110_22_brob_idx) @[rob.scala 350:34]
     node _GEN_15231
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_brob_idx, T_38110_23_brob_idx) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_brob_idx,
+            T_38110_23_brob_idx) @[rob.scala 350:34]
     skip
     node _GEN_15232
       = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_pdst, T_38110_0_pdst) @[rob.scala 350:34]
@@ -26383,347 +28866,515 @@ circuit Rob :
       = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_pop3, T_38110_23_pop3) @[rob.scala 350:34]
     skip
     node _GEN_15328
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_prs1_busy, T_38110_0_prs1_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_prs1_busy,
+            T_38110_0_prs1_busy) @[rob.scala 350:34]
     node _GEN_15329
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_prs1_busy, T_38110_1_prs1_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_prs1_busy,
+            T_38110_1_prs1_busy) @[rob.scala 350:34]
     node _GEN_15330
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_prs1_busy, T_38110_2_prs1_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_prs1_busy,
+            T_38110_2_prs1_busy) @[rob.scala 350:34]
     node _GEN_15331
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_prs1_busy, T_38110_3_prs1_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_prs1_busy,
+            T_38110_3_prs1_busy) @[rob.scala 350:34]
     node _GEN_15332
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_prs1_busy, T_38110_4_prs1_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_prs1_busy,
+            T_38110_4_prs1_busy) @[rob.scala 350:34]
     node _GEN_15333
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_prs1_busy, T_38110_5_prs1_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_prs1_busy,
+            T_38110_5_prs1_busy) @[rob.scala 350:34]
     node _GEN_15334
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_prs1_busy, T_38110_6_prs1_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_prs1_busy,
+            T_38110_6_prs1_busy) @[rob.scala 350:34]
     node _GEN_15335
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_prs1_busy, T_38110_7_prs1_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_prs1_busy,
+            T_38110_7_prs1_busy) @[rob.scala 350:34]
     node _GEN_15336
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_prs1_busy, T_38110_8_prs1_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_prs1_busy,
+            T_38110_8_prs1_busy) @[rob.scala 350:34]
     node _GEN_15337
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_prs1_busy, T_38110_9_prs1_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_prs1_busy,
+            T_38110_9_prs1_busy) @[rob.scala 350:34]
     node _GEN_15338
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_prs1_busy, T_38110_10_prs1_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_prs1_busy,
+            T_38110_10_prs1_busy) @[rob.scala 350:34]
     node _GEN_15339
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_prs1_busy, T_38110_11_prs1_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_prs1_busy,
+            T_38110_11_prs1_busy) @[rob.scala 350:34]
     node _GEN_15340
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_prs1_busy, T_38110_12_prs1_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_prs1_busy,
+            T_38110_12_prs1_busy) @[rob.scala 350:34]
     node _GEN_15341
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_prs1_busy, T_38110_13_prs1_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_prs1_busy,
+            T_38110_13_prs1_busy) @[rob.scala 350:34]
     node _GEN_15342
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_prs1_busy, T_38110_14_prs1_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_prs1_busy,
+            T_38110_14_prs1_busy) @[rob.scala 350:34]
     node _GEN_15343
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_prs1_busy, T_38110_15_prs1_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_prs1_busy,
+            T_38110_15_prs1_busy) @[rob.scala 350:34]
     node _GEN_15344
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_prs1_busy, T_38110_16_prs1_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_prs1_busy,
+            T_38110_16_prs1_busy) @[rob.scala 350:34]
     node _GEN_15345
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_prs1_busy, T_38110_17_prs1_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_prs1_busy,
+            T_38110_17_prs1_busy) @[rob.scala 350:34]
     node _GEN_15346
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_prs1_busy, T_38110_18_prs1_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_prs1_busy,
+            T_38110_18_prs1_busy) @[rob.scala 350:34]
     node _GEN_15347
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_prs1_busy, T_38110_19_prs1_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_prs1_busy,
+            T_38110_19_prs1_busy) @[rob.scala 350:34]
     node _GEN_15348
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_prs1_busy, T_38110_20_prs1_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_prs1_busy,
+            T_38110_20_prs1_busy) @[rob.scala 350:34]
     node _GEN_15349
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_prs1_busy, T_38110_21_prs1_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_prs1_busy,
+            T_38110_21_prs1_busy) @[rob.scala 350:34]
     node _GEN_15350
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_prs1_busy, T_38110_22_prs1_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_prs1_busy,
+            T_38110_22_prs1_busy) @[rob.scala 350:34]
     node _GEN_15351
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_prs1_busy, T_38110_23_prs1_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_prs1_busy,
+            T_38110_23_prs1_busy) @[rob.scala 350:34]
     skip
     node _GEN_15352
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_prs2_busy, T_38110_0_prs2_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_prs2_busy,
+            T_38110_0_prs2_busy) @[rob.scala 350:34]
     node _GEN_15353
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_prs2_busy, T_38110_1_prs2_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_prs2_busy,
+            T_38110_1_prs2_busy) @[rob.scala 350:34]
     node _GEN_15354
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_prs2_busy, T_38110_2_prs2_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_prs2_busy,
+            T_38110_2_prs2_busy) @[rob.scala 350:34]
     node _GEN_15355
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_prs2_busy, T_38110_3_prs2_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_prs2_busy,
+            T_38110_3_prs2_busy) @[rob.scala 350:34]
     node _GEN_15356
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_prs2_busy, T_38110_4_prs2_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_prs2_busy,
+            T_38110_4_prs2_busy) @[rob.scala 350:34]
     node _GEN_15357
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_prs2_busy, T_38110_5_prs2_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_prs2_busy,
+            T_38110_5_prs2_busy) @[rob.scala 350:34]
     node _GEN_15358
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_prs2_busy, T_38110_6_prs2_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_prs2_busy,
+            T_38110_6_prs2_busy) @[rob.scala 350:34]
     node _GEN_15359
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_prs2_busy, T_38110_7_prs2_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_prs2_busy,
+            T_38110_7_prs2_busy) @[rob.scala 350:34]
     node _GEN_15360
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_prs2_busy, T_38110_8_prs2_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_prs2_busy,
+            T_38110_8_prs2_busy) @[rob.scala 350:34]
     node _GEN_15361
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_prs2_busy, T_38110_9_prs2_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_prs2_busy,
+            T_38110_9_prs2_busy) @[rob.scala 350:34]
     node _GEN_15362
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_prs2_busy, T_38110_10_prs2_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_prs2_busy,
+            T_38110_10_prs2_busy) @[rob.scala 350:34]
     node _GEN_15363
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_prs2_busy, T_38110_11_prs2_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_prs2_busy,
+            T_38110_11_prs2_busy) @[rob.scala 350:34]
     node _GEN_15364
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_prs2_busy, T_38110_12_prs2_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_prs2_busy,
+            T_38110_12_prs2_busy) @[rob.scala 350:34]
     node _GEN_15365
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_prs2_busy, T_38110_13_prs2_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_prs2_busy,
+            T_38110_13_prs2_busy) @[rob.scala 350:34]
     node _GEN_15366
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_prs2_busy, T_38110_14_prs2_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_prs2_busy,
+            T_38110_14_prs2_busy) @[rob.scala 350:34]
     node _GEN_15367
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_prs2_busy, T_38110_15_prs2_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_prs2_busy,
+            T_38110_15_prs2_busy) @[rob.scala 350:34]
     node _GEN_15368
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_prs2_busy, T_38110_16_prs2_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_prs2_busy,
+            T_38110_16_prs2_busy) @[rob.scala 350:34]
     node _GEN_15369
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_prs2_busy, T_38110_17_prs2_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_prs2_busy,
+            T_38110_17_prs2_busy) @[rob.scala 350:34]
     node _GEN_15370
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_prs2_busy, T_38110_18_prs2_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_prs2_busy,
+            T_38110_18_prs2_busy) @[rob.scala 350:34]
     node _GEN_15371
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_prs2_busy, T_38110_19_prs2_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_prs2_busy,
+            T_38110_19_prs2_busy) @[rob.scala 350:34]
     node _GEN_15372
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_prs2_busy, T_38110_20_prs2_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_prs2_busy,
+            T_38110_20_prs2_busy) @[rob.scala 350:34]
     node _GEN_15373
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_prs2_busy, T_38110_21_prs2_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_prs2_busy,
+            T_38110_21_prs2_busy) @[rob.scala 350:34]
     node _GEN_15374
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_prs2_busy, T_38110_22_prs2_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_prs2_busy,
+            T_38110_22_prs2_busy) @[rob.scala 350:34]
     node _GEN_15375
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_prs2_busy, T_38110_23_prs2_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_prs2_busy,
+            T_38110_23_prs2_busy) @[rob.scala 350:34]
     skip
     node _GEN_15376
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_prs3_busy, T_38110_0_prs3_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_prs3_busy,
+            T_38110_0_prs3_busy) @[rob.scala 350:34]
     node _GEN_15377
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_prs3_busy, T_38110_1_prs3_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_prs3_busy,
+            T_38110_1_prs3_busy) @[rob.scala 350:34]
     node _GEN_15378
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_prs3_busy, T_38110_2_prs3_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_prs3_busy,
+            T_38110_2_prs3_busy) @[rob.scala 350:34]
     node _GEN_15379
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_prs3_busy, T_38110_3_prs3_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_prs3_busy,
+            T_38110_3_prs3_busy) @[rob.scala 350:34]
     node _GEN_15380
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_prs3_busy, T_38110_4_prs3_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_prs3_busy,
+            T_38110_4_prs3_busy) @[rob.scala 350:34]
     node _GEN_15381
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_prs3_busy, T_38110_5_prs3_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_prs3_busy,
+            T_38110_5_prs3_busy) @[rob.scala 350:34]
     node _GEN_15382
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_prs3_busy, T_38110_6_prs3_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_prs3_busy,
+            T_38110_6_prs3_busy) @[rob.scala 350:34]
     node _GEN_15383
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_prs3_busy, T_38110_7_prs3_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_prs3_busy,
+            T_38110_7_prs3_busy) @[rob.scala 350:34]
     node _GEN_15384
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_prs3_busy, T_38110_8_prs3_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_prs3_busy,
+            T_38110_8_prs3_busy) @[rob.scala 350:34]
     node _GEN_15385
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_prs3_busy, T_38110_9_prs3_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_prs3_busy,
+            T_38110_9_prs3_busy) @[rob.scala 350:34]
     node _GEN_15386
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_prs3_busy, T_38110_10_prs3_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_prs3_busy,
+            T_38110_10_prs3_busy) @[rob.scala 350:34]
     node _GEN_15387
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_prs3_busy, T_38110_11_prs3_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_prs3_busy,
+            T_38110_11_prs3_busy) @[rob.scala 350:34]
     node _GEN_15388
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_prs3_busy, T_38110_12_prs3_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_prs3_busy,
+            T_38110_12_prs3_busy) @[rob.scala 350:34]
     node _GEN_15389
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_prs3_busy, T_38110_13_prs3_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_prs3_busy,
+            T_38110_13_prs3_busy) @[rob.scala 350:34]
     node _GEN_15390
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_prs3_busy, T_38110_14_prs3_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_prs3_busy,
+            T_38110_14_prs3_busy) @[rob.scala 350:34]
     node _GEN_15391
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_prs3_busy, T_38110_15_prs3_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_prs3_busy,
+            T_38110_15_prs3_busy) @[rob.scala 350:34]
     node _GEN_15392
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_prs3_busy, T_38110_16_prs3_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_prs3_busy,
+            T_38110_16_prs3_busy) @[rob.scala 350:34]
     node _GEN_15393
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_prs3_busy, T_38110_17_prs3_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_prs3_busy,
+            T_38110_17_prs3_busy) @[rob.scala 350:34]
     node _GEN_15394
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_prs3_busy, T_38110_18_prs3_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_prs3_busy,
+            T_38110_18_prs3_busy) @[rob.scala 350:34]
     node _GEN_15395
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_prs3_busy, T_38110_19_prs3_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_prs3_busy,
+            T_38110_19_prs3_busy) @[rob.scala 350:34]
     node _GEN_15396
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_prs3_busy, T_38110_20_prs3_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_prs3_busy,
+            T_38110_20_prs3_busy) @[rob.scala 350:34]
     node _GEN_15397
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_prs3_busy, T_38110_21_prs3_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_prs3_busy,
+            T_38110_21_prs3_busy) @[rob.scala 350:34]
     node _GEN_15398
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_prs3_busy, T_38110_22_prs3_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_prs3_busy,
+            T_38110_22_prs3_busy) @[rob.scala 350:34]
     node _GEN_15399
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_prs3_busy, T_38110_23_prs3_busy) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_prs3_busy,
+            T_38110_23_prs3_busy) @[rob.scala 350:34]
     skip
     node _GEN_15400
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_stale_pdst, T_38110_0_stale_pdst) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_stale_pdst,
+            T_38110_0_stale_pdst) @[rob.scala 350:34]
     node _GEN_15401
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_stale_pdst, T_38110_1_stale_pdst) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_stale_pdst,
+            T_38110_1_stale_pdst) @[rob.scala 350:34]
     node _GEN_15402
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_stale_pdst, T_38110_2_stale_pdst) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_stale_pdst,
+            T_38110_2_stale_pdst) @[rob.scala 350:34]
     node _GEN_15403
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_stale_pdst, T_38110_3_stale_pdst) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_stale_pdst,
+            T_38110_3_stale_pdst) @[rob.scala 350:34]
     node _GEN_15404
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_stale_pdst, T_38110_4_stale_pdst) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_stale_pdst,
+            T_38110_4_stale_pdst) @[rob.scala 350:34]
     node _GEN_15405
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_stale_pdst, T_38110_5_stale_pdst) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_stale_pdst,
+            T_38110_5_stale_pdst) @[rob.scala 350:34]
     node _GEN_15406
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_stale_pdst, T_38110_6_stale_pdst) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_stale_pdst,
+            T_38110_6_stale_pdst) @[rob.scala 350:34]
     node _GEN_15407
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_stale_pdst, T_38110_7_stale_pdst) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_stale_pdst,
+            T_38110_7_stale_pdst) @[rob.scala 350:34]
     node _GEN_15408
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_stale_pdst, T_38110_8_stale_pdst) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_stale_pdst,
+            T_38110_8_stale_pdst) @[rob.scala 350:34]
     node _GEN_15409
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_stale_pdst, T_38110_9_stale_pdst) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_stale_pdst,
+            T_38110_9_stale_pdst) @[rob.scala 350:34]
     node _GEN_15410
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_stale_pdst, T_38110_10_stale_pdst) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_stale_pdst,
+            T_38110_10_stale_pdst) @[rob.scala 350:34]
     node _GEN_15411
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_stale_pdst, T_38110_11_stale_pdst) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_stale_pdst,
+            T_38110_11_stale_pdst) @[rob.scala 350:34]
     node _GEN_15412
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_stale_pdst, T_38110_12_stale_pdst) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_stale_pdst,
+            T_38110_12_stale_pdst) @[rob.scala 350:34]
     node _GEN_15413
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_stale_pdst, T_38110_13_stale_pdst) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_stale_pdst,
+            T_38110_13_stale_pdst) @[rob.scala 350:34]
     node _GEN_15414
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_stale_pdst, T_38110_14_stale_pdst) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_stale_pdst,
+            T_38110_14_stale_pdst) @[rob.scala 350:34]
     node _GEN_15415
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_stale_pdst, T_38110_15_stale_pdst) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_stale_pdst,
+            T_38110_15_stale_pdst) @[rob.scala 350:34]
     node _GEN_15416
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_stale_pdst, T_38110_16_stale_pdst) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_stale_pdst,
+            T_38110_16_stale_pdst) @[rob.scala 350:34]
     node _GEN_15417
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_stale_pdst, T_38110_17_stale_pdst) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_stale_pdst,
+            T_38110_17_stale_pdst) @[rob.scala 350:34]
     node _GEN_15418
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_stale_pdst, T_38110_18_stale_pdst) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_stale_pdst,
+            T_38110_18_stale_pdst) @[rob.scala 350:34]
     node _GEN_15419
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_stale_pdst, T_38110_19_stale_pdst) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_stale_pdst,
+            T_38110_19_stale_pdst) @[rob.scala 350:34]
     node _GEN_15420
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_stale_pdst, T_38110_20_stale_pdst) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_stale_pdst,
+            T_38110_20_stale_pdst) @[rob.scala 350:34]
     node _GEN_15421
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_stale_pdst, T_38110_21_stale_pdst) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_stale_pdst,
+            T_38110_21_stale_pdst) @[rob.scala 350:34]
     node _GEN_15422
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_stale_pdst, T_38110_22_stale_pdst) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_stale_pdst,
+            T_38110_22_stale_pdst) @[rob.scala 350:34]
     node _GEN_15423
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_stale_pdst, T_38110_23_stale_pdst) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_stale_pdst,
+            T_38110_23_stale_pdst) @[rob.scala 350:34]
     skip
     node _GEN_15424
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_exception, T_38110_0_exception) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_exception,
+            T_38110_0_exception) @[rob.scala 350:34]
     node _GEN_15425
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_exception, T_38110_1_exception) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_exception,
+            T_38110_1_exception) @[rob.scala 350:34]
     node _GEN_15426
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_exception, T_38110_2_exception) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_exception,
+            T_38110_2_exception) @[rob.scala 350:34]
     node _GEN_15427
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_exception, T_38110_3_exception) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_exception,
+            T_38110_3_exception) @[rob.scala 350:34]
     node _GEN_15428
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_exception, T_38110_4_exception) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_exception,
+            T_38110_4_exception) @[rob.scala 350:34]
     node _GEN_15429
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_exception, T_38110_5_exception) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_exception,
+            T_38110_5_exception) @[rob.scala 350:34]
     node _GEN_15430
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_exception, T_38110_6_exception) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_exception,
+            T_38110_6_exception) @[rob.scala 350:34]
     node _GEN_15431
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_exception, T_38110_7_exception) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_exception,
+            T_38110_7_exception) @[rob.scala 350:34]
     node _GEN_15432
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_exception, T_38110_8_exception) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_exception,
+            T_38110_8_exception) @[rob.scala 350:34]
     node _GEN_15433
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_exception, T_38110_9_exception) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_exception,
+            T_38110_9_exception) @[rob.scala 350:34]
     node _GEN_15434
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_exception, T_38110_10_exception) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_exception,
+            T_38110_10_exception) @[rob.scala 350:34]
     node _GEN_15435
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_exception, T_38110_11_exception) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_exception,
+            T_38110_11_exception) @[rob.scala 350:34]
     node _GEN_15436
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_exception, T_38110_12_exception) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_exception,
+            T_38110_12_exception) @[rob.scala 350:34]
     node _GEN_15437
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_exception, T_38110_13_exception) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_exception,
+            T_38110_13_exception) @[rob.scala 350:34]
     node _GEN_15438
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_exception, T_38110_14_exception) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_exception,
+            T_38110_14_exception) @[rob.scala 350:34]
     node _GEN_15439
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_exception, T_38110_15_exception) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_exception,
+            T_38110_15_exception) @[rob.scala 350:34]
     node _GEN_15440
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_exception, T_38110_16_exception) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_exception,
+            T_38110_16_exception) @[rob.scala 350:34]
     node _GEN_15441
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_exception, T_38110_17_exception) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_exception,
+            T_38110_17_exception) @[rob.scala 350:34]
     node _GEN_15442
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_exception, T_38110_18_exception) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_exception,
+            T_38110_18_exception) @[rob.scala 350:34]
     node _GEN_15443
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_exception, T_38110_19_exception) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_exception,
+            T_38110_19_exception) @[rob.scala 350:34]
     node _GEN_15444
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_exception, T_38110_20_exception) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_exception,
+            T_38110_20_exception) @[rob.scala 350:34]
     node _GEN_15445
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_exception, T_38110_21_exception) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_exception,
+            T_38110_21_exception) @[rob.scala 350:34]
     node _GEN_15446
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_exception, T_38110_22_exception) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_exception,
+            T_38110_22_exception) @[rob.scala 350:34]
     node _GEN_15447
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_exception, T_38110_23_exception) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_exception,
+            T_38110_23_exception) @[rob.scala 350:34]
     skip
     node _GEN_15448
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_exc_cause, T_38110_0_exc_cause) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_exc_cause,
+            T_38110_0_exc_cause) @[rob.scala 350:34]
     node _GEN_15449
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_exc_cause, T_38110_1_exc_cause) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_exc_cause,
+            T_38110_1_exc_cause) @[rob.scala 350:34]
     node _GEN_15450
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_exc_cause, T_38110_2_exc_cause) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_exc_cause,
+            T_38110_2_exc_cause) @[rob.scala 350:34]
     node _GEN_15451
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_exc_cause, T_38110_3_exc_cause) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_exc_cause,
+            T_38110_3_exc_cause) @[rob.scala 350:34]
     node _GEN_15452
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_exc_cause, T_38110_4_exc_cause) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_exc_cause,
+            T_38110_4_exc_cause) @[rob.scala 350:34]
     node _GEN_15453
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_exc_cause, T_38110_5_exc_cause) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_exc_cause,
+            T_38110_5_exc_cause) @[rob.scala 350:34]
     node _GEN_15454
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_exc_cause, T_38110_6_exc_cause) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_exc_cause,
+            T_38110_6_exc_cause) @[rob.scala 350:34]
     node _GEN_15455
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_exc_cause, T_38110_7_exc_cause) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_exc_cause,
+            T_38110_7_exc_cause) @[rob.scala 350:34]
     node _GEN_15456
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_exc_cause, T_38110_8_exc_cause) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_exc_cause,
+            T_38110_8_exc_cause) @[rob.scala 350:34]
     node _GEN_15457
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_exc_cause, T_38110_9_exc_cause) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_exc_cause,
+            T_38110_9_exc_cause) @[rob.scala 350:34]
     node _GEN_15458
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_exc_cause, T_38110_10_exc_cause) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_exc_cause,
+            T_38110_10_exc_cause) @[rob.scala 350:34]
     node _GEN_15459
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_exc_cause, T_38110_11_exc_cause) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_exc_cause,
+            T_38110_11_exc_cause) @[rob.scala 350:34]
     node _GEN_15460
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_exc_cause, T_38110_12_exc_cause) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_exc_cause,
+            T_38110_12_exc_cause) @[rob.scala 350:34]
     node _GEN_15461
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_exc_cause, T_38110_13_exc_cause) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_exc_cause,
+            T_38110_13_exc_cause) @[rob.scala 350:34]
     node _GEN_15462
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_exc_cause, T_38110_14_exc_cause) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_exc_cause,
+            T_38110_14_exc_cause) @[rob.scala 350:34]
     node _GEN_15463
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_exc_cause, T_38110_15_exc_cause) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_exc_cause,
+            T_38110_15_exc_cause) @[rob.scala 350:34]
     node _GEN_15464
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_exc_cause, T_38110_16_exc_cause) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_exc_cause,
+            T_38110_16_exc_cause) @[rob.scala 350:34]
     node _GEN_15465
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_exc_cause, T_38110_17_exc_cause) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_exc_cause,
+            T_38110_17_exc_cause) @[rob.scala 350:34]
     node _GEN_15466
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_exc_cause, T_38110_18_exc_cause) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_exc_cause,
+            T_38110_18_exc_cause) @[rob.scala 350:34]
     node _GEN_15467
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_exc_cause, T_38110_19_exc_cause) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_exc_cause,
+            T_38110_19_exc_cause) @[rob.scala 350:34]
     node _GEN_15468
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_exc_cause, T_38110_20_exc_cause) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_exc_cause,
+            T_38110_20_exc_cause) @[rob.scala 350:34]
     node _GEN_15469
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_exc_cause, T_38110_21_exc_cause) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_exc_cause,
+            T_38110_21_exc_cause) @[rob.scala 350:34]
     node _GEN_15470
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_exc_cause, T_38110_22_exc_cause) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_exc_cause,
+            T_38110_22_exc_cause) @[rob.scala 350:34]
     node _GEN_15471
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_exc_cause, T_38110_23_exc_cause) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_exc_cause,
+            T_38110_23_exc_cause) @[rob.scala 350:34]
     skip
     node _GEN_15472
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_bypassable, T_38110_0_bypassable) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_bypassable,
+            T_38110_0_bypassable) @[rob.scala 350:34]
     node _GEN_15473
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_bypassable, T_38110_1_bypassable) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_bypassable,
+            T_38110_1_bypassable) @[rob.scala 350:34]
     node _GEN_15474
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_bypassable, T_38110_2_bypassable) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_bypassable,
+            T_38110_2_bypassable) @[rob.scala 350:34]
     node _GEN_15475
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_bypassable, T_38110_3_bypassable) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_bypassable,
+            T_38110_3_bypassable) @[rob.scala 350:34]
     node _GEN_15476
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_bypassable, T_38110_4_bypassable) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_bypassable,
+            T_38110_4_bypassable) @[rob.scala 350:34]
     node _GEN_15477
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_bypassable, T_38110_5_bypassable) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_bypassable,
+            T_38110_5_bypassable) @[rob.scala 350:34]
     node _GEN_15478
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_bypassable, T_38110_6_bypassable) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_bypassable,
+            T_38110_6_bypassable) @[rob.scala 350:34]
     node _GEN_15479
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_bypassable, T_38110_7_bypassable) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_bypassable,
+            T_38110_7_bypassable) @[rob.scala 350:34]
     node _GEN_15480
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_bypassable, T_38110_8_bypassable) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_bypassable,
+            T_38110_8_bypassable) @[rob.scala 350:34]
     node _GEN_15481
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_bypassable, T_38110_9_bypassable) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_bypassable,
+            T_38110_9_bypassable) @[rob.scala 350:34]
     node _GEN_15482
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_bypassable, T_38110_10_bypassable) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_bypassable,
+            T_38110_10_bypassable) @[rob.scala 350:34]
     node _GEN_15483
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_bypassable, T_38110_11_bypassable) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_bypassable,
+            T_38110_11_bypassable) @[rob.scala 350:34]
     node _GEN_15484
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_bypassable, T_38110_12_bypassable) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_bypassable,
+            T_38110_12_bypassable) @[rob.scala 350:34]
     node _GEN_15485
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_bypassable, T_38110_13_bypassable) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_bypassable,
+            T_38110_13_bypassable) @[rob.scala 350:34]
     node _GEN_15486
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_bypassable, T_38110_14_bypassable) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_bypassable,
+            T_38110_14_bypassable) @[rob.scala 350:34]
     node _GEN_15487
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_bypassable, T_38110_15_bypassable) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_bypassable,
+            T_38110_15_bypassable) @[rob.scala 350:34]
     node _GEN_15488
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_bypassable, T_38110_16_bypassable) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_bypassable,
+            T_38110_16_bypassable) @[rob.scala 350:34]
     node _GEN_15489
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_bypassable, T_38110_17_bypassable) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_bypassable,
+            T_38110_17_bypassable) @[rob.scala 350:34]
     node _GEN_15490
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_bypassable, T_38110_18_bypassable) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_bypassable,
+            T_38110_18_bypassable) @[rob.scala 350:34]
     node _GEN_15491
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_bypassable, T_38110_19_bypassable) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_bypassable,
+            T_38110_19_bypassable) @[rob.scala 350:34]
     node _GEN_15492
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_bypassable, T_38110_20_bypassable) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_bypassable,
+            T_38110_20_bypassable) @[rob.scala 350:34]
     node _GEN_15493
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_bypassable, T_38110_21_bypassable) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_bypassable,
+            T_38110_21_bypassable) @[rob.scala 350:34]
     node _GEN_15494
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_bypassable, T_38110_22_bypassable) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_bypassable,
+            T_38110_22_bypassable) @[rob.scala 350:34]
     node _GEN_15495
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_bypassable, T_38110_23_bypassable) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_bypassable,
+            T_38110_23_bypassable) @[rob.scala 350:34]
     skip
     node _GEN_15496
       = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_mem_cmd, T_38110_0_mem_cmd) @[rob.scala 350:34]
@@ -26746,33 +29397,47 @@ circuit Rob :
     node _GEN_15505
       = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_mem_cmd, T_38110_9_mem_cmd) @[rob.scala 350:34]
     node _GEN_15506
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_mem_cmd, T_38110_10_mem_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_mem_cmd,
+            T_38110_10_mem_cmd) @[rob.scala 350:34]
     node _GEN_15507
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_mem_cmd, T_38110_11_mem_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_mem_cmd,
+            T_38110_11_mem_cmd) @[rob.scala 350:34]
     node _GEN_15508
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_mem_cmd, T_38110_12_mem_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_mem_cmd,
+            T_38110_12_mem_cmd) @[rob.scala 350:34]
     node _GEN_15509
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_mem_cmd, T_38110_13_mem_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_mem_cmd,
+            T_38110_13_mem_cmd) @[rob.scala 350:34]
     node _GEN_15510
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_mem_cmd, T_38110_14_mem_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_mem_cmd,
+            T_38110_14_mem_cmd) @[rob.scala 350:34]
     node _GEN_15511
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_mem_cmd, T_38110_15_mem_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_mem_cmd,
+            T_38110_15_mem_cmd) @[rob.scala 350:34]
     node _GEN_15512
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_mem_cmd, T_38110_16_mem_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_mem_cmd,
+            T_38110_16_mem_cmd) @[rob.scala 350:34]
     node _GEN_15513
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_mem_cmd, T_38110_17_mem_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_mem_cmd,
+            T_38110_17_mem_cmd) @[rob.scala 350:34]
     node _GEN_15514
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_mem_cmd, T_38110_18_mem_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_mem_cmd,
+            T_38110_18_mem_cmd) @[rob.scala 350:34]
     node _GEN_15515
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_mem_cmd, T_38110_19_mem_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_mem_cmd,
+            T_38110_19_mem_cmd) @[rob.scala 350:34]
     node _GEN_15516
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_mem_cmd, T_38110_20_mem_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_mem_cmd,
+            T_38110_20_mem_cmd) @[rob.scala 350:34]
     node _GEN_15517
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_mem_cmd, T_38110_21_mem_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_mem_cmd,
+            T_38110_21_mem_cmd) @[rob.scala 350:34]
     node _GEN_15518
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_mem_cmd, T_38110_22_mem_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_mem_cmd,
+            T_38110_22_mem_cmd) @[rob.scala 350:34]
     node _GEN_15519
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_mem_cmd, T_38110_23_mem_cmd) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_mem_cmd,
+            T_38110_23_mem_cmd) @[rob.scala 350:34]
     skip
     node _GEN_15520
       = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_mem_typ, T_38110_0_mem_typ) @[rob.scala 350:34]
@@ -26795,180 +29460,266 @@ circuit Rob :
     node _GEN_15529
       = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_mem_typ, T_38110_9_mem_typ) @[rob.scala 350:34]
     node _GEN_15530
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_mem_typ, T_38110_10_mem_typ) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_mem_typ,
+            T_38110_10_mem_typ) @[rob.scala 350:34]
     node _GEN_15531
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_mem_typ, T_38110_11_mem_typ) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_mem_typ,
+            T_38110_11_mem_typ) @[rob.scala 350:34]
     node _GEN_15532
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_mem_typ, T_38110_12_mem_typ) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_mem_typ,
+            T_38110_12_mem_typ) @[rob.scala 350:34]
     node _GEN_15533
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_mem_typ, T_38110_13_mem_typ) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_mem_typ,
+            T_38110_13_mem_typ) @[rob.scala 350:34]
     node _GEN_15534
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_mem_typ, T_38110_14_mem_typ) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_mem_typ,
+            T_38110_14_mem_typ) @[rob.scala 350:34]
     node _GEN_15535
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_mem_typ, T_38110_15_mem_typ) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_mem_typ,
+            T_38110_15_mem_typ) @[rob.scala 350:34]
     node _GEN_15536
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_mem_typ, T_38110_16_mem_typ) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_mem_typ,
+            T_38110_16_mem_typ) @[rob.scala 350:34]
     node _GEN_15537
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_mem_typ, T_38110_17_mem_typ) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_mem_typ,
+            T_38110_17_mem_typ) @[rob.scala 350:34]
     node _GEN_15538
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_mem_typ, T_38110_18_mem_typ) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_mem_typ,
+            T_38110_18_mem_typ) @[rob.scala 350:34]
     node _GEN_15539
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_mem_typ, T_38110_19_mem_typ) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_mem_typ,
+            T_38110_19_mem_typ) @[rob.scala 350:34]
     node _GEN_15540
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_mem_typ, T_38110_20_mem_typ) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_mem_typ,
+            T_38110_20_mem_typ) @[rob.scala 350:34]
     node _GEN_15541
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_mem_typ, T_38110_21_mem_typ) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_mem_typ,
+            T_38110_21_mem_typ) @[rob.scala 350:34]
     node _GEN_15542
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_mem_typ, T_38110_22_mem_typ) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_mem_typ,
+            T_38110_22_mem_typ) @[rob.scala 350:34]
     node _GEN_15543
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_mem_typ, T_38110_23_mem_typ) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_mem_typ,
+            T_38110_23_mem_typ) @[rob.scala 350:34]
     skip
     node _GEN_15544
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_is_fence, T_38110_0_is_fence) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_is_fence,
+            T_38110_0_is_fence) @[rob.scala 350:34]
     node _GEN_15545
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_is_fence, T_38110_1_is_fence) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_is_fence,
+            T_38110_1_is_fence) @[rob.scala 350:34]
     node _GEN_15546
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_is_fence, T_38110_2_is_fence) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_is_fence,
+            T_38110_2_is_fence) @[rob.scala 350:34]
     node _GEN_15547
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_is_fence, T_38110_3_is_fence) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_is_fence,
+            T_38110_3_is_fence) @[rob.scala 350:34]
     node _GEN_15548
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_is_fence, T_38110_4_is_fence) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_is_fence,
+            T_38110_4_is_fence) @[rob.scala 350:34]
     node _GEN_15549
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_is_fence, T_38110_5_is_fence) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_is_fence,
+            T_38110_5_is_fence) @[rob.scala 350:34]
     node _GEN_15550
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_is_fence, T_38110_6_is_fence) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_is_fence,
+            T_38110_6_is_fence) @[rob.scala 350:34]
     node _GEN_15551
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_is_fence, T_38110_7_is_fence) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_is_fence,
+            T_38110_7_is_fence) @[rob.scala 350:34]
     node _GEN_15552
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_is_fence, T_38110_8_is_fence) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_is_fence,
+            T_38110_8_is_fence) @[rob.scala 350:34]
     node _GEN_15553
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_is_fence, T_38110_9_is_fence) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_is_fence,
+            T_38110_9_is_fence) @[rob.scala 350:34]
     node _GEN_15554
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_is_fence, T_38110_10_is_fence) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_is_fence,
+            T_38110_10_is_fence) @[rob.scala 350:34]
     node _GEN_15555
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_is_fence, T_38110_11_is_fence) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_is_fence,
+            T_38110_11_is_fence) @[rob.scala 350:34]
     node _GEN_15556
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_is_fence, T_38110_12_is_fence) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_is_fence,
+            T_38110_12_is_fence) @[rob.scala 350:34]
     node _GEN_15557
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_is_fence, T_38110_13_is_fence) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_is_fence,
+            T_38110_13_is_fence) @[rob.scala 350:34]
     node _GEN_15558
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_is_fence, T_38110_14_is_fence) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_is_fence,
+            T_38110_14_is_fence) @[rob.scala 350:34]
     node _GEN_15559
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_is_fence, T_38110_15_is_fence) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_is_fence,
+            T_38110_15_is_fence) @[rob.scala 350:34]
     node _GEN_15560
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_is_fence, T_38110_16_is_fence) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_is_fence,
+            T_38110_16_is_fence) @[rob.scala 350:34]
     node _GEN_15561
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_is_fence, T_38110_17_is_fence) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_is_fence,
+            T_38110_17_is_fence) @[rob.scala 350:34]
     node _GEN_15562
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_is_fence, T_38110_18_is_fence) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_is_fence,
+            T_38110_18_is_fence) @[rob.scala 350:34]
     node _GEN_15563
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_is_fence, T_38110_19_is_fence) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_is_fence,
+            T_38110_19_is_fence) @[rob.scala 350:34]
     node _GEN_15564
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_is_fence, T_38110_20_is_fence) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_is_fence,
+            T_38110_20_is_fence) @[rob.scala 350:34]
     node _GEN_15565
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_is_fence, T_38110_21_is_fence) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_is_fence,
+            T_38110_21_is_fence) @[rob.scala 350:34]
     node _GEN_15566
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_is_fence, T_38110_22_is_fence) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_is_fence,
+            T_38110_22_is_fence) @[rob.scala 350:34]
     node _GEN_15567
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_is_fence, T_38110_23_is_fence) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_is_fence,
+            T_38110_23_is_fence) @[rob.scala 350:34]
     skip
     node _GEN_15568
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_is_fencei, T_38110_0_is_fencei) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_is_fencei,
+            T_38110_0_is_fencei) @[rob.scala 350:34]
     node _GEN_15569
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_is_fencei, T_38110_1_is_fencei) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_is_fencei,
+            T_38110_1_is_fencei) @[rob.scala 350:34]
     node _GEN_15570
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_is_fencei, T_38110_2_is_fencei) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_is_fencei,
+            T_38110_2_is_fencei) @[rob.scala 350:34]
     node _GEN_15571
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_is_fencei, T_38110_3_is_fencei) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_is_fencei,
+            T_38110_3_is_fencei) @[rob.scala 350:34]
     node _GEN_15572
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_is_fencei, T_38110_4_is_fencei) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_is_fencei,
+            T_38110_4_is_fencei) @[rob.scala 350:34]
     node _GEN_15573
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_is_fencei, T_38110_5_is_fencei) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_is_fencei,
+            T_38110_5_is_fencei) @[rob.scala 350:34]
     node _GEN_15574
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_is_fencei, T_38110_6_is_fencei) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_is_fencei,
+            T_38110_6_is_fencei) @[rob.scala 350:34]
     node _GEN_15575
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_is_fencei, T_38110_7_is_fencei) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_is_fencei,
+            T_38110_7_is_fencei) @[rob.scala 350:34]
     node _GEN_15576
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_is_fencei, T_38110_8_is_fencei) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_is_fencei,
+            T_38110_8_is_fencei) @[rob.scala 350:34]
     node _GEN_15577
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_is_fencei, T_38110_9_is_fencei) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_is_fencei,
+            T_38110_9_is_fencei) @[rob.scala 350:34]
     node _GEN_15578
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_is_fencei, T_38110_10_is_fencei) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_is_fencei,
+            T_38110_10_is_fencei) @[rob.scala 350:34]
     node _GEN_15579
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_is_fencei, T_38110_11_is_fencei) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_is_fencei,
+            T_38110_11_is_fencei) @[rob.scala 350:34]
     node _GEN_15580
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_is_fencei, T_38110_12_is_fencei) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_is_fencei,
+            T_38110_12_is_fencei) @[rob.scala 350:34]
     node _GEN_15581
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_is_fencei, T_38110_13_is_fencei) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_is_fencei,
+            T_38110_13_is_fencei) @[rob.scala 350:34]
     node _GEN_15582
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_is_fencei, T_38110_14_is_fencei) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_is_fencei,
+            T_38110_14_is_fencei) @[rob.scala 350:34]
     node _GEN_15583
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_is_fencei, T_38110_15_is_fencei) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_is_fencei,
+            T_38110_15_is_fencei) @[rob.scala 350:34]
     node _GEN_15584
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_is_fencei, T_38110_16_is_fencei) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_is_fencei,
+            T_38110_16_is_fencei) @[rob.scala 350:34]
     node _GEN_15585
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_is_fencei, T_38110_17_is_fencei) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_is_fencei,
+            T_38110_17_is_fencei) @[rob.scala 350:34]
     node _GEN_15586
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_is_fencei, T_38110_18_is_fencei) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_is_fencei,
+            T_38110_18_is_fencei) @[rob.scala 350:34]
     node _GEN_15587
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_is_fencei, T_38110_19_is_fencei) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_is_fencei,
+            T_38110_19_is_fencei) @[rob.scala 350:34]
     node _GEN_15588
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_is_fencei, T_38110_20_is_fencei) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_is_fencei,
+            T_38110_20_is_fencei) @[rob.scala 350:34]
     node _GEN_15589
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_is_fencei, T_38110_21_is_fencei) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_is_fencei,
+            T_38110_21_is_fencei) @[rob.scala 350:34]
     node _GEN_15590
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_is_fencei, T_38110_22_is_fencei) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_is_fencei,
+            T_38110_22_is_fencei) @[rob.scala 350:34]
     node _GEN_15591
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_is_fencei, T_38110_23_is_fencei) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_is_fencei,
+            T_38110_23_is_fencei) @[rob.scala 350:34]
     skip
     node _GEN_15592
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_is_store, T_38110_0_is_store) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_is_store,
+            T_38110_0_is_store) @[rob.scala 350:34]
     node _GEN_15593
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_is_store, T_38110_1_is_store) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_is_store,
+            T_38110_1_is_store) @[rob.scala 350:34]
     node _GEN_15594
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_is_store, T_38110_2_is_store) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_is_store,
+            T_38110_2_is_store) @[rob.scala 350:34]
     node _GEN_15595
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_is_store, T_38110_3_is_store) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_is_store,
+            T_38110_3_is_store) @[rob.scala 350:34]
     node _GEN_15596
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_is_store, T_38110_4_is_store) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_is_store,
+            T_38110_4_is_store) @[rob.scala 350:34]
     node _GEN_15597
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_is_store, T_38110_5_is_store) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_is_store,
+            T_38110_5_is_store) @[rob.scala 350:34]
     node _GEN_15598
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_is_store, T_38110_6_is_store) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_is_store,
+            T_38110_6_is_store) @[rob.scala 350:34]
     node _GEN_15599
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_is_store, T_38110_7_is_store) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_is_store,
+            T_38110_7_is_store) @[rob.scala 350:34]
     node _GEN_15600
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_is_store, T_38110_8_is_store) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_is_store,
+            T_38110_8_is_store) @[rob.scala 350:34]
     node _GEN_15601
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_is_store, T_38110_9_is_store) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_is_store,
+            T_38110_9_is_store) @[rob.scala 350:34]
     node _GEN_15602
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_is_store, T_38110_10_is_store) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_is_store,
+            T_38110_10_is_store) @[rob.scala 350:34]
     node _GEN_15603
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_is_store, T_38110_11_is_store) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_is_store,
+            T_38110_11_is_store) @[rob.scala 350:34]
     node _GEN_15604
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_is_store, T_38110_12_is_store) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_is_store,
+            T_38110_12_is_store) @[rob.scala 350:34]
     node _GEN_15605
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_is_store, T_38110_13_is_store) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_is_store,
+            T_38110_13_is_store) @[rob.scala 350:34]
     node _GEN_15606
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_is_store, T_38110_14_is_store) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_is_store,
+            T_38110_14_is_store) @[rob.scala 350:34]
     node _GEN_15607
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_is_store, T_38110_15_is_store) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_is_store,
+            T_38110_15_is_store) @[rob.scala 350:34]
     node _GEN_15608
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_is_store, T_38110_16_is_store) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_is_store,
+            T_38110_16_is_store) @[rob.scala 350:34]
     node _GEN_15609
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_is_store, T_38110_17_is_store) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_is_store,
+            T_38110_17_is_store) @[rob.scala 350:34]
     node _GEN_15610
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_is_store, T_38110_18_is_store) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_is_store,
+            T_38110_18_is_store) @[rob.scala 350:34]
     node _GEN_15611
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_is_store, T_38110_19_is_store) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_is_store,
+            T_38110_19_is_store) @[rob.scala 350:34]
     node _GEN_15612
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_is_store, T_38110_20_is_store) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_is_store,
+            T_38110_20_is_store) @[rob.scala 350:34]
     node _GEN_15613
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_is_store, T_38110_21_is_store) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_is_store,
+            T_38110_21_is_store) @[rob.scala 350:34]
     node _GEN_15614
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_is_store, T_38110_22_is_store) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_is_store,
+            T_38110_22_is_store) @[rob.scala 350:34]
     node _GEN_15615
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_is_store, T_38110_23_is_store) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_is_store,
+            T_38110_23_is_store) @[rob.scala 350:34]
     skip
     node _GEN_15616
       = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_is_amo, T_38110_0_is_amo) @[rob.scala 350:34]
@@ -27040,131 +29791,193 @@ circuit Rob :
     node _GEN_15649
       = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_is_load, T_38110_9_is_load) @[rob.scala 350:34]
     node _GEN_15650
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_is_load, T_38110_10_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_is_load,
+            T_38110_10_is_load) @[rob.scala 350:34]
     node _GEN_15651
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_is_load, T_38110_11_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_is_load,
+            T_38110_11_is_load) @[rob.scala 350:34]
     node _GEN_15652
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_is_load, T_38110_12_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_is_load,
+            T_38110_12_is_load) @[rob.scala 350:34]
     node _GEN_15653
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_is_load, T_38110_13_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_is_load,
+            T_38110_13_is_load) @[rob.scala 350:34]
     node _GEN_15654
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_is_load, T_38110_14_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_is_load,
+            T_38110_14_is_load) @[rob.scala 350:34]
     node _GEN_15655
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_is_load, T_38110_15_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_is_load,
+            T_38110_15_is_load) @[rob.scala 350:34]
     node _GEN_15656
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_is_load, T_38110_16_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_is_load,
+            T_38110_16_is_load) @[rob.scala 350:34]
     node _GEN_15657
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_is_load, T_38110_17_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_is_load,
+            T_38110_17_is_load) @[rob.scala 350:34]
     node _GEN_15658
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_is_load, T_38110_18_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_is_load,
+            T_38110_18_is_load) @[rob.scala 350:34]
     node _GEN_15659
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_is_load, T_38110_19_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_is_load,
+            T_38110_19_is_load) @[rob.scala 350:34]
     node _GEN_15660
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_is_load, T_38110_20_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_is_load,
+            T_38110_20_is_load) @[rob.scala 350:34]
     node _GEN_15661
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_is_load, T_38110_21_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_is_load,
+            T_38110_21_is_load) @[rob.scala 350:34]
     node _GEN_15662
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_is_load, T_38110_22_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_is_load,
+            T_38110_22_is_load) @[rob.scala 350:34]
     node _GEN_15663
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_is_load, T_38110_23_is_load) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_is_load,
+            T_38110_23_is_load) @[rob.scala 350:34]
     skip
     node _GEN_15664
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_is_unique, T_38110_0_is_unique) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_is_unique,
+            T_38110_0_is_unique) @[rob.scala 350:34]
     node _GEN_15665
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_is_unique, T_38110_1_is_unique) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_is_unique,
+            T_38110_1_is_unique) @[rob.scala 350:34]
     node _GEN_15666
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_is_unique, T_38110_2_is_unique) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_is_unique,
+            T_38110_2_is_unique) @[rob.scala 350:34]
     node _GEN_15667
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_is_unique, T_38110_3_is_unique) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_is_unique,
+            T_38110_3_is_unique) @[rob.scala 350:34]
     node _GEN_15668
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_is_unique, T_38110_4_is_unique) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_is_unique,
+            T_38110_4_is_unique) @[rob.scala 350:34]
     node _GEN_15669
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_is_unique, T_38110_5_is_unique) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_is_unique,
+            T_38110_5_is_unique) @[rob.scala 350:34]
     node _GEN_15670
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_is_unique, T_38110_6_is_unique) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_is_unique,
+            T_38110_6_is_unique) @[rob.scala 350:34]
     node _GEN_15671
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_is_unique, T_38110_7_is_unique) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_is_unique,
+            T_38110_7_is_unique) @[rob.scala 350:34]
     node _GEN_15672
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_is_unique, T_38110_8_is_unique) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_is_unique,
+            T_38110_8_is_unique) @[rob.scala 350:34]
     node _GEN_15673
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_is_unique, T_38110_9_is_unique) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_is_unique,
+            T_38110_9_is_unique) @[rob.scala 350:34]
     node _GEN_15674
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_is_unique, T_38110_10_is_unique) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_is_unique,
+            T_38110_10_is_unique) @[rob.scala 350:34]
     node _GEN_15675
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_is_unique, T_38110_11_is_unique) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_is_unique,
+            T_38110_11_is_unique) @[rob.scala 350:34]
     node _GEN_15676
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_is_unique, T_38110_12_is_unique) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_is_unique,
+            T_38110_12_is_unique) @[rob.scala 350:34]
     node _GEN_15677
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_is_unique, T_38110_13_is_unique) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_is_unique,
+            T_38110_13_is_unique) @[rob.scala 350:34]
     node _GEN_15678
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_is_unique, T_38110_14_is_unique) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_is_unique,
+            T_38110_14_is_unique) @[rob.scala 350:34]
     node _GEN_15679
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_is_unique, T_38110_15_is_unique) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_is_unique,
+            T_38110_15_is_unique) @[rob.scala 350:34]
     node _GEN_15680
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_is_unique, T_38110_16_is_unique) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_is_unique,
+            T_38110_16_is_unique) @[rob.scala 350:34]
     node _GEN_15681
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_is_unique, T_38110_17_is_unique) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_is_unique,
+            T_38110_17_is_unique) @[rob.scala 350:34]
     node _GEN_15682
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_is_unique, T_38110_18_is_unique) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_is_unique,
+            T_38110_18_is_unique) @[rob.scala 350:34]
     node _GEN_15683
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_is_unique, T_38110_19_is_unique) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_is_unique,
+            T_38110_19_is_unique) @[rob.scala 350:34]
     node _GEN_15684
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_is_unique, T_38110_20_is_unique) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_is_unique,
+            T_38110_20_is_unique) @[rob.scala 350:34]
     node _GEN_15685
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_is_unique, T_38110_21_is_unique) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_is_unique,
+            T_38110_21_is_unique) @[rob.scala 350:34]
     node _GEN_15686
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_is_unique, T_38110_22_is_unique) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_is_unique,
+            T_38110_22_is_unique) @[rob.scala 350:34]
     node _GEN_15687
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_is_unique, T_38110_23_is_unique) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_is_unique,
+            T_38110_23_is_unique) @[rob.scala 350:34]
     skip
     node _GEN_15688
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_flush_on_commit, T_38110_0_flush_on_commit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_flush_on_commit,
+            T_38110_0_flush_on_commit) @[rob.scala 350:34]
     node _GEN_15689
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_flush_on_commit, T_38110_1_flush_on_commit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_flush_on_commit,
+            T_38110_1_flush_on_commit) @[rob.scala 350:34]
     node _GEN_15690
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_flush_on_commit, T_38110_2_flush_on_commit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_flush_on_commit,
+            T_38110_2_flush_on_commit) @[rob.scala 350:34]
     node _GEN_15691
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_flush_on_commit, T_38110_3_flush_on_commit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_flush_on_commit,
+            T_38110_3_flush_on_commit) @[rob.scala 350:34]
     node _GEN_15692
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_flush_on_commit, T_38110_4_flush_on_commit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_flush_on_commit,
+            T_38110_4_flush_on_commit) @[rob.scala 350:34]
     node _GEN_15693
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_flush_on_commit, T_38110_5_flush_on_commit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_flush_on_commit,
+            T_38110_5_flush_on_commit) @[rob.scala 350:34]
     node _GEN_15694
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_flush_on_commit, T_38110_6_flush_on_commit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_flush_on_commit,
+            T_38110_6_flush_on_commit) @[rob.scala 350:34]
     node _GEN_15695
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_flush_on_commit, T_38110_7_flush_on_commit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_flush_on_commit,
+            T_38110_7_flush_on_commit) @[rob.scala 350:34]
     node _GEN_15696
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_flush_on_commit, T_38110_8_flush_on_commit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_flush_on_commit,
+            T_38110_8_flush_on_commit) @[rob.scala 350:34]
     node _GEN_15697
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_flush_on_commit, T_38110_9_flush_on_commit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_flush_on_commit,
+            T_38110_9_flush_on_commit) @[rob.scala 350:34]
     node _GEN_15698
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_flush_on_commit, T_38110_10_flush_on_commit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_flush_on_commit,
+            T_38110_10_flush_on_commit) @[rob.scala 350:34]
     node _GEN_15699
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_flush_on_commit, T_38110_11_flush_on_commit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_flush_on_commit,
+            T_38110_11_flush_on_commit) @[rob.scala 350:34]
     node _GEN_15700
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_flush_on_commit, T_38110_12_flush_on_commit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_flush_on_commit,
+            T_38110_12_flush_on_commit) @[rob.scala 350:34]
     node _GEN_15701
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_flush_on_commit, T_38110_13_flush_on_commit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_flush_on_commit,
+            T_38110_13_flush_on_commit) @[rob.scala 350:34]
     node _GEN_15702
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_flush_on_commit, T_38110_14_flush_on_commit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_flush_on_commit,
+            T_38110_14_flush_on_commit) @[rob.scala 350:34]
     node _GEN_15703
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_flush_on_commit, T_38110_15_flush_on_commit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_flush_on_commit,
+            T_38110_15_flush_on_commit) @[rob.scala 350:34]
     node _GEN_15704
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_flush_on_commit, T_38110_16_flush_on_commit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_flush_on_commit,
+            T_38110_16_flush_on_commit) @[rob.scala 350:34]
     node _GEN_15705
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_flush_on_commit, T_38110_17_flush_on_commit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_flush_on_commit,
+            T_38110_17_flush_on_commit) @[rob.scala 350:34]
     node _GEN_15706
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_flush_on_commit, T_38110_18_flush_on_commit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_flush_on_commit,
+            T_38110_18_flush_on_commit) @[rob.scala 350:34]
     node _GEN_15707
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_flush_on_commit, T_38110_19_flush_on_commit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_flush_on_commit,
+            T_38110_19_flush_on_commit) @[rob.scala 350:34]
     node _GEN_15708
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_flush_on_commit, T_38110_20_flush_on_commit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_flush_on_commit,
+            T_38110_20_flush_on_commit) @[rob.scala 350:34]
     node _GEN_15709
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_flush_on_commit, T_38110_21_flush_on_commit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_flush_on_commit,
+            T_38110_21_flush_on_commit) @[rob.scala 350:34]
     node _GEN_15710
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_flush_on_commit, T_38110_22_flush_on_commit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_flush_on_commit,
+            T_38110_22_flush_on_commit) @[rob.scala 350:34]
     node _GEN_15711
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_flush_on_commit, T_38110_23_flush_on_commit) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_flush_on_commit,
+            T_38110_23_flush_on_commit) @[rob.scala 350:34]
     skip
     node _GEN_15712
       = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_ldst, T_38110_0_ldst) @[rob.scala 350:34]
@@ -27363,200 +30176,296 @@ circuit Rob :
       = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_lrs3, T_38110_23_lrs3) @[rob.scala 350:34]
     skip
     node _GEN_15808
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_ldst_val, T_38110_0_ldst_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_ldst_val,
+            T_38110_0_ldst_val) @[rob.scala 350:34]
     node _GEN_15809
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_ldst_val, T_38110_1_ldst_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_ldst_val,
+            T_38110_1_ldst_val) @[rob.scala 350:34]
     node _GEN_15810
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_ldst_val, T_38110_2_ldst_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_ldst_val,
+            T_38110_2_ldst_val) @[rob.scala 350:34]
     node _GEN_15811
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_ldst_val, T_38110_3_ldst_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_ldst_val,
+            T_38110_3_ldst_val) @[rob.scala 350:34]
     node _GEN_15812
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_ldst_val, T_38110_4_ldst_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_ldst_val,
+            T_38110_4_ldst_val) @[rob.scala 350:34]
     node _GEN_15813
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_ldst_val, T_38110_5_ldst_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_ldst_val,
+            T_38110_5_ldst_val) @[rob.scala 350:34]
     node _GEN_15814
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_ldst_val, T_38110_6_ldst_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_ldst_val,
+            T_38110_6_ldst_val) @[rob.scala 350:34]
     node _GEN_15815
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_ldst_val, T_38110_7_ldst_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_ldst_val,
+            T_38110_7_ldst_val) @[rob.scala 350:34]
     node _GEN_15816
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_ldst_val, T_38110_8_ldst_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_ldst_val,
+            T_38110_8_ldst_val) @[rob.scala 350:34]
     node _GEN_15817
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_ldst_val, T_38110_9_ldst_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_ldst_val,
+            T_38110_9_ldst_val) @[rob.scala 350:34]
     node _GEN_15818
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_ldst_val, T_38110_10_ldst_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_ldst_val,
+            T_38110_10_ldst_val) @[rob.scala 350:34]
     node _GEN_15819
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_ldst_val, T_38110_11_ldst_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_ldst_val,
+            T_38110_11_ldst_val) @[rob.scala 350:34]
     node _GEN_15820
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_ldst_val, T_38110_12_ldst_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_ldst_val,
+            T_38110_12_ldst_val) @[rob.scala 350:34]
     node _GEN_15821
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_ldst_val, T_38110_13_ldst_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_ldst_val,
+            T_38110_13_ldst_val) @[rob.scala 350:34]
     node _GEN_15822
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_ldst_val, T_38110_14_ldst_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_ldst_val,
+            T_38110_14_ldst_val) @[rob.scala 350:34]
     node _GEN_15823
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_ldst_val, T_38110_15_ldst_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_ldst_val,
+            T_38110_15_ldst_val) @[rob.scala 350:34]
     node _GEN_15824
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_ldst_val, T_38110_16_ldst_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_ldst_val,
+            T_38110_16_ldst_val) @[rob.scala 350:34]
     node _GEN_15825
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_ldst_val, T_38110_17_ldst_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_ldst_val,
+            T_38110_17_ldst_val) @[rob.scala 350:34]
     node _GEN_15826
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_ldst_val, T_38110_18_ldst_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_ldst_val,
+            T_38110_18_ldst_val) @[rob.scala 350:34]
     node _GEN_15827
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_ldst_val, T_38110_19_ldst_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_ldst_val,
+            T_38110_19_ldst_val) @[rob.scala 350:34]
     node _GEN_15828
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_ldst_val, T_38110_20_ldst_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_ldst_val,
+            T_38110_20_ldst_val) @[rob.scala 350:34]
     node _GEN_15829
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_ldst_val, T_38110_21_ldst_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_ldst_val,
+            T_38110_21_ldst_val) @[rob.scala 350:34]
     node _GEN_15830
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_ldst_val, T_38110_22_ldst_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_ldst_val,
+            T_38110_22_ldst_val) @[rob.scala 350:34]
     node _GEN_15831
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_ldst_val, T_38110_23_ldst_val) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_ldst_val,
+            T_38110_23_ldst_val) @[rob.scala 350:34]
     skip
     node _GEN_15832
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_dst_rtype, T_38110_0_dst_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_dst_rtype,
+            T_38110_0_dst_rtype) @[rob.scala 350:34]
     node _GEN_15833
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_dst_rtype, T_38110_1_dst_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_dst_rtype,
+            T_38110_1_dst_rtype) @[rob.scala 350:34]
     node _GEN_15834
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_dst_rtype, T_38110_2_dst_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_dst_rtype,
+            T_38110_2_dst_rtype) @[rob.scala 350:34]
     node _GEN_15835
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_dst_rtype, T_38110_3_dst_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_dst_rtype,
+            T_38110_3_dst_rtype) @[rob.scala 350:34]
     node _GEN_15836
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_dst_rtype, T_38110_4_dst_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_dst_rtype,
+            T_38110_4_dst_rtype) @[rob.scala 350:34]
     node _GEN_15837
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_dst_rtype, T_38110_5_dst_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_dst_rtype,
+            T_38110_5_dst_rtype) @[rob.scala 350:34]
     node _GEN_15838
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_dst_rtype, T_38110_6_dst_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_dst_rtype,
+            T_38110_6_dst_rtype) @[rob.scala 350:34]
     node _GEN_15839
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_dst_rtype, T_38110_7_dst_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_dst_rtype,
+            T_38110_7_dst_rtype) @[rob.scala 350:34]
     node _GEN_15840
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_dst_rtype, T_38110_8_dst_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_dst_rtype,
+            T_38110_8_dst_rtype) @[rob.scala 350:34]
     node _GEN_15841
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_dst_rtype, T_38110_9_dst_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_dst_rtype,
+            T_38110_9_dst_rtype) @[rob.scala 350:34]
     node _GEN_15842
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_dst_rtype, T_38110_10_dst_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_dst_rtype,
+            T_38110_10_dst_rtype) @[rob.scala 350:34]
     node _GEN_15843
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_dst_rtype, T_38110_11_dst_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_dst_rtype,
+            T_38110_11_dst_rtype) @[rob.scala 350:34]
     node _GEN_15844
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_dst_rtype, T_38110_12_dst_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_dst_rtype,
+            T_38110_12_dst_rtype) @[rob.scala 350:34]
     node _GEN_15845
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_dst_rtype, T_38110_13_dst_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_dst_rtype,
+            T_38110_13_dst_rtype) @[rob.scala 350:34]
     node _GEN_15846
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_dst_rtype, T_38110_14_dst_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_dst_rtype,
+            T_38110_14_dst_rtype) @[rob.scala 350:34]
     node _GEN_15847
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_dst_rtype, T_38110_15_dst_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_dst_rtype,
+            T_38110_15_dst_rtype) @[rob.scala 350:34]
     node _GEN_15848
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_dst_rtype, T_38110_16_dst_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_dst_rtype,
+            T_38110_16_dst_rtype) @[rob.scala 350:34]
     node _GEN_15849
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_dst_rtype, T_38110_17_dst_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_dst_rtype,
+            T_38110_17_dst_rtype) @[rob.scala 350:34]
     node _GEN_15850
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_dst_rtype, T_38110_18_dst_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_dst_rtype,
+            T_38110_18_dst_rtype) @[rob.scala 350:34]
     node _GEN_15851
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_dst_rtype, T_38110_19_dst_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_dst_rtype,
+            T_38110_19_dst_rtype) @[rob.scala 350:34]
     node _GEN_15852
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_dst_rtype, T_38110_20_dst_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_dst_rtype,
+            T_38110_20_dst_rtype) @[rob.scala 350:34]
     node _GEN_15853
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_dst_rtype, T_38110_21_dst_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_dst_rtype,
+            T_38110_21_dst_rtype) @[rob.scala 350:34]
     node _GEN_15854
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_dst_rtype, T_38110_22_dst_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_dst_rtype,
+            T_38110_22_dst_rtype) @[rob.scala 350:34]
     node _GEN_15855
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_dst_rtype, T_38110_23_dst_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_dst_rtype,
+            T_38110_23_dst_rtype) @[rob.scala 350:34]
     skip
     node _GEN_15856
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_lrs1_rtype, T_38110_0_lrs1_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_lrs1_rtype,
+            T_38110_0_lrs1_rtype) @[rob.scala 350:34]
     node _GEN_15857
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_lrs1_rtype, T_38110_1_lrs1_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_lrs1_rtype,
+            T_38110_1_lrs1_rtype) @[rob.scala 350:34]
     node _GEN_15858
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_lrs1_rtype, T_38110_2_lrs1_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_lrs1_rtype,
+            T_38110_2_lrs1_rtype) @[rob.scala 350:34]
     node _GEN_15859
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_lrs1_rtype, T_38110_3_lrs1_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_lrs1_rtype,
+            T_38110_3_lrs1_rtype) @[rob.scala 350:34]
     node _GEN_15860
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_lrs1_rtype, T_38110_4_lrs1_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_lrs1_rtype,
+            T_38110_4_lrs1_rtype) @[rob.scala 350:34]
     node _GEN_15861
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_lrs1_rtype, T_38110_5_lrs1_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_lrs1_rtype,
+            T_38110_5_lrs1_rtype) @[rob.scala 350:34]
     node _GEN_15862
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_lrs1_rtype, T_38110_6_lrs1_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_lrs1_rtype,
+            T_38110_6_lrs1_rtype) @[rob.scala 350:34]
     node _GEN_15863
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_lrs1_rtype, T_38110_7_lrs1_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_lrs1_rtype,
+            T_38110_7_lrs1_rtype) @[rob.scala 350:34]
     node _GEN_15864
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_lrs1_rtype, T_38110_8_lrs1_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_lrs1_rtype,
+            T_38110_8_lrs1_rtype) @[rob.scala 350:34]
     node _GEN_15865
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_lrs1_rtype, T_38110_9_lrs1_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_lrs1_rtype,
+            T_38110_9_lrs1_rtype) @[rob.scala 350:34]
     node _GEN_15866
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_lrs1_rtype, T_38110_10_lrs1_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_lrs1_rtype,
+            T_38110_10_lrs1_rtype) @[rob.scala 350:34]
     node _GEN_15867
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_lrs1_rtype, T_38110_11_lrs1_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_lrs1_rtype,
+            T_38110_11_lrs1_rtype) @[rob.scala 350:34]
     node _GEN_15868
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_lrs1_rtype, T_38110_12_lrs1_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_lrs1_rtype,
+            T_38110_12_lrs1_rtype) @[rob.scala 350:34]
     node _GEN_15869
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_lrs1_rtype, T_38110_13_lrs1_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_lrs1_rtype,
+            T_38110_13_lrs1_rtype) @[rob.scala 350:34]
     node _GEN_15870
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_lrs1_rtype, T_38110_14_lrs1_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_lrs1_rtype,
+            T_38110_14_lrs1_rtype) @[rob.scala 350:34]
     node _GEN_15871
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_lrs1_rtype, T_38110_15_lrs1_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_lrs1_rtype,
+            T_38110_15_lrs1_rtype) @[rob.scala 350:34]
     node _GEN_15872
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_lrs1_rtype, T_38110_16_lrs1_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_lrs1_rtype,
+            T_38110_16_lrs1_rtype) @[rob.scala 350:34]
     node _GEN_15873
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_lrs1_rtype, T_38110_17_lrs1_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_lrs1_rtype,
+            T_38110_17_lrs1_rtype) @[rob.scala 350:34]
     node _GEN_15874
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_lrs1_rtype, T_38110_18_lrs1_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_lrs1_rtype,
+            T_38110_18_lrs1_rtype) @[rob.scala 350:34]
     node _GEN_15875
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_lrs1_rtype, T_38110_19_lrs1_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_lrs1_rtype,
+            T_38110_19_lrs1_rtype) @[rob.scala 350:34]
     node _GEN_15876
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_lrs1_rtype, T_38110_20_lrs1_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_lrs1_rtype,
+            T_38110_20_lrs1_rtype) @[rob.scala 350:34]
     node _GEN_15877
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_lrs1_rtype, T_38110_21_lrs1_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_lrs1_rtype,
+            T_38110_21_lrs1_rtype) @[rob.scala 350:34]
     node _GEN_15878
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_lrs1_rtype, T_38110_22_lrs1_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_lrs1_rtype,
+            T_38110_22_lrs1_rtype) @[rob.scala 350:34]
     node _GEN_15879
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_lrs1_rtype, T_38110_23_lrs1_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_lrs1_rtype,
+            T_38110_23_lrs1_rtype) @[rob.scala 350:34]
     skip
     node _GEN_15880
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_lrs2_rtype, T_38110_0_lrs2_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_lrs2_rtype,
+            T_38110_0_lrs2_rtype) @[rob.scala 350:34]
     node _GEN_15881
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_lrs2_rtype, T_38110_1_lrs2_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_lrs2_rtype,
+            T_38110_1_lrs2_rtype) @[rob.scala 350:34]
     node _GEN_15882
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_lrs2_rtype, T_38110_2_lrs2_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_lrs2_rtype,
+            T_38110_2_lrs2_rtype) @[rob.scala 350:34]
     node _GEN_15883
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_lrs2_rtype, T_38110_3_lrs2_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_lrs2_rtype,
+            T_38110_3_lrs2_rtype) @[rob.scala 350:34]
     node _GEN_15884
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_lrs2_rtype, T_38110_4_lrs2_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_lrs2_rtype,
+            T_38110_4_lrs2_rtype) @[rob.scala 350:34]
     node _GEN_15885
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_lrs2_rtype, T_38110_5_lrs2_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_lrs2_rtype,
+            T_38110_5_lrs2_rtype) @[rob.scala 350:34]
     node _GEN_15886
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_lrs2_rtype, T_38110_6_lrs2_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_lrs2_rtype,
+            T_38110_6_lrs2_rtype) @[rob.scala 350:34]
     node _GEN_15887
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_lrs2_rtype, T_38110_7_lrs2_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_lrs2_rtype,
+            T_38110_7_lrs2_rtype) @[rob.scala 350:34]
     node _GEN_15888
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_lrs2_rtype, T_38110_8_lrs2_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_lrs2_rtype,
+            T_38110_8_lrs2_rtype) @[rob.scala 350:34]
     node _GEN_15889
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_lrs2_rtype, T_38110_9_lrs2_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_lrs2_rtype,
+            T_38110_9_lrs2_rtype) @[rob.scala 350:34]
     node _GEN_15890
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_lrs2_rtype, T_38110_10_lrs2_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_lrs2_rtype,
+            T_38110_10_lrs2_rtype) @[rob.scala 350:34]
     node _GEN_15891
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_lrs2_rtype, T_38110_11_lrs2_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_lrs2_rtype,
+            T_38110_11_lrs2_rtype) @[rob.scala 350:34]
     node _GEN_15892
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_lrs2_rtype, T_38110_12_lrs2_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_lrs2_rtype,
+            T_38110_12_lrs2_rtype) @[rob.scala 350:34]
     node _GEN_15893
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_lrs2_rtype, T_38110_13_lrs2_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_lrs2_rtype,
+            T_38110_13_lrs2_rtype) @[rob.scala 350:34]
     node _GEN_15894
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_lrs2_rtype, T_38110_14_lrs2_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_lrs2_rtype,
+            T_38110_14_lrs2_rtype) @[rob.scala 350:34]
     node _GEN_15895
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_lrs2_rtype, T_38110_15_lrs2_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_lrs2_rtype,
+            T_38110_15_lrs2_rtype) @[rob.scala 350:34]
     node _GEN_15896
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_lrs2_rtype, T_38110_16_lrs2_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_lrs2_rtype,
+            T_38110_16_lrs2_rtype) @[rob.scala 350:34]
     node _GEN_15897
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_lrs2_rtype, T_38110_17_lrs2_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_lrs2_rtype,
+            T_38110_17_lrs2_rtype) @[rob.scala 350:34]
     node _GEN_15898
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_lrs2_rtype, T_38110_18_lrs2_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_lrs2_rtype,
+            T_38110_18_lrs2_rtype) @[rob.scala 350:34]
     node _GEN_15899
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_lrs2_rtype, T_38110_19_lrs2_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_lrs2_rtype,
+            T_38110_19_lrs2_rtype) @[rob.scala 350:34]
     node _GEN_15900
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_lrs2_rtype, T_38110_20_lrs2_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_lrs2_rtype,
+            T_38110_20_lrs2_rtype) @[rob.scala 350:34]
     node _GEN_15901
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_lrs2_rtype, T_38110_21_lrs2_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_lrs2_rtype,
+            T_38110_21_lrs2_rtype) @[rob.scala 350:34]
     node _GEN_15902
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_lrs2_rtype, T_38110_22_lrs2_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_lrs2_rtype,
+            T_38110_22_lrs2_rtype) @[rob.scala 350:34]
     node _GEN_15903
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_lrs2_rtype, T_38110_23_lrs2_rtype) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_lrs2_rtype,
+            T_38110_23_lrs2_rtype) @[rob.scala 350:34]
     skip
     node _GEN_15904
       = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_frs3_en, T_38110_0_frs3_en) @[rob.scala 350:34]
@@ -27579,33 +30488,47 @@ circuit Rob :
     node _GEN_15913
       = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_frs3_en, T_38110_9_frs3_en) @[rob.scala 350:34]
     node _GEN_15914
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_frs3_en, T_38110_10_frs3_en) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_frs3_en,
+            T_38110_10_frs3_en) @[rob.scala 350:34]
     node _GEN_15915
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_frs3_en, T_38110_11_frs3_en) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_frs3_en,
+            T_38110_11_frs3_en) @[rob.scala 350:34]
     node _GEN_15916
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_frs3_en, T_38110_12_frs3_en) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_frs3_en,
+            T_38110_12_frs3_en) @[rob.scala 350:34]
     node _GEN_15917
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_frs3_en, T_38110_13_frs3_en) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_frs3_en,
+            T_38110_13_frs3_en) @[rob.scala 350:34]
     node _GEN_15918
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_frs3_en, T_38110_14_frs3_en) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_frs3_en,
+            T_38110_14_frs3_en) @[rob.scala 350:34]
     node _GEN_15919
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_frs3_en, T_38110_15_frs3_en) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_frs3_en,
+            T_38110_15_frs3_en) @[rob.scala 350:34]
     node _GEN_15920
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_frs3_en, T_38110_16_frs3_en) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_frs3_en,
+            T_38110_16_frs3_en) @[rob.scala 350:34]
     node _GEN_15921
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_frs3_en, T_38110_17_frs3_en) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_frs3_en,
+            T_38110_17_frs3_en) @[rob.scala 350:34]
     node _GEN_15922
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_frs3_en, T_38110_18_frs3_en) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_frs3_en,
+            T_38110_18_frs3_en) @[rob.scala 350:34]
     node _GEN_15923
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_frs3_en, T_38110_19_frs3_en) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_frs3_en,
+            T_38110_19_frs3_en) @[rob.scala 350:34]
     node _GEN_15924
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_frs3_en, T_38110_20_frs3_en) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_frs3_en,
+            T_38110_20_frs3_en) @[rob.scala 350:34]
     node _GEN_15925
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_frs3_en, T_38110_21_frs3_en) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_frs3_en,
+            T_38110_21_frs3_en) @[rob.scala 350:34]
     node _GEN_15926
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_frs3_en, T_38110_22_frs3_en) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_frs3_en,
+            T_38110_22_frs3_en) @[rob.scala 350:34]
     node _GEN_15927
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_frs3_en, T_38110_23_frs3_en) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_frs3_en,
+            T_38110_23_frs3_en) @[rob.scala 350:34]
     skip
     node _GEN_15928
       = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_fp_val, T_38110_0_fp_val) @[rob.scala 350:34]
@@ -27657,53 +30580,77 @@ circuit Rob :
       = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_fp_val, T_38110_23_fp_val) @[rob.scala 350:34]
     skip
     node _GEN_15952
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_fp_single, T_38110_0_fp_single) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_fp_single,
+            T_38110_0_fp_single) @[rob.scala 350:34]
     node _GEN_15953
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_fp_single, T_38110_1_fp_single) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_fp_single,
+            T_38110_1_fp_single) @[rob.scala 350:34]
     node _GEN_15954
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_fp_single, T_38110_2_fp_single) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_fp_single,
+            T_38110_2_fp_single) @[rob.scala 350:34]
     node _GEN_15955
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_fp_single, T_38110_3_fp_single) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_fp_single,
+            T_38110_3_fp_single) @[rob.scala 350:34]
     node _GEN_15956
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_fp_single, T_38110_4_fp_single) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_fp_single,
+            T_38110_4_fp_single) @[rob.scala 350:34]
     node _GEN_15957
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_fp_single, T_38110_5_fp_single) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_fp_single,
+            T_38110_5_fp_single) @[rob.scala 350:34]
     node _GEN_15958
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_fp_single, T_38110_6_fp_single) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_fp_single,
+            T_38110_6_fp_single) @[rob.scala 350:34]
     node _GEN_15959
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_fp_single, T_38110_7_fp_single) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_fp_single,
+            T_38110_7_fp_single) @[rob.scala 350:34]
     node _GEN_15960
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_fp_single, T_38110_8_fp_single) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_fp_single,
+            T_38110_8_fp_single) @[rob.scala 350:34]
     node _GEN_15961
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_fp_single, T_38110_9_fp_single) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_fp_single,
+            T_38110_9_fp_single) @[rob.scala 350:34]
     node _GEN_15962
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_fp_single, T_38110_10_fp_single) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_fp_single,
+            T_38110_10_fp_single) @[rob.scala 350:34]
     node _GEN_15963
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_fp_single, T_38110_11_fp_single) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_fp_single,
+            T_38110_11_fp_single) @[rob.scala 350:34]
     node _GEN_15964
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_fp_single, T_38110_12_fp_single) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_fp_single,
+            T_38110_12_fp_single) @[rob.scala 350:34]
     node _GEN_15965
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_fp_single, T_38110_13_fp_single) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_fp_single,
+            T_38110_13_fp_single) @[rob.scala 350:34]
     node _GEN_15966
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_fp_single, T_38110_14_fp_single) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_fp_single,
+            T_38110_14_fp_single) @[rob.scala 350:34]
     node _GEN_15967
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_fp_single, T_38110_15_fp_single) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_fp_single,
+            T_38110_15_fp_single) @[rob.scala 350:34]
     node _GEN_15968
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_fp_single, T_38110_16_fp_single) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_fp_single,
+            T_38110_16_fp_single) @[rob.scala 350:34]
     node _GEN_15969
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_fp_single, T_38110_17_fp_single) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_fp_single,
+            T_38110_17_fp_single) @[rob.scala 350:34]
     node _GEN_15970
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_fp_single, T_38110_18_fp_single) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_fp_single,
+            T_38110_18_fp_single) @[rob.scala 350:34]
     node _GEN_15971
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_fp_single, T_38110_19_fp_single) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_fp_single,
+            T_38110_19_fp_single) @[rob.scala 350:34]
     node _GEN_15972
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_fp_single, T_38110_20_fp_single) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_fp_single,
+            T_38110_20_fp_single) @[rob.scala 350:34]
     node _GEN_15973
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_fp_single, T_38110_21_fp_single) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_fp_single,
+            T_38110_21_fp_single) @[rob.scala 350:34]
     node _GEN_15974
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_fp_single, T_38110_22_fp_single) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_fp_single,
+            T_38110_22_fp_single) @[rob.scala 350:34]
     node _GEN_15975
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_fp_single, T_38110_23_fp_single) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_fp_single,
+            T_38110_23_fp_single) @[rob.scala 350:34]
     skip
     node _GEN_15976
       = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_xcpt_if, T_38110_0_xcpt_if) @[rob.scala 350:34]
@@ -27726,180 +30673,266 @@ circuit Rob :
     node _GEN_15985
       = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_xcpt_if, T_38110_9_xcpt_if) @[rob.scala 350:34]
     node _GEN_15986
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_xcpt_if, T_38110_10_xcpt_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_xcpt_if,
+            T_38110_10_xcpt_if) @[rob.scala 350:34]
     node _GEN_15987
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_xcpt_if, T_38110_11_xcpt_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_xcpt_if,
+            T_38110_11_xcpt_if) @[rob.scala 350:34]
     node _GEN_15988
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_xcpt_if, T_38110_12_xcpt_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_xcpt_if,
+            T_38110_12_xcpt_if) @[rob.scala 350:34]
     node _GEN_15989
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_xcpt_if, T_38110_13_xcpt_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_xcpt_if,
+            T_38110_13_xcpt_if) @[rob.scala 350:34]
     node _GEN_15990
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_xcpt_if, T_38110_14_xcpt_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_xcpt_if,
+            T_38110_14_xcpt_if) @[rob.scala 350:34]
     node _GEN_15991
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_xcpt_if, T_38110_15_xcpt_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_xcpt_if,
+            T_38110_15_xcpt_if) @[rob.scala 350:34]
     node _GEN_15992
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_xcpt_if, T_38110_16_xcpt_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_xcpt_if,
+            T_38110_16_xcpt_if) @[rob.scala 350:34]
     node _GEN_15993
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_xcpt_if, T_38110_17_xcpt_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_xcpt_if,
+            T_38110_17_xcpt_if) @[rob.scala 350:34]
     node _GEN_15994
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_xcpt_if, T_38110_18_xcpt_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_xcpt_if,
+            T_38110_18_xcpt_if) @[rob.scala 350:34]
     node _GEN_15995
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_xcpt_if, T_38110_19_xcpt_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_xcpt_if,
+            T_38110_19_xcpt_if) @[rob.scala 350:34]
     node _GEN_15996
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_xcpt_if, T_38110_20_xcpt_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_xcpt_if,
+            T_38110_20_xcpt_if) @[rob.scala 350:34]
     node _GEN_15997
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_xcpt_if, T_38110_21_xcpt_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_xcpt_if,
+            T_38110_21_xcpt_if) @[rob.scala 350:34]
     node _GEN_15998
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_xcpt_if, T_38110_22_xcpt_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_xcpt_if,
+            T_38110_22_xcpt_if) @[rob.scala 350:34]
     node _GEN_15999
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_xcpt_if, T_38110_23_xcpt_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_xcpt_if,
+            T_38110_23_xcpt_if) @[rob.scala 350:34]
     skip
     node _GEN_16000
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_replay_if, T_38110_0_replay_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_replay_if,
+            T_38110_0_replay_if) @[rob.scala 350:34]
     node _GEN_16001
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_replay_if, T_38110_1_replay_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_replay_if,
+            T_38110_1_replay_if) @[rob.scala 350:34]
     node _GEN_16002
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_replay_if, T_38110_2_replay_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_replay_if,
+            T_38110_2_replay_if) @[rob.scala 350:34]
     node _GEN_16003
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_replay_if, T_38110_3_replay_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_replay_if,
+            T_38110_3_replay_if) @[rob.scala 350:34]
     node _GEN_16004
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_replay_if, T_38110_4_replay_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_replay_if,
+            T_38110_4_replay_if) @[rob.scala 350:34]
     node _GEN_16005
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_replay_if, T_38110_5_replay_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_replay_if,
+            T_38110_5_replay_if) @[rob.scala 350:34]
     node _GEN_16006
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_replay_if, T_38110_6_replay_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_replay_if,
+            T_38110_6_replay_if) @[rob.scala 350:34]
     node _GEN_16007
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_replay_if, T_38110_7_replay_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_replay_if,
+            T_38110_7_replay_if) @[rob.scala 350:34]
     node _GEN_16008
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_replay_if, T_38110_8_replay_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_replay_if,
+            T_38110_8_replay_if) @[rob.scala 350:34]
     node _GEN_16009
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_replay_if, T_38110_9_replay_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_replay_if,
+            T_38110_9_replay_if) @[rob.scala 350:34]
     node _GEN_16010
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_replay_if, T_38110_10_replay_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_replay_if,
+            T_38110_10_replay_if) @[rob.scala 350:34]
     node _GEN_16011
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_replay_if, T_38110_11_replay_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_replay_if,
+            T_38110_11_replay_if) @[rob.scala 350:34]
     node _GEN_16012
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_replay_if, T_38110_12_replay_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_replay_if,
+            T_38110_12_replay_if) @[rob.scala 350:34]
     node _GEN_16013
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_replay_if, T_38110_13_replay_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_replay_if,
+            T_38110_13_replay_if) @[rob.scala 350:34]
     node _GEN_16014
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_replay_if, T_38110_14_replay_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_replay_if,
+            T_38110_14_replay_if) @[rob.scala 350:34]
     node _GEN_16015
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_replay_if, T_38110_15_replay_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_replay_if,
+            T_38110_15_replay_if) @[rob.scala 350:34]
     node _GEN_16016
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_replay_if, T_38110_16_replay_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_replay_if,
+            T_38110_16_replay_if) @[rob.scala 350:34]
     node _GEN_16017
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_replay_if, T_38110_17_replay_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_replay_if,
+            T_38110_17_replay_if) @[rob.scala 350:34]
     node _GEN_16018
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_replay_if, T_38110_18_replay_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_replay_if,
+            T_38110_18_replay_if) @[rob.scala 350:34]
     node _GEN_16019
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_replay_if, T_38110_19_replay_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_replay_if,
+            T_38110_19_replay_if) @[rob.scala 350:34]
     node _GEN_16020
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_replay_if, T_38110_20_replay_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_replay_if,
+            T_38110_20_replay_if) @[rob.scala 350:34]
     node _GEN_16021
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_replay_if, T_38110_21_replay_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_replay_if,
+            T_38110_21_replay_if) @[rob.scala 350:34]
     node _GEN_16022
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_replay_if, T_38110_22_replay_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_replay_if,
+            T_38110_22_replay_if) @[rob.scala 350:34]
     node _GEN_16023
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_replay_if, T_38110_23_replay_if) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_replay_if,
+            T_38110_23_replay_if) @[rob.scala 350:34]
     skip
     node _GEN_16024
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_debug_wdata, T_38110_0_debug_wdata) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_debug_wdata,
+            T_38110_0_debug_wdata) @[rob.scala 350:34]
     node _GEN_16025
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_debug_wdata, T_38110_1_debug_wdata) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_debug_wdata,
+            T_38110_1_debug_wdata) @[rob.scala 350:34]
     node _GEN_16026
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_debug_wdata, T_38110_2_debug_wdata) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_debug_wdata,
+            T_38110_2_debug_wdata) @[rob.scala 350:34]
     node _GEN_16027
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_debug_wdata, T_38110_3_debug_wdata) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_debug_wdata,
+            T_38110_3_debug_wdata) @[rob.scala 350:34]
     node _GEN_16028
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_debug_wdata, T_38110_4_debug_wdata) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_debug_wdata,
+            T_38110_4_debug_wdata) @[rob.scala 350:34]
     node _GEN_16029
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_debug_wdata, T_38110_5_debug_wdata) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_debug_wdata,
+            T_38110_5_debug_wdata) @[rob.scala 350:34]
     node _GEN_16030
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_debug_wdata, T_38110_6_debug_wdata) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_debug_wdata,
+            T_38110_6_debug_wdata) @[rob.scala 350:34]
     node _GEN_16031
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_debug_wdata, T_38110_7_debug_wdata) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_debug_wdata,
+            T_38110_7_debug_wdata) @[rob.scala 350:34]
     node _GEN_16032
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_debug_wdata, T_38110_8_debug_wdata) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_debug_wdata,
+            T_38110_8_debug_wdata) @[rob.scala 350:34]
     node _GEN_16033
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_debug_wdata, T_38110_9_debug_wdata) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_debug_wdata,
+            T_38110_9_debug_wdata) @[rob.scala 350:34]
     node _GEN_16034
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_debug_wdata, T_38110_10_debug_wdata) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_debug_wdata,
+            T_38110_10_debug_wdata) @[rob.scala 350:34]
     node _GEN_16035
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_debug_wdata, T_38110_11_debug_wdata) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_debug_wdata,
+            T_38110_11_debug_wdata) @[rob.scala 350:34]
     node _GEN_16036
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_debug_wdata, T_38110_12_debug_wdata) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_debug_wdata,
+            T_38110_12_debug_wdata) @[rob.scala 350:34]
     node _GEN_16037
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_debug_wdata, T_38110_13_debug_wdata) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_debug_wdata,
+            T_38110_13_debug_wdata) @[rob.scala 350:34]
     node _GEN_16038
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_debug_wdata, T_38110_14_debug_wdata) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_debug_wdata,
+            T_38110_14_debug_wdata) @[rob.scala 350:34]
     node _GEN_16039
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_debug_wdata, T_38110_15_debug_wdata) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_debug_wdata,
+            T_38110_15_debug_wdata) @[rob.scala 350:34]
     node _GEN_16040
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_debug_wdata, T_38110_16_debug_wdata) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_debug_wdata,
+            T_38110_16_debug_wdata) @[rob.scala 350:34]
     node _GEN_16041
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_debug_wdata, T_38110_17_debug_wdata) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_debug_wdata,
+            T_38110_17_debug_wdata) @[rob.scala 350:34]
     node _GEN_16042
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_debug_wdata, T_38110_18_debug_wdata) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_debug_wdata,
+            T_38110_18_debug_wdata) @[rob.scala 350:34]
     node _GEN_16043
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_debug_wdata, T_38110_19_debug_wdata) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_debug_wdata,
+            T_38110_19_debug_wdata) @[rob.scala 350:34]
     node _GEN_16044
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_debug_wdata, T_38110_20_debug_wdata) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_debug_wdata,
+            T_38110_20_debug_wdata) @[rob.scala 350:34]
     node _GEN_16045
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_debug_wdata, T_38110_21_debug_wdata) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_debug_wdata,
+            T_38110_21_debug_wdata) @[rob.scala 350:34]
     node _GEN_16046
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_debug_wdata, T_38110_22_debug_wdata) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_debug_wdata,
+            T_38110_22_debug_wdata) @[rob.scala 350:34]
     node _GEN_16047
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_debug_wdata, T_38110_23_debug_wdata) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_debug_wdata,
+            T_38110_23_debug_wdata) @[rob.scala 350:34]
     skip
     node _GEN_16048
-      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_debug_events_fetch_seq, T_38110_0_debug_events_fetch_seq) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(0), rob_tail), io_dis_uops_1_debug_events_fetch_seq,
+            T_38110_0_debug_events_fetch_seq) @[rob.scala 350:34]
     node _GEN_16049
-      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_debug_events_fetch_seq, T_38110_1_debug_events_fetch_seq) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(1), rob_tail), io_dis_uops_1_debug_events_fetch_seq,
+            T_38110_1_debug_events_fetch_seq) @[rob.scala 350:34]
     node _GEN_16050
-      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_debug_events_fetch_seq, T_38110_2_debug_events_fetch_seq) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(2), rob_tail), io_dis_uops_1_debug_events_fetch_seq,
+            T_38110_2_debug_events_fetch_seq) @[rob.scala 350:34]
     node _GEN_16051
-      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_debug_events_fetch_seq, T_38110_3_debug_events_fetch_seq) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(3), rob_tail), io_dis_uops_1_debug_events_fetch_seq,
+            T_38110_3_debug_events_fetch_seq) @[rob.scala 350:34]
     node _GEN_16052
-      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_debug_events_fetch_seq, T_38110_4_debug_events_fetch_seq) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(4), rob_tail), io_dis_uops_1_debug_events_fetch_seq,
+            T_38110_4_debug_events_fetch_seq) @[rob.scala 350:34]
     node _GEN_16053
-      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_debug_events_fetch_seq, T_38110_5_debug_events_fetch_seq) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(5), rob_tail), io_dis_uops_1_debug_events_fetch_seq,
+            T_38110_5_debug_events_fetch_seq) @[rob.scala 350:34]
     node _GEN_16054
-      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_debug_events_fetch_seq, T_38110_6_debug_events_fetch_seq) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(6), rob_tail), io_dis_uops_1_debug_events_fetch_seq,
+            T_38110_6_debug_events_fetch_seq) @[rob.scala 350:34]
     node _GEN_16055
-      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_debug_events_fetch_seq, T_38110_7_debug_events_fetch_seq) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(7), rob_tail), io_dis_uops_1_debug_events_fetch_seq,
+            T_38110_7_debug_events_fetch_seq) @[rob.scala 350:34]
     node _GEN_16056
-      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_debug_events_fetch_seq, T_38110_8_debug_events_fetch_seq) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(8), rob_tail), io_dis_uops_1_debug_events_fetch_seq,
+            T_38110_8_debug_events_fetch_seq) @[rob.scala 350:34]
     node _GEN_16057
-      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_debug_events_fetch_seq, T_38110_9_debug_events_fetch_seq) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(9), rob_tail), io_dis_uops_1_debug_events_fetch_seq,
+            T_38110_9_debug_events_fetch_seq) @[rob.scala 350:34]
     node _GEN_16058
-      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_debug_events_fetch_seq, T_38110_10_debug_events_fetch_seq) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(10), rob_tail), io_dis_uops_1_debug_events_fetch_seq,
+            T_38110_10_debug_events_fetch_seq) @[rob.scala 350:34]
     node _GEN_16059
-      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_debug_events_fetch_seq, T_38110_11_debug_events_fetch_seq) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(11), rob_tail), io_dis_uops_1_debug_events_fetch_seq,
+            T_38110_11_debug_events_fetch_seq) @[rob.scala 350:34]
     node _GEN_16060
-      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_debug_events_fetch_seq, T_38110_12_debug_events_fetch_seq) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(12), rob_tail), io_dis_uops_1_debug_events_fetch_seq,
+            T_38110_12_debug_events_fetch_seq) @[rob.scala 350:34]
     node _GEN_16061
-      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_debug_events_fetch_seq, T_38110_13_debug_events_fetch_seq) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(13), rob_tail), io_dis_uops_1_debug_events_fetch_seq,
+            T_38110_13_debug_events_fetch_seq) @[rob.scala 350:34]
     node _GEN_16062
-      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_debug_events_fetch_seq, T_38110_14_debug_events_fetch_seq) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(14), rob_tail), io_dis_uops_1_debug_events_fetch_seq,
+            T_38110_14_debug_events_fetch_seq) @[rob.scala 350:34]
     node _GEN_16063
-      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_debug_events_fetch_seq, T_38110_15_debug_events_fetch_seq) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(15), rob_tail), io_dis_uops_1_debug_events_fetch_seq,
+            T_38110_15_debug_events_fetch_seq) @[rob.scala 350:34]
     node _GEN_16064
-      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_debug_events_fetch_seq, T_38110_16_debug_events_fetch_seq) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(16), rob_tail), io_dis_uops_1_debug_events_fetch_seq,
+            T_38110_16_debug_events_fetch_seq) @[rob.scala 350:34]
     node _GEN_16065
-      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_debug_events_fetch_seq, T_38110_17_debug_events_fetch_seq) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(17), rob_tail), io_dis_uops_1_debug_events_fetch_seq,
+            T_38110_17_debug_events_fetch_seq) @[rob.scala 350:34]
     node _GEN_16066
-      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_debug_events_fetch_seq, T_38110_18_debug_events_fetch_seq) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(18), rob_tail), io_dis_uops_1_debug_events_fetch_seq,
+            T_38110_18_debug_events_fetch_seq) @[rob.scala 350:34]
     node _GEN_16067
-      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_debug_events_fetch_seq, T_38110_19_debug_events_fetch_seq) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(19), rob_tail), io_dis_uops_1_debug_events_fetch_seq,
+            T_38110_19_debug_events_fetch_seq) @[rob.scala 350:34]
     node _GEN_16068
-      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_debug_events_fetch_seq, T_38110_20_debug_events_fetch_seq) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(20), rob_tail), io_dis_uops_1_debug_events_fetch_seq,
+            T_38110_20_debug_events_fetch_seq) @[rob.scala 350:34]
     node _GEN_16069
-      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_debug_events_fetch_seq, T_38110_21_debug_events_fetch_seq) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(21), rob_tail), io_dis_uops_1_debug_events_fetch_seq,
+            T_38110_21_debug_events_fetch_seq) @[rob.scala 350:34]
     node _GEN_16070
-      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_debug_events_fetch_seq, T_38110_22_debug_events_fetch_seq) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(22), rob_tail), io_dis_uops_1_debug_events_fetch_seq,
+            T_38110_22_debug_events_fetch_seq) @[rob.scala 350:34]
     node _GEN_16071
-      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_debug_events_fetch_seq, T_38110_23_debug_events_fetch_seq) @[rob.scala 350:34]
+      = mux(eq(UInt<5>(23), rob_tail), io_dis_uops_1_debug_events_fetch_seq,
+            T_38110_23_debug_events_fetch_seq) @[rob.scala 350:34]
     skip
     node _GEN_16072 = mux(eq(UInt<5>(0), rob_tail), UInt<1>(0), _GEN_14944) @[rob.scala 353:52]
     node _GEN_16073 = mux(eq(UInt<5>(1), rob_tail), UInt<1>(0), _GEN_14945) @[rob.scala 353:52]
@@ -30617,33 +33650,47 @@ circuit Rob :
     node _GEN_18481
       = mux(eq(UInt<5>(1), T_29096), T_38110_1_fu_code, T_38110_0_fu_code) @[rob.scala 453:59]
     node _GEN_18482
-      = mux(eq(UInt<5>(1), T_29096), T_38110_1_ctrl_br_type, T_38110_0_ctrl_br_type) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(1), T_29096), T_38110_1_ctrl_br_type,
+            T_38110_0_ctrl_br_type) @[rob.scala 453:59]
     node _GEN_18483
-      = mux(eq(UInt<5>(1), T_29096), T_38110_1_ctrl_op1_sel, T_38110_0_ctrl_op1_sel) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(1), T_29096), T_38110_1_ctrl_op1_sel,
+            T_38110_0_ctrl_op1_sel) @[rob.scala 453:59]
     node _GEN_18484
-      = mux(eq(UInt<5>(1), T_29096), T_38110_1_ctrl_op2_sel, T_38110_0_ctrl_op2_sel) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(1), T_29096), T_38110_1_ctrl_op2_sel,
+            T_38110_0_ctrl_op2_sel) @[rob.scala 453:59]
     node _GEN_18485
-      = mux(eq(UInt<5>(1), T_29096), T_38110_1_ctrl_imm_sel, T_38110_0_ctrl_imm_sel) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(1), T_29096), T_38110_1_ctrl_imm_sel,
+            T_38110_0_ctrl_imm_sel) @[rob.scala 453:59]
     node _GEN_18486
-      = mux(eq(UInt<5>(1), T_29096), T_38110_1_ctrl_op_fcn, T_38110_0_ctrl_op_fcn) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(1), T_29096), T_38110_1_ctrl_op_fcn,
+            T_38110_0_ctrl_op_fcn) @[rob.scala 453:59]
     node _GEN_18487
-      = mux(eq(UInt<5>(1), T_29096), T_38110_1_ctrl_fcn_dw, T_38110_0_ctrl_fcn_dw) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(1), T_29096), T_38110_1_ctrl_fcn_dw,
+            T_38110_0_ctrl_fcn_dw) @[rob.scala 453:59]
     node _GEN_18488
-      = mux(eq(UInt<5>(1), T_29096), T_38110_1_ctrl_rf_wen, T_38110_0_ctrl_rf_wen) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(1), T_29096), T_38110_1_ctrl_rf_wen,
+            T_38110_0_ctrl_rf_wen) @[rob.scala 453:59]
     node _GEN_18489
-      = mux(eq(UInt<5>(1), T_29096), T_38110_1_ctrl_csr_cmd, T_38110_0_ctrl_csr_cmd) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(1), T_29096), T_38110_1_ctrl_csr_cmd,
+            T_38110_0_ctrl_csr_cmd) @[rob.scala 453:59]
     node _GEN_18490
-      = mux(eq(UInt<5>(1), T_29096), T_38110_1_ctrl_is_load, T_38110_0_ctrl_is_load) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(1), T_29096), T_38110_1_ctrl_is_load,
+            T_38110_0_ctrl_is_load) @[rob.scala 453:59]
     node _GEN_18491
-      = mux(eq(UInt<5>(1), T_29096), T_38110_1_ctrl_is_sta, T_38110_0_ctrl_is_sta) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(1), T_29096), T_38110_1_ctrl_is_sta,
+            T_38110_0_ctrl_is_sta) @[rob.scala 453:59]
     node _GEN_18492
-      = mux(eq(UInt<5>(1), T_29096), T_38110_1_ctrl_is_std, T_38110_0_ctrl_is_std) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(1), T_29096), T_38110_1_ctrl_is_std,
+            T_38110_0_ctrl_is_std) @[rob.scala 453:59]
     node _GEN_18493
-      = mux(eq(UInt<5>(1), T_29096), T_38110_1_wakeup_delay, T_38110_0_wakeup_delay) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(1), T_29096), T_38110_1_wakeup_delay,
+            T_38110_0_wakeup_delay) @[rob.scala 453:59]
     node _GEN_18494
-      = mux(eq(UInt<5>(1), T_29096), T_38110_1_allocate_brtag, T_38110_0_allocate_brtag) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(1), T_29096), T_38110_1_allocate_brtag,
+            T_38110_0_allocate_brtag) @[rob.scala 453:59]
     node _GEN_18495
-      = mux(eq(UInt<5>(1), T_29096), T_38110_1_is_br_or_jmp, T_38110_0_is_br_or_jmp) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(1), T_29096), T_38110_1_is_br_or_jmp,
+            T_38110_0_is_br_or_jmp) @[rob.scala 453:59]
     node _GEN_18496
       = mux(eq(UInt<5>(1), T_29096), T_38110_1_is_jump, T_38110_0_is_jump) @[rob.scala 453:59]
     node _GEN_18497
@@ -30657,27 +33704,38 @@ circuit Rob :
     node _GEN_18501
       = mux(eq(UInt<5>(1), T_29096), T_38110_1_br_tag, T_38110_0_br_tag) @[rob.scala 453:59]
     node _GEN_18502
-      = mux(eq(UInt<5>(1), T_29096), T_38110_1_br_prediction_bpd_predict_val, T_38110_0_br_prediction_bpd_predict_val) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(1), T_29096), T_38110_1_br_prediction_bpd_predict_val,
+            T_38110_0_br_prediction_bpd_predict_val) @[rob.scala 453:59]
     node _GEN_18503
-      = mux(eq(UInt<5>(1), T_29096), T_38110_1_br_prediction_bpd_predict_taken, T_38110_0_br_prediction_bpd_predict_taken) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(1), T_29096), T_38110_1_br_prediction_bpd_predict_taken,
+            T_38110_0_br_prediction_bpd_predict_taken) @[rob.scala 453:59]
     node _GEN_18504
-      = mux(eq(UInt<5>(1), T_29096), T_38110_1_br_prediction_btb_hit, T_38110_0_br_prediction_btb_hit) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(1), T_29096), T_38110_1_br_prediction_btb_hit,
+            T_38110_0_br_prediction_btb_hit) @[rob.scala 453:59]
     node _GEN_18505
-      = mux(eq(UInt<5>(1), T_29096), T_38110_1_br_prediction_btb_predicted, T_38110_0_br_prediction_btb_predicted) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(1), T_29096), T_38110_1_br_prediction_btb_predicted,
+            T_38110_0_br_prediction_btb_predicted) @[rob.scala 453:59]
     node _GEN_18506
-      = mux(eq(UInt<5>(1), T_29096), T_38110_1_br_prediction_is_br_or_jalr, T_38110_0_br_prediction_is_br_or_jalr) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(1), T_29096), T_38110_1_br_prediction_is_br_or_jalr,
+            T_38110_0_br_prediction_is_br_or_jalr) @[rob.scala 453:59]
     node _GEN_18507
-      = mux(eq(UInt<5>(1), T_29096), T_38110_1_stat_brjmp_mispredicted, T_38110_0_stat_brjmp_mispredicted) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(1), T_29096), T_38110_1_stat_brjmp_mispredicted,
+            T_38110_0_stat_brjmp_mispredicted) @[rob.scala 453:59]
     node _GEN_18508
-      = mux(eq(UInt<5>(1), T_29096), T_38110_1_stat_btb_made_pred, T_38110_0_stat_btb_made_pred) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(1), T_29096), T_38110_1_stat_btb_made_pred,
+            T_38110_0_stat_btb_made_pred) @[rob.scala 453:59]
     node _GEN_18509
-      = mux(eq(UInt<5>(1), T_29096), T_38110_1_stat_btb_mispredicted, T_38110_0_stat_btb_mispredicted) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(1), T_29096), T_38110_1_stat_btb_mispredicted,
+            T_38110_0_stat_btb_mispredicted) @[rob.scala 453:59]
     node _GEN_18510
-      = mux(eq(UInt<5>(1), T_29096), T_38110_1_stat_bpd_made_pred, T_38110_0_stat_bpd_made_pred) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(1), T_29096), T_38110_1_stat_bpd_made_pred,
+            T_38110_0_stat_bpd_made_pred) @[rob.scala 453:59]
     node _GEN_18511
-      = mux(eq(UInt<5>(1), T_29096), T_38110_1_stat_bpd_mispredicted, T_38110_0_stat_bpd_mispredicted) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(1), T_29096), T_38110_1_stat_bpd_mispredicted,
+            T_38110_0_stat_bpd_mispredicted) @[rob.scala 453:59]
     node _GEN_18512
-      = mux(eq(UInt<5>(1), T_29096), T_38110_1_fetch_pc_lob, T_38110_0_fetch_pc_lob) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(1), T_29096), T_38110_1_fetch_pc_lob,
+            T_38110_0_fetch_pc_lob) @[rob.scala 453:59]
     node _GEN_18513
       = mux(eq(UInt<5>(1), T_29096), T_38110_1_imm_packed, T_38110_0_imm_packed) @[rob.scala 453:59]
     node _GEN_18514
@@ -30729,7 +33787,8 @@ circuit Rob :
     node _GEN_18537
       = mux(eq(UInt<5>(1), T_29096), T_38110_1_is_unique, T_38110_0_is_unique) @[rob.scala 453:59]
     node _GEN_18538
-      = mux(eq(UInt<5>(1), T_29096), T_38110_1_flush_on_commit, T_38110_0_flush_on_commit) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(1), T_29096), T_38110_1_flush_on_commit,
+            T_38110_0_flush_on_commit) @[rob.scala 453:59]
     node _GEN_18539
       = mux(eq(UInt<5>(1), T_29096), T_38110_1_ldst, T_38110_0_ldst) @[rob.scala 453:59]
     node _GEN_18540
@@ -30758,7 +33817,8 @@ circuit Rob :
       = mux(eq(UInt<5>(1), T_29096), T_38110_1_replay_if, T_38110_0_replay_if) @[rob.scala 453:59]
     skip
     node _GEN_18553
-      = mux(eq(UInt<5>(1), T_29096), T_38110_1_debug_events_fetch_seq, T_38110_0_debug_events_fetch_seq) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(1), T_29096), T_38110_1_debug_events_fetch_seq,
+            T_38110_0_debug_events_fetch_seq) @[rob.scala 453:59]
     node _GEN_18554 = mux(eq(UInt<5>(2), T_29096), T_38110_2_valid, _GEN_18476) @[rob.scala 453:59]
     node _GEN_18555
       = mux(eq(UInt<5>(2), T_29096), T_38110_2_iw_state, _GEN_18477) @[rob.scala 453:59]
@@ -30805,25 +33865,33 @@ circuit Rob :
       = mux(eq(UInt<5>(2), T_29096), T_38110_2_br_mask, _GEN_18500) @[rob.scala 453:59]
     node _GEN_18579 = mux(eq(UInt<5>(2), T_29096), T_38110_2_br_tag, _GEN_18501) @[rob.scala 453:59]
     node _GEN_18580
-      = mux(eq(UInt<5>(2), T_29096), T_38110_2_br_prediction_bpd_predict_val, _GEN_18502) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(2), T_29096), T_38110_2_br_prediction_bpd_predict_val,
+            _GEN_18502) @[rob.scala 453:59]
     node _GEN_18581
-      = mux(eq(UInt<5>(2), T_29096), T_38110_2_br_prediction_bpd_predict_taken, _GEN_18503) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(2), T_29096), T_38110_2_br_prediction_bpd_predict_taken,
+            _GEN_18503) @[rob.scala 453:59]
     node _GEN_18582
-      = mux(eq(UInt<5>(2), T_29096), T_38110_2_br_prediction_btb_hit, _GEN_18504) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(2), T_29096), T_38110_2_br_prediction_btb_hit,
+            _GEN_18504) @[rob.scala 453:59]
     node _GEN_18583
-      = mux(eq(UInt<5>(2), T_29096), T_38110_2_br_prediction_btb_predicted, _GEN_18505) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(2), T_29096), T_38110_2_br_prediction_btb_predicted,
+            _GEN_18505) @[rob.scala 453:59]
     node _GEN_18584
-      = mux(eq(UInt<5>(2), T_29096), T_38110_2_br_prediction_is_br_or_jalr, _GEN_18506) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(2), T_29096), T_38110_2_br_prediction_is_br_or_jalr,
+            _GEN_18506) @[rob.scala 453:59]
     node _GEN_18585
-      = mux(eq(UInt<5>(2), T_29096), T_38110_2_stat_brjmp_mispredicted, _GEN_18507) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(2), T_29096), T_38110_2_stat_brjmp_mispredicted,
+            _GEN_18507) @[rob.scala 453:59]
     node _GEN_18586
       = mux(eq(UInt<5>(2), T_29096), T_38110_2_stat_btb_made_pred, _GEN_18508) @[rob.scala 453:59]
     node _GEN_18587
-      = mux(eq(UInt<5>(2), T_29096), T_38110_2_stat_btb_mispredicted, _GEN_18509) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(2), T_29096), T_38110_2_stat_btb_mispredicted,
+            _GEN_18509) @[rob.scala 453:59]
     node _GEN_18588
       = mux(eq(UInt<5>(2), T_29096), T_38110_2_stat_bpd_made_pred, _GEN_18510) @[rob.scala 453:59]
     node _GEN_18589
-      = mux(eq(UInt<5>(2), T_29096), T_38110_2_stat_bpd_mispredicted, _GEN_18511) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(2), T_29096), T_38110_2_stat_bpd_mispredicted,
+            _GEN_18511) @[rob.scala 453:59]
     node _GEN_18590
       = mux(eq(UInt<5>(2), T_29096), T_38110_2_fetch_pc_lob, _GEN_18512) @[rob.scala 453:59]
     node _GEN_18591
@@ -30896,7 +33964,8 @@ circuit Rob :
       = mux(eq(UInt<5>(2), T_29096), T_38110_2_replay_if, _GEN_18551) @[rob.scala 453:59]
     skip
     node _GEN_18631
-      = mux(eq(UInt<5>(2), T_29096), T_38110_2_debug_events_fetch_seq, _GEN_18553) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(2), T_29096), T_38110_2_debug_events_fetch_seq,
+            _GEN_18553) @[rob.scala 453:59]
     node _GEN_18632 = mux(eq(UInt<5>(3), T_29096), T_38110_3_valid, _GEN_18554) @[rob.scala 453:59]
     node _GEN_18633
       = mux(eq(UInt<5>(3), T_29096), T_38110_3_iw_state, _GEN_18555) @[rob.scala 453:59]
@@ -30943,25 +34012,33 @@ circuit Rob :
       = mux(eq(UInt<5>(3), T_29096), T_38110_3_br_mask, _GEN_18578) @[rob.scala 453:59]
     node _GEN_18657 = mux(eq(UInt<5>(3), T_29096), T_38110_3_br_tag, _GEN_18579) @[rob.scala 453:59]
     node _GEN_18658
-      = mux(eq(UInt<5>(3), T_29096), T_38110_3_br_prediction_bpd_predict_val, _GEN_18580) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(3), T_29096), T_38110_3_br_prediction_bpd_predict_val,
+            _GEN_18580) @[rob.scala 453:59]
     node _GEN_18659
-      = mux(eq(UInt<5>(3), T_29096), T_38110_3_br_prediction_bpd_predict_taken, _GEN_18581) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(3), T_29096), T_38110_3_br_prediction_bpd_predict_taken,
+            _GEN_18581) @[rob.scala 453:59]
     node _GEN_18660
-      = mux(eq(UInt<5>(3), T_29096), T_38110_3_br_prediction_btb_hit, _GEN_18582) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(3), T_29096), T_38110_3_br_prediction_btb_hit,
+            _GEN_18582) @[rob.scala 453:59]
     node _GEN_18661
-      = mux(eq(UInt<5>(3), T_29096), T_38110_3_br_prediction_btb_predicted, _GEN_18583) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(3), T_29096), T_38110_3_br_prediction_btb_predicted,
+            _GEN_18583) @[rob.scala 453:59]
     node _GEN_18662
-      = mux(eq(UInt<5>(3), T_29096), T_38110_3_br_prediction_is_br_or_jalr, _GEN_18584) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(3), T_29096), T_38110_3_br_prediction_is_br_or_jalr,
+            _GEN_18584) @[rob.scala 453:59]
     node _GEN_18663
-      = mux(eq(UInt<5>(3), T_29096), T_38110_3_stat_brjmp_mispredicted, _GEN_18585) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(3), T_29096), T_38110_3_stat_brjmp_mispredicted,
+            _GEN_18585) @[rob.scala 453:59]
     node _GEN_18664
       = mux(eq(UInt<5>(3), T_29096), T_38110_3_stat_btb_made_pred, _GEN_18586) @[rob.scala 453:59]
     node _GEN_18665
-      = mux(eq(UInt<5>(3), T_29096), T_38110_3_stat_btb_mispredicted, _GEN_18587) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(3), T_29096), T_38110_3_stat_btb_mispredicted,
+            _GEN_18587) @[rob.scala 453:59]
     node _GEN_18666
       = mux(eq(UInt<5>(3), T_29096), T_38110_3_stat_bpd_made_pred, _GEN_18588) @[rob.scala 453:59]
     node _GEN_18667
-      = mux(eq(UInt<5>(3), T_29096), T_38110_3_stat_bpd_mispredicted, _GEN_18589) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(3), T_29096), T_38110_3_stat_bpd_mispredicted,
+            _GEN_18589) @[rob.scala 453:59]
     node _GEN_18668
       = mux(eq(UInt<5>(3), T_29096), T_38110_3_fetch_pc_lob, _GEN_18590) @[rob.scala 453:59]
     node _GEN_18669
@@ -31034,7 +34111,8 @@ circuit Rob :
       = mux(eq(UInt<5>(3), T_29096), T_38110_3_replay_if, _GEN_18629) @[rob.scala 453:59]
     skip
     node _GEN_18709
-      = mux(eq(UInt<5>(3), T_29096), T_38110_3_debug_events_fetch_seq, _GEN_18631) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(3), T_29096), T_38110_3_debug_events_fetch_seq,
+            _GEN_18631) @[rob.scala 453:59]
     node _GEN_18710 = mux(eq(UInt<5>(4), T_29096), T_38110_4_valid, _GEN_18632) @[rob.scala 453:59]
     node _GEN_18711
       = mux(eq(UInt<5>(4), T_29096), T_38110_4_iw_state, _GEN_18633) @[rob.scala 453:59]
@@ -31081,25 +34159,33 @@ circuit Rob :
       = mux(eq(UInt<5>(4), T_29096), T_38110_4_br_mask, _GEN_18656) @[rob.scala 453:59]
     node _GEN_18735 = mux(eq(UInt<5>(4), T_29096), T_38110_4_br_tag, _GEN_18657) @[rob.scala 453:59]
     node _GEN_18736
-      = mux(eq(UInt<5>(4), T_29096), T_38110_4_br_prediction_bpd_predict_val, _GEN_18658) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(4), T_29096), T_38110_4_br_prediction_bpd_predict_val,
+            _GEN_18658) @[rob.scala 453:59]
     node _GEN_18737
-      = mux(eq(UInt<5>(4), T_29096), T_38110_4_br_prediction_bpd_predict_taken, _GEN_18659) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(4), T_29096), T_38110_4_br_prediction_bpd_predict_taken,
+            _GEN_18659) @[rob.scala 453:59]
     node _GEN_18738
-      = mux(eq(UInt<5>(4), T_29096), T_38110_4_br_prediction_btb_hit, _GEN_18660) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(4), T_29096), T_38110_4_br_prediction_btb_hit,
+            _GEN_18660) @[rob.scala 453:59]
     node _GEN_18739
-      = mux(eq(UInt<5>(4), T_29096), T_38110_4_br_prediction_btb_predicted, _GEN_18661) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(4), T_29096), T_38110_4_br_prediction_btb_predicted,
+            _GEN_18661) @[rob.scala 453:59]
     node _GEN_18740
-      = mux(eq(UInt<5>(4), T_29096), T_38110_4_br_prediction_is_br_or_jalr, _GEN_18662) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(4), T_29096), T_38110_4_br_prediction_is_br_or_jalr,
+            _GEN_18662) @[rob.scala 453:59]
     node _GEN_18741
-      = mux(eq(UInt<5>(4), T_29096), T_38110_4_stat_brjmp_mispredicted, _GEN_18663) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(4), T_29096), T_38110_4_stat_brjmp_mispredicted,
+            _GEN_18663) @[rob.scala 453:59]
     node _GEN_18742
       = mux(eq(UInt<5>(4), T_29096), T_38110_4_stat_btb_made_pred, _GEN_18664) @[rob.scala 453:59]
     node _GEN_18743
-      = mux(eq(UInt<5>(4), T_29096), T_38110_4_stat_btb_mispredicted, _GEN_18665) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(4), T_29096), T_38110_4_stat_btb_mispredicted,
+            _GEN_18665) @[rob.scala 453:59]
     node _GEN_18744
       = mux(eq(UInt<5>(4), T_29096), T_38110_4_stat_bpd_made_pred, _GEN_18666) @[rob.scala 453:59]
     node _GEN_18745
-      = mux(eq(UInt<5>(4), T_29096), T_38110_4_stat_bpd_mispredicted, _GEN_18667) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(4), T_29096), T_38110_4_stat_bpd_mispredicted,
+            _GEN_18667) @[rob.scala 453:59]
     node _GEN_18746
       = mux(eq(UInt<5>(4), T_29096), T_38110_4_fetch_pc_lob, _GEN_18668) @[rob.scala 453:59]
     node _GEN_18747
@@ -31172,7 +34258,8 @@ circuit Rob :
       = mux(eq(UInt<5>(4), T_29096), T_38110_4_replay_if, _GEN_18707) @[rob.scala 453:59]
     skip
     node _GEN_18787
-      = mux(eq(UInt<5>(4), T_29096), T_38110_4_debug_events_fetch_seq, _GEN_18709) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(4), T_29096), T_38110_4_debug_events_fetch_seq,
+            _GEN_18709) @[rob.scala 453:59]
     node _GEN_18788 = mux(eq(UInt<5>(5), T_29096), T_38110_5_valid, _GEN_18710) @[rob.scala 453:59]
     node _GEN_18789
       = mux(eq(UInt<5>(5), T_29096), T_38110_5_iw_state, _GEN_18711) @[rob.scala 453:59]
@@ -31219,25 +34306,33 @@ circuit Rob :
       = mux(eq(UInt<5>(5), T_29096), T_38110_5_br_mask, _GEN_18734) @[rob.scala 453:59]
     node _GEN_18813 = mux(eq(UInt<5>(5), T_29096), T_38110_5_br_tag, _GEN_18735) @[rob.scala 453:59]
     node _GEN_18814
-      = mux(eq(UInt<5>(5), T_29096), T_38110_5_br_prediction_bpd_predict_val, _GEN_18736) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(5), T_29096), T_38110_5_br_prediction_bpd_predict_val,
+            _GEN_18736) @[rob.scala 453:59]
     node _GEN_18815
-      = mux(eq(UInt<5>(5), T_29096), T_38110_5_br_prediction_bpd_predict_taken, _GEN_18737) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(5), T_29096), T_38110_5_br_prediction_bpd_predict_taken,
+            _GEN_18737) @[rob.scala 453:59]
     node _GEN_18816
-      = mux(eq(UInt<5>(5), T_29096), T_38110_5_br_prediction_btb_hit, _GEN_18738) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(5), T_29096), T_38110_5_br_prediction_btb_hit,
+            _GEN_18738) @[rob.scala 453:59]
     node _GEN_18817
-      = mux(eq(UInt<5>(5), T_29096), T_38110_5_br_prediction_btb_predicted, _GEN_18739) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(5), T_29096), T_38110_5_br_prediction_btb_predicted,
+            _GEN_18739) @[rob.scala 453:59]
     node _GEN_18818
-      = mux(eq(UInt<5>(5), T_29096), T_38110_5_br_prediction_is_br_or_jalr, _GEN_18740) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(5), T_29096), T_38110_5_br_prediction_is_br_or_jalr,
+            _GEN_18740) @[rob.scala 453:59]
     node _GEN_18819
-      = mux(eq(UInt<5>(5), T_29096), T_38110_5_stat_brjmp_mispredicted, _GEN_18741) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(5), T_29096), T_38110_5_stat_brjmp_mispredicted,
+            _GEN_18741) @[rob.scala 453:59]
     node _GEN_18820
       = mux(eq(UInt<5>(5), T_29096), T_38110_5_stat_btb_made_pred, _GEN_18742) @[rob.scala 453:59]
     node _GEN_18821
-      = mux(eq(UInt<5>(5), T_29096), T_38110_5_stat_btb_mispredicted, _GEN_18743) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(5), T_29096), T_38110_5_stat_btb_mispredicted,
+            _GEN_18743) @[rob.scala 453:59]
     node _GEN_18822
       = mux(eq(UInt<5>(5), T_29096), T_38110_5_stat_bpd_made_pred, _GEN_18744) @[rob.scala 453:59]
     node _GEN_18823
-      = mux(eq(UInt<5>(5), T_29096), T_38110_5_stat_bpd_mispredicted, _GEN_18745) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(5), T_29096), T_38110_5_stat_bpd_mispredicted,
+            _GEN_18745) @[rob.scala 453:59]
     node _GEN_18824
       = mux(eq(UInt<5>(5), T_29096), T_38110_5_fetch_pc_lob, _GEN_18746) @[rob.scala 453:59]
     node _GEN_18825
@@ -31310,7 +34405,8 @@ circuit Rob :
       = mux(eq(UInt<5>(5), T_29096), T_38110_5_replay_if, _GEN_18785) @[rob.scala 453:59]
     skip
     node _GEN_18865
-      = mux(eq(UInt<5>(5), T_29096), T_38110_5_debug_events_fetch_seq, _GEN_18787) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(5), T_29096), T_38110_5_debug_events_fetch_seq,
+            _GEN_18787) @[rob.scala 453:59]
     node _GEN_18866 = mux(eq(UInt<5>(6), T_29096), T_38110_6_valid, _GEN_18788) @[rob.scala 453:59]
     node _GEN_18867
       = mux(eq(UInt<5>(6), T_29096), T_38110_6_iw_state, _GEN_18789) @[rob.scala 453:59]
@@ -31357,25 +34453,33 @@ circuit Rob :
       = mux(eq(UInt<5>(6), T_29096), T_38110_6_br_mask, _GEN_18812) @[rob.scala 453:59]
     node _GEN_18891 = mux(eq(UInt<5>(6), T_29096), T_38110_6_br_tag, _GEN_18813) @[rob.scala 453:59]
     node _GEN_18892
-      = mux(eq(UInt<5>(6), T_29096), T_38110_6_br_prediction_bpd_predict_val, _GEN_18814) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(6), T_29096), T_38110_6_br_prediction_bpd_predict_val,
+            _GEN_18814) @[rob.scala 453:59]
     node _GEN_18893
-      = mux(eq(UInt<5>(6), T_29096), T_38110_6_br_prediction_bpd_predict_taken, _GEN_18815) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(6), T_29096), T_38110_6_br_prediction_bpd_predict_taken,
+            _GEN_18815) @[rob.scala 453:59]
     node _GEN_18894
-      = mux(eq(UInt<5>(6), T_29096), T_38110_6_br_prediction_btb_hit, _GEN_18816) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(6), T_29096), T_38110_6_br_prediction_btb_hit,
+            _GEN_18816) @[rob.scala 453:59]
     node _GEN_18895
-      = mux(eq(UInt<5>(6), T_29096), T_38110_6_br_prediction_btb_predicted, _GEN_18817) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(6), T_29096), T_38110_6_br_prediction_btb_predicted,
+            _GEN_18817) @[rob.scala 453:59]
     node _GEN_18896
-      = mux(eq(UInt<5>(6), T_29096), T_38110_6_br_prediction_is_br_or_jalr, _GEN_18818) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(6), T_29096), T_38110_6_br_prediction_is_br_or_jalr,
+            _GEN_18818) @[rob.scala 453:59]
     node _GEN_18897
-      = mux(eq(UInt<5>(6), T_29096), T_38110_6_stat_brjmp_mispredicted, _GEN_18819) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(6), T_29096), T_38110_6_stat_brjmp_mispredicted,
+            _GEN_18819) @[rob.scala 453:59]
     node _GEN_18898
       = mux(eq(UInt<5>(6), T_29096), T_38110_6_stat_btb_made_pred, _GEN_18820) @[rob.scala 453:59]
     node _GEN_18899
-      = mux(eq(UInt<5>(6), T_29096), T_38110_6_stat_btb_mispredicted, _GEN_18821) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(6), T_29096), T_38110_6_stat_btb_mispredicted,
+            _GEN_18821) @[rob.scala 453:59]
     node _GEN_18900
       = mux(eq(UInt<5>(6), T_29096), T_38110_6_stat_bpd_made_pred, _GEN_18822) @[rob.scala 453:59]
     node _GEN_18901
-      = mux(eq(UInt<5>(6), T_29096), T_38110_6_stat_bpd_mispredicted, _GEN_18823) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(6), T_29096), T_38110_6_stat_bpd_mispredicted,
+            _GEN_18823) @[rob.scala 453:59]
     node _GEN_18902
       = mux(eq(UInt<5>(6), T_29096), T_38110_6_fetch_pc_lob, _GEN_18824) @[rob.scala 453:59]
     node _GEN_18903
@@ -31448,7 +34552,8 @@ circuit Rob :
       = mux(eq(UInt<5>(6), T_29096), T_38110_6_replay_if, _GEN_18863) @[rob.scala 453:59]
     skip
     node _GEN_18943
-      = mux(eq(UInt<5>(6), T_29096), T_38110_6_debug_events_fetch_seq, _GEN_18865) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(6), T_29096), T_38110_6_debug_events_fetch_seq,
+            _GEN_18865) @[rob.scala 453:59]
     node _GEN_18944 = mux(eq(UInt<5>(7), T_29096), T_38110_7_valid, _GEN_18866) @[rob.scala 453:59]
     node _GEN_18945
       = mux(eq(UInt<5>(7), T_29096), T_38110_7_iw_state, _GEN_18867) @[rob.scala 453:59]
@@ -31495,25 +34600,33 @@ circuit Rob :
       = mux(eq(UInt<5>(7), T_29096), T_38110_7_br_mask, _GEN_18890) @[rob.scala 453:59]
     node _GEN_18969 = mux(eq(UInt<5>(7), T_29096), T_38110_7_br_tag, _GEN_18891) @[rob.scala 453:59]
     node _GEN_18970
-      = mux(eq(UInt<5>(7), T_29096), T_38110_7_br_prediction_bpd_predict_val, _GEN_18892) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(7), T_29096), T_38110_7_br_prediction_bpd_predict_val,
+            _GEN_18892) @[rob.scala 453:59]
     node _GEN_18971
-      = mux(eq(UInt<5>(7), T_29096), T_38110_7_br_prediction_bpd_predict_taken, _GEN_18893) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(7), T_29096), T_38110_7_br_prediction_bpd_predict_taken,
+            _GEN_18893) @[rob.scala 453:59]
     node _GEN_18972
-      = mux(eq(UInt<5>(7), T_29096), T_38110_7_br_prediction_btb_hit, _GEN_18894) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(7), T_29096), T_38110_7_br_prediction_btb_hit,
+            _GEN_18894) @[rob.scala 453:59]
     node _GEN_18973
-      = mux(eq(UInt<5>(7), T_29096), T_38110_7_br_prediction_btb_predicted, _GEN_18895) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(7), T_29096), T_38110_7_br_prediction_btb_predicted,
+            _GEN_18895) @[rob.scala 453:59]
     node _GEN_18974
-      = mux(eq(UInt<5>(7), T_29096), T_38110_7_br_prediction_is_br_or_jalr, _GEN_18896) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(7), T_29096), T_38110_7_br_prediction_is_br_or_jalr,
+            _GEN_18896) @[rob.scala 453:59]
     node _GEN_18975
-      = mux(eq(UInt<5>(7), T_29096), T_38110_7_stat_brjmp_mispredicted, _GEN_18897) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(7), T_29096), T_38110_7_stat_brjmp_mispredicted,
+            _GEN_18897) @[rob.scala 453:59]
     node _GEN_18976
       = mux(eq(UInt<5>(7), T_29096), T_38110_7_stat_btb_made_pred, _GEN_18898) @[rob.scala 453:59]
     node _GEN_18977
-      = mux(eq(UInt<5>(7), T_29096), T_38110_7_stat_btb_mispredicted, _GEN_18899) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(7), T_29096), T_38110_7_stat_btb_mispredicted,
+            _GEN_18899) @[rob.scala 453:59]
     node _GEN_18978
       = mux(eq(UInt<5>(7), T_29096), T_38110_7_stat_bpd_made_pred, _GEN_18900) @[rob.scala 453:59]
     node _GEN_18979
-      = mux(eq(UInt<5>(7), T_29096), T_38110_7_stat_bpd_mispredicted, _GEN_18901) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(7), T_29096), T_38110_7_stat_bpd_mispredicted,
+            _GEN_18901) @[rob.scala 453:59]
     node _GEN_18980
       = mux(eq(UInt<5>(7), T_29096), T_38110_7_fetch_pc_lob, _GEN_18902) @[rob.scala 453:59]
     node _GEN_18981
@@ -31586,7 +34699,8 @@ circuit Rob :
       = mux(eq(UInt<5>(7), T_29096), T_38110_7_replay_if, _GEN_18941) @[rob.scala 453:59]
     skip
     node _GEN_19021
-      = mux(eq(UInt<5>(7), T_29096), T_38110_7_debug_events_fetch_seq, _GEN_18943) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(7), T_29096), T_38110_7_debug_events_fetch_seq,
+            _GEN_18943) @[rob.scala 453:59]
     node _GEN_19022 = mux(eq(UInt<5>(8), T_29096), T_38110_8_valid, _GEN_18944) @[rob.scala 453:59]
     node _GEN_19023
       = mux(eq(UInt<5>(8), T_29096), T_38110_8_iw_state, _GEN_18945) @[rob.scala 453:59]
@@ -31633,25 +34747,33 @@ circuit Rob :
       = mux(eq(UInt<5>(8), T_29096), T_38110_8_br_mask, _GEN_18968) @[rob.scala 453:59]
     node _GEN_19047 = mux(eq(UInt<5>(8), T_29096), T_38110_8_br_tag, _GEN_18969) @[rob.scala 453:59]
     node _GEN_19048
-      = mux(eq(UInt<5>(8), T_29096), T_38110_8_br_prediction_bpd_predict_val, _GEN_18970) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(8), T_29096), T_38110_8_br_prediction_bpd_predict_val,
+            _GEN_18970) @[rob.scala 453:59]
     node _GEN_19049
-      = mux(eq(UInt<5>(8), T_29096), T_38110_8_br_prediction_bpd_predict_taken, _GEN_18971) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(8), T_29096), T_38110_8_br_prediction_bpd_predict_taken,
+            _GEN_18971) @[rob.scala 453:59]
     node _GEN_19050
-      = mux(eq(UInt<5>(8), T_29096), T_38110_8_br_prediction_btb_hit, _GEN_18972) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(8), T_29096), T_38110_8_br_prediction_btb_hit,
+            _GEN_18972) @[rob.scala 453:59]
     node _GEN_19051
-      = mux(eq(UInt<5>(8), T_29096), T_38110_8_br_prediction_btb_predicted, _GEN_18973) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(8), T_29096), T_38110_8_br_prediction_btb_predicted,
+            _GEN_18973) @[rob.scala 453:59]
     node _GEN_19052
-      = mux(eq(UInt<5>(8), T_29096), T_38110_8_br_prediction_is_br_or_jalr, _GEN_18974) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(8), T_29096), T_38110_8_br_prediction_is_br_or_jalr,
+            _GEN_18974) @[rob.scala 453:59]
     node _GEN_19053
-      = mux(eq(UInt<5>(8), T_29096), T_38110_8_stat_brjmp_mispredicted, _GEN_18975) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(8), T_29096), T_38110_8_stat_brjmp_mispredicted,
+            _GEN_18975) @[rob.scala 453:59]
     node _GEN_19054
       = mux(eq(UInt<5>(8), T_29096), T_38110_8_stat_btb_made_pred, _GEN_18976) @[rob.scala 453:59]
     node _GEN_19055
-      = mux(eq(UInt<5>(8), T_29096), T_38110_8_stat_btb_mispredicted, _GEN_18977) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(8), T_29096), T_38110_8_stat_btb_mispredicted,
+            _GEN_18977) @[rob.scala 453:59]
     node _GEN_19056
       = mux(eq(UInt<5>(8), T_29096), T_38110_8_stat_bpd_made_pred, _GEN_18978) @[rob.scala 453:59]
     node _GEN_19057
-      = mux(eq(UInt<5>(8), T_29096), T_38110_8_stat_bpd_mispredicted, _GEN_18979) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(8), T_29096), T_38110_8_stat_bpd_mispredicted,
+            _GEN_18979) @[rob.scala 453:59]
     node _GEN_19058
       = mux(eq(UInt<5>(8), T_29096), T_38110_8_fetch_pc_lob, _GEN_18980) @[rob.scala 453:59]
     node _GEN_19059
@@ -31724,7 +34846,8 @@ circuit Rob :
       = mux(eq(UInt<5>(8), T_29096), T_38110_8_replay_if, _GEN_19019) @[rob.scala 453:59]
     skip
     node _GEN_19099
-      = mux(eq(UInt<5>(8), T_29096), T_38110_8_debug_events_fetch_seq, _GEN_19021) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(8), T_29096), T_38110_8_debug_events_fetch_seq,
+            _GEN_19021) @[rob.scala 453:59]
     node _GEN_19100 = mux(eq(UInt<5>(9), T_29096), T_38110_9_valid, _GEN_19022) @[rob.scala 453:59]
     node _GEN_19101
       = mux(eq(UInt<5>(9), T_29096), T_38110_9_iw_state, _GEN_19023) @[rob.scala 453:59]
@@ -31771,25 +34894,33 @@ circuit Rob :
       = mux(eq(UInt<5>(9), T_29096), T_38110_9_br_mask, _GEN_19046) @[rob.scala 453:59]
     node _GEN_19125 = mux(eq(UInt<5>(9), T_29096), T_38110_9_br_tag, _GEN_19047) @[rob.scala 453:59]
     node _GEN_19126
-      = mux(eq(UInt<5>(9), T_29096), T_38110_9_br_prediction_bpd_predict_val, _GEN_19048) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(9), T_29096), T_38110_9_br_prediction_bpd_predict_val,
+            _GEN_19048) @[rob.scala 453:59]
     node _GEN_19127
-      = mux(eq(UInt<5>(9), T_29096), T_38110_9_br_prediction_bpd_predict_taken, _GEN_19049) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(9), T_29096), T_38110_9_br_prediction_bpd_predict_taken,
+            _GEN_19049) @[rob.scala 453:59]
     node _GEN_19128
-      = mux(eq(UInt<5>(9), T_29096), T_38110_9_br_prediction_btb_hit, _GEN_19050) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(9), T_29096), T_38110_9_br_prediction_btb_hit,
+            _GEN_19050) @[rob.scala 453:59]
     node _GEN_19129
-      = mux(eq(UInt<5>(9), T_29096), T_38110_9_br_prediction_btb_predicted, _GEN_19051) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(9), T_29096), T_38110_9_br_prediction_btb_predicted,
+            _GEN_19051) @[rob.scala 453:59]
     node _GEN_19130
-      = mux(eq(UInt<5>(9), T_29096), T_38110_9_br_prediction_is_br_or_jalr, _GEN_19052) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(9), T_29096), T_38110_9_br_prediction_is_br_or_jalr,
+            _GEN_19052) @[rob.scala 453:59]
     node _GEN_19131
-      = mux(eq(UInt<5>(9), T_29096), T_38110_9_stat_brjmp_mispredicted, _GEN_19053) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(9), T_29096), T_38110_9_stat_brjmp_mispredicted,
+            _GEN_19053) @[rob.scala 453:59]
     node _GEN_19132
       = mux(eq(UInt<5>(9), T_29096), T_38110_9_stat_btb_made_pred, _GEN_19054) @[rob.scala 453:59]
     node _GEN_19133
-      = mux(eq(UInt<5>(9), T_29096), T_38110_9_stat_btb_mispredicted, _GEN_19055) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(9), T_29096), T_38110_9_stat_btb_mispredicted,
+            _GEN_19055) @[rob.scala 453:59]
     node _GEN_19134
       = mux(eq(UInt<5>(9), T_29096), T_38110_9_stat_bpd_made_pred, _GEN_19056) @[rob.scala 453:59]
     node _GEN_19135
-      = mux(eq(UInt<5>(9), T_29096), T_38110_9_stat_bpd_mispredicted, _GEN_19057) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(9), T_29096), T_38110_9_stat_bpd_mispredicted,
+            _GEN_19057) @[rob.scala 453:59]
     node _GEN_19136
       = mux(eq(UInt<5>(9), T_29096), T_38110_9_fetch_pc_lob, _GEN_19058) @[rob.scala 453:59]
     node _GEN_19137
@@ -31862,7 +34993,8 @@ circuit Rob :
       = mux(eq(UInt<5>(9), T_29096), T_38110_9_replay_if, _GEN_19097) @[rob.scala 453:59]
     skip
     node _GEN_19177
-      = mux(eq(UInt<5>(9), T_29096), T_38110_9_debug_events_fetch_seq, _GEN_19099) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(9), T_29096), T_38110_9_debug_events_fetch_seq,
+            _GEN_19099) @[rob.scala 453:59]
     node _GEN_19178
       = mux(eq(UInt<5>(10), T_29096), T_38110_10_valid, _GEN_19100) @[rob.scala 453:59]
     node _GEN_19179
@@ -31913,25 +35045,33 @@ circuit Rob :
     node _GEN_19203
       = mux(eq(UInt<5>(10), T_29096), T_38110_10_br_tag, _GEN_19125) @[rob.scala 453:59]
     node _GEN_19204
-      = mux(eq(UInt<5>(10), T_29096), T_38110_10_br_prediction_bpd_predict_val, _GEN_19126) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(10), T_29096), T_38110_10_br_prediction_bpd_predict_val,
+            _GEN_19126) @[rob.scala 453:59]
     node _GEN_19205
-      = mux(eq(UInt<5>(10), T_29096), T_38110_10_br_prediction_bpd_predict_taken, _GEN_19127) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(10), T_29096),
+            T_38110_10_br_prediction_bpd_predict_taken, _GEN_19127) @[rob.scala 453:59]
     node _GEN_19206
-      = mux(eq(UInt<5>(10), T_29096), T_38110_10_br_prediction_btb_hit, _GEN_19128) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(10), T_29096), T_38110_10_br_prediction_btb_hit,
+            _GEN_19128) @[rob.scala 453:59]
     node _GEN_19207
-      = mux(eq(UInt<5>(10), T_29096), T_38110_10_br_prediction_btb_predicted, _GEN_19129) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(10), T_29096), T_38110_10_br_prediction_btb_predicted,
+            _GEN_19129) @[rob.scala 453:59]
     node _GEN_19208
-      = mux(eq(UInt<5>(10), T_29096), T_38110_10_br_prediction_is_br_or_jalr, _GEN_19130) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(10), T_29096), T_38110_10_br_prediction_is_br_or_jalr,
+            _GEN_19130) @[rob.scala 453:59]
     node _GEN_19209
-      = mux(eq(UInt<5>(10), T_29096), T_38110_10_stat_brjmp_mispredicted, _GEN_19131) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(10), T_29096), T_38110_10_stat_brjmp_mispredicted,
+            _GEN_19131) @[rob.scala 453:59]
     node _GEN_19210
       = mux(eq(UInt<5>(10), T_29096), T_38110_10_stat_btb_made_pred, _GEN_19132) @[rob.scala 453:59]
     node _GEN_19211
-      = mux(eq(UInt<5>(10), T_29096), T_38110_10_stat_btb_mispredicted, _GEN_19133) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(10), T_29096), T_38110_10_stat_btb_mispredicted,
+            _GEN_19133) @[rob.scala 453:59]
     node _GEN_19212
       = mux(eq(UInt<5>(10), T_29096), T_38110_10_stat_bpd_made_pred, _GEN_19134) @[rob.scala 453:59]
     node _GEN_19213
-      = mux(eq(UInt<5>(10), T_29096), T_38110_10_stat_bpd_mispredicted, _GEN_19135) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(10), T_29096), T_38110_10_stat_bpd_mispredicted,
+            _GEN_19135) @[rob.scala 453:59]
     node _GEN_19214
       = mux(eq(UInt<5>(10), T_29096), T_38110_10_fetch_pc_lob, _GEN_19136) @[rob.scala 453:59]
     node _GEN_19215
@@ -32006,7 +35146,8 @@ circuit Rob :
       = mux(eq(UInt<5>(10), T_29096), T_38110_10_replay_if, _GEN_19175) @[rob.scala 453:59]
     skip
     node _GEN_19255
-      = mux(eq(UInt<5>(10), T_29096), T_38110_10_debug_events_fetch_seq, _GEN_19177) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(10), T_29096), T_38110_10_debug_events_fetch_seq,
+            _GEN_19177) @[rob.scala 453:59]
     node _GEN_19256
       = mux(eq(UInt<5>(11), T_29096), T_38110_11_valid, _GEN_19178) @[rob.scala 453:59]
     node _GEN_19257
@@ -32057,25 +35198,33 @@ circuit Rob :
     node _GEN_19281
       = mux(eq(UInt<5>(11), T_29096), T_38110_11_br_tag, _GEN_19203) @[rob.scala 453:59]
     node _GEN_19282
-      = mux(eq(UInt<5>(11), T_29096), T_38110_11_br_prediction_bpd_predict_val, _GEN_19204) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(11), T_29096), T_38110_11_br_prediction_bpd_predict_val,
+            _GEN_19204) @[rob.scala 453:59]
     node _GEN_19283
-      = mux(eq(UInt<5>(11), T_29096), T_38110_11_br_prediction_bpd_predict_taken, _GEN_19205) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(11), T_29096),
+            T_38110_11_br_prediction_bpd_predict_taken, _GEN_19205) @[rob.scala 453:59]
     node _GEN_19284
-      = mux(eq(UInt<5>(11), T_29096), T_38110_11_br_prediction_btb_hit, _GEN_19206) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(11), T_29096), T_38110_11_br_prediction_btb_hit,
+            _GEN_19206) @[rob.scala 453:59]
     node _GEN_19285
-      = mux(eq(UInt<5>(11), T_29096), T_38110_11_br_prediction_btb_predicted, _GEN_19207) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(11), T_29096), T_38110_11_br_prediction_btb_predicted,
+            _GEN_19207) @[rob.scala 453:59]
     node _GEN_19286
-      = mux(eq(UInt<5>(11), T_29096), T_38110_11_br_prediction_is_br_or_jalr, _GEN_19208) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(11), T_29096), T_38110_11_br_prediction_is_br_or_jalr,
+            _GEN_19208) @[rob.scala 453:59]
     node _GEN_19287
-      = mux(eq(UInt<5>(11), T_29096), T_38110_11_stat_brjmp_mispredicted, _GEN_19209) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(11), T_29096), T_38110_11_stat_brjmp_mispredicted,
+            _GEN_19209) @[rob.scala 453:59]
     node _GEN_19288
       = mux(eq(UInt<5>(11), T_29096), T_38110_11_stat_btb_made_pred, _GEN_19210) @[rob.scala 453:59]
     node _GEN_19289
-      = mux(eq(UInt<5>(11), T_29096), T_38110_11_stat_btb_mispredicted, _GEN_19211) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(11), T_29096), T_38110_11_stat_btb_mispredicted,
+            _GEN_19211) @[rob.scala 453:59]
     node _GEN_19290
       = mux(eq(UInt<5>(11), T_29096), T_38110_11_stat_bpd_made_pred, _GEN_19212) @[rob.scala 453:59]
     node _GEN_19291
-      = mux(eq(UInt<5>(11), T_29096), T_38110_11_stat_bpd_mispredicted, _GEN_19213) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(11), T_29096), T_38110_11_stat_bpd_mispredicted,
+            _GEN_19213) @[rob.scala 453:59]
     node _GEN_19292
       = mux(eq(UInt<5>(11), T_29096), T_38110_11_fetch_pc_lob, _GEN_19214) @[rob.scala 453:59]
     node _GEN_19293
@@ -32150,7 +35299,8 @@ circuit Rob :
       = mux(eq(UInt<5>(11), T_29096), T_38110_11_replay_if, _GEN_19253) @[rob.scala 453:59]
     skip
     node _GEN_19333
-      = mux(eq(UInt<5>(11), T_29096), T_38110_11_debug_events_fetch_seq, _GEN_19255) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(11), T_29096), T_38110_11_debug_events_fetch_seq,
+            _GEN_19255) @[rob.scala 453:59]
     node _GEN_19334
       = mux(eq(UInt<5>(12), T_29096), T_38110_12_valid, _GEN_19256) @[rob.scala 453:59]
     node _GEN_19335
@@ -32201,25 +35351,33 @@ circuit Rob :
     node _GEN_19359
       = mux(eq(UInt<5>(12), T_29096), T_38110_12_br_tag, _GEN_19281) @[rob.scala 453:59]
     node _GEN_19360
-      = mux(eq(UInt<5>(12), T_29096), T_38110_12_br_prediction_bpd_predict_val, _GEN_19282) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(12), T_29096), T_38110_12_br_prediction_bpd_predict_val,
+            _GEN_19282) @[rob.scala 453:59]
     node _GEN_19361
-      = mux(eq(UInt<5>(12), T_29096), T_38110_12_br_prediction_bpd_predict_taken, _GEN_19283) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(12), T_29096),
+            T_38110_12_br_prediction_bpd_predict_taken, _GEN_19283) @[rob.scala 453:59]
     node _GEN_19362
-      = mux(eq(UInt<5>(12), T_29096), T_38110_12_br_prediction_btb_hit, _GEN_19284) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(12), T_29096), T_38110_12_br_prediction_btb_hit,
+            _GEN_19284) @[rob.scala 453:59]
     node _GEN_19363
-      = mux(eq(UInt<5>(12), T_29096), T_38110_12_br_prediction_btb_predicted, _GEN_19285) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(12), T_29096), T_38110_12_br_prediction_btb_predicted,
+            _GEN_19285) @[rob.scala 453:59]
     node _GEN_19364
-      = mux(eq(UInt<5>(12), T_29096), T_38110_12_br_prediction_is_br_or_jalr, _GEN_19286) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(12), T_29096), T_38110_12_br_prediction_is_br_or_jalr,
+            _GEN_19286) @[rob.scala 453:59]
     node _GEN_19365
-      = mux(eq(UInt<5>(12), T_29096), T_38110_12_stat_brjmp_mispredicted, _GEN_19287) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(12), T_29096), T_38110_12_stat_brjmp_mispredicted,
+            _GEN_19287) @[rob.scala 453:59]
     node _GEN_19366
       = mux(eq(UInt<5>(12), T_29096), T_38110_12_stat_btb_made_pred, _GEN_19288) @[rob.scala 453:59]
     node _GEN_19367
-      = mux(eq(UInt<5>(12), T_29096), T_38110_12_stat_btb_mispredicted, _GEN_19289) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(12), T_29096), T_38110_12_stat_btb_mispredicted,
+            _GEN_19289) @[rob.scala 453:59]
     node _GEN_19368
       = mux(eq(UInt<5>(12), T_29096), T_38110_12_stat_bpd_made_pred, _GEN_19290) @[rob.scala 453:59]
     node _GEN_19369
-      = mux(eq(UInt<5>(12), T_29096), T_38110_12_stat_bpd_mispredicted, _GEN_19291) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(12), T_29096), T_38110_12_stat_bpd_mispredicted,
+            _GEN_19291) @[rob.scala 453:59]
     node _GEN_19370
       = mux(eq(UInt<5>(12), T_29096), T_38110_12_fetch_pc_lob, _GEN_19292) @[rob.scala 453:59]
     node _GEN_19371
@@ -32294,7 +35452,8 @@ circuit Rob :
       = mux(eq(UInt<5>(12), T_29096), T_38110_12_replay_if, _GEN_19331) @[rob.scala 453:59]
     skip
     node _GEN_19411
-      = mux(eq(UInt<5>(12), T_29096), T_38110_12_debug_events_fetch_seq, _GEN_19333) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(12), T_29096), T_38110_12_debug_events_fetch_seq,
+            _GEN_19333) @[rob.scala 453:59]
     node _GEN_19412
       = mux(eq(UInt<5>(13), T_29096), T_38110_13_valid, _GEN_19334) @[rob.scala 453:59]
     node _GEN_19413
@@ -32345,25 +35504,33 @@ circuit Rob :
     node _GEN_19437
       = mux(eq(UInt<5>(13), T_29096), T_38110_13_br_tag, _GEN_19359) @[rob.scala 453:59]
     node _GEN_19438
-      = mux(eq(UInt<5>(13), T_29096), T_38110_13_br_prediction_bpd_predict_val, _GEN_19360) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(13), T_29096), T_38110_13_br_prediction_bpd_predict_val,
+            _GEN_19360) @[rob.scala 453:59]
     node _GEN_19439
-      = mux(eq(UInt<5>(13), T_29096), T_38110_13_br_prediction_bpd_predict_taken, _GEN_19361) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(13), T_29096),
+            T_38110_13_br_prediction_bpd_predict_taken, _GEN_19361) @[rob.scala 453:59]
     node _GEN_19440
-      = mux(eq(UInt<5>(13), T_29096), T_38110_13_br_prediction_btb_hit, _GEN_19362) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(13), T_29096), T_38110_13_br_prediction_btb_hit,
+            _GEN_19362) @[rob.scala 453:59]
     node _GEN_19441
-      = mux(eq(UInt<5>(13), T_29096), T_38110_13_br_prediction_btb_predicted, _GEN_19363) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(13), T_29096), T_38110_13_br_prediction_btb_predicted,
+            _GEN_19363) @[rob.scala 453:59]
     node _GEN_19442
-      = mux(eq(UInt<5>(13), T_29096), T_38110_13_br_prediction_is_br_or_jalr, _GEN_19364) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(13), T_29096), T_38110_13_br_prediction_is_br_or_jalr,
+            _GEN_19364) @[rob.scala 453:59]
     node _GEN_19443
-      = mux(eq(UInt<5>(13), T_29096), T_38110_13_stat_brjmp_mispredicted, _GEN_19365) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(13), T_29096), T_38110_13_stat_brjmp_mispredicted,
+            _GEN_19365) @[rob.scala 453:59]
     node _GEN_19444
       = mux(eq(UInt<5>(13), T_29096), T_38110_13_stat_btb_made_pred, _GEN_19366) @[rob.scala 453:59]
     node _GEN_19445
-      = mux(eq(UInt<5>(13), T_29096), T_38110_13_stat_btb_mispredicted, _GEN_19367) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(13), T_29096), T_38110_13_stat_btb_mispredicted,
+            _GEN_19367) @[rob.scala 453:59]
     node _GEN_19446
       = mux(eq(UInt<5>(13), T_29096), T_38110_13_stat_bpd_made_pred, _GEN_19368) @[rob.scala 453:59]
     node _GEN_19447
-      = mux(eq(UInt<5>(13), T_29096), T_38110_13_stat_bpd_mispredicted, _GEN_19369) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(13), T_29096), T_38110_13_stat_bpd_mispredicted,
+            _GEN_19369) @[rob.scala 453:59]
     node _GEN_19448
       = mux(eq(UInt<5>(13), T_29096), T_38110_13_fetch_pc_lob, _GEN_19370) @[rob.scala 453:59]
     node _GEN_19449
@@ -32438,7 +35605,8 @@ circuit Rob :
       = mux(eq(UInt<5>(13), T_29096), T_38110_13_replay_if, _GEN_19409) @[rob.scala 453:59]
     skip
     node _GEN_19489
-      = mux(eq(UInt<5>(13), T_29096), T_38110_13_debug_events_fetch_seq, _GEN_19411) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(13), T_29096), T_38110_13_debug_events_fetch_seq,
+            _GEN_19411) @[rob.scala 453:59]
     node _GEN_19490
       = mux(eq(UInt<5>(14), T_29096), T_38110_14_valid, _GEN_19412) @[rob.scala 453:59]
     node _GEN_19491
@@ -32489,25 +35657,33 @@ circuit Rob :
     node _GEN_19515
       = mux(eq(UInt<5>(14), T_29096), T_38110_14_br_tag, _GEN_19437) @[rob.scala 453:59]
     node _GEN_19516
-      = mux(eq(UInt<5>(14), T_29096), T_38110_14_br_prediction_bpd_predict_val, _GEN_19438) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(14), T_29096), T_38110_14_br_prediction_bpd_predict_val,
+            _GEN_19438) @[rob.scala 453:59]
     node _GEN_19517
-      = mux(eq(UInt<5>(14), T_29096), T_38110_14_br_prediction_bpd_predict_taken, _GEN_19439) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(14), T_29096),
+            T_38110_14_br_prediction_bpd_predict_taken, _GEN_19439) @[rob.scala 453:59]
     node _GEN_19518
-      = mux(eq(UInt<5>(14), T_29096), T_38110_14_br_prediction_btb_hit, _GEN_19440) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(14), T_29096), T_38110_14_br_prediction_btb_hit,
+            _GEN_19440) @[rob.scala 453:59]
     node _GEN_19519
-      = mux(eq(UInt<5>(14), T_29096), T_38110_14_br_prediction_btb_predicted, _GEN_19441) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(14), T_29096), T_38110_14_br_prediction_btb_predicted,
+            _GEN_19441) @[rob.scala 453:59]
     node _GEN_19520
-      = mux(eq(UInt<5>(14), T_29096), T_38110_14_br_prediction_is_br_or_jalr, _GEN_19442) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(14), T_29096), T_38110_14_br_prediction_is_br_or_jalr,
+            _GEN_19442) @[rob.scala 453:59]
     node _GEN_19521
-      = mux(eq(UInt<5>(14), T_29096), T_38110_14_stat_brjmp_mispredicted, _GEN_19443) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(14), T_29096), T_38110_14_stat_brjmp_mispredicted,
+            _GEN_19443) @[rob.scala 453:59]
     node _GEN_19522
       = mux(eq(UInt<5>(14), T_29096), T_38110_14_stat_btb_made_pred, _GEN_19444) @[rob.scala 453:59]
     node _GEN_19523
-      = mux(eq(UInt<5>(14), T_29096), T_38110_14_stat_btb_mispredicted, _GEN_19445) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(14), T_29096), T_38110_14_stat_btb_mispredicted,
+            _GEN_19445) @[rob.scala 453:59]
     node _GEN_19524
       = mux(eq(UInt<5>(14), T_29096), T_38110_14_stat_bpd_made_pred, _GEN_19446) @[rob.scala 453:59]
     node _GEN_19525
-      = mux(eq(UInt<5>(14), T_29096), T_38110_14_stat_bpd_mispredicted, _GEN_19447) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(14), T_29096), T_38110_14_stat_bpd_mispredicted,
+            _GEN_19447) @[rob.scala 453:59]
     node _GEN_19526
       = mux(eq(UInt<5>(14), T_29096), T_38110_14_fetch_pc_lob, _GEN_19448) @[rob.scala 453:59]
     node _GEN_19527
@@ -32582,7 +35758,8 @@ circuit Rob :
       = mux(eq(UInt<5>(14), T_29096), T_38110_14_replay_if, _GEN_19487) @[rob.scala 453:59]
     skip
     node _GEN_19567
-      = mux(eq(UInt<5>(14), T_29096), T_38110_14_debug_events_fetch_seq, _GEN_19489) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(14), T_29096), T_38110_14_debug_events_fetch_seq,
+            _GEN_19489) @[rob.scala 453:59]
     node _GEN_19568
       = mux(eq(UInt<5>(15), T_29096), T_38110_15_valid, _GEN_19490) @[rob.scala 453:59]
     node _GEN_19569
@@ -32633,25 +35810,33 @@ circuit Rob :
     node _GEN_19593
       = mux(eq(UInt<5>(15), T_29096), T_38110_15_br_tag, _GEN_19515) @[rob.scala 453:59]
     node _GEN_19594
-      = mux(eq(UInt<5>(15), T_29096), T_38110_15_br_prediction_bpd_predict_val, _GEN_19516) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(15), T_29096), T_38110_15_br_prediction_bpd_predict_val,
+            _GEN_19516) @[rob.scala 453:59]
     node _GEN_19595
-      = mux(eq(UInt<5>(15), T_29096), T_38110_15_br_prediction_bpd_predict_taken, _GEN_19517) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(15), T_29096),
+            T_38110_15_br_prediction_bpd_predict_taken, _GEN_19517) @[rob.scala 453:59]
     node _GEN_19596
-      = mux(eq(UInt<5>(15), T_29096), T_38110_15_br_prediction_btb_hit, _GEN_19518) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(15), T_29096), T_38110_15_br_prediction_btb_hit,
+            _GEN_19518) @[rob.scala 453:59]
     node _GEN_19597
-      = mux(eq(UInt<5>(15), T_29096), T_38110_15_br_prediction_btb_predicted, _GEN_19519) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(15), T_29096), T_38110_15_br_prediction_btb_predicted,
+            _GEN_19519) @[rob.scala 453:59]
     node _GEN_19598
-      = mux(eq(UInt<5>(15), T_29096), T_38110_15_br_prediction_is_br_or_jalr, _GEN_19520) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(15), T_29096), T_38110_15_br_prediction_is_br_or_jalr,
+            _GEN_19520) @[rob.scala 453:59]
     node _GEN_19599
-      = mux(eq(UInt<5>(15), T_29096), T_38110_15_stat_brjmp_mispredicted, _GEN_19521) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(15), T_29096), T_38110_15_stat_brjmp_mispredicted,
+            _GEN_19521) @[rob.scala 453:59]
     node _GEN_19600
       = mux(eq(UInt<5>(15), T_29096), T_38110_15_stat_btb_made_pred, _GEN_19522) @[rob.scala 453:59]
     node _GEN_19601
-      = mux(eq(UInt<5>(15), T_29096), T_38110_15_stat_btb_mispredicted, _GEN_19523) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(15), T_29096), T_38110_15_stat_btb_mispredicted,
+            _GEN_19523) @[rob.scala 453:59]
     node _GEN_19602
       = mux(eq(UInt<5>(15), T_29096), T_38110_15_stat_bpd_made_pred, _GEN_19524) @[rob.scala 453:59]
     node _GEN_19603
-      = mux(eq(UInt<5>(15), T_29096), T_38110_15_stat_bpd_mispredicted, _GEN_19525) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(15), T_29096), T_38110_15_stat_bpd_mispredicted,
+            _GEN_19525) @[rob.scala 453:59]
     node _GEN_19604
       = mux(eq(UInt<5>(15), T_29096), T_38110_15_fetch_pc_lob, _GEN_19526) @[rob.scala 453:59]
     node _GEN_19605
@@ -32726,7 +35911,8 @@ circuit Rob :
       = mux(eq(UInt<5>(15), T_29096), T_38110_15_replay_if, _GEN_19565) @[rob.scala 453:59]
     skip
     node _GEN_19645
-      = mux(eq(UInt<5>(15), T_29096), T_38110_15_debug_events_fetch_seq, _GEN_19567) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(15), T_29096), T_38110_15_debug_events_fetch_seq,
+            _GEN_19567) @[rob.scala 453:59]
     node _GEN_19646
       = mux(eq(UInt<5>(16), T_29096), T_38110_16_valid, _GEN_19568) @[rob.scala 453:59]
     node _GEN_19647
@@ -32777,25 +35963,33 @@ circuit Rob :
     node _GEN_19671
       = mux(eq(UInt<5>(16), T_29096), T_38110_16_br_tag, _GEN_19593) @[rob.scala 453:59]
     node _GEN_19672
-      = mux(eq(UInt<5>(16), T_29096), T_38110_16_br_prediction_bpd_predict_val, _GEN_19594) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(16), T_29096), T_38110_16_br_prediction_bpd_predict_val,
+            _GEN_19594) @[rob.scala 453:59]
     node _GEN_19673
-      = mux(eq(UInt<5>(16), T_29096), T_38110_16_br_prediction_bpd_predict_taken, _GEN_19595) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(16), T_29096),
+            T_38110_16_br_prediction_bpd_predict_taken, _GEN_19595) @[rob.scala 453:59]
     node _GEN_19674
-      = mux(eq(UInt<5>(16), T_29096), T_38110_16_br_prediction_btb_hit, _GEN_19596) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(16), T_29096), T_38110_16_br_prediction_btb_hit,
+            _GEN_19596) @[rob.scala 453:59]
     node _GEN_19675
-      = mux(eq(UInt<5>(16), T_29096), T_38110_16_br_prediction_btb_predicted, _GEN_19597) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(16), T_29096), T_38110_16_br_prediction_btb_predicted,
+            _GEN_19597) @[rob.scala 453:59]
     node _GEN_19676
-      = mux(eq(UInt<5>(16), T_29096), T_38110_16_br_prediction_is_br_or_jalr, _GEN_19598) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(16), T_29096), T_38110_16_br_prediction_is_br_or_jalr,
+            _GEN_19598) @[rob.scala 453:59]
     node _GEN_19677
-      = mux(eq(UInt<5>(16), T_29096), T_38110_16_stat_brjmp_mispredicted, _GEN_19599) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(16), T_29096), T_38110_16_stat_brjmp_mispredicted,
+            _GEN_19599) @[rob.scala 453:59]
     node _GEN_19678
       = mux(eq(UInt<5>(16), T_29096), T_38110_16_stat_btb_made_pred, _GEN_19600) @[rob.scala 453:59]
     node _GEN_19679
-      = mux(eq(UInt<5>(16), T_29096), T_38110_16_stat_btb_mispredicted, _GEN_19601) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(16), T_29096), T_38110_16_stat_btb_mispredicted,
+            _GEN_19601) @[rob.scala 453:59]
     node _GEN_19680
       = mux(eq(UInt<5>(16), T_29096), T_38110_16_stat_bpd_made_pred, _GEN_19602) @[rob.scala 453:59]
     node _GEN_19681
-      = mux(eq(UInt<5>(16), T_29096), T_38110_16_stat_bpd_mispredicted, _GEN_19603) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(16), T_29096), T_38110_16_stat_bpd_mispredicted,
+            _GEN_19603) @[rob.scala 453:59]
     node _GEN_19682
       = mux(eq(UInt<5>(16), T_29096), T_38110_16_fetch_pc_lob, _GEN_19604) @[rob.scala 453:59]
     node _GEN_19683
@@ -32870,7 +36064,8 @@ circuit Rob :
       = mux(eq(UInt<5>(16), T_29096), T_38110_16_replay_if, _GEN_19643) @[rob.scala 453:59]
     skip
     node _GEN_19723
-      = mux(eq(UInt<5>(16), T_29096), T_38110_16_debug_events_fetch_seq, _GEN_19645) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(16), T_29096), T_38110_16_debug_events_fetch_seq,
+            _GEN_19645) @[rob.scala 453:59]
     node _GEN_19724
       = mux(eq(UInt<5>(17), T_29096), T_38110_17_valid, _GEN_19646) @[rob.scala 453:59]
     node _GEN_19725
@@ -32921,25 +36116,33 @@ circuit Rob :
     node _GEN_19749
       = mux(eq(UInt<5>(17), T_29096), T_38110_17_br_tag, _GEN_19671) @[rob.scala 453:59]
     node _GEN_19750
-      = mux(eq(UInt<5>(17), T_29096), T_38110_17_br_prediction_bpd_predict_val, _GEN_19672) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(17), T_29096), T_38110_17_br_prediction_bpd_predict_val,
+            _GEN_19672) @[rob.scala 453:59]
     node _GEN_19751
-      = mux(eq(UInt<5>(17), T_29096), T_38110_17_br_prediction_bpd_predict_taken, _GEN_19673) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(17), T_29096),
+            T_38110_17_br_prediction_bpd_predict_taken, _GEN_19673) @[rob.scala 453:59]
     node _GEN_19752
-      = mux(eq(UInt<5>(17), T_29096), T_38110_17_br_prediction_btb_hit, _GEN_19674) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(17), T_29096), T_38110_17_br_prediction_btb_hit,
+            _GEN_19674) @[rob.scala 453:59]
     node _GEN_19753
-      = mux(eq(UInt<5>(17), T_29096), T_38110_17_br_prediction_btb_predicted, _GEN_19675) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(17), T_29096), T_38110_17_br_prediction_btb_predicted,
+            _GEN_19675) @[rob.scala 453:59]
     node _GEN_19754
-      = mux(eq(UInt<5>(17), T_29096), T_38110_17_br_prediction_is_br_or_jalr, _GEN_19676) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(17), T_29096), T_38110_17_br_prediction_is_br_or_jalr,
+            _GEN_19676) @[rob.scala 453:59]
     node _GEN_19755
-      = mux(eq(UInt<5>(17), T_29096), T_38110_17_stat_brjmp_mispredicted, _GEN_19677) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(17), T_29096), T_38110_17_stat_brjmp_mispredicted,
+            _GEN_19677) @[rob.scala 453:59]
     node _GEN_19756
       = mux(eq(UInt<5>(17), T_29096), T_38110_17_stat_btb_made_pred, _GEN_19678) @[rob.scala 453:59]
     node _GEN_19757
-      = mux(eq(UInt<5>(17), T_29096), T_38110_17_stat_btb_mispredicted, _GEN_19679) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(17), T_29096), T_38110_17_stat_btb_mispredicted,
+            _GEN_19679) @[rob.scala 453:59]
     node _GEN_19758
       = mux(eq(UInt<5>(17), T_29096), T_38110_17_stat_bpd_made_pred, _GEN_19680) @[rob.scala 453:59]
     node _GEN_19759
-      = mux(eq(UInt<5>(17), T_29096), T_38110_17_stat_bpd_mispredicted, _GEN_19681) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(17), T_29096), T_38110_17_stat_bpd_mispredicted,
+            _GEN_19681) @[rob.scala 453:59]
     node _GEN_19760
       = mux(eq(UInt<5>(17), T_29096), T_38110_17_fetch_pc_lob, _GEN_19682) @[rob.scala 453:59]
     node _GEN_19761
@@ -33014,7 +36217,8 @@ circuit Rob :
       = mux(eq(UInt<5>(17), T_29096), T_38110_17_replay_if, _GEN_19721) @[rob.scala 453:59]
     skip
     node _GEN_19801
-      = mux(eq(UInt<5>(17), T_29096), T_38110_17_debug_events_fetch_seq, _GEN_19723) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(17), T_29096), T_38110_17_debug_events_fetch_seq,
+            _GEN_19723) @[rob.scala 453:59]
     node _GEN_19802
       = mux(eq(UInt<5>(18), T_29096), T_38110_18_valid, _GEN_19724) @[rob.scala 453:59]
     node _GEN_19803
@@ -33065,25 +36269,33 @@ circuit Rob :
     node _GEN_19827
       = mux(eq(UInt<5>(18), T_29096), T_38110_18_br_tag, _GEN_19749) @[rob.scala 453:59]
     node _GEN_19828
-      = mux(eq(UInt<5>(18), T_29096), T_38110_18_br_prediction_bpd_predict_val, _GEN_19750) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(18), T_29096), T_38110_18_br_prediction_bpd_predict_val,
+            _GEN_19750) @[rob.scala 453:59]
     node _GEN_19829
-      = mux(eq(UInt<5>(18), T_29096), T_38110_18_br_prediction_bpd_predict_taken, _GEN_19751) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(18), T_29096),
+            T_38110_18_br_prediction_bpd_predict_taken, _GEN_19751) @[rob.scala 453:59]
     node _GEN_19830
-      = mux(eq(UInt<5>(18), T_29096), T_38110_18_br_prediction_btb_hit, _GEN_19752) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(18), T_29096), T_38110_18_br_prediction_btb_hit,
+            _GEN_19752) @[rob.scala 453:59]
     node _GEN_19831
-      = mux(eq(UInt<5>(18), T_29096), T_38110_18_br_prediction_btb_predicted, _GEN_19753) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(18), T_29096), T_38110_18_br_prediction_btb_predicted,
+            _GEN_19753) @[rob.scala 453:59]
     node _GEN_19832
-      = mux(eq(UInt<5>(18), T_29096), T_38110_18_br_prediction_is_br_or_jalr, _GEN_19754) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(18), T_29096), T_38110_18_br_prediction_is_br_or_jalr,
+            _GEN_19754) @[rob.scala 453:59]
     node _GEN_19833
-      = mux(eq(UInt<5>(18), T_29096), T_38110_18_stat_brjmp_mispredicted, _GEN_19755) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(18), T_29096), T_38110_18_stat_brjmp_mispredicted,
+            _GEN_19755) @[rob.scala 453:59]
     node _GEN_19834
       = mux(eq(UInt<5>(18), T_29096), T_38110_18_stat_btb_made_pred, _GEN_19756) @[rob.scala 453:59]
     node _GEN_19835
-      = mux(eq(UInt<5>(18), T_29096), T_38110_18_stat_btb_mispredicted, _GEN_19757) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(18), T_29096), T_38110_18_stat_btb_mispredicted,
+            _GEN_19757) @[rob.scala 453:59]
     node _GEN_19836
       = mux(eq(UInt<5>(18), T_29096), T_38110_18_stat_bpd_made_pred, _GEN_19758) @[rob.scala 453:59]
     node _GEN_19837
-      = mux(eq(UInt<5>(18), T_29096), T_38110_18_stat_bpd_mispredicted, _GEN_19759) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(18), T_29096), T_38110_18_stat_bpd_mispredicted,
+            _GEN_19759) @[rob.scala 453:59]
     node _GEN_19838
       = mux(eq(UInt<5>(18), T_29096), T_38110_18_fetch_pc_lob, _GEN_19760) @[rob.scala 453:59]
     node _GEN_19839
@@ -33158,7 +36370,8 @@ circuit Rob :
       = mux(eq(UInt<5>(18), T_29096), T_38110_18_replay_if, _GEN_19799) @[rob.scala 453:59]
     skip
     node _GEN_19879
-      = mux(eq(UInt<5>(18), T_29096), T_38110_18_debug_events_fetch_seq, _GEN_19801) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(18), T_29096), T_38110_18_debug_events_fetch_seq,
+            _GEN_19801) @[rob.scala 453:59]
     node _GEN_19880
       = mux(eq(UInt<5>(19), T_29096), T_38110_19_valid, _GEN_19802) @[rob.scala 453:59]
     node _GEN_19881
@@ -33209,25 +36422,33 @@ circuit Rob :
     node _GEN_19905
       = mux(eq(UInt<5>(19), T_29096), T_38110_19_br_tag, _GEN_19827) @[rob.scala 453:59]
     node _GEN_19906
-      = mux(eq(UInt<5>(19), T_29096), T_38110_19_br_prediction_bpd_predict_val, _GEN_19828) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(19), T_29096), T_38110_19_br_prediction_bpd_predict_val,
+            _GEN_19828) @[rob.scala 453:59]
     node _GEN_19907
-      = mux(eq(UInt<5>(19), T_29096), T_38110_19_br_prediction_bpd_predict_taken, _GEN_19829) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(19), T_29096),
+            T_38110_19_br_prediction_bpd_predict_taken, _GEN_19829) @[rob.scala 453:59]
     node _GEN_19908
-      = mux(eq(UInt<5>(19), T_29096), T_38110_19_br_prediction_btb_hit, _GEN_19830) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(19), T_29096), T_38110_19_br_prediction_btb_hit,
+            _GEN_19830) @[rob.scala 453:59]
     node _GEN_19909
-      = mux(eq(UInt<5>(19), T_29096), T_38110_19_br_prediction_btb_predicted, _GEN_19831) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(19), T_29096), T_38110_19_br_prediction_btb_predicted,
+            _GEN_19831) @[rob.scala 453:59]
     node _GEN_19910
-      = mux(eq(UInt<5>(19), T_29096), T_38110_19_br_prediction_is_br_or_jalr, _GEN_19832) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(19), T_29096), T_38110_19_br_prediction_is_br_or_jalr,
+            _GEN_19832) @[rob.scala 453:59]
     node _GEN_19911
-      = mux(eq(UInt<5>(19), T_29096), T_38110_19_stat_brjmp_mispredicted, _GEN_19833) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(19), T_29096), T_38110_19_stat_brjmp_mispredicted,
+            _GEN_19833) @[rob.scala 453:59]
     node _GEN_19912
       = mux(eq(UInt<5>(19), T_29096), T_38110_19_stat_btb_made_pred, _GEN_19834) @[rob.scala 453:59]
     node _GEN_19913
-      = mux(eq(UInt<5>(19), T_29096), T_38110_19_stat_btb_mispredicted, _GEN_19835) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(19), T_29096), T_38110_19_stat_btb_mispredicted,
+            _GEN_19835) @[rob.scala 453:59]
     node _GEN_19914
       = mux(eq(UInt<5>(19), T_29096), T_38110_19_stat_bpd_made_pred, _GEN_19836) @[rob.scala 453:59]
     node _GEN_19915
-      = mux(eq(UInt<5>(19), T_29096), T_38110_19_stat_bpd_mispredicted, _GEN_19837) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(19), T_29096), T_38110_19_stat_bpd_mispredicted,
+            _GEN_19837) @[rob.scala 453:59]
     node _GEN_19916
       = mux(eq(UInt<5>(19), T_29096), T_38110_19_fetch_pc_lob, _GEN_19838) @[rob.scala 453:59]
     node _GEN_19917
@@ -33302,7 +36523,8 @@ circuit Rob :
       = mux(eq(UInt<5>(19), T_29096), T_38110_19_replay_if, _GEN_19877) @[rob.scala 453:59]
     skip
     node _GEN_19957
-      = mux(eq(UInt<5>(19), T_29096), T_38110_19_debug_events_fetch_seq, _GEN_19879) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(19), T_29096), T_38110_19_debug_events_fetch_seq,
+            _GEN_19879) @[rob.scala 453:59]
     node _GEN_19958
       = mux(eq(UInt<5>(20), T_29096), T_38110_20_valid, _GEN_19880) @[rob.scala 453:59]
     node _GEN_19959
@@ -33353,25 +36575,33 @@ circuit Rob :
     node _GEN_19983
       = mux(eq(UInt<5>(20), T_29096), T_38110_20_br_tag, _GEN_19905) @[rob.scala 453:59]
     node _GEN_19984
-      = mux(eq(UInt<5>(20), T_29096), T_38110_20_br_prediction_bpd_predict_val, _GEN_19906) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(20), T_29096), T_38110_20_br_prediction_bpd_predict_val,
+            _GEN_19906) @[rob.scala 453:59]
     node _GEN_19985
-      = mux(eq(UInt<5>(20), T_29096), T_38110_20_br_prediction_bpd_predict_taken, _GEN_19907) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(20), T_29096),
+            T_38110_20_br_prediction_bpd_predict_taken, _GEN_19907) @[rob.scala 453:59]
     node _GEN_19986
-      = mux(eq(UInt<5>(20), T_29096), T_38110_20_br_prediction_btb_hit, _GEN_19908) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(20), T_29096), T_38110_20_br_prediction_btb_hit,
+            _GEN_19908) @[rob.scala 453:59]
     node _GEN_19987
-      = mux(eq(UInt<5>(20), T_29096), T_38110_20_br_prediction_btb_predicted, _GEN_19909) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(20), T_29096), T_38110_20_br_prediction_btb_predicted,
+            _GEN_19909) @[rob.scala 453:59]
     node _GEN_19988
-      = mux(eq(UInt<5>(20), T_29096), T_38110_20_br_prediction_is_br_or_jalr, _GEN_19910) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(20), T_29096), T_38110_20_br_prediction_is_br_or_jalr,
+            _GEN_19910) @[rob.scala 453:59]
     node _GEN_19989
-      = mux(eq(UInt<5>(20), T_29096), T_38110_20_stat_brjmp_mispredicted, _GEN_19911) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(20), T_29096), T_38110_20_stat_brjmp_mispredicted,
+            _GEN_19911) @[rob.scala 453:59]
     node _GEN_19990
       = mux(eq(UInt<5>(20), T_29096), T_38110_20_stat_btb_made_pred, _GEN_19912) @[rob.scala 453:59]
     node _GEN_19991
-      = mux(eq(UInt<5>(20), T_29096), T_38110_20_stat_btb_mispredicted, _GEN_19913) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(20), T_29096), T_38110_20_stat_btb_mispredicted,
+            _GEN_19913) @[rob.scala 453:59]
     node _GEN_19992
       = mux(eq(UInt<5>(20), T_29096), T_38110_20_stat_bpd_made_pred, _GEN_19914) @[rob.scala 453:59]
     node _GEN_19993
-      = mux(eq(UInt<5>(20), T_29096), T_38110_20_stat_bpd_mispredicted, _GEN_19915) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(20), T_29096), T_38110_20_stat_bpd_mispredicted,
+            _GEN_19915) @[rob.scala 453:59]
     node _GEN_19994
       = mux(eq(UInt<5>(20), T_29096), T_38110_20_fetch_pc_lob, _GEN_19916) @[rob.scala 453:59]
     node _GEN_19995
@@ -33446,7 +36676,8 @@ circuit Rob :
       = mux(eq(UInt<5>(20), T_29096), T_38110_20_replay_if, _GEN_19955) @[rob.scala 453:59]
     skip
     node _GEN_20035
-      = mux(eq(UInt<5>(20), T_29096), T_38110_20_debug_events_fetch_seq, _GEN_19957) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(20), T_29096), T_38110_20_debug_events_fetch_seq,
+            _GEN_19957) @[rob.scala 453:59]
     node _GEN_20036
       = mux(eq(UInt<5>(21), T_29096), T_38110_21_valid, _GEN_19958) @[rob.scala 453:59]
     node _GEN_20037
@@ -33497,25 +36728,33 @@ circuit Rob :
     node _GEN_20061
       = mux(eq(UInt<5>(21), T_29096), T_38110_21_br_tag, _GEN_19983) @[rob.scala 453:59]
     node _GEN_20062
-      = mux(eq(UInt<5>(21), T_29096), T_38110_21_br_prediction_bpd_predict_val, _GEN_19984) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(21), T_29096), T_38110_21_br_prediction_bpd_predict_val,
+            _GEN_19984) @[rob.scala 453:59]
     node _GEN_20063
-      = mux(eq(UInt<5>(21), T_29096), T_38110_21_br_prediction_bpd_predict_taken, _GEN_19985) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(21), T_29096),
+            T_38110_21_br_prediction_bpd_predict_taken, _GEN_19985) @[rob.scala 453:59]
     node _GEN_20064
-      = mux(eq(UInt<5>(21), T_29096), T_38110_21_br_prediction_btb_hit, _GEN_19986) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(21), T_29096), T_38110_21_br_prediction_btb_hit,
+            _GEN_19986) @[rob.scala 453:59]
     node _GEN_20065
-      = mux(eq(UInt<5>(21), T_29096), T_38110_21_br_prediction_btb_predicted, _GEN_19987) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(21), T_29096), T_38110_21_br_prediction_btb_predicted,
+            _GEN_19987) @[rob.scala 453:59]
     node _GEN_20066
-      = mux(eq(UInt<5>(21), T_29096), T_38110_21_br_prediction_is_br_or_jalr, _GEN_19988) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(21), T_29096), T_38110_21_br_prediction_is_br_or_jalr,
+            _GEN_19988) @[rob.scala 453:59]
     node _GEN_20067
-      = mux(eq(UInt<5>(21), T_29096), T_38110_21_stat_brjmp_mispredicted, _GEN_19989) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(21), T_29096), T_38110_21_stat_brjmp_mispredicted,
+            _GEN_19989) @[rob.scala 453:59]
     node _GEN_20068
       = mux(eq(UInt<5>(21), T_29096), T_38110_21_stat_btb_made_pred, _GEN_19990) @[rob.scala 453:59]
     node _GEN_20069
-      = mux(eq(UInt<5>(21), T_29096), T_38110_21_stat_btb_mispredicted, _GEN_19991) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(21), T_29096), T_38110_21_stat_btb_mispredicted,
+            _GEN_19991) @[rob.scala 453:59]
     node _GEN_20070
       = mux(eq(UInt<5>(21), T_29096), T_38110_21_stat_bpd_made_pred, _GEN_19992) @[rob.scala 453:59]
     node _GEN_20071
-      = mux(eq(UInt<5>(21), T_29096), T_38110_21_stat_bpd_mispredicted, _GEN_19993) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(21), T_29096), T_38110_21_stat_bpd_mispredicted,
+            _GEN_19993) @[rob.scala 453:59]
     node _GEN_20072
       = mux(eq(UInt<5>(21), T_29096), T_38110_21_fetch_pc_lob, _GEN_19994) @[rob.scala 453:59]
     node _GEN_20073
@@ -33590,7 +36829,8 @@ circuit Rob :
       = mux(eq(UInt<5>(21), T_29096), T_38110_21_replay_if, _GEN_20033) @[rob.scala 453:59]
     skip
     node _GEN_20113
-      = mux(eq(UInt<5>(21), T_29096), T_38110_21_debug_events_fetch_seq, _GEN_20035) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(21), T_29096), T_38110_21_debug_events_fetch_seq,
+            _GEN_20035) @[rob.scala 453:59]
     node _GEN_20114
       = mux(eq(UInt<5>(22), T_29096), T_38110_22_valid, _GEN_20036) @[rob.scala 453:59]
     node _GEN_20115
@@ -33641,25 +36881,33 @@ circuit Rob :
     node _GEN_20139
       = mux(eq(UInt<5>(22), T_29096), T_38110_22_br_tag, _GEN_20061) @[rob.scala 453:59]
     node _GEN_20140
-      = mux(eq(UInt<5>(22), T_29096), T_38110_22_br_prediction_bpd_predict_val, _GEN_20062) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(22), T_29096), T_38110_22_br_prediction_bpd_predict_val,
+            _GEN_20062) @[rob.scala 453:59]
     node _GEN_20141
-      = mux(eq(UInt<5>(22), T_29096), T_38110_22_br_prediction_bpd_predict_taken, _GEN_20063) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(22), T_29096),
+            T_38110_22_br_prediction_bpd_predict_taken, _GEN_20063) @[rob.scala 453:59]
     node _GEN_20142
-      = mux(eq(UInt<5>(22), T_29096), T_38110_22_br_prediction_btb_hit, _GEN_20064) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(22), T_29096), T_38110_22_br_prediction_btb_hit,
+            _GEN_20064) @[rob.scala 453:59]
     node _GEN_20143
-      = mux(eq(UInt<5>(22), T_29096), T_38110_22_br_prediction_btb_predicted, _GEN_20065) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(22), T_29096), T_38110_22_br_prediction_btb_predicted,
+            _GEN_20065) @[rob.scala 453:59]
     node _GEN_20144
-      = mux(eq(UInt<5>(22), T_29096), T_38110_22_br_prediction_is_br_or_jalr, _GEN_20066) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(22), T_29096), T_38110_22_br_prediction_is_br_or_jalr,
+            _GEN_20066) @[rob.scala 453:59]
     node _GEN_20145
-      = mux(eq(UInt<5>(22), T_29096), T_38110_22_stat_brjmp_mispredicted, _GEN_20067) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(22), T_29096), T_38110_22_stat_brjmp_mispredicted,
+            _GEN_20067) @[rob.scala 453:59]
     node _GEN_20146
       = mux(eq(UInt<5>(22), T_29096), T_38110_22_stat_btb_made_pred, _GEN_20068) @[rob.scala 453:59]
     node _GEN_20147
-      = mux(eq(UInt<5>(22), T_29096), T_38110_22_stat_btb_mispredicted, _GEN_20069) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(22), T_29096), T_38110_22_stat_btb_mispredicted,
+            _GEN_20069) @[rob.scala 453:59]
     node _GEN_20148
       = mux(eq(UInt<5>(22), T_29096), T_38110_22_stat_bpd_made_pred, _GEN_20070) @[rob.scala 453:59]
     node _GEN_20149
-      = mux(eq(UInt<5>(22), T_29096), T_38110_22_stat_bpd_mispredicted, _GEN_20071) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(22), T_29096), T_38110_22_stat_bpd_mispredicted,
+            _GEN_20071) @[rob.scala 453:59]
     node _GEN_20150
       = mux(eq(UInt<5>(22), T_29096), T_38110_22_fetch_pc_lob, _GEN_20072) @[rob.scala 453:59]
     node _GEN_20151
@@ -33734,7 +36982,8 @@ circuit Rob :
       = mux(eq(UInt<5>(22), T_29096), T_38110_22_replay_if, _GEN_20111) @[rob.scala 453:59]
     skip
     node _GEN_20191
-      = mux(eq(UInt<5>(22), T_29096), T_38110_22_debug_events_fetch_seq, _GEN_20113) @[rob.scala 453:59]
+      = mux(eq(UInt<5>(22), T_29096), T_38110_22_debug_events_fetch_seq,
+            _GEN_20113) @[rob.scala 453:59]
     skip
     skip
     skip
@@ -34442,7 +37691,8 @@ circuit Rob :
     skip
     skip
     node _GEN_20597
-      = mux(eq(UInt<5>(1), rob_head), T_38110_1_debug_wdata, T_38110_0_debug_wdata) @[rob.scala 507:28]
+      = mux(eq(UInt<5>(1), rob_head), T_38110_1_debug_wdata,
+            T_38110_0_debug_wdata) @[rob.scala 507:28]
     skip
     skip
     skip
@@ -42891,33 +46141,47 @@ circuit Rob :
     node T_47888_fu_code
       = mux(T_47887, io_lxcpt_bits_uop_fu_code, io_bxcpt_bits_uop_fu_code) @[rob.scala 666:32]
     node T_47888_ctrl_br_type
-      = mux(T_47887, io_lxcpt_bits_uop_ctrl_br_type, io_bxcpt_bits_uop_ctrl_br_type) @[rob.scala 666:32]
+      = mux(T_47887, io_lxcpt_bits_uop_ctrl_br_type,
+            io_bxcpt_bits_uop_ctrl_br_type) @[rob.scala 666:32]
     node T_47888_ctrl_op1_sel
-      = mux(T_47887, io_lxcpt_bits_uop_ctrl_op1_sel, io_bxcpt_bits_uop_ctrl_op1_sel) @[rob.scala 666:32]
+      = mux(T_47887, io_lxcpt_bits_uop_ctrl_op1_sel,
+            io_bxcpt_bits_uop_ctrl_op1_sel) @[rob.scala 666:32]
     node T_47888_ctrl_op2_sel
-      = mux(T_47887, io_lxcpt_bits_uop_ctrl_op2_sel, io_bxcpt_bits_uop_ctrl_op2_sel) @[rob.scala 666:32]
+      = mux(T_47887, io_lxcpt_bits_uop_ctrl_op2_sel,
+            io_bxcpt_bits_uop_ctrl_op2_sel) @[rob.scala 666:32]
     node T_47888_ctrl_imm_sel
-      = mux(T_47887, io_lxcpt_bits_uop_ctrl_imm_sel, io_bxcpt_bits_uop_ctrl_imm_sel) @[rob.scala 666:32]
+      = mux(T_47887, io_lxcpt_bits_uop_ctrl_imm_sel,
+            io_bxcpt_bits_uop_ctrl_imm_sel) @[rob.scala 666:32]
     node T_47888_ctrl_op_fcn
-      = mux(T_47887, io_lxcpt_bits_uop_ctrl_op_fcn, io_bxcpt_bits_uop_ctrl_op_fcn) @[rob.scala 666:32]
+      = mux(T_47887, io_lxcpt_bits_uop_ctrl_op_fcn,
+            io_bxcpt_bits_uop_ctrl_op_fcn) @[rob.scala 666:32]
     node T_47888_ctrl_fcn_dw
-      = mux(T_47887, io_lxcpt_bits_uop_ctrl_fcn_dw, io_bxcpt_bits_uop_ctrl_fcn_dw) @[rob.scala 666:32]
+      = mux(T_47887, io_lxcpt_bits_uop_ctrl_fcn_dw,
+            io_bxcpt_bits_uop_ctrl_fcn_dw) @[rob.scala 666:32]
     node T_47888_ctrl_rf_wen
-      = mux(T_47887, io_lxcpt_bits_uop_ctrl_rf_wen, io_bxcpt_bits_uop_ctrl_rf_wen) @[rob.scala 666:32]
+      = mux(T_47887, io_lxcpt_bits_uop_ctrl_rf_wen,
+            io_bxcpt_bits_uop_ctrl_rf_wen) @[rob.scala 666:32]
     node T_47888_ctrl_csr_cmd
-      = mux(T_47887, io_lxcpt_bits_uop_ctrl_csr_cmd, io_bxcpt_bits_uop_ctrl_csr_cmd) @[rob.scala 666:32]
+      = mux(T_47887, io_lxcpt_bits_uop_ctrl_csr_cmd,
+            io_bxcpt_bits_uop_ctrl_csr_cmd) @[rob.scala 666:32]
     node T_47888_ctrl_is_load
-      = mux(T_47887, io_lxcpt_bits_uop_ctrl_is_load, io_bxcpt_bits_uop_ctrl_is_load) @[rob.scala 666:32]
+      = mux(T_47887, io_lxcpt_bits_uop_ctrl_is_load,
+            io_bxcpt_bits_uop_ctrl_is_load) @[rob.scala 666:32]
     node T_47888_ctrl_is_sta
-      = mux(T_47887, io_lxcpt_bits_uop_ctrl_is_sta, io_bxcpt_bits_uop_ctrl_is_sta) @[rob.scala 666:32]
+      = mux(T_47887, io_lxcpt_bits_uop_ctrl_is_sta,
+            io_bxcpt_bits_uop_ctrl_is_sta) @[rob.scala 666:32]
     node T_47888_ctrl_is_std
-      = mux(T_47887, io_lxcpt_bits_uop_ctrl_is_std, io_bxcpt_bits_uop_ctrl_is_std) @[rob.scala 666:32]
+      = mux(T_47887, io_lxcpt_bits_uop_ctrl_is_std,
+            io_bxcpt_bits_uop_ctrl_is_std) @[rob.scala 666:32]
     node T_47888_wakeup_delay
-      = mux(T_47887, io_lxcpt_bits_uop_wakeup_delay, io_bxcpt_bits_uop_wakeup_delay) @[rob.scala 666:32]
+      = mux(T_47887, io_lxcpt_bits_uop_wakeup_delay,
+            io_bxcpt_bits_uop_wakeup_delay) @[rob.scala 666:32]
     node T_47888_allocate_brtag
-      = mux(T_47887, io_lxcpt_bits_uop_allocate_brtag, io_bxcpt_bits_uop_allocate_brtag) @[rob.scala 666:32]
+      = mux(T_47887, io_lxcpt_bits_uop_allocate_brtag,
+            io_bxcpt_bits_uop_allocate_brtag) @[rob.scala 666:32]
     node T_47888_is_br_or_jmp
-      = mux(T_47887, io_lxcpt_bits_uop_is_br_or_jmp, io_bxcpt_bits_uop_is_br_or_jmp) @[rob.scala 666:32]
+      = mux(T_47887, io_lxcpt_bits_uop_is_br_or_jmp,
+            io_bxcpt_bits_uop_is_br_or_jmp) @[rob.scala 666:32]
     node T_47888_is_jump
       = mux(T_47887, io_lxcpt_bits_uop_is_jump, io_bxcpt_bits_uop_is_jump) @[rob.scala 666:32]
     node T_47888_is_jal
@@ -42931,27 +46195,38 @@ circuit Rob :
     node T_47888_br_tag
       = mux(T_47887, io_lxcpt_bits_uop_br_tag, io_bxcpt_bits_uop_br_tag) @[rob.scala 666:32]
     node T_47888_br_prediction_bpd_predict_val
-      = mux(T_47887, io_lxcpt_bits_uop_br_prediction_bpd_predict_val, io_bxcpt_bits_uop_br_prediction_bpd_predict_val) @[rob.scala 666:32]
+      = mux(T_47887, io_lxcpt_bits_uop_br_prediction_bpd_predict_val,
+            io_bxcpt_bits_uop_br_prediction_bpd_predict_val) @[rob.scala 666:32]
     node T_47888_br_prediction_bpd_predict_taken
-      = mux(T_47887, io_lxcpt_bits_uop_br_prediction_bpd_predict_taken, io_bxcpt_bits_uop_br_prediction_bpd_predict_taken) @[rob.scala 666:32]
+      = mux(T_47887, io_lxcpt_bits_uop_br_prediction_bpd_predict_taken,
+            io_bxcpt_bits_uop_br_prediction_bpd_predict_taken) @[rob.scala 666:32]
     node T_47888_br_prediction_btb_hit
-      = mux(T_47887, io_lxcpt_bits_uop_br_prediction_btb_hit, io_bxcpt_bits_uop_br_prediction_btb_hit) @[rob.scala 666:32]
+      = mux(T_47887, io_lxcpt_bits_uop_br_prediction_btb_hit,
+            io_bxcpt_bits_uop_br_prediction_btb_hit) @[rob.scala 666:32]
     node T_47888_br_prediction_btb_predicted
-      = mux(T_47887, io_lxcpt_bits_uop_br_prediction_btb_predicted, io_bxcpt_bits_uop_br_prediction_btb_predicted) @[rob.scala 666:32]
+      = mux(T_47887, io_lxcpt_bits_uop_br_prediction_btb_predicted,
+            io_bxcpt_bits_uop_br_prediction_btb_predicted) @[rob.scala 666:32]
     node T_47888_br_prediction_is_br_or_jalr
-      = mux(T_47887, io_lxcpt_bits_uop_br_prediction_is_br_or_jalr, io_bxcpt_bits_uop_br_prediction_is_br_or_jalr) @[rob.scala 666:32]
+      = mux(T_47887, io_lxcpt_bits_uop_br_prediction_is_br_or_jalr,
+            io_bxcpt_bits_uop_br_prediction_is_br_or_jalr) @[rob.scala 666:32]
     node T_47888_stat_brjmp_mispredicted
-      = mux(T_47887, io_lxcpt_bits_uop_stat_brjmp_mispredicted, io_bxcpt_bits_uop_stat_brjmp_mispredicted) @[rob.scala 666:32]
+      = mux(T_47887, io_lxcpt_bits_uop_stat_brjmp_mispredicted,
+            io_bxcpt_bits_uop_stat_brjmp_mispredicted) @[rob.scala 666:32]
     node T_47888_stat_btb_made_pred
-      = mux(T_47887, io_lxcpt_bits_uop_stat_btb_made_pred, io_bxcpt_bits_uop_stat_btb_made_pred) @[rob.scala 666:32]
+      = mux(T_47887, io_lxcpt_bits_uop_stat_btb_made_pred,
+            io_bxcpt_bits_uop_stat_btb_made_pred) @[rob.scala 666:32]
     node T_47888_stat_btb_mispredicted
-      = mux(T_47887, io_lxcpt_bits_uop_stat_btb_mispredicted, io_bxcpt_bits_uop_stat_btb_mispredicted) @[rob.scala 666:32]
+      = mux(T_47887, io_lxcpt_bits_uop_stat_btb_mispredicted,
+            io_bxcpt_bits_uop_stat_btb_mispredicted) @[rob.scala 666:32]
     node T_47888_stat_bpd_made_pred
-      = mux(T_47887, io_lxcpt_bits_uop_stat_bpd_made_pred, io_bxcpt_bits_uop_stat_bpd_made_pred) @[rob.scala 666:32]
+      = mux(T_47887, io_lxcpt_bits_uop_stat_bpd_made_pred,
+            io_bxcpt_bits_uop_stat_bpd_made_pred) @[rob.scala 666:32]
     node T_47888_stat_bpd_mispredicted
-      = mux(T_47887, io_lxcpt_bits_uop_stat_bpd_mispredicted, io_bxcpt_bits_uop_stat_bpd_mispredicted) @[rob.scala 666:32]
+      = mux(T_47887, io_lxcpt_bits_uop_stat_bpd_mispredicted,
+            io_bxcpt_bits_uop_stat_bpd_mispredicted) @[rob.scala 666:32]
     node T_47888_fetch_pc_lob
-      = mux(T_47887, io_lxcpt_bits_uop_fetch_pc_lob, io_bxcpt_bits_uop_fetch_pc_lob) @[rob.scala 666:32]
+      = mux(T_47887, io_lxcpt_bits_uop_fetch_pc_lob,
+            io_bxcpt_bits_uop_fetch_pc_lob) @[rob.scala 666:32]
     node T_47888_imm_packed
       = mux(T_47887, io_lxcpt_bits_uop_imm_packed, io_bxcpt_bits_uop_imm_packed) @[rob.scala 666:32]
     node T_47888_csr_addr
@@ -43002,7 +46277,8 @@ circuit Rob :
     node T_47888_is_unique
       = mux(T_47887, io_lxcpt_bits_uop_is_unique, io_bxcpt_bits_uop_is_unique) @[rob.scala 666:32]
     node T_47888_flush_on_commit
-      = mux(T_47887, io_lxcpt_bits_uop_flush_on_commit, io_bxcpt_bits_uop_flush_on_commit) @[rob.scala 666:32]
+      = mux(T_47887, io_lxcpt_bits_uop_flush_on_commit,
+            io_bxcpt_bits_uop_flush_on_commit) @[rob.scala 666:32]
     node T_47888_ldst
       = mux(T_47887, io_lxcpt_bits_uop_ldst, io_bxcpt_bits_uop_ldst) @[rob.scala 666:32]
     node T_47888_lrs1
@@ -43030,9 +46306,11 @@ circuit Rob :
     node T_47888_replay_if
       = mux(T_47887, io_lxcpt_bits_uop_replay_if, io_bxcpt_bits_uop_replay_if) @[rob.scala 666:32]
     node T_47888_debug_wdata
-      = mux(T_47887, io_lxcpt_bits_uop_debug_wdata, io_bxcpt_bits_uop_debug_wdata) @[rob.scala 666:32]
+      = mux(T_47887, io_lxcpt_bits_uop_debug_wdata,
+            io_bxcpt_bits_uop_debug_wdata) @[rob.scala 666:32]
     node T_47888_debug_events_fetch_seq
-      = mux(T_47887, io_lxcpt_bits_uop_debug_events_fetch_seq, io_bxcpt_bits_uop_debug_events_fetch_seq) @[rob.scala 666:32]
+      = mux(T_47887, io_lxcpt_bits_uop_debug_events_fetch_seq,
+            io_bxcpt_bits_uop_debug_events_fetch_seq) @[rob.scala 666:32]
     node T_47975 = not(r_xcpt_val) @[rob.scala 667:16]
     node T_47976 = leq(T_47888_rob_idx, rob_tail_idx) @[rob.scala 650:58]
     node T_47977 = cat(T_47976, T_47888_rob_idx) @[Cat.scala 20:58]
@@ -43080,25 +46358,33 @@ circuit Rob :
     node _GEN_28344 = mux(T_47981, T_47888_br_mask, r_xcpt_uop_br_mask)
     node _GEN_28345 = mux(T_47981, T_47888_br_tag, r_xcpt_uop_br_tag)
     node _GEN_28346
-      = mux(T_47981, T_47888_br_prediction_bpd_predict_val, r_xcpt_uop_br_prediction_bpd_predict_val)
+      = mux(T_47981, T_47888_br_prediction_bpd_predict_val,
+            r_xcpt_uop_br_prediction_bpd_predict_val)
     node _GEN_28347
-      = mux(T_47981, T_47888_br_prediction_bpd_predict_taken, r_xcpt_uop_br_prediction_bpd_predict_taken)
+      = mux(T_47981, T_47888_br_prediction_bpd_predict_taken,
+            r_xcpt_uop_br_prediction_bpd_predict_taken)
     node _GEN_28348
-      = mux(T_47981, T_47888_br_prediction_btb_hit, r_xcpt_uop_br_prediction_btb_hit)
+      = mux(T_47981, T_47888_br_prediction_btb_hit,
+            r_xcpt_uop_br_prediction_btb_hit)
     node _GEN_28349
-      = mux(T_47981, T_47888_br_prediction_btb_predicted, r_xcpt_uop_br_prediction_btb_predicted)
+      = mux(T_47981, T_47888_br_prediction_btb_predicted,
+            r_xcpt_uop_br_prediction_btb_predicted)
     node _GEN_28350
-      = mux(T_47981, T_47888_br_prediction_is_br_or_jalr, r_xcpt_uop_br_prediction_is_br_or_jalr)
+      = mux(T_47981, T_47888_br_prediction_is_br_or_jalr,
+            r_xcpt_uop_br_prediction_is_br_or_jalr)
     node _GEN_28351
-      = mux(T_47981, T_47888_stat_brjmp_mispredicted, r_xcpt_uop_stat_brjmp_mispredicted)
+      = mux(T_47981, T_47888_stat_brjmp_mispredicted,
+            r_xcpt_uop_stat_brjmp_mispredicted)
     node _GEN_28352
       = mux(T_47981, T_47888_stat_btb_made_pred, r_xcpt_uop_stat_btb_made_pred)
     node _GEN_28353
-      = mux(T_47981, T_47888_stat_btb_mispredicted, r_xcpt_uop_stat_btb_mispredicted)
+      = mux(T_47981, T_47888_stat_btb_mispredicted,
+            r_xcpt_uop_stat_btb_mispredicted)
     node _GEN_28354
       = mux(T_47981, T_47888_stat_bpd_made_pred, r_xcpt_uop_stat_bpd_made_pred)
     node _GEN_28355
-      = mux(T_47981, T_47888_stat_bpd_mispredicted, r_xcpt_uop_stat_bpd_mispredicted)
+      = mux(T_47981, T_47888_stat_bpd_mispredicted,
+            r_xcpt_uop_stat_bpd_mispredicted)
     node _GEN_28356
       = mux(T_47981, T_47888_fetch_pc_lob, r_xcpt_uop_fetch_pc_lob)
     node _GEN_28357 = mux(T_47981, T_47888_imm_packed, r_xcpt_uop_imm_packed)
@@ -43143,7 +46429,8 @@ circuit Rob :
     node _GEN_28395 = mux(T_47981, T_47888_replay_if, r_xcpt_uop_replay_if)
     node _GEN_28396 = mux(T_47981, T_47888_debug_wdata, r_xcpt_uop_debug_wdata)
     node _GEN_28397
-      = mux(T_47981, T_47888_debug_events_fetch_seq, r_xcpt_uop_debug_events_fetch_seq)
+      = mux(T_47981, T_47888_debug_events_fetch_seq,
+            r_xcpt_uop_debug_events_fetch_seq)
     node _GEN_28398 = mux(T_47981, T_47984, r_xcpt_badvaddr)
     node _GEN_28399 = mux(T_47876, _GEN_28319, r_xcpt_val) @[rob.scala 662:7]
     node _GEN_28400 = mux(T_47876, _GEN_28320, r_xcpt_uop_valid)
@@ -43359,25 +46646,35 @@ circuit Rob :
     node _GEN_28581 = mux(T_47994, io_dis_uops_1_br_mask, io_dis_uops_0_br_mask) @[rob.scala 681:26]
     node _GEN_28582 = mux(T_47994, io_dis_uops_1_br_tag, io_dis_uops_0_br_tag) @[rob.scala 681:26]
     node _GEN_28583
-      = mux(T_47994, io_dis_uops_1_br_prediction_bpd_predict_val, io_dis_uops_0_br_prediction_bpd_predict_val) @[rob.scala 681:26]
+      = mux(T_47994, io_dis_uops_1_br_prediction_bpd_predict_val,
+            io_dis_uops_0_br_prediction_bpd_predict_val) @[rob.scala 681:26]
     node _GEN_28584
-      = mux(T_47994, io_dis_uops_1_br_prediction_bpd_predict_taken, io_dis_uops_0_br_prediction_bpd_predict_taken) @[rob.scala 681:26]
+      = mux(T_47994, io_dis_uops_1_br_prediction_bpd_predict_taken,
+            io_dis_uops_0_br_prediction_bpd_predict_taken) @[rob.scala 681:26]
     node _GEN_28585
-      = mux(T_47994, io_dis_uops_1_br_prediction_btb_hit, io_dis_uops_0_br_prediction_btb_hit) @[rob.scala 681:26]
+      = mux(T_47994, io_dis_uops_1_br_prediction_btb_hit,
+            io_dis_uops_0_br_prediction_btb_hit) @[rob.scala 681:26]
     node _GEN_28586
-      = mux(T_47994, io_dis_uops_1_br_prediction_btb_predicted, io_dis_uops_0_br_prediction_btb_predicted) @[rob.scala 681:26]
+      = mux(T_47994, io_dis_uops_1_br_prediction_btb_predicted,
+            io_dis_uops_0_br_prediction_btb_predicted) @[rob.scala 681:26]
     node _GEN_28587
-      = mux(T_47994, io_dis_uops_1_br_prediction_is_br_or_jalr, io_dis_uops_0_br_prediction_is_br_or_jalr) @[rob.scala 681:26]
+      = mux(T_47994, io_dis_uops_1_br_prediction_is_br_or_jalr,
+            io_dis_uops_0_br_prediction_is_br_or_jalr) @[rob.scala 681:26]
     node _GEN_28588
-      = mux(T_47994, io_dis_uops_1_stat_brjmp_mispredicted, io_dis_uops_0_stat_brjmp_mispredicted) @[rob.scala 681:26]
+      = mux(T_47994, io_dis_uops_1_stat_brjmp_mispredicted,
+            io_dis_uops_0_stat_brjmp_mispredicted) @[rob.scala 681:26]
     node _GEN_28589
-      = mux(T_47994, io_dis_uops_1_stat_btb_made_pred, io_dis_uops_0_stat_btb_made_pred) @[rob.scala 681:26]
+      = mux(T_47994, io_dis_uops_1_stat_btb_made_pred,
+            io_dis_uops_0_stat_btb_made_pred) @[rob.scala 681:26]
     node _GEN_28590
-      = mux(T_47994, io_dis_uops_1_stat_btb_mispredicted, io_dis_uops_0_stat_btb_mispredicted) @[rob.scala 681:26]
+      = mux(T_47994, io_dis_uops_1_stat_btb_mispredicted,
+            io_dis_uops_0_stat_btb_mispredicted) @[rob.scala 681:26]
     node _GEN_28591
-      = mux(T_47994, io_dis_uops_1_stat_bpd_made_pred, io_dis_uops_0_stat_bpd_made_pred) @[rob.scala 681:26]
+      = mux(T_47994, io_dis_uops_1_stat_bpd_made_pred,
+            io_dis_uops_0_stat_bpd_made_pred) @[rob.scala 681:26]
     node _GEN_28592
-      = mux(T_47994, io_dis_uops_1_stat_bpd_mispredicted, io_dis_uops_0_stat_bpd_mispredicted) @[rob.scala 681:26]
+      = mux(T_47994, io_dis_uops_1_stat_bpd_mispredicted,
+            io_dis_uops_0_stat_bpd_mispredicted) @[rob.scala 681:26]
     node _GEN_28593
       = mux(T_47994, io_dis_uops_1_fetch_pc_lob, io_dis_uops_0_fetch_pc_lob) @[rob.scala 681:26]
     node _GEN_28594
@@ -43420,7 +46717,8 @@ circuit Rob :
     node _GEN_28618
       = mux(T_47994, io_dis_uops_1_is_unique, io_dis_uops_0_is_unique) @[rob.scala 681:26]
     node _GEN_28619
-      = mux(T_47994, io_dis_uops_1_flush_on_commit, io_dis_uops_0_flush_on_commit) @[rob.scala 681:26]
+      = mux(T_47994, io_dis_uops_1_flush_on_commit,
+            io_dis_uops_0_flush_on_commit) @[rob.scala 681:26]
     node _GEN_28620 = mux(T_47994, io_dis_uops_1_ldst, io_dis_uops_0_ldst) @[rob.scala 681:26]
     node _GEN_28621 = mux(T_47994, io_dis_uops_1_lrs1, io_dis_uops_0_lrs1) @[rob.scala 681:26]
     node _GEN_28622 = mux(T_47994, io_dis_uops_1_lrs2, io_dis_uops_0_lrs2) @[rob.scala 681:26]
@@ -43443,7 +46741,8 @@ circuit Rob :
     node _GEN_28633
       = mux(T_47994, io_dis_uops_1_debug_wdata, io_dis_uops_0_debug_wdata) @[rob.scala 681:26]
     node _GEN_28634
-      = mux(T_47994, io_dis_uops_1_debug_events_fetch_seq, io_dis_uops_0_debug_events_fetch_seq) @[rob.scala 681:26]
+      = mux(T_47994, io_dis_uops_1_debug_events_fetch_seq,
+            io_dis_uops_0_debug_events_fetch_seq) @[rob.scala 681:26]
     node _GEN_28922 = shl(T_47994, 2) @[rob.scala 682:54]
     node T_48082 = pad(_GEN_28922, 4) @[rob.scala 682:54]
     node _GEN_28923 = pad(T_48082, 40) @[rob.scala 682:47]
@@ -68753,25 +72052,33 @@ circuit Rob :
     io_com_uops_0_br_tag
       <= mux(eq(UInt<5>(23), T_29096), T_26182_23_br_tag, _GEN_5996) @[rob.scala 453:59]
     io_com_uops_0_br_prediction_bpd_predict_val
-      <= mux(eq(UInt<5>(23), T_29096), T_26182_23_br_prediction_bpd_predict_val, _GEN_5997) @[rob.scala 453:59]
+      <= mux(eq(UInt<5>(23), T_29096), T_26182_23_br_prediction_bpd_predict_val,
+             _GEN_5997) @[rob.scala 453:59]
     io_com_uops_0_br_prediction_bpd_predict_taken
-      <= mux(eq(UInt<5>(23), T_29096), T_26182_23_br_prediction_bpd_predict_taken, _GEN_5998) @[rob.scala 453:59]
+      <= mux(eq(UInt<5>(23), T_29096),
+             T_26182_23_br_prediction_bpd_predict_taken, _GEN_5998) @[rob.scala 453:59]
     io_com_uops_0_br_prediction_btb_hit
-      <= mux(eq(UInt<5>(23), T_29096), T_26182_23_br_prediction_btb_hit, _GEN_5999) @[rob.scala 453:59]
+      <= mux(eq(UInt<5>(23), T_29096), T_26182_23_br_prediction_btb_hit,
+             _GEN_5999) @[rob.scala 453:59]
     io_com_uops_0_br_prediction_btb_predicted
-      <= mux(eq(UInt<5>(23), T_29096), T_26182_23_br_prediction_btb_predicted, _GEN_6000) @[rob.scala 453:59]
+      <= mux(eq(UInt<5>(23), T_29096), T_26182_23_br_prediction_btb_predicted,
+             _GEN_6000) @[rob.scala 453:59]
     io_com_uops_0_br_prediction_is_br_or_jalr
-      <= mux(eq(UInt<5>(23), T_29096), T_26182_23_br_prediction_is_br_or_jalr, _GEN_6001) @[rob.scala 453:59]
+      <= mux(eq(UInt<5>(23), T_29096), T_26182_23_br_prediction_is_br_or_jalr,
+             _GEN_6001) @[rob.scala 453:59]
     io_com_uops_0_stat_brjmp_mispredicted
-      <= mux(eq(UInt<5>(23), T_29096), T_26182_23_stat_brjmp_mispredicted, _GEN_6002) @[rob.scala 453:59]
+      <= mux(eq(UInt<5>(23), T_29096), T_26182_23_stat_brjmp_mispredicted,
+             _GEN_6002) @[rob.scala 453:59]
     io_com_uops_0_stat_btb_made_pred
       <= mux(eq(UInt<5>(23), T_29096), T_26182_23_stat_btb_made_pred, _GEN_6003) @[rob.scala 453:59]
     io_com_uops_0_stat_btb_mispredicted
-      <= mux(eq(UInt<5>(23), T_29096), T_26182_23_stat_btb_mispredicted, _GEN_6004) @[rob.scala 453:59]
+      <= mux(eq(UInt<5>(23), T_29096), T_26182_23_stat_btb_mispredicted,
+             _GEN_6004) @[rob.scala 453:59]
     io_com_uops_0_stat_bpd_made_pred
       <= mux(eq(UInt<5>(23), T_29096), T_26182_23_stat_bpd_made_pred, _GEN_6005) @[rob.scala 453:59]
     io_com_uops_0_stat_bpd_mispredicted
-      <= mux(eq(UInt<5>(23), T_29096), T_26182_23_stat_bpd_mispredicted, _GEN_6006) @[rob.scala 453:59]
+      <= mux(eq(UInt<5>(23), T_29096), T_26182_23_stat_bpd_mispredicted,
+             _GEN_6006) @[rob.scala 453:59]
     io_com_uops_0_fetch_pc_lob
       <= mux(eq(UInt<5>(23), T_29096), T_26182_23_fetch_pc_lob, _GEN_6007) @[rob.scala 453:59]
     io_com_uops_0_imm_packed
@@ -68855,7 +72162,8 @@ circuit Rob :
     io_com_uops_0_debug_wdata
       <= mux(eq(UInt<5>(23), rob_head), T_26182_23_debug_wdata, _GEN_8092) @[rob.scala 507:28]
     io_com_uops_0_debug_events_fetch_seq
-      <= mux(eq(UInt<5>(23), T_29096), T_26182_23_debug_events_fetch_seq, _GEN_6048) @[rob.scala 453:59]
+      <= mux(eq(UInt<5>(23), T_29096), T_26182_23_debug_events_fetch_seq,
+             _GEN_6048) @[rob.scala 453:59]
     io_com_uops_1_valid
       <= mux(eq(UInt<5>(23), T_29096), T_38110_23_valid, _GEN_20114) @[rob.scala 453:59]
     io_com_uops_1_iw_state
@@ -68908,25 +72216,35 @@ circuit Rob :
     io_com_uops_1_br_tag
       <= mux(eq(UInt<5>(23), T_29096), T_38110_23_br_tag, _GEN_20139) @[rob.scala 453:59]
     io_com_uops_1_br_prediction_bpd_predict_val
-      <= mux(eq(UInt<5>(23), T_29096), T_38110_23_br_prediction_bpd_predict_val, _GEN_20140) @[rob.scala 453:59]
+      <= mux(eq(UInt<5>(23), T_29096), T_38110_23_br_prediction_bpd_predict_val,
+             _GEN_20140) @[rob.scala 453:59]
     io_com_uops_1_br_prediction_bpd_predict_taken
-      <= mux(eq(UInt<5>(23), T_29096), T_38110_23_br_prediction_bpd_predict_taken, _GEN_20141) @[rob.scala 453:59]
+      <= mux(eq(UInt<5>(23), T_29096),
+             T_38110_23_br_prediction_bpd_predict_taken, _GEN_20141) @[rob.scala 453:59]
     io_com_uops_1_br_prediction_btb_hit
-      <= mux(eq(UInt<5>(23), T_29096), T_38110_23_br_prediction_btb_hit, _GEN_20142) @[rob.scala 453:59]
+      <= mux(eq(UInt<5>(23), T_29096), T_38110_23_br_prediction_btb_hit,
+             _GEN_20142) @[rob.scala 453:59]
     io_com_uops_1_br_prediction_btb_predicted
-      <= mux(eq(UInt<5>(23), T_29096), T_38110_23_br_prediction_btb_predicted, _GEN_20143) @[rob.scala 453:59]
+      <= mux(eq(UInt<5>(23), T_29096), T_38110_23_br_prediction_btb_predicted,
+             _GEN_20143) @[rob.scala 453:59]
     io_com_uops_1_br_prediction_is_br_or_jalr
-      <= mux(eq(UInt<5>(23), T_29096), T_38110_23_br_prediction_is_br_or_jalr, _GEN_20144) @[rob.scala 453:59]
+      <= mux(eq(UInt<5>(23), T_29096), T_38110_23_br_prediction_is_br_or_jalr,
+             _GEN_20144) @[rob.scala 453:59]
     io_com_uops_1_stat_brjmp_mispredicted
-      <= mux(eq(UInt<5>(23), T_29096), T_38110_23_stat_brjmp_mispredicted, _GEN_20145) @[rob.scala 453:59]
+      <= mux(eq(UInt<5>(23), T_29096), T_38110_23_stat_brjmp_mispredicted,
+             _GEN_20145) @[rob.scala 453:59]
     io_com_uops_1_stat_btb_made_pred
-      <= mux(eq(UInt<5>(23), T_29096), T_38110_23_stat_btb_made_pred, _GEN_20146) @[rob.scala 453:59]
+      <= mux(eq(UInt<5>(23), T_29096), T_38110_23_stat_btb_made_pred,
+             _GEN_20146) @[rob.scala 453:59]
     io_com_uops_1_stat_btb_mispredicted
-      <= mux(eq(UInt<5>(23), T_29096), T_38110_23_stat_btb_mispredicted, _GEN_20147) @[rob.scala 453:59]
+      <= mux(eq(UInt<5>(23), T_29096), T_38110_23_stat_btb_mispredicted,
+             _GEN_20147) @[rob.scala 453:59]
     io_com_uops_1_stat_bpd_made_pred
-      <= mux(eq(UInt<5>(23), T_29096), T_38110_23_stat_bpd_made_pred, _GEN_20148) @[rob.scala 453:59]
+      <= mux(eq(UInt<5>(23), T_29096), T_38110_23_stat_bpd_made_pred,
+             _GEN_20148) @[rob.scala 453:59]
     io_com_uops_1_stat_bpd_mispredicted
-      <= mux(eq(UInt<5>(23), T_29096), T_38110_23_stat_bpd_mispredicted, _GEN_20149) @[rob.scala 453:59]
+      <= mux(eq(UInt<5>(23), T_29096), T_38110_23_stat_bpd_mispredicted,
+             _GEN_20149) @[rob.scala 453:59]
     io_com_uops_1_fetch_pc_lob
       <= mux(eq(UInt<5>(23), T_29096), T_38110_23_fetch_pc_lob, _GEN_20150) @[rob.scala 453:59]
     io_com_uops_1_imm_packed
@@ -69010,7 +72328,8 @@ circuit Rob :
     io_com_uops_1_debug_wdata
       <= mux(eq(UInt<5>(23), rob_head), T_38110_23_debug_wdata, _GEN_22235) @[rob.scala 507:28]
     io_com_uops_1_debug_events_fetch_seq
-      <= mux(eq(UInt<5>(23), T_29096), T_38110_23_debug_events_fetch_seq, _GEN_20191) @[rob.scala 453:59]
+      <= mux(eq(UInt<5>(23), T_29096), T_38110_23_debug_events_fetch_seq,
+             _GEN_20191) @[rob.scala 453:59]
     io_com_fflags_val <= or(T_47635, T_47664) @[rob.scala 640:44]
     io_com_fflags <= or(T_47637, T_47666) @[rob.scala 641:40]
     io_com_st_mask_0 <= and(io_com_valids_0, rob_head_is_store_0) @[rob.scala 869:45]
@@ -69291,7 +72610,8 @@ circuit Rob :
     T_26182_0_br_prediction_bpd_predict_val
       <= mux(io_dis_valids_0, _GEN_681, T_26182_0_br_prediction_bpd_predict_val) @[rob.scala 346:7]
     T_26182_0_br_prediction_bpd_predict_taken
-      <= mux(io_dis_valids_0, _GEN_705, T_26182_0_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
+      <= mux(io_dis_valids_0, _GEN_705,
+             T_26182_0_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
     T_26182_0_br_prediction_btb_hit
       <= mux(io_dis_valids_0, _GEN_729, T_26182_0_br_prediction_btb_hit) @[rob.scala 346:7]
     T_26182_0_br_prediction_btb_predicted
@@ -69395,7 +72715,8 @@ circuit Rob :
     T_26182_1_br_prediction_bpd_predict_val
       <= mux(io_dis_valids_0, _GEN_682, T_26182_1_br_prediction_bpd_predict_val) @[rob.scala 346:7]
     T_26182_1_br_prediction_bpd_predict_taken
-      <= mux(io_dis_valids_0, _GEN_706, T_26182_1_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
+      <= mux(io_dis_valids_0, _GEN_706,
+             T_26182_1_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
     T_26182_1_br_prediction_btb_hit
       <= mux(io_dis_valids_0, _GEN_730, T_26182_1_br_prediction_btb_hit) @[rob.scala 346:7]
     T_26182_1_br_prediction_btb_predicted
@@ -69499,7 +72820,8 @@ circuit Rob :
     T_26182_2_br_prediction_bpd_predict_val
       <= mux(io_dis_valids_0, _GEN_683, T_26182_2_br_prediction_bpd_predict_val) @[rob.scala 346:7]
     T_26182_2_br_prediction_bpd_predict_taken
-      <= mux(io_dis_valids_0, _GEN_707, T_26182_2_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
+      <= mux(io_dis_valids_0, _GEN_707,
+             T_26182_2_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
     T_26182_2_br_prediction_btb_hit
       <= mux(io_dis_valids_0, _GEN_731, T_26182_2_br_prediction_btb_hit) @[rob.scala 346:7]
     T_26182_2_br_prediction_btb_predicted
@@ -69603,7 +72925,8 @@ circuit Rob :
     T_26182_3_br_prediction_bpd_predict_val
       <= mux(io_dis_valids_0, _GEN_684, T_26182_3_br_prediction_bpd_predict_val) @[rob.scala 346:7]
     T_26182_3_br_prediction_bpd_predict_taken
-      <= mux(io_dis_valids_0, _GEN_708, T_26182_3_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
+      <= mux(io_dis_valids_0, _GEN_708,
+             T_26182_3_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
     T_26182_3_br_prediction_btb_hit
       <= mux(io_dis_valids_0, _GEN_732, T_26182_3_br_prediction_btb_hit) @[rob.scala 346:7]
     T_26182_3_br_prediction_btb_predicted
@@ -69707,7 +73030,8 @@ circuit Rob :
     T_26182_4_br_prediction_bpd_predict_val
       <= mux(io_dis_valids_0, _GEN_685, T_26182_4_br_prediction_bpd_predict_val) @[rob.scala 346:7]
     T_26182_4_br_prediction_bpd_predict_taken
-      <= mux(io_dis_valids_0, _GEN_709, T_26182_4_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
+      <= mux(io_dis_valids_0, _GEN_709,
+             T_26182_4_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
     T_26182_4_br_prediction_btb_hit
       <= mux(io_dis_valids_0, _GEN_733, T_26182_4_br_prediction_btb_hit) @[rob.scala 346:7]
     T_26182_4_br_prediction_btb_predicted
@@ -69811,7 +73135,8 @@ circuit Rob :
     T_26182_5_br_prediction_bpd_predict_val
       <= mux(io_dis_valids_0, _GEN_686, T_26182_5_br_prediction_bpd_predict_val) @[rob.scala 346:7]
     T_26182_5_br_prediction_bpd_predict_taken
-      <= mux(io_dis_valids_0, _GEN_710, T_26182_5_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
+      <= mux(io_dis_valids_0, _GEN_710,
+             T_26182_5_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
     T_26182_5_br_prediction_btb_hit
       <= mux(io_dis_valids_0, _GEN_734, T_26182_5_br_prediction_btb_hit) @[rob.scala 346:7]
     T_26182_5_br_prediction_btb_predicted
@@ -69915,7 +73240,8 @@ circuit Rob :
     T_26182_6_br_prediction_bpd_predict_val
       <= mux(io_dis_valids_0, _GEN_687, T_26182_6_br_prediction_bpd_predict_val) @[rob.scala 346:7]
     T_26182_6_br_prediction_bpd_predict_taken
-      <= mux(io_dis_valids_0, _GEN_711, T_26182_6_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
+      <= mux(io_dis_valids_0, _GEN_711,
+             T_26182_6_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
     T_26182_6_br_prediction_btb_hit
       <= mux(io_dis_valids_0, _GEN_735, T_26182_6_br_prediction_btb_hit) @[rob.scala 346:7]
     T_26182_6_br_prediction_btb_predicted
@@ -70019,7 +73345,8 @@ circuit Rob :
     T_26182_7_br_prediction_bpd_predict_val
       <= mux(io_dis_valids_0, _GEN_688, T_26182_7_br_prediction_bpd_predict_val) @[rob.scala 346:7]
     T_26182_7_br_prediction_bpd_predict_taken
-      <= mux(io_dis_valids_0, _GEN_712, T_26182_7_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
+      <= mux(io_dis_valids_0, _GEN_712,
+             T_26182_7_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
     T_26182_7_br_prediction_btb_hit
       <= mux(io_dis_valids_0, _GEN_736, T_26182_7_br_prediction_btb_hit) @[rob.scala 346:7]
     T_26182_7_br_prediction_btb_predicted
@@ -70123,7 +73450,8 @@ circuit Rob :
     T_26182_8_br_prediction_bpd_predict_val
       <= mux(io_dis_valids_0, _GEN_689, T_26182_8_br_prediction_bpd_predict_val) @[rob.scala 346:7]
     T_26182_8_br_prediction_bpd_predict_taken
-      <= mux(io_dis_valids_0, _GEN_713, T_26182_8_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
+      <= mux(io_dis_valids_0, _GEN_713,
+             T_26182_8_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
     T_26182_8_br_prediction_btb_hit
       <= mux(io_dis_valids_0, _GEN_737, T_26182_8_br_prediction_btb_hit) @[rob.scala 346:7]
     T_26182_8_br_prediction_btb_predicted
@@ -70227,7 +73555,8 @@ circuit Rob :
     T_26182_9_br_prediction_bpd_predict_val
       <= mux(io_dis_valids_0, _GEN_690, T_26182_9_br_prediction_bpd_predict_val) @[rob.scala 346:7]
     T_26182_9_br_prediction_bpd_predict_taken
-      <= mux(io_dis_valids_0, _GEN_714, T_26182_9_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
+      <= mux(io_dis_valids_0, _GEN_714,
+             T_26182_9_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
     T_26182_9_br_prediction_btb_hit
       <= mux(io_dis_valids_0, _GEN_738, T_26182_9_br_prediction_btb_hit) @[rob.scala 346:7]
     T_26182_9_br_prediction_btb_predicted
@@ -70329,9 +73658,11 @@ circuit Rob :
     T_26182_10_br_mask <= mux(T_30484, T_30486, _GEN_2568)
     T_26182_10_br_tag <= mux(io_dis_valids_0, _GEN_667, T_26182_10_br_tag) @[rob.scala 346:7]
     T_26182_10_br_prediction_bpd_predict_val
-      <= mux(io_dis_valids_0, _GEN_691, T_26182_10_br_prediction_bpd_predict_val) @[rob.scala 346:7]
+      <= mux(io_dis_valids_0, _GEN_691,
+             T_26182_10_br_prediction_bpd_predict_val) @[rob.scala 346:7]
     T_26182_10_br_prediction_bpd_predict_taken
-      <= mux(io_dis_valids_0, _GEN_715, T_26182_10_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
+      <= mux(io_dis_valids_0, _GEN_715,
+             T_26182_10_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
     T_26182_10_br_prediction_btb_hit
       <= mux(io_dis_valids_0, _GEN_739, T_26182_10_br_prediction_btb_hit) @[rob.scala 346:7]
     T_26182_10_br_prediction_btb_predicted
@@ -70444,9 +73775,11 @@ circuit Rob :
     T_26182_11_br_mask <= mux(T_30586, T_30588, _GEN_2569)
     T_26182_11_br_tag <= mux(io_dis_valids_0, _GEN_668, T_26182_11_br_tag) @[rob.scala 346:7]
     T_26182_11_br_prediction_bpd_predict_val
-      <= mux(io_dis_valids_0, _GEN_692, T_26182_11_br_prediction_bpd_predict_val) @[rob.scala 346:7]
+      <= mux(io_dis_valids_0, _GEN_692,
+             T_26182_11_br_prediction_bpd_predict_val) @[rob.scala 346:7]
     T_26182_11_br_prediction_bpd_predict_taken
-      <= mux(io_dis_valids_0, _GEN_716, T_26182_11_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
+      <= mux(io_dis_valids_0, _GEN_716,
+             T_26182_11_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
     T_26182_11_br_prediction_btb_hit
       <= mux(io_dis_valids_0, _GEN_740, T_26182_11_br_prediction_btb_hit) @[rob.scala 346:7]
     T_26182_11_br_prediction_btb_predicted
@@ -70559,9 +73892,11 @@ circuit Rob :
     T_26182_12_br_mask <= mux(T_30688, T_30690, _GEN_2570)
     T_26182_12_br_tag <= mux(io_dis_valids_0, _GEN_669, T_26182_12_br_tag) @[rob.scala 346:7]
     T_26182_12_br_prediction_bpd_predict_val
-      <= mux(io_dis_valids_0, _GEN_693, T_26182_12_br_prediction_bpd_predict_val) @[rob.scala 346:7]
+      <= mux(io_dis_valids_0, _GEN_693,
+             T_26182_12_br_prediction_bpd_predict_val) @[rob.scala 346:7]
     T_26182_12_br_prediction_bpd_predict_taken
-      <= mux(io_dis_valids_0, _GEN_717, T_26182_12_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
+      <= mux(io_dis_valids_0, _GEN_717,
+             T_26182_12_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
     T_26182_12_br_prediction_btb_hit
       <= mux(io_dis_valids_0, _GEN_741, T_26182_12_br_prediction_btb_hit) @[rob.scala 346:7]
     T_26182_12_br_prediction_btb_predicted
@@ -70674,9 +74009,11 @@ circuit Rob :
     T_26182_13_br_mask <= mux(T_30790, T_30792, _GEN_2571)
     T_26182_13_br_tag <= mux(io_dis_valids_0, _GEN_670, T_26182_13_br_tag) @[rob.scala 346:7]
     T_26182_13_br_prediction_bpd_predict_val
-      <= mux(io_dis_valids_0, _GEN_694, T_26182_13_br_prediction_bpd_predict_val) @[rob.scala 346:7]
+      <= mux(io_dis_valids_0, _GEN_694,
+             T_26182_13_br_prediction_bpd_predict_val) @[rob.scala 346:7]
     T_26182_13_br_prediction_bpd_predict_taken
-      <= mux(io_dis_valids_0, _GEN_718, T_26182_13_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
+      <= mux(io_dis_valids_0, _GEN_718,
+             T_26182_13_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
     T_26182_13_br_prediction_btb_hit
       <= mux(io_dis_valids_0, _GEN_742, T_26182_13_br_prediction_btb_hit) @[rob.scala 346:7]
     T_26182_13_br_prediction_btb_predicted
@@ -70789,9 +74126,11 @@ circuit Rob :
     T_26182_14_br_mask <= mux(T_30892, T_30894, _GEN_2572)
     T_26182_14_br_tag <= mux(io_dis_valids_0, _GEN_671, T_26182_14_br_tag) @[rob.scala 346:7]
     T_26182_14_br_prediction_bpd_predict_val
-      <= mux(io_dis_valids_0, _GEN_695, T_26182_14_br_prediction_bpd_predict_val) @[rob.scala 346:7]
+      <= mux(io_dis_valids_0, _GEN_695,
+             T_26182_14_br_prediction_bpd_predict_val) @[rob.scala 346:7]
     T_26182_14_br_prediction_bpd_predict_taken
-      <= mux(io_dis_valids_0, _GEN_719, T_26182_14_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
+      <= mux(io_dis_valids_0, _GEN_719,
+             T_26182_14_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
     T_26182_14_br_prediction_btb_hit
       <= mux(io_dis_valids_0, _GEN_743, T_26182_14_br_prediction_btb_hit) @[rob.scala 346:7]
     T_26182_14_br_prediction_btb_predicted
@@ -70904,9 +74243,11 @@ circuit Rob :
     T_26182_15_br_mask <= mux(T_30994, T_30996, _GEN_2573)
     T_26182_15_br_tag <= mux(io_dis_valids_0, _GEN_672, T_26182_15_br_tag) @[rob.scala 346:7]
     T_26182_15_br_prediction_bpd_predict_val
-      <= mux(io_dis_valids_0, _GEN_696, T_26182_15_br_prediction_bpd_predict_val) @[rob.scala 346:7]
+      <= mux(io_dis_valids_0, _GEN_696,
+             T_26182_15_br_prediction_bpd_predict_val) @[rob.scala 346:7]
     T_26182_15_br_prediction_bpd_predict_taken
-      <= mux(io_dis_valids_0, _GEN_720, T_26182_15_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
+      <= mux(io_dis_valids_0, _GEN_720,
+             T_26182_15_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
     T_26182_15_br_prediction_btb_hit
       <= mux(io_dis_valids_0, _GEN_744, T_26182_15_br_prediction_btb_hit) @[rob.scala 346:7]
     T_26182_15_br_prediction_btb_predicted
@@ -71019,9 +74360,11 @@ circuit Rob :
     T_26182_16_br_mask <= mux(T_31096, T_31098, _GEN_2574)
     T_26182_16_br_tag <= mux(io_dis_valids_0, _GEN_673, T_26182_16_br_tag) @[rob.scala 346:7]
     T_26182_16_br_prediction_bpd_predict_val
-      <= mux(io_dis_valids_0, _GEN_697, T_26182_16_br_prediction_bpd_predict_val) @[rob.scala 346:7]
+      <= mux(io_dis_valids_0, _GEN_697,
+             T_26182_16_br_prediction_bpd_predict_val) @[rob.scala 346:7]
     T_26182_16_br_prediction_bpd_predict_taken
-      <= mux(io_dis_valids_0, _GEN_721, T_26182_16_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
+      <= mux(io_dis_valids_0, _GEN_721,
+             T_26182_16_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
     T_26182_16_br_prediction_btb_hit
       <= mux(io_dis_valids_0, _GEN_745, T_26182_16_br_prediction_btb_hit) @[rob.scala 346:7]
     T_26182_16_br_prediction_btb_predicted
@@ -71134,9 +74477,11 @@ circuit Rob :
     T_26182_17_br_mask <= mux(T_31198, T_31200, _GEN_2575)
     T_26182_17_br_tag <= mux(io_dis_valids_0, _GEN_674, T_26182_17_br_tag) @[rob.scala 346:7]
     T_26182_17_br_prediction_bpd_predict_val
-      <= mux(io_dis_valids_0, _GEN_698, T_26182_17_br_prediction_bpd_predict_val) @[rob.scala 346:7]
+      <= mux(io_dis_valids_0, _GEN_698,
+             T_26182_17_br_prediction_bpd_predict_val) @[rob.scala 346:7]
     T_26182_17_br_prediction_bpd_predict_taken
-      <= mux(io_dis_valids_0, _GEN_722, T_26182_17_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
+      <= mux(io_dis_valids_0, _GEN_722,
+             T_26182_17_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
     T_26182_17_br_prediction_btb_hit
       <= mux(io_dis_valids_0, _GEN_746, T_26182_17_br_prediction_btb_hit) @[rob.scala 346:7]
     T_26182_17_br_prediction_btb_predicted
@@ -71249,9 +74594,11 @@ circuit Rob :
     T_26182_18_br_mask <= mux(T_31300, T_31302, _GEN_2576)
     T_26182_18_br_tag <= mux(io_dis_valids_0, _GEN_675, T_26182_18_br_tag) @[rob.scala 346:7]
     T_26182_18_br_prediction_bpd_predict_val
-      <= mux(io_dis_valids_0, _GEN_699, T_26182_18_br_prediction_bpd_predict_val) @[rob.scala 346:7]
+      <= mux(io_dis_valids_0, _GEN_699,
+             T_26182_18_br_prediction_bpd_predict_val) @[rob.scala 346:7]
     T_26182_18_br_prediction_bpd_predict_taken
-      <= mux(io_dis_valids_0, _GEN_723, T_26182_18_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
+      <= mux(io_dis_valids_0, _GEN_723,
+             T_26182_18_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
     T_26182_18_br_prediction_btb_hit
       <= mux(io_dis_valids_0, _GEN_747, T_26182_18_br_prediction_btb_hit) @[rob.scala 346:7]
     T_26182_18_br_prediction_btb_predicted
@@ -71364,9 +74711,11 @@ circuit Rob :
     T_26182_19_br_mask <= mux(T_31402, T_31404, _GEN_2577)
     T_26182_19_br_tag <= mux(io_dis_valids_0, _GEN_676, T_26182_19_br_tag) @[rob.scala 346:7]
     T_26182_19_br_prediction_bpd_predict_val
-      <= mux(io_dis_valids_0, _GEN_700, T_26182_19_br_prediction_bpd_predict_val) @[rob.scala 346:7]
+      <= mux(io_dis_valids_0, _GEN_700,
+             T_26182_19_br_prediction_bpd_predict_val) @[rob.scala 346:7]
     T_26182_19_br_prediction_bpd_predict_taken
-      <= mux(io_dis_valids_0, _GEN_724, T_26182_19_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
+      <= mux(io_dis_valids_0, _GEN_724,
+             T_26182_19_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
     T_26182_19_br_prediction_btb_hit
       <= mux(io_dis_valids_0, _GEN_748, T_26182_19_br_prediction_btb_hit) @[rob.scala 346:7]
     T_26182_19_br_prediction_btb_predicted
@@ -71479,9 +74828,11 @@ circuit Rob :
     T_26182_20_br_mask <= mux(T_31504, T_31506, _GEN_2578)
     T_26182_20_br_tag <= mux(io_dis_valids_0, _GEN_677, T_26182_20_br_tag) @[rob.scala 346:7]
     T_26182_20_br_prediction_bpd_predict_val
-      <= mux(io_dis_valids_0, _GEN_701, T_26182_20_br_prediction_bpd_predict_val) @[rob.scala 346:7]
+      <= mux(io_dis_valids_0, _GEN_701,
+             T_26182_20_br_prediction_bpd_predict_val) @[rob.scala 346:7]
     T_26182_20_br_prediction_bpd_predict_taken
-      <= mux(io_dis_valids_0, _GEN_725, T_26182_20_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
+      <= mux(io_dis_valids_0, _GEN_725,
+             T_26182_20_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
     T_26182_20_br_prediction_btb_hit
       <= mux(io_dis_valids_0, _GEN_749, T_26182_20_br_prediction_btb_hit) @[rob.scala 346:7]
     T_26182_20_br_prediction_btb_predicted
@@ -71594,9 +74945,11 @@ circuit Rob :
     T_26182_21_br_mask <= mux(T_31606, T_31608, _GEN_2579)
     T_26182_21_br_tag <= mux(io_dis_valids_0, _GEN_678, T_26182_21_br_tag) @[rob.scala 346:7]
     T_26182_21_br_prediction_bpd_predict_val
-      <= mux(io_dis_valids_0, _GEN_702, T_26182_21_br_prediction_bpd_predict_val) @[rob.scala 346:7]
+      <= mux(io_dis_valids_0, _GEN_702,
+             T_26182_21_br_prediction_bpd_predict_val) @[rob.scala 346:7]
     T_26182_21_br_prediction_bpd_predict_taken
-      <= mux(io_dis_valids_0, _GEN_726, T_26182_21_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
+      <= mux(io_dis_valids_0, _GEN_726,
+             T_26182_21_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
     T_26182_21_br_prediction_btb_hit
       <= mux(io_dis_valids_0, _GEN_750, T_26182_21_br_prediction_btb_hit) @[rob.scala 346:7]
     T_26182_21_br_prediction_btb_predicted
@@ -71709,9 +75062,11 @@ circuit Rob :
     T_26182_22_br_mask <= mux(T_31708, T_31710, _GEN_2580)
     T_26182_22_br_tag <= mux(io_dis_valids_0, _GEN_679, T_26182_22_br_tag) @[rob.scala 346:7]
     T_26182_22_br_prediction_bpd_predict_val
-      <= mux(io_dis_valids_0, _GEN_703, T_26182_22_br_prediction_bpd_predict_val) @[rob.scala 346:7]
+      <= mux(io_dis_valids_0, _GEN_703,
+             T_26182_22_br_prediction_bpd_predict_val) @[rob.scala 346:7]
     T_26182_22_br_prediction_bpd_predict_taken
-      <= mux(io_dis_valids_0, _GEN_727, T_26182_22_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
+      <= mux(io_dis_valids_0, _GEN_727,
+             T_26182_22_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
     T_26182_22_br_prediction_btb_hit
       <= mux(io_dis_valids_0, _GEN_751, T_26182_22_br_prediction_btb_hit) @[rob.scala 346:7]
     T_26182_22_br_prediction_btb_predicted
@@ -71824,9 +75179,11 @@ circuit Rob :
     T_26182_23_br_mask <= mux(T_31810, T_31812, _GEN_2581)
     T_26182_23_br_tag <= mux(io_dis_valids_0, _GEN_680, T_26182_23_br_tag) @[rob.scala 346:7]
     T_26182_23_br_prediction_bpd_predict_val
-      <= mux(io_dis_valids_0, _GEN_704, T_26182_23_br_prediction_bpd_predict_val) @[rob.scala 346:7]
+      <= mux(io_dis_valids_0, _GEN_704,
+             T_26182_23_br_prediction_bpd_predict_val) @[rob.scala 346:7]
     T_26182_23_br_prediction_bpd_predict_taken
-      <= mux(io_dis_valids_0, _GEN_728, T_26182_23_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
+      <= mux(io_dis_valids_0, _GEN_728,
+             T_26182_23_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
     T_26182_23_br_prediction_btb_hit
       <= mux(io_dis_valids_0, _GEN_752, T_26182_23_br_prediction_btb_hit) @[rob.scala 346:7]
     T_26182_23_br_prediction_btb_predicted
@@ -71963,9 +75320,11 @@ circuit Rob :
     T_38110_0_br_mask <= mux(T_41392, T_41394, _GEN_16701)
     T_38110_0_br_tag <= mux(io_dis_valids_1, _GEN_14800, T_38110_0_br_tag) @[rob.scala 346:7]
     T_38110_0_br_prediction_bpd_predict_val
-      <= mux(io_dis_valids_1, _GEN_14824, T_38110_0_br_prediction_bpd_predict_val) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14824,
+             T_38110_0_br_prediction_bpd_predict_val) @[rob.scala 346:7]
     T_38110_0_br_prediction_bpd_predict_taken
-      <= mux(io_dis_valids_1, _GEN_14848, T_38110_0_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14848,
+             T_38110_0_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
     T_38110_0_br_prediction_btb_hit
       <= mux(io_dis_valids_1, _GEN_14872, T_38110_0_br_prediction_btb_hit) @[rob.scala 346:7]
     T_38110_0_br_prediction_btb_predicted
@@ -72068,9 +75427,11 @@ circuit Rob :
     T_38110_1_br_mask <= mux(T_41494, T_41496, _GEN_16702)
     T_38110_1_br_tag <= mux(io_dis_valids_1, _GEN_14801, T_38110_1_br_tag) @[rob.scala 346:7]
     T_38110_1_br_prediction_bpd_predict_val
-      <= mux(io_dis_valids_1, _GEN_14825, T_38110_1_br_prediction_bpd_predict_val) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14825,
+             T_38110_1_br_prediction_bpd_predict_val) @[rob.scala 346:7]
     T_38110_1_br_prediction_bpd_predict_taken
-      <= mux(io_dis_valids_1, _GEN_14849, T_38110_1_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14849,
+             T_38110_1_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
     T_38110_1_br_prediction_btb_hit
       <= mux(io_dis_valids_1, _GEN_14873, T_38110_1_br_prediction_btb_hit) @[rob.scala 346:7]
     T_38110_1_br_prediction_btb_predicted
@@ -72173,9 +75534,11 @@ circuit Rob :
     T_38110_2_br_mask <= mux(T_41596, T_41598, _GEN_16703)
     T_38110_2_br_tag <= mux(io_dis_valids_1, _GEN_14802, T_38110_2_br_tag) @[rob.scala 346:7]
     T_38110_2_br_prediction_bpd_predict_val
-      <= mux(io_dis_valids_1, _GEN_14826, T_38110_2_br_prediction_bpd_predict_val) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14826,
+             T_38110_2_br_prediction_bpd_predict_val) @[rob.scala 346:7]
     T_38110_2_br_prediction_bpd_predict_taken
-      <= mux(io_dis_valids_1, _GEN_14850, T_38110_2_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14850,
+             T_38110_2_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
     T_38110_2_br_prediction_btb_hit
       <= mux(io_dis_valids_1, _GEN_14874, T_38110_2_br_prediction_btb_hit) @[rob.scala 346:7]
     T_38110_2_br_prediction_btb_predicted
@@ -72278,9 +75641,11 @@ circuit Rob :
     T_38110_3_br_mask <= mux(T_41698, T_41700, _GEN_16704)
     T_38110_3_br_tag <= mux(io_dis_valids_1, _GEN_14803, T_38110_3_br_tag) @[rob.scala 346:7]
     T_38110_3_br_prediction_bpd_predict_val
-      <= mux(io_dis_valids_1, _GEN_14827, T_38110_3_br_prediction_bpd_predict_val) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14827,
+             T_38110_3_br_prediction_bpd_predict_val) @[rob.scala 346:7]
     T_38110_3_br_prediction_bpd_predict_taken
-      <= mux(io_dis_valids_1, _GEN_14851, T_38110_3_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14851,
+             T_38110_3_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
     T_38110_3_br_prediction_btb_hit
       <= mux(io_dis_valids_1, _GEN_14875, T_38110_3_br_prediction_btb_hit) @[rob.scala 346:7]
     T_38110_3_br_prediction_btb_predicted
@@ -72383,9 +75748,11 @@ circuit Rob :
     T_38110_4_br_mask <= mux(T_41800, T_41802, _GEN_16705)
     T_38110_4_br_tag <= mux(io_dis_valids_1, _GEN_14804, T_38110_4_br_tag) @[rob.scala 346:7]
     T_38110_4_br_prediction_bpd_predict_val
-      <= mux(io_dis_valids_1, _GEN_14828, T_38110_4_br_prediction_bpd_predict_val) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14828,
+             T_38110_4_br_prediction_bpd_predict_val) @[rob.scala 346:7]
     T_38110_4_br_prediction_bpd_predict_taken
-      <= mux(io_dis_valids_1, _GEN_14852, T_38110_4_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14852,
+             T_38110_4_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
     T_38110_4_br_prediction_btb_hit
       <= mux(io_dis_valids_1, _GEN_14876, T_38110_4_br_prediction_btb_hit) @[rob.scala 346:7]
     T_38110_4_br_prediction_btb_predicted
@@ -72488,9 +75855,11 @@ circuit Rob :
     T_38110_5_br_mask <= mux(T_41902, T_41904, _GEN_16706)
     T_38110_5_br_tag <= mux(io_dis_valids_1, _GEN_14805, T_38110_5_br_tag) @[rob.scala 346:7]
     T_38110_5_br_prediction_bpd_predict_val
-      <= mux(io_dis_valids_1, _GEN_14829, T_38110_5_br_prediction_bpd_predict_val) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14829,
+             T_38110_5_br_prediction_bpd_predict_val) @[rob.scala 346:7]
     T_38110_5_br_prediction_bpd_predict_taken
-      <= mux(io_dis_valids_1, _GEN_14853, T_38110_5_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14853,
+             T_38110_5_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
     T_38110_5_br_prediction_btb_hit
       <= mux(io_dis_valids_1, _GEN_14877, T_38110_5_br_prediction_btb_hit) @[rob.scala 346:7]
     T_38110_5_br_prediction_btb_predicted
@@ -72593,9 +75962,11 @@ circuit Rob :
     T_38110_6_br_mask <= mux(T_42004, T_42006, _GEN_16707)
     T_38110_6_br_tag <= mux(io_dis_valids_1, _GEN_14806, T_38110_6_br_tag) @[rob.scala 346:7]
     T_38110_6_br_prediction_bpd_predict_val
-      <= mux(io_dis_valids_1, _GEN_14830, T_38110_6_br_prediction_bpd_predict_val) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14830,
+             T_38110_6_br_prediction_bpd_predict_val) @[rob.scala 346:7]
     T_38110_6_br_prediction_bpd_predict_taken
-      <= mux(io_dis_valids_1, _GEN_14854, T_38110_6_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14854,
+             T_38110_6_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
     T_38110_6_br_prediction_btb_hit
       <= mux(io_dis_valids_1, _GEN_14878, T_38110_6_br_prediction_btb_hit) @[rob.scala 346:7]
     T_38110_6_br_prediction_btb_predicted
@@ -72698,9 +76069,11 @@ circuit Rob :
     T_38110_7_br_mask <= mux(T_42106, T_42108, _GEN_16708)
     T_38110_7_br_tag <= mux(io_dis_valids_1, _GEN_14807, T_38110_7_br_tag) @[rob.scala 346:7]
     T_38110_7_br_prediction_bpd_predict_val
-      <= mux(io_dis_valids_1, _GEN_14831, T_38110_7_br_prediction_bpd_predict_val) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14831,
+             T_38110_7_br_prediction_bpd_predict_val) @[rob.scala 346:7]
     T_38110_7_br_prediction_bpd_predict_taken
-      <= mux(io_dis_valids_1, _GEN_14855, T_38110_7_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14855,
+             T_38110_7_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
     T_38110_7_br_prediction_btb_hit
       <= mux(io_dis_valids_1, _GEN_14879, T_38110_7_br_prediction_btb_hit) @[rob.scala 346:7]
     T_38110_7_br_prediction_btb_predicted
@@ -72803,9 +76176,11 @@ circuit Rob :
     T_38110_8_br_mask <= mux(T_42208, T_42210, _GEN_16709)
     T_38110_8_br_tag <= mux(io_dis_valids_1, _GEN_14808, T_38110_8_br_tag) @[rob.scala 346:7]
     T_38110_8_br_prediction_bpd_predict_val
-      <= mux(io_dis_valids_1, _GEN_14832, T_38110_8_br_prediction_bpd_predict_val) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14832,
+             T_38110_8_br_prediction_bpd_predict_val) @[rob.scala 346:7]
     T_38110_8_br_prediction_bpd_predict_taken
-      <= mux(io_dis_valids_1, _GEN_14856, T_38110_8_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14856,
+             T_38110_8_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
     T_38110_8_br_prediction_btb_hit
       <= mux(io_dis_valids_1, _GEN_14880, T_38110_8_br_prediction_btb_hit) @[rob.scala 346:7]
     T_38110_8_br_prediction_btb_predicted
@@ -72908,9 +76283,11 @@ circuit Rob :
     T_38110_9_br_mask <= mux(T_42310, T_42312, _GEN_16710)
     T_38110_9_br_tag <= mux(io_dis_valids_1, _GEN_14809, T_38110_9_br_tag) @[rob.scala 346:7]
     T_38110_9_br_prediction_bpd_predict_val
-      <= mux(io_dis_valids_1, _GEN_14833, T_38110_9_br_prediction_bpd_predict_val) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14833,
+             T_38110_9_br_prediction_bpd_predict_val) @[rob.scala 346:7]
     T_38110_9_br_prediction_bpd_predict_taken
-      <= mux(io_dis_valids_1, _GEN_14857, T_38110_9_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14857,
+             T_38110_9_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
     T_38110_9_br_prediction_btb_hit
       <= mux(io_dis_valids_1, _GEN_14881, T_38110_9_br_prediction_btb_hit) @[rob.scala 346:7]
     T_38110_9_br_prediction_btb_predicted
@@ -73013,15 +76390,19 @@ circuit Rob :
     T_38110_10_br_mask <= mux(T_42412, T_42414, _GEN_16711)
     T_38110_10_br_tag <= mux(io_dis_valids_1, _GEN_14810, T_38110_10_br_tag) @[rob.scala 346:7]
     T_38110_10_br_prediction_bpd_predict_val
-      <= mux(io_dis_valids_1, _GEN_14834, T_38110_10_br_prediction_bpd_predict_val) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14834,
+             T_38110_10_br_prediction_bpd_predict_val) @[rob.scala 346:7]
     T_38110_10_br_prediction_bpd_predict_taken
-      <= mux(io_dis_valids_1, _GEN_14858, T_38110_10_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14858,
+             T_38110_10_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
     T_38110_10_br_prediction_btb_hit
       <= mux(io_dis_valids_1, _GEN_14882, T_38110_10_br_prediction_btb_hit) @[rob.scala 346:7]
     T_38110_10_br_prediction_btb_predicted
-      <= mux(io_dis_valids_1, _GEN_14906, T_38110_10_br_prediction_btb_predicted) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14906,
+             T_38110_10_br_prediction_btb_predicted) @[rob.scala 346:7]
     T_38110_10_br_prediction_is_br_or_jalr
-      <= mux(io_dis_valids_1, _GEN_14930, T_38110_10_br_prediction_is_br_or_jalr) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14930,
+             T_38110_10_br_prediction_is_br_or_jalr) @[rob.scala 346:7]
     T_38110_10_stat_brjmp_mispredicted <= mux(T_40551, _GEN_18101, _GEN_16879) @[rob.scala 401:7]
     T_38110_10_stat_btb_made_pred <= mux(T_40551, _GEN_18149, _GEN_16903) @[rob.scala 401:7]
     T_38110_10_stat_btb_mispredicted <= mux(T_40551, _GEN_18125, _GEN_16927) @[rob.scala 401:7]
@@ -73128,15 +76509,19 @@ circuit Rob :
     T_38110_11_br_mask <= mux(T_42514, T_42516, _GEN_16712)
     T_38110_11_br_tag <= mux(io_dis_valids_1, _GEN_14811, T_38110_11_br_tag) @[rob.scala 346:7]
     T_38110_11_br_prediction_bpd_predict_val
-      <= mux(io_dis_valids_1, _GEN_14835, T_38110_11_br_prediction_bpd_predict_val) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14835,
+             T_38110_11_br_prediction_bpd_predict_val) @[rob.scala 346:7]
     T_38110_11_br_prediction_bpd_predict_taken
-      <= mux(io_dis_valids_1, _GEN_14859, T_38110_11_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14859,
+             T_38110_11_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
     T_38110_11_br_prediction_btb_hit
       <= mux(io_dis_valids_1, _GEN_14883, T_38110_11_br_prediction_btb_hit) @[rob.scala 346:7]
     T_38110_11_br_prediction_btb_predicted
-      <= mux(io_dis_valids_1, _GEN_14907, T_38110_11_br_prediction_btb_predicted) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14907,
+             T_38110_11_br_prediction_btb_predicted) @[rob.scala 346:7]
     T_38110_11_br_prediction_is_br_or_jalr
-      <= mux(io_dis_valids_1, _GEN_14931, T_38110_11_br_prediction_is_br_or_jalr) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14931,
+             T_38110_11_br_prediction_is_br_or_jalr) @[rob.scala 346:7]
     T_38110_11_stat_brjmp_mispredicted <= mux(T_40551, _GEN_18102, _GEN_16880) @[rob.scala 401:7]
     T_38110_11_stat_btb_made_pred <= mux(T_40551, _GEN_18150, _GEN_16904) @[rob.scala 401:7]
     T_38110_11_stat_btb_mispredicted <= mux(T_40551, _GEN_18126, _GEN_16928) @[rob.scala 401:7]
@@ -73243,15 +76628,19 @@ circuit Rob :
     T_38110_12_br_mask <= mux(T_42616, T_42618, _GEN_16713)
     T_38110_12_br_tag <= mux(io_dis_valids_1, _GEN_14812, T_38110_12_br_tag) @[rob.scala 346:7]
     T_38110_12_br_prediction_bpd_predict_val
-      <= mux(io_dis_valids_1, _GEN_14836, T_38110_12_br_prediction_bpd_predict_val) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14836,
+             T_38110_12_br_prediction_bpd_predict_val) @[rob.scala 346:7]
     T_38110_12_br_prediction_bpd_predict_taken
-      <= mux(io_dis_valids_1, _GEN_14860, T_38110_12_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14860,
+             T_38110_12_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
     T_38110_12_br_prediction_btb_hit
       <= mux(io_dis_valids_1, _GEN_14884, T_38110_12_br_prediction_btb_hit) @[rob.scala 346:7]
     T_38110_12_br_prediction_btb_predicted
-      <= mux(io_dis_valids_1, _GEN_14908, T_38110_12_br_prediction_btb_predicted) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14908,
+             T_38110_12_br_prediction_btb_predicted) @[rob.scala 346:7]
     T_38110_12_br_prediction_is_br_or_jalr
-      <= mux(io_dis_valids_1, _GEN_14932, T_38110_12_br_prediction_is_br_or_jalr) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14932,
+             T_38110_12_br_prediction_is_br_or_jalr) @[rob.scala 346:7]
     T_38110_12_stat_brjmp_mispredicted <= mux(T_40551, _GEN_18103, _GEN_16881) @[rob.scala 401:7]
     T_38110_12_stat_btb_made_pred <= mux(T_40551, _GEN_18151, _GEN_16905) @[rob.scala 401:7]
     T_38110_12_stat_btb_mispredicted <= mux(T_40551, _GEN_18127, _GEN_16929) @[rob.scala 401:7]
@@ -73358,15 +76747,19 @@ circuit Rob :
     T_38110_13_br_mask <= mux(T_42718, T_42720, _GEN_16714)
     T_38110_13_br_tag <= mux(io_dis_valids_1, _GEN_14813, T_38110_13_br_tag) @[rob.scala 346:7]
     T_38110_13_br_prediction_bpd_predict_val
-      <= mux(io_dis_valids_1, _GEN_14837, T_38110_13_br_prediction_bpd_predict_val) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14837,
+             T_38110_13_br_prediction_bpd_predict_val) @[rob.scala 346:7]
     T_38110_13_br_prediction_bpd_predict_taken
-      <= mux(io_dis_valids_1, _GEN_14861, T_38110_13_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14861,
+             T_38110_13_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
     T_38110_13_br_prediction_btb_hit
       <= mux(io_dis_valids_1, _GEN_14885, T_38110_13_br_prediction_btb_hit) @[rob.scala 346:7]
     T_38110_13_br_prediction_btb_predicted
-      <= mux(io_dis_valids_1, _GEN_14909, T_38110_13_br_prediction_btb_predicted) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14909,
+             T_38110_13_br_prediction_btb_predicted) @[rob.scala 346:7]
     T_38110_13_br_prediction_is_br_or_jalr
-      <= mux(io_dis_valids_1, _GEN_14933, T_38110_13_br_prediction_is_br_or_jalr) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14933,
+             T_38110_13_br_prediction_is_br_or_jalr) @[rob.scala 346:7]
     T_38110_13_stat_brjmp_mispredicted <= mux(T_40551, _GEN_18104, _GEN_16882) @[rob.scala 401:7]
     T_38110_13_stat_btb_made_pred <= mux(T_40551, _GEN_18152, _GEN_16906) @[rob.scala 401:7]
     T_38110_13_stat_btb_mispredicted <= mux(T_40551, _GEN_18128, _GEN_16930) @[rob.scala 401:7]
@@ -73473,15 +76866,19 @@ circuit Rob :
     T_38110_14_br_mask <= mux(T_42820, T_42822, _GEN_16715)
     T_38110_14_br_tag <= mux(io_dis_valids_1, _GEN_14814, T_38110_14_br_tag) @[rob.scala 346:7]
     T_38110_14_br_prediction_bpd_predict_val
-      <= mux(io_dis_valids_1, _GEN_14838, T_38110_14_br_prediction_bpd_predict_val) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14838,
+             T_38110_14_br_prediction_bpd_predict_val) @[rob.scala 346:7]
     T_38110_14_br_prediction_bpd_predict_taken
-      <= mux(io_dis_valids_1, _GEN_14862, T_38110_14_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14862,
+             T_38110_14_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
     T_38110_14_br_prediction_btb_hit
       <= mux(io_dis_valids_1, _GEN_14886, T_38110_14_br_prediction_btb_hit) @[rob.scala 346:7]
     T_38110_14_br_prediction_btb_predicted
-      <= mux(io_dis_valids_1, _GEN_14910, T_38110_14_br_prediction_btb_predicted) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14910,
+             T_38110_14_br_prediction_btb_predicted) @[rob.scala 346:7]
     T_38110_14_br_prediction_is_br_or_jalr
-      <= mux(io_dis_valids_1, _GEN_14934, T_38110_14_br_prediction_is_br_or_jalr) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14934,
+             T_38110_14_br_prediction_is_br_or_jalr) @[rob.scala 346:7]
     T_38110_14_stat_brjmp_mispredicted <= mux(T_40551, _GEN_18105, _GEN_16883) @[rob.scala 401:7]
     T_38110_14_stat_btb_made_pred <= mux(T_40551, _GEN_18153, _GEN_16907) @[rob.scala 401:7]
     T_38110_14_stat_btb_mispredicted <= mux(T_40551, _GEN_18129, _GEN_16931) @[rob.scala 401:7]
@@ -73588,15 +76985,19 @@ circuit Rob :
     T_38110_15_br_mask <= mux(T_42922, T_42924, _GEN_16716)
     T_38110_15_br_tag <= mux(io_dis_valids_1, _GEN_14815, T_38110_15_br_tag) @[rob.scala 346:7]
     T_38110_15_br_prediction_bpd_predict_val
-      <= mux(io_dis_valids_1, _GEN_14839, T_38110_15_br_prediction_bpd_predict_val) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14839,
+             T_38110_15_br_prediction_bpd_predict_val) @[rob.scala 346:7]
     T_38110_15_br_prediction_bpd_predict_taken
-      <= mux(io_dis_valids_1, _GEN_14863, T_38110_15_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14863,
+             T_38110_15_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
     T_38110_15_br_prediction_btb_hit
       <= mux(io_dis_valids_1, _GEN_14887, T_38110_15_br_prediction_btb_hit) @[rob.scala 346:7]
     T_38110_15_br_prediction_btb_predicted
-      <= mux(io_dis_valids_1, _GEN_14911, T_38110_15_br_prediction_btb_predicted) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14911,
+             T_38110_15_br_prediction_btb_predicted) @[rob.scala 346:7]
     T_38110_15_br_prediction_is_br_or_jalr
-      <= mux(io_dis_valids_1, _GEN_14935, T_38110_15_br_prediction_is_br_or_jalr) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14935,
+             T_38110_15_br_prediction_is_br_or_jalr) @[rob.scala 346:7]
     T_38110_15_stat_brjmp_mispredicted <= mux(T_40551, _GEN_18106, _GEN_16884) @[rob.scala 401:7]
     T_38110_15_stat_btb_made_pred <= mux(T_40551, _GEN_18154, _GEN_16908) @[rob.scala 401:7]
     T_38110_15_stat_btb_mispredicted <= mux(T_40551, _GEN_18130, _GEN_16932) @[rob.scala 401:7]
@@ -73703,15 +77104,19 @@ circuit Rob :
     T_38110_16_br_mask <= mux(T_43024, T_43026, _GEN_16717)
     T_38110_16_br_tag <= mux(io_dis_valids_1, _GEN_14816, T_38110_16_br_tag) @[rob.scala 346:7]
     T_38110_16_br_prediction_bpd_predict_val
-      <= mux(io_dis_valids_1, _GEN_14840, T_38110_16_br_prediction_bpd_predict_val) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14840,
+             T_38110_16_br_prediction_bpd_predict_val) @[rob.scala 346:7]
     T_38110_16_br_prediction_bpd_predict_taken
-      <= mux(io_dis_valids_1, _GEN_14864, T_38110_16_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14864,
+             T_38110_16_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
     T_38110_16_br_prediction_btb_hit
       <= mux(io_dis_valids_1, _GEN_14888, T_38110_16_br_prediction_btb_hit) @[rob.scala 346:7]
     T_38110_16_br_prediction_btb_predicted
-      <= mux(io_dis_valids_1, _GEN_14912, T_38110_16_br_prediction_btb_predicted) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14912,
+             T_38110_16_br_prediction_btb_predicted) @[rob.scala 346:7]
     T_38110_16_br_prediction_is_br_or_jalr
-      <= mux(io_dis_valids_1, _GEN_14936, T_38110_16_br_prediction_is_br_or_jalr) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14936,
+             T_38110_16_br_prediction_is_br_or_jalr) @[rob.scala 346:7]
     T_38110_16_stat_brjmp_mispredicted <= mux(T_40551, _GEN_18107, _GEN_16885) @[rob.scala 401:7]
     T_38110_16_stat_btb_made_pred <= mux(T_40551, _GEN_18155, _GEN_16909) @[rob.scala 401:7]
     T_38110_16_stat_btb_mispredicted <= mux(T_40551, _GEN_18131, _GEN_16933) @[rob.scala 401:7]
@@ -73818,15 +77223,19 @@ circuit Rob :
     T_38110_17_br_mask <= mux(T_43126, T_43128, _GEN_16718)
     T_38110_17_br_tag <= mux(io_dis_valids_1, _GEN_14817, T_38110_17_br_tag) @[rob.scala 346:7]
     T_38110_17_br_prediction_bpd_predict_val
-      <= mux(io_dis_valids_1, _GEN_14841, T_38110_17_br_prediction_bpd_predict_val) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14841,
+             T_38110_17_br_prediction_bpd_predict_val) @[rob.scala 346:7]
     T_38110_17_br_prediction_bpd_predict_taken
-      <= mux(io_dis_valids_1, _GEN_14865, T_38110_17_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14865,
+             T_38110_17_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
     T_38110_17_br_prediction_btb_hit
       <= mux(io_dis_valids_1, _GEN_14889, T_38110_17_br_prediction_btb_hit) @[rob.scala 346:7]
     T_38110_17_br_prediction_btb_predicted
-      <= mux(io_dis_valids_1, _GEN_14913, T_38110_17_br_prediction_btb_predicted) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14913,
+             T_38110_17_br_prediction_btb_predicted) @[rob.scala 346:7]
     T_38110_17_br_prediction_is_br_or_jalr
-      <= mux(io_dis_valids_1, _GEN_14937, T_38110_17_br_prediction_is_br_or_jalr) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14937,
+             T_38110_17_br_prediction_is_br_or_jalr) @[rob.scala 346:7]
     T_38110_17_stat_brjmp_mispredicted <= mux(T_40551, _GEN_18108, _GEN_16886) @[rob.scala 401:7]
     T_38110_17_stat_btb_made_pred <= mux(T_40551, _GEN_18156, _GEN_16910) @[rob.scala 401:7]
     T_38110_17_stat_btb_mispredicted <= mux(T_40551, _GEN_18132, _GEN_16934) @[rob.scala 401:7]
@@ -73933,15 +77342,19 @@ circuit Rob :
     T_38110_18_br_mask <= mux(T_43228, T_43230, _GEN_16719)
     T_38110_18_br_tag <= mux(io_dis_valids_1, _GEN_14818, T_38110_18_br_tag) @[rob.scala 346:7]
     T_38110_18_br_prediction_bpd_predict_val
-      <= mux(io_dis_valids_1, _GEN_14842, T_38110_18_br_prediction_bpd_predict_val) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14842,
+             T_38110_18_br_prediction_bpd_predict_val) @[rob.scala 346:7]
     T_38110_18_br_prediction_bpd_predict_taken
-      <= mux(io_dis_valids_1, _GEN_14866, T_38110_18_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14866,
+             T_38110_18_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
     T_38110_18_br_prediction_btb_hit
       <= mux(io_dis_valids_1, _GEN_14890, T_38110_18_br_prediction_btb_hit) @[rob.scala 346:7]
     T_38110_18_br_prediction_btb_predicted
-      <= mux(io_dis_valids_1, _GEN_14914, T_38110_18_br_prediction_btb_predicted) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14914,
+             T_38110_18_br_prediction_btb_predicted) @[rob.scala 346:7]
     T_38110_18_br_prediction_is_br_or_jalr
-      <= mux(io_dis_valids_1, _GEN_14938, T_38110_18_br_prediction_is_br_or_jalr) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14938,
+             T_38110_18_br_prediction_is_br_or_jalr) @[rob.scala 346:7]
     T_38110_18_stat_brjmp_mispredicted <= mux(T_40551, _GEN_18109, _GEN_16887) @[rob.scala 401:7]
     T_38110_18_stat_btb_made_pred <= mux(T_40551, _GEN_18157, _GEN_16911) @[rob.scala 401:7]
     T_38110_18_stat_btb_mispredicted <= mux(T_40551, _GEN_18133, _GEN_16935) @[rob.scala 401:7]
@@ -74048,15 +77461,19 @@ circuit Rob :
     T_38110_19_br_mask <= mux(T_43330, T_43332, _GEN_16720)
     T_38110_19_br_tag <= mux(io_dis_valids_1, _GEN_14819, T_38110_19_br_tag) @[rob.scala 346:7]
     T_38110_19_br_prediction_bpd_predict_val
-      <= mux(io_dis_valids_1, _GEN_14843, T_38110_19_br_prediction_bpd_predict_val) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14843,
+             T_38110_19_br_prediction_bpd_predict_val) @[rob.scala 346:7]
     T_38110_19_br_prediction_bpd_predict_taken
-      <= mux(io_dis_valids_1, _GEN_14867, T_38110_19_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14867,
+             T_38110_19_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
     T_38110_19_br_prediction_btb_hit
       <= mux(io_dis_valids_1, _GEN_14891, T_38110_19_br_prediction_btb_hit) @[rob.scala 346:7]
     T_38110_19_br_prediction_btb_predicted
-      <= mux(io_dis_valids_1, _GEN_14915, T_38110_19_br_prediction_btb_predicted) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14915,
+             T_38110_19_br_prediction_btb_predicted) @[rob.scala 346:7]
     T_38110_19_br_prediction_is_br_or_jalr
-      <= mux(io_dis_valids_1, _GEN_14939, T_38110_19_br_prediction_is_br_or_jalr) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14939,
+             T_38110_19_br_prediction_is_br_or_jalr) @[rob.scala 346:7]
     T_38110_19_stat_brjmp_mispredicted <= mux(T_40551, _GEN_18110, _GEN_16888) @[rob.scala 401:7]
     T_38110_19_stat_btb_made_pred <= mux(T_40551, _GEN_18158, _GEN_16912) @[rob.scala 401:7]
     T_38110_19_stat_btb_mispredicted <= mux(T_40551, _GEN_18134, _GEN_16936) @[rob.scala 401:7]
@@ -74163,15 +77580,19 @@ circuit Rob :
     T_38110_20_br_mask <= mux(T_43432, T_43434, _GEN_16721)
     T_38110_20_br_tag <= mux(io_dis_valids_1, _GEN_14820, T_38110_20_br_tag) @[rob.scala 346:7]
     T_38110_20_br_prediction_bpd_predict_val
-      <= mux(io_dis_valids_1, _GEN_14844, T_38110_20_br_prediction_bpd_predict_val) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14844,
+             T_38110_20_br_prediction_bpd_predict_val) @[rob.scala 346:7]
     T_38110_20_br_prediction_bpd_predict_taken
-      <= mux(io_dis_valids_1, _GEN_14868, T_38110_20_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14868,
+             T_38110_20_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
     T_38110_20_br_prediction_btb_hit
       <= mux(io_dis_valids_1, _GEN_14892, T_38110_20_br_prediction_btb_hit) @[rob.scala 346:7]
     T_38110_20_br_prediction_btb_predicted
-      <= mux(io_dis_valids_1, _GEN_14916, T_38110_20_br_prediction_btb_predicted) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14916,
+             T_38110_20_br_prediction_btb_predicted) @[rob.scala 346:7]
     T_38110_20_br_prediction_is_br_or_jalr
-      <= mux(io_dis_valids_1, _GEN_14940, T_38110_20_br_prediction_is_br_or_jalr) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14940,
+             T_38110_20_br_prediction_is_br_or_jalr) @[rob.scala 346:7]
     T_38110_20_stat_brjmp_mispredicted <= mux(T_40551, _GEN_18111, _GEN_16889) @[rob.scala 401:7]
     T_38110_20_stat_btb_made_pred <= mux(T_40551, _GEN_18159, _GEN_16913) @[rob.scala 401:7]
     T_38110_20_stat_btb_mispredicted <= mux(T_40551, _GEN_18135, _GEN_16937) @[rob.scala 401:7]
@@ -74278,15 +77699,19 @@ circuit Rob :
     T_38110_21_br_mask <= mux(T_43534, T_43536, _GEN_16722)
     T_38110_21_br_tag <= mux(io_dis_valids_1, _GEN_14821, T_38110_21_br_tag) @[rob.scala 346:7]
     T_38110_21_br_prediction_bpd_predict_val
-      <= mux(io_dis_valids_1, _GEN_14845, T_38110_21_br_prediction_bpd_predict_val) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14845,
+             T_38110_21_br_prediction_bpd_predict_val) @[rob.scala 346:7]
     T_38110_21_br_prediction_bpd_predict_taken
-      <= mux(io_dis_valids_1, _GEN_14869, T_38110_21_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14869,
+             T_38110_21_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
     T_38110_21_br_prediction_btb_hit
       <= mux(io_dis_valids_1, _GEN_14893, T_38110_21_br_prediction_btb_hit) @[rob.scala 346:7]
     T_38110_21_br_prediction_btb_predicted
-      <= mux(io_dis_valids_1, _GEN_14917, T_38110_21_br_prediction_btb_predicted) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14917,
+             T_38110_21_br_prediction_btb_predicted) @[rob.scala 346:7]
     T_38110_21_br_prediction_is_br_or_jalr
-      <= mux(io_dis_valids_1, _GEN_14941, T_38110_21_br_prediction_is_br_or_jalr) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14941,
+             T_38110_21_br_prediction_is_br_or_jalr) @[rob.scala 346:7]
     T_38110_21_stat_brjmp_mispredicted <= mux(T_40551, _GEN_18112, _GEN_16890) @[rob.scala 401:7]
     T_38110_21_stat_btb_made_pred <= mux(T_40551, _GEN_18160, _GEN_16914) @[rob.scala 401:7]
     T_38110_21_stat_btb_mispredicted <= mux(T_40551, _GEN_18136, _GEN_16938) @[rob.scala 401:7]
@@ -74393,15 +77818,19 @@ circuit Rob :
     T_38110_22_br_mask <= mux(T_43636, T_43638, _GEN_16723)
     T_38110_22_br_tag <= mux(io_dis_valids_1, _GEN_14822, T_38110_22_br_tag) @[rob.scala 346:7]
     T_38110_22_br_prediction_bpd_predict_val
-      <= mux(io_dis_valids_1, _GEN_14846, T_38110_22_br_prediction_bpd_predict_val) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14846,
+             T_38110_22_br_prediction_bpd_predict_val) @[rob.scala 346:7]
     T_38110_22_br_prediction_bpd_predict_taken
-      <= mux(io_dis_valids_1, _GEN_14870, T_38110_22_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14870,
+             T_38110_22_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
     T_38110_22_br_prediction_btb_hit
       <= mux(io_dis_valids_1, _GEN_14894, T_38110_22_br_prediction_btb_hit) @[rob.scala 346:7]
     T_38110_22_br_prediction_btb_predicted
-      <= mux(io_dis_valids_1, _GEN_14918, T_38110_22_br_prediction_btb_predicted) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14918,
+             T_38110_22_br_prediction_btb_predicted) @[rob.scala 346:7]
     T_38110_22_br_prediction_is_br_or_jalr
-      <= mux(io_dis_valids_1, _GEN_14942, T_38110_22_br_prediction_is_br_or_jalr) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14942,
+             T_38110_22_br_prediction_is_br_or_jalr) @[rob.scala 346:7]
     T_38110_22_stat_brjmp_mispredicted <= mux(T_40551, _GEN_18113, _GEN_16891) @[rob.scala 401:7]
     T_38110_22_stat_btb_made_pred <= mux(T_40551, _GEN_18161, _GEN_16915) @[rob.scala 401:7]
     T_38110_22_stat_btb_mispredicted <= mux(T_40551, _GEN_18137, _GEN_16939) @[rob.scala 401:7]
@@ -74508,15 +77937,19 @@ circuit Rob :
     T_38110_23_br_mask <= mux(T_43738, T_43740, _GEN_16724)
     T_38110_23_br_tag <= mux(io_dis_valids_1, _GEN_14823, T_38110_23_br_tag) @[rob.scala 346:7]
     T_38110_23_br_prediction_bpd_predict_val
-      <= mux(io_dis_valids_1, _GEN_14847, T_38110_23_br_prediction_bpd_predict_val) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14847,
+             T_38110_23_br_prediction_bpd_predict_val) @[rob.scala 346:7]
     T_38110_23_br_prediction_bpd_predict_taken
-      <= mux(io_dis_valids_1, _GEN_14871, T_38110_23_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14871,
+             T_38110_23_br_prediction_bpd_predict_taken) @[rob.scala 346:7]
     T_38110_23_br_prediction_btb_hit
       <= mux(io_dis_valids_1, _GEN_14895, T_38110_23_br_prediction_btb_hit) @[rob.scala 346:7]
     T_38110_23_br_prediction_btb_predicted
-      <= mux(io_dis_valids_1, _GEN_14919, T_38110_23_br_prediction_btb_predicted) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14919,
+             T_38110_23_br_prediction_btb_predicted) @[rob.scala 346:7]
     T_38110_23_br_prediction_is_br_or_jalr
-      <= mux(io_dis_valids_1, _GEN_14943, T_38110_23_br_prediction_is_br_or_jalr) @[rob.scala 346:7]
+      <= mux(io_dis_valids_1, _GEN_14943,
+             T_38110_23_br_prediction_is_br_or_jalr) @[rob.scala 346:7]
     T_38110_23_stat_brjmp_mispredicted <= mux(T_40551, _GEN_18114, _GEN_16892) @[rob.scala 401:7]
     T_38110_23_stat_btb_made_pred <= mux(T_40551, _GEN_18162, _GEN_16916) @[rob.scala 401:7]
     T_38110_23_stat_btb_mispredicted <= mux(T_40551, _GEN_18138, _GEN_16940) @[rob.scala 401:7]

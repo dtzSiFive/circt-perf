@@ -3377,14 +3377,18 @@ circuit RocketCore :
     node _T_1295 = cat(_T_1294, _T_1293) @[CSR.scala 312:48]
     node _T_1296 = cat(_T_1295, _T_1292) @[CSR.scala 312:48]
     node _T_1297
-      = cat(reg_bp[reg_tselect].control.zero, reg_bp[reg_tselect].control.tmatch) @[CSR.scala 312:48]
+      = cat(reg_bp[reg_tselect].control.zero,
+            reg_bp[reg_tselect].control.tmatch) @[CSR.scala 312:48]
     node _T_1298
-      = cat(reg_bp[reg_tselect].control.action, reg_bp[reg_tselect].control.chain) @[CSR.scala 312:48]
+      = cat(reg_bp[reg_tselect].control.action,
+            reg_bp[reg_tselect].control.chain) @[CSR.scala 312:48]
     node _T_1299 = cat(_T_1298, _T_1297) @[CSR.scala 312:48]
     node _T_1300
-      = cat(reg_bp[reg_tselect].control.maskmax, reg_bp[reg_tselect].control.reserved) @[CSR.scala 312:48]
+      = cat(reg_bp[reg_tselect].control.maskmax,
+            reg_bp[reg_tselect].control.reserved) @[CSR.scala 312:48]
     node _T_1301
-      = cat(reg_bp[reg_tselect].control.ttype, reg_bp[reg_tselect].control.dmode) @[CSR.scala 312:48]
+      = cat(reg_bp[reg_tselect].control.ttype,
+            reg_bp[reg_tselect].control.dmode) @[CSR.scala 312:48]
     node _T_1302 = cat(_T_1301, _T_1300) @[CSR.scala 312:48]
     node _T_1303 = cat(_T_1302, _T_1299) @[CSR.scala 312:48]
     node _T_1304 = cat(_T_1303, _T_1296) @[CSR.scala 312:48]

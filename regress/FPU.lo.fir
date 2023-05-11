@@ -318,7 +318,9 @@ circuit FPU :
     skip
     skip
     node _T_195
-      = cat(_T_178, cat(cat(cat(_T_182, _T_183), cat(_T_186, _T_187)), cat(_T_191, _T_192))) @[Cat.scala 30:58]
+      = cat(_T_178,
+            cat(cat(cat(_T_182, _T_183), cat(_T_186, _T_187)),
+                cat(_T_191, _T_192))) @[Cat.scala 30:58]
     node CExtraMask = mux(_T_100, _T_143, pad(_T_195, 24)) @[primitives.scala 61:20]
     node _T_196 = not(sigC) @[MulAddRecFN.scala 151:34]
     node negSigC = mux(doSubMags, _T_196, sigC) @[MulAddRecFN.scala 151:22]
@@ -653,9 +655,11 @@ circuit FPU :
     node estNormDist
       = mux(io_fromPreMul_isCDominant, CDom_estNormDist, estNormNeg_dist) @[MulAddRecFN.scala 399:12]
     node _T_345
-      = mux(io_fromPreMul_isCDominant, pad(CDom_firstNormAbsSigSum, 43), notCDom_neg_cFirstNormAbsSigSum) @[MulAddRecFN.scala 408:16]
+      = mux(io_fromPreMul_isCDominant, pad(CDom_firstNormAbsSigSum, 43),
+            notCDom_neg_cFirstNormAbsSigSum) @[MulAddRecFN.scala 408:16]
     node _T_346
-      = mux(io_fromPreMul_isCDominant, CDom_firstNormAbsSigSum, notCDom_pos_firstNormAbsSigSum) @[MulAddRecFN.scala 412:16]
+      = mux(io_fromPreMul_isCDominant, CDom_firstNormAbsSigSum,
+            notCDom_pos_firstNormAbsSigSum) @[MulAddRecFN.scala 412:16]
     node cFirstNormAbsSigSum = mux(notCDom_signSigSum, _T_345, pad(_T_346, 43)) @[MulAddRecFN.scala 407:12]
     node _T_348 = not(io_fromPreMul_isCDominant) @[MulAddRecFN.scala 418:9]
     node _T_350 = not(notCDom_signSigSum) @[MulAddRecFN.scala 418:40]
@@ -718,7 +722,9 @@ circuit FPU :
     skip
     skip
     node absSigSumExtraMask
-      = cat(cat(_T_386, cat(cat(cat(_T_390, _T_391), cat(_T_394, _T_395)), cat(cat(_T_400, _T_401), _T_403))), UInt<1>(1)) @[Cat.scala 30:58]
+      = cat(cat(_T_386,
+                cat(cat(cat(_T_390, _T_391), cat(_T_394, _T_395)),
+                    cat(cat(_T_400, _T_401), _T_403))), UInt<1>(1)) @[Cat.scala 30:58]
     node _T_408 = bits(cFirstNormAbsSigSum, 42, 1) @[MulAddRecFN.scala 424:32]
     node _T_409 = dshr(_T_408, normTo2ShiftDist) @[MulAddRecFN.scala 424:65]
     node _T_410 = bits(cFirstNormAbsSigSum, 15, 0) @[MulAddRecFN.scala 427:39]
@@ -1817,7 +1823,8 @@ circuit FPU :
     skip
     skip
     node classify_s
-      = cat(cat(cat(cat(_T_432, _T_430), _T_435), cat(_T_438, _T_441)), cat(cat(cat(_T_444, _T_445), _T_446), cat(_T_447, _T_448))) @[Cat.scala 30:58]
+      = cat(cat(cat(cat(_T_432, _T_430), _T_435), cat(_T_438, _T_441)),
+            cat(cat(cat(_T_444, _T_445), _T_446), cat(_T_447, _T_448))) @[Cat.scala 30:58]
     skip
     skip
     skip
@@ -1867,7 +1874,8 @@ circuit FPU :
     skip
     skip
     node _T_520
-      = cat(cat(cat(cat(_T_495, _T_493), _T_498), cat(_T_501, _T_504)), cat(cat(cat(_T_507, _T_508), _T_509), cat(_T_510, _T_511))) @[Cat.scala 30:58]
+      = cat(cat(cat(cat(_T_495, _T_493), _T_498), cat(_T_501, _T_504)),
+            cat(cat(cat(_T_507, _T_508), _T_509), cat(_T_510, _T_511))) @[Cat.scala 30:58]
     node classify_out = mux(in_single, classify_s, _T_520) @[FPU.scala 316:10]
     node _T_521 = bits(in_rm, 1, 1) @[FPU.scala 322:30]
     skip
@@ -2977,7 +2985,8 @@ circuit FPU :
     skip
     skip
     node _T_105
-      = cat(_T_88, cat(cat(cat(_T_92, _T_93), cat(_T_96, _T_97)), cat(_T_101, _T_102))) @[Cat.scala 30:58]
+      = cat(_T_88,
+            cat(cat(cat(_T_92, _T_93), cat(_T_96, _T_97)), cat(_T_101, _T_102))) @[Cat.scala 30:58]
     node _T_106 = not(_T_105) @[primitives.scala 65:36]
     node _T_107 = mux(_T_41, UInt<22>(0), _T_106) @[primitives.scala 65:21]
     node _T_108 = not(_T_107) @[primitives.scala 65:17]
@@ -3366,7 +3375,8 @@ circuit FPU :
     node _T_366 = mux(in_bits_single, _T_318, _T_355) @[Misc.scala 42:36]
     node _T_367 = mux(in_bits_single, _T_320, _T_357) @[Misc.scala 42:63]
     node _T_368
-      = mux(in_bits_single, UInt<65>(16143152868071833600), UInt<65>(16143152864309542912)) @[Misc.scala 42:90]
+      = mux(in_bits_single, UInt<65>(16143152868071833600),
+            UInt<65>(16143152864309542912)) @[Misc.scala 42:90]
     node _T_369 = shl(_T_366, 4) @[FPU.scala 443:28]
     node _T_370 = mux(_T_365, in_bits_in1, in_bits_in2) @[FPU.scala 444:42]
     node _T_371 = mux(_T_367, _T_368, _T_370) @[FPU.scala 444:22]
@@ -3662,7 +3672,8 @@ circuit FPU :
     node negSigC = mux(doSubMags, _T_227, sigC) @[MulAddRecFN.scala 151:22]
     skip
     node _T_231
-      = mux(doSubMags, UInt<108>(324518553658426726783156020576255), UInt<108>(0)) @[Bitwise.scala 71:12]
+      = mux(doSubMags, UInt<108>(324518553658426726783156020576255),
+            UInt<108>(0)) @[Bitwise.scala 71:12]
     skip
     node _T_233 = cat(cat(doSubMags, negSigC), _T_231) @[Cat.scala 30:58]
     node _T_234 = asSInt(_T_233) @[MulAddRecFN.scala 154:64]
@@ -4158,9 +4169,11 @@ circuit FPU :
     node estNormDist
       = mux(io_fromPreMul_isCDominant, CDom_estNormDist, estNormNeg_dist) @[MulAddRecFN.scala 399:12]
     node _T_559
-      = mux(io_fromPreMul_isCDominant, pad(CDom_firstNormAbsSigSum, 88), notCDom_neg_cFirstNormAbsSigSum) @[MulAddRecFN.scala 408:16]
+      = mux(io_fromPreMul_isCDominant, pad(CDom_firstNormAbsSigSum, 88),
+            notCDom_neg_cFirstNormAbsSigSum) @[MulAddRecFN.scala 408:16]
     node _T_560
-      = mux(io_fromPreMul_isCDominant, CDom_firstNormAbsSigSum, notCDom_pos_firstNormAbsSigSum) @[MulAddRecFN.scala 412:16]
+      = mux(io_fromPreMul_isCDominant, CDom_firstNormAbsSigSum,
+            notCDom_pos_firstNormAbsSigSum) @[MulAddRecFN.scala 412:16]
     node cFirstNormAbsSigSum = mux(notCDom_signSigSum, _T_559, pad(_T_560, 88)) @[MulAddRecFN.scala 407:12]
     node _T_562 = not(io_fromPreMul_isCDominant) @[MulAddRecFN.scala 418:9]
     node _T_564 = not(notCDom_signSigSum) @[MulAddRecFN.scala 418:40]
@@ -4268,7 +4281,10 @@ circuit FPU :
     skip
     skip
     node absSigSumExtraMask
-      = cat(cat(_T_610, cat(_T_643, cat(cat(cat(_T_647, _T_648), cat(_T_651, _T_652)), cat(cat(_T_657, _T_658), _T_660)))), UInt<1>(1)) @[Cat.scala 30:58]
+      = cat(cat(_T_610,
+                cat(_T_643,
+                    cat(cat(cat(_T_647, _T_648), cat(_T_651, _T_652)),
+                        cat(cat(_T_657, _T_658), _T_660)))), UInt<1>(1)) @[Cat.scala 30:58]
     node _T_666 = bits(cFirstNormAbsSigSum, 87, 1) @[MulAddRecFN.scala 424:32]
     node _T_667 = dshr(_T_666, normTo2ShiftDist) @[MulAddRecFN.scala 424:65]
     node _T_668 = bits(cFirstNormAbsSigSum, 31, 0) @[MulAddRecFN.scala 427:39]
@@ -7207,7 +7223,8 @@ circuit FPU :
     node _T_1150 = or(mem_ctrl_div, mem_ctrl_sqrt) @[FPU.scala 703:51]
     node _T_1151 = and(mem_reg_valid, _T_1150) @[FPU.scala 703:34]
     node divSqrt_inReady
-      = mux(DivSqrtRecF64.io_sqrtOp, DivSqrtRecF64.io_inReady_sqrt, DivSqrtRecF64.io_inReady_div) @[FPU.scala 723:27]
+      = mux(DivSqrtRecF64.io_sqrtOp, DivSqrtRecF64.io_inReady_sqrt,
+            DivSqrtRecF64.io_inReady_div) @[FPU.scala 723:27]
     skip
     node _T_1153 = not(divSqrt_inReady) @[FPU.scala 703:73]
     node _T_1155 = neq(wen, UInt<3>(0)) @[FPU.scala 703:97]

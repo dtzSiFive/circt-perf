@@ -3753,21 +3753,29 @@ circuit HwachaSequencer :
       = mux(eq(UInt<3>(7), tail), io_op_bits_base_vs1_valid, _GEN_31) @[sequencer-master.scala 329:29]
     skip
     node _GEN_512
-      = mux(eq(UInt<3>(0), tail), io_op_bits_base_vs1_scalar, e_0_base_vs1_scalar)
+      = mux(eq(UInt<3>(0), tail), io_op_bits_base_vs1_scalar,
+            e_0_base_vs1_scalar)
     node _GEN_513
-      = mux(eq(UInt<3>(1), tail), io_op_bits_base_vs1_scalar, e_1_base_vs1_scalar)
+      = mux(eq(UInt<3>(1), tail), io_op_bits_base_vs1_scalar,
+            e_1_base_vs1_scalar)
     node _GEN_514
-      = mux(eq(UInt<3>(2), tail), io_op_bits_base_vs1_scalar, e_2_base_vs1_scalar)
+      = mux(eq(UInt<3>(2), tail), io_op_bits_base_vs1_scalar,
+            e_2_base_vs1_scalar)
     node _GEN_515
-      = mux(eq(UInt<3>(3), tail), io_op_bits_base_vs1_scalar, e_3_base_vs1_scalar)
+      = mux(eq(UInt<3>(3), tail), io_op_bits_base_vs1_scalar,
+            e_3_base_vs1_scalar)
     node _GEN_516
-      = mux(eq(UInt<3>(4), tail), io_op_bits_base_vs1_scalar, e_4_base_vs1_scalar)
+      = mux(eq(UInt<3>(4), tail), io_op_bits_base_vs1_scalar,
+            e_4_base_vs1_scalar)
     node _GEN_517
-      = mux(eq(UInt<3>(5), tail), io_op_bits_base_vs1_scalar, e_5_base_vs1_scalar)
+      = mux(eq(UInt<3>(5), tail), io_op_bits_base_vs1_scalar,
+            e_5_base_vs1_scalar)
     node _GEN_518
-      = mux(eq(UInt<3>(6), tail), io_op_bits_base_vs1_scalar, e_6_base_vs1_scalar)
+      = mux(eq(UInt<3>(6), tail), io_op_bits_base_vs1_scalar,
+            e_6_base_vs1_scalar)
     node _GEN_519
-      = mux(eq(UInt<3>(7), tail), io_op_bits_base_vs1_scalar, e_7_base_vs1_scalar)
+      = mux(eq(UInt<3>(7), tail), io_op_bits_base_vs1_scalar,
+            e_7_base_vs1_scalar)
     skip
     node _GEN_520
       = mux(eq(UInt<3>(0), tail), io_op_bits_base_vs1_pred, e_0_base_vs1_pred)
@@ -4146,21 +4154,29 @@ circuit HwachaSequencer :
       = mux(eq(UInt<3>(7), tail), io_op_bits_base_vs2_valid, _GEN_39) @[sequencer-master.scala 329:29]
     skip
     node _GEN_760
-      = mux(eq(UInt<3>(0), tail), io_op_bits_base_vs2_scalar, e_0_base_vs2_scalar)
+      = mux(eq(UInt<3>(0), tail), io_op_bits_base_vs2_scalar,
+            e_0_base_vs2_scalar)
     node _GEN_761
-      = mux(eq(UInt<3>(1), tail), io_op_bits_base_vs2_scalar, e_1_base_vs2_scalar)
+      = mux(eq(UInt<3>(1), tail), io_op_bits_base_vs2_scalar,
+            e_1_base_vs2_scalar)
     node _GEN_762
-      = mux(eq(UInt<3>(2), tail), io_op_bits_base_vs2_scalar, e_2_base_vs2_scalar)
+      = mux(eq(UInt<3>(2), tail), io_op_bits_base_vs2_scalar,
+            e_2_base_vs2_scalar)
     node _GEN_763
-      = mux(eq(UInt<3>(3), tail), io_op_bits_base_vs2_scalar, e_3_base_vs2_scalar)
+      = mux(eq(UInt<3>(3), tail), io_op_bits_base_vs2_scalar,
+            e_3_base_vs2_scalar)
     node _GEN_764
-      = mux(eq(UInt<3>(4), tail), io_op_bits_base_vs2_scalar, e_4_base_vs2_scalar)
+      = mux(eq(UInt<3>(4), tail), io_op_bits_base_vs2_scalar,
+            e_4_base_vs2_scalar)
     node _GEN_765
-      = mux(eq(UInt<3>(5), tail), io_op_bits_base_vs2_scalar, e_5_base_vs2_scalar)
+      = mux(eq(UInt<3>(5), tail), io_op_bits_base_vs2_scalar,
+            e_5_base_vs2_scalar)
     node _GEN_766
-      = mux(eq(UInt<3>(6), tail), io_op_bits_base_vs2_scalar, e_6_base_vs2_scalar)
+      = mux(eq(UInt<3>(6), tail), io_op_bits_base_vs2_scalar,
+            e_6_base_vs2_scalar)
     node _GEN_767
-      = mux(eq(UInt<3>(7), tail), io_op_bits_base_vs2_scalar, e_7_base_vs2_scalar)
+      = mux(eq(UInt<3>(7), tail), io_op_bits_base_vs2_scalar,
+            e_7_base_vs2_scalar)
     skip
     node _GEN_768
       = mux(eq(UInt<3>(0), tail), io_op_bits_base_vs2_pred, e_0_base_vs2_pred)
@@ -6813,21 +6829,29 @@ circuit HwachaSequencer :
       = mux(eq(UInt<3>(7), tail), io_op_bits_base_vs3_valid, _GEN_1929) @[sequencer-master.scala 329:29]
     skip
     node _GEN_2682
-      = mux(eq(UInt<3>(0), tail), io_op_bits_base_vs3_scalar, e_0_base_vs3_scalar)
+      = mux(eq(UInt<3>(0), tail), io_op_bits_base_vs3_scalar,
+            e_0_base_vs3_scalar)
     node _GEN_2683
-      = mux(eq(UInt<3>(1), tail), io_op_bits_base_vs3_scalar, e_1_base_vs3_scalar)
+      = mux(eq(UInt<3>(1), tail), io_op_bits_base_vs3_scalar,
+            e_1_base_vs3_scalar)
     node _GEN_2684
-      = mux(eq(UInt<3>(2), tail), io_op_bits_base_vs3_scalar, e_2_base_vs3_scalar)
+      = mux(eq(UInt<3>(2), tail), io_op_bits_base_vs3_scalar,
+            e_2_base_vs3_scalar)
     node _GEN_2685
-      = mux(eq(UInt<3>(3), tail), io_op_bits_base_vs3_scalar, e_3_base_vs3_scalar)
+      = mux(eq(UInt<3>(3), tail), io_op_bits_base_vs3_scalar,
+            e_3_base_vs3_scalar)
     node _GEN_2686
-      = mux(eq(UInt<3>(4), tail), io_op_bits_base_vs3_scalar, e_4_base_vs3_scalar)
+      = mux(eq(UInt<3>(4), tail), io_op_bits_base_vs3_scalar,
+            e_4_base_vs3_scalar)
     node _GEN_2687
-      = mux(eq(UInt<3>(5), tail), io_op_bits_base_vs3_scalar, e_5_base_vs3_scalar)
+      = mux(eq(UInt<3>(5), tail), io_op_bits_base_vs3_scalar,
+            e_5_base_vs3_scalar)
     node _GEN_2688
-      = mux(eq(UInt<3>(6), tail), io_op_bits_base_vs3_scalar, e_6_base_vs3_scalar)
+      = mux(eq(UInt<3>(6), tail), io_op_bits_base_vs3_scalar,
+            e_6_base_vs3_scalar)
     node _GEN_2689
-      = mux(eq(UInt<3>(7), tail), io_op_bits_base_vs3_scalar, e_7_base_vs3_scalar)
+      = mux(eq(UInt<3>(7), tail), io_op_bits_base_vs3_scalar,
+            e_7_base_vs3_scalar)
     skip
     node _GEN_2690
       = mux(eq(UInt<3>(0), tail), io_op_bits_base_vs3_pred, e_0_base_vs3_pred)

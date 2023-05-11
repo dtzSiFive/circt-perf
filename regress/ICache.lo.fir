@@ -676,7 +676,8 @@ circuit ICache :
     _T_685_3 <= mux(_T_638, _GEN_80, _T_685_3)
     tag_array_0_tag_rdata_en_pipe_0 <= and(_T_284, s0_valid)
     tag_array_0_tag_rdata_addr_pipe_0
-      <= mux(and(_T_284, s0_valid), bits(io_req_bits_addr, 11, 6), tag_array_0_tag_rdata_addr_pipe_0)
+      <= mux(and(_T_284, s0_valid), bits(io_req_bits_addr, 11, 6),
+             tag_array_0_tag_rdata_addr_pipe_0)
     tag_array_0.tag_rdata.en <= tag_array_0_tag_rdata_en_pipe_0
     tag_array_0.tag_rdata.addr <= tag_array_0_tag_rdata_addr_pipe_0
     tag_array_0.tag_rdata.clk <= clock
@@ -687,7 +688,8 @@ circuit ICache :
     tag_array_0._T_328.clk <= clock
     tag_array_1_tag_rdata_en_pipe_0 <= and(_T_284, s0_valid)
     tag_array_1_tag_rdata_addr_pipe_0
-      <= mux(and(_T_284, s0_valid), bits(io_req_bits_addr, 11, 6), tag_array_1_tag_rdata_addr_pipe_0)
+      <= mux(and(_T_284, s0_valid), bits(io_req_bits_addr, 11, 6),
+             tag_array_1_tag_rdata_addr_pipe_0)
     tag_array_1.tag_rdata.en <= tag_array_1_tag_rdata_en_pipe_0
     tag_array_1.tag_rdata.addr <= tag_array_1_tag_rdata_addr_pipe_0
     tag_array_1.tag_rdata.clk <= clock
@@ -698,7 +700,8 @@ circuit ICache :
     tag_array_1._T_328.clk <= clock
     tag_array_2_tag_rdata_en_pipe_0 <= and(_T_284, s0_valid)
     tag_array_2_tag_rdata_addr_pipe_0
-      <= mux(and(_T_284, s0_valid), bits(io_req_bits_addr, 11, 6), tag_array_2_tag_rdata_addr_pipe_0)
+      <= mux(and(_T_284, s0_valid), bits(io_req_bits_addr, 11, 6),
+             tag_array_2_tag_rdata_addr_pipe_0)
     tag_array_2.tag_rdata.en <= tag_array_2_tag_rdata_en_pipe_0
     tag_array_2.tag_rdata.addr <= tag_array_2_tag_rdata_addr_pipe_0
     tag_array_2.tag_rdata.clk <= clock
@@ -709,7 +712,8 @@ circuit ICache :
     tag_array_2._T_328.clk <= clock
     tag_array_3_tag_rdata_en_pipe_0 <= and(_T_284, s0_valid)
     tag_array_3_tag_rdata_addr_pipe_0
-      <= mux(and(_T_284, s0_valid), bits(io_req_bits_addr, 11, 6), tag_array_3_tag_rdata_addr_pipe_0)
+      <= mux(and(_T_284, s0_valid), bits(io_req_bits_addr, 11, 6),
+             tag_array_3_tag_rdata_addr_pipe_0)
     tag_array_3.tag_rdata.en <= tag_array_3_tag_rdata_en_pipe_0
     tag_array_3.tag_rdata.addr <= tag_array_3_tag_rdata_addr_pipe_0
     tag_array_3.tag_rdata.clk <= clock
@@ -720,7 +724,8 @@ circuit ICache :
     tag_array_3._T_328.clk <= clock
     _T_550__T_566_en_pipe_0 <= and(_T_559, s0_valid)
     _T_550__T_566_addr_pipe_0
-      <= mux(and(_T_559, s0_valid), bits(io_req_bits_addr, 11, 3), _T_550__T_566_addr_pipe_0)
+      <= mux(and(_T_559, s0_valid), bits(io_req_bits_addr, 11, 3),
+             _T_550__T_566_addr_pipe_0)
     _T_550._T_566.en <= _T_550__T_566_en_pipe_0
     _T_550._T_566.addr <= _T_550__T_566_addr_pipe_0
     _T_550._T_566.clk <= clock
@@ -732,7 +737,8 @@ circuit ICache :
     _T_550._T_556.clk <= clock
     _T_572__T_588_en_pipe_0 <= and(_T_581, s0_valid)
     _T_572__T_588_addr_pipe_0
-      <= mux(and(_T_581, s0_valid), bits(io_req_bits_addr, 11, 3), _T_572__T_588_addr_pipe_0)
+      <= mux(and(_T_581, s0_valid), bits(io_req_bits_addr, 11, 3),
+             _T_572__T_588_addr_pipe_0)
     _T_572._T_588.en <= _T_572__T_588_en_pipe_0
     _T_572._T_588.addr <= _T_572__T_588_addr_pipe_0
     _T_572._T_588.clk <= clock
@@ -744,7 +750,8 @@ circuit ICache :
     _T_572._T_578.clk <= clock
     _T_594__T_610_en_pipe_0 <= and(_T_603, s0_valid)
     _T_594__T_610_addr_pipe_0
-      <= mux(and(_T_603, s0_valid), bits(io_req_bits_addr, 11, 3), _T_594__T_610_addr_pipe_0)
+      <= mux(and(_T_603, s0_valid), bits(io_req_bits_addr, 11, 3),
+             _T_594__T_610_addr_pipe_0)
     _T_594._T_610.en <= _T_594__T_610_en_pipe_0
     _T_594._T_610.addr <= _T_594__T_610_addr_pipe_0
     _T_594._T_610.clk <= clock
@@ -756,7 +763,8 @@ circuit ICache :
     _T_594._T_600.clk <= clock
     _T_616__T_632_en_pipe_0 <= and(_T_625, s0_valid)
     _T_616__T_632_addr_pipe_0
-      <= mux(and(_T_625, s0_valid), bits(io_req_bits_addr, 11, 3), _T_616__T_632_addr_pipe_0)
+      <= mux(and(_T_625, s0_valid), bits(io_req_bits_addr, 11, 3),
+             _T_616__T_632_addr_pipe_0)
     _T_616._T_632.en <= _T_616__T_632_en_pipe_0
     _T_616._T_632.addr <= _T_616__T_632_addr_pipe_0
     _T_616._T_632.clk <= clock

@@ -4349,7 +4349,8 @@ circuit Rob :
             = mux(io.lxcpt.valid, io.lxcpt.bits.cause, io.bxcpt.bits.cause) @[rob.scala 671:43]
           next_xcpt_uop.exc_cause <= pad(T_47983, 64) @[rob.scala 671:37]
           node T_47984
-            = mux(io.lxcpt.valid, io.lxcpt.bits.badvaddr, io.bxcpt.bits.badvaddr) @[rob.scala 672:43]
+            = mux(io.lxcpt.valid, io.lxcpt.bits.badvaddr,
+                  io.bxcpt.bits.badvaddr) @[rob.scala 672:43]
           r_xcpt_badvaddr <= T_47984 @[rob.scala 672:37]
           skip @[rob.scala 668:10]
         skip @[rob.scala 662:7]

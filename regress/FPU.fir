@@ -963,7 +963,8 @@ circuit FPU :
     DivSqrtRecF64.clock <= clock
     DivSqrtRecF64.reset <= reset
     node _T_1208
-      = mux(DivSqrtRecF64.io.sqrtOp, DivSqrtRecF64.io.inReady_sqrt, DivSqrtRecF64.io.inReady_div) @[FPU.scala 723:27]
+      = mux(DivSqrtRecF64.io.sqrtOp, DivSqrtRecF64.io.inReady_sqrt,
+            DivSqrtRecF64.io.inReady_div) @[FPU.scala 723:27]
     divSqrt_inReady <= _T_1208 @[FPU.scala 723:21]
     node _T_1209
       = or(DivSqrtRecF64.io.outValid_div, DivSqrtRecF64.io.outValid_sqrt) @[FPU.scala 724:52]
@@ -5983,9 +5984,11 @@ circuit FPU :
     node _T_344 = mux(notCDom_signSigSum, estNormNeg_dist, estNormNeg_dist) @[MulAddRecFN.scala 401:16]
     node estNormDist = mux(io.fromPreMul.isCDominant, CDom_estNormDist, _T_344) @[MulAddRecFN.scala 399:12]
     node _T_345
-      = mux(io.fromPreMul.isCDominant, CDom_firstNormAbsSigSum, notCDom_neg_cFirstNormAbsSigSum) @[MulAddRecFN.scala 408:16]
+      = mux(io.fromPreMul.isCDominant, CDom_firstNormAbsSigSum,
+            notCDom_neg_cFirstNormAbsSigSum) @[MulAddRecFN.scala 408:16]
     node _T_346
-      = mux(io.fromPreMul.isCDominant, CDom_firstNormAbsSigSum, notCDom_pos_firstNormAbsSigSum) @[MulAddRecFN.scala 412:16]
+      = mux(io.fromPreMul.isCDominant, CDom_firstNormAbsSigSum,
+            notCDom_pos_firstNormAbsSigSum) @[MulAddRecFN.scala 412:16]
     node cFirstNormAbsSigSum = mux(notCDom_signSigSum, _T_345, _T_346) @[MulAddRecFN.scala 407:12]
     node _T_348 = eq(io.fromPreMul.isCDominant, UInt<1>(0)) @[MulAddRecFN.scala 418:9]
     node _T_350 = eq(notCDom_signSigSum, UInt<1>(0)) @[MulAddRecFN.scala 418:40]
@@ -7281,9 +7284,11 @@ circuit FPU :
     node _T_558 = mux(notCDom_signSigSum, estNormNeg_dist, estNormNeg_dist) @[MulAddRecFN.scala 401:16]
     node estNormDist = mux(io.fromPreMul.isCDominant, CDom_estNormDist, _T_558) @[MulAddRecFN.scala 399:12]
     node _T_559
-      = mux(io.fromPreMul.isCDominant, CDom_firstNormAbsSigSum, notCDom_neg_cFirstNormAbsSigSum) @[MulAddRecFN.scala 408:16]
+      = mux(io.fromPreMul.isCDominant, CDom_firstNormAbsSigSum,
+            notCDom_neg_cFirstNormAbsSigSum) @[MulAddRecFN.scala 408:16]
     node _T_560
-      = mux(io.fromPreMul.isCDominant, CDom_firstNormAbsSigSum, notCDom_pos_firstNormAbsSigSum) @[MulAddRecFN.scala 412:16]
+      = mux(io.fromPreMul.isCDominant, CDom_firstNormAbsSigSum,
+            notCDom_pos_firstNormAbsSigSum) @[MulAddRecFN.scala 412:16]
     node cFirstNormAbsSigSum = mux(notCDom_signSigSum, _T_559, _T_560) @[MulAddRecFN.scala 407:12]
     node _T_562 = eq(io.fromPreMul.isCDominant, UInt<1>(0)) @[MulAddRecFN.scala 418:9]
     node _T_564 = eq(notCDom_signSigSum, UInt<1>(0)) @[MulAddRecFN.scala 418:40]
