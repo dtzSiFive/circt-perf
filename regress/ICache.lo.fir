@@ -61,10 +61,8 @@ circuit ICache :
       reader => tag_rdata
       writer => _T_328
       read-under-write => undefined
-    reg tag_array_0_tag_rdata_en_pipe_0 : UInt<1>, clock with :
-      reset => (UInt<1>("h0"), tag_array_0_tag_rdata_en_pipe_0)
-    reg tag_array_0_tag_rdata_addr_pipe_0 : UInt<6>, clock with :
-      reset => (UInt<1>("h0"), tag_array_0_tag_rdata_addr_pipe_0)
+    reg tag_array_0_tag_rdata_en_pipe_0 : UInt<1>, clock
+    reg tag_array_0_tag_rdata_addr_pipe_0 : UInt<6>, clock
     mem tag_array_1 : @[ICache.scala 97:25]
       data-type => UInt<20>
       depth => 64
@@ -73,10 +71,8 @@ circuit ICache :
       reader => tag_rdata
       writer => _T_328
       read-under-write => undefined
-    reg tag_array_1_tag_rdata_en_pipe_0 : UInt<1>, clock with :
-      reset => (UInt<1>("h0"), tag_array_1_tag_rdata_en_pipe_0)
-    reg tag_array_1_tag_rdata_addr_pipe_0 : UInt<6>, clock with :
-      reset => (UInt<1>("h0"), tag_array_1_tag_rdata_addr_pipe_0)
+    reg tag_array_1_tag_rdata_en_pipe_0 : UInt<1>, clock
+    reg tag_array_1_tag_rdata_addr_pipe_0 : UInt<6>, clock
     mem tag_array_2 : @[ICache.scala 97:25]
       data-type => UInt<20>
       depth => 64
@@ -85,10 +81,8 @@ circuit ICache :
       reader => tag_rdata
       writer => _T_328
       read-under-write => undefined
-    reg tag_array_2_tag_rdata_en_pipe_0 : UInt<1>, clock with :
-      reset => (UInt<1>("h0"), tag_array_2_tag_rdata_en_pipe_0)
-    reg tag_array_2_tag_rdata_addr_pipe_0 : UInt<6>, clock with :
-      reset => (UInt<1>("h0"), tag_array_2_tag_rdata_addr_pipe_0)
+    reg tag_array_2_tag_rdata_en_pipe_0 : UInt<1>, clock
+    reg tag_array_2_tag_rdata_addr_pipe_0 : UInt<6>, clock
     mem tag_array_3 : @[ICache.scala 97:25]
       data-type => UInt<20>
       depth => 64
@@ -97,10 +91,8 @@ circuit ICache :
       reader => tag_rdata
       writer => _T_328
       read-under-write => undefined
-    reg tag_array_3_tag_rdata_en_pipe_0 : UInt<1>, clock with :
-      reset => (UInt<1>("h0"), tag_array_3_tag_rdata_en_pipe_0)
-    reg tag_array_3_tag_rdata_addr_pipe_0 : UInt<6>, clock with :
-      reset => (UInt<1>("h0"), tag_array_3_tag_rdata_addr_pipe_0)
+    reg tag_array_3_tag_rdata_en_pipe_0 : UInt<1>, clock
+    reg tag_array_3_tag_rdata_addr_pipe_0 : UInt<6>, clock
     mem _T_550 : @[ICache.scala 132:28]
       data-type => UInt<64>
       depth => 512
@@ -109,10 +101,8 @@ circuit ICache :
       reader => _T_566
       writer => _T_556
       read-under-write => undefined
-    reg _T_550__T_566_en_pipe_0 : UInt<1>, clock with :
-      reset => (UInt<1>("h0"), _T_550__T_566_en_pipe_0)
-    reg _T_550__T_566_addr_pipe_0 : UInt<9>, clock with :
-      reset => (UInt<1>("h0"), _T_550__T_566_addr_pipe_0)
+    reg _T_550__T_566_en_pipe_0 : UInt<1>, clock
+    reg _T_550__T_566_addr_pipe_0 : UInt<9>, clock
     mem _T_572 : @[ICache.scala 132:28]
       data-type => UInt<64>
       depth => 512
@@ -121,10 +111,8 @@ circuit ICache :
       reader => _T_588
       writer => _T_578
       read-under-write => undefined
-    reg _T_572__T_588_en_pipe_0 : UInt<1>, clock with :
-      reset => (UInt<1>("h0"), _T_572__T_588_en_pipe_0)
-    reg _T_572__T_588_addr_pipe_0 : UInt<9>, clock with :
-      reset => (UInt<1>("h0"), _T_572__T_588_addr_pipe_0)
+    reg _T_572__T_588_en_pipe_0 : UInt<1>, clock
+    reg _T_572__T_588_addr_pipe_0 : UInt<9>, clock
     mem _T_594 : @[ICache.scala 132:28]
       data-type => UInt<64>
       depth => 512
@@ -133,10 +121,8 @@ circuit ICache :
       reader => _T_610
       writer => _T_600
       read-under-write => undefined
-    reg _T_594__T_610_en_pipe_0 : UInt<1>, clock with :
-      reset => (UInt<1>("h0"), _T_594__T_610_en_pipe_0)
-    reg _T_594__T_610_addr_pipe_0 : UInt<9>, clock with :
-      reset => (UInt<1>("h0"), _T_594__T_610_addr_pipe_0)
+    reg _T_594__T_610_en_pipe_0 : UInt<1>, clock
+    reg _T_594__T_610_addr_pipe_0 : UInt<9>, clock
     mem _T_616 : @[ICache.scala 132:28]
       data-type => UInt<64>
       depth => 512
@@ -145,55 +131,45 @@ circuit ICache :
       reader => _T_632
       writer => _T_622
       read-under-write => undefined
-    reg _T_616__T_632_en_pipe_0 : UInt<1>, clock with :
-      reset => (UInt<1>("h0"), _T_616__T_632_en_pipe_0)
-    reg _T_616__T_632_addr_pipe_0 : UInt<9>, clock with :
-      reset => (UInt<1>("h0"), _T_616__T_632_addr_pipe_0)
-    reg state : UInt<2>, clock with :
-      reset => (UInt<1>("h0"), state) @[ICache.scala 67:18]
-    reg invalidated : UInt<1>, clock with :
-      reset => (UInt<1>("h0"), invalidated) @[ICache.scala 68:24]
+    reg _T_616__T_632_en_pipe_0 : UInt<1>, clock
+    reg _T_616__T_632_addr_pipe_0 : UInt<9>, clock
+    reg state : UInt<2>, clock @[ICache.scala 67:18]
+    reg invalidated : UInt<1>, clock @[ICache.scala 68:24]
     node stall = not(io_resp_ready) @[ICache.scala 69:15]
-    reg refill_addr : UInt<32>, clock with :
-      reset => (UInt<1>("h0"), refill_addr) @[ICache.scala 71:24]
-    reg s1_valid : UInt<1>, clock with :
-      reset => (UInt<1>("h0"), s1_valid) @[ICache.scala 74:21]
+    reg refill_addr : UInt<32>, clock @[ICache.scala 71:24]
+    reg s1_valid : UInt<1>, clock @[ICache.scala 74:21]
     node _T_221 = not(io_s1_kill) @[ICache.scala 75:31]
     node _T_222 = and(s1_valid, _T_221) @[ICache.scala 75:28]
-    node _T_223 = eq(state, UInt<2>("h0")) @[ICache.scala 75:52]
+    node _T_223 = eq(state, UInt<2>(0)) @[ICache.scala 75:52]
     node out_valid = and(_T_222, _T_223) @[ICache.scala 75:43]
     node s1_idx = bits(io_s1_paddr, 11, 6) @[ICache.scala 76:27]
     node s1_tag = bits(io_s1_paddr, 31, 12) @[ICache.scala 77:27]
     node _T_436 = not(io_invalidate) @[ICache.scala 122:17]
-    reg vb_array : UInt<256>, clock with :
-      reset => (UInt<1>("h0"), vb_array) @[ICache.scala 104:21]
+    reg vb_array : UInt<256>, clock @[ICache.scala 104:21]
     skip
-    node _T_439 = cat(UInt<1>("h0"), s1_idx) @[Cat.scala 30:58]
+    node _T_439 = cat(UInt<1>(0), s1_idx) @[Cat.scala 30:58]
     node _T_440 = dshr(vb_array, _T_439) @[ICache.scala 122:43]
     node _T_441 = bits(_T_440, 0, 0) @[ICache.scala 122:43]
     skip
     node _T_443 = and(_T_436, _T_441) @[ICache.scala 122:32]
-    reg s1_dout_valid : UInt<1>, clock with :
-      reset => (UInt<1>("h0"), s1_dout_valid) @[Reg.scala 14:44]
+    reg s1_dout_valid : UInt<1>, clock @[Reg.scala 14:44]
     node _T_450 = tag_array_0.tag_rdata.data @[ICache.scala 125:32]
     node _T_451 = eq(_T_450, s1_tag) @[ICache.scala 125:46]
-    reg _T_453 : UInt<1>, clock with :
-      reset => (UInt<1>("h0"), _T_453) @[Reg.scala 34:16]
+    reg _T_453 : UInt<1>, clock @[Reg.scala 34:16]
     node s1_tag_match_0 = mux(s1_dout_valid, _T_451, _T_453) @[Package.scala 27:42]
     skip
     node s1_tag_hit_0 = and(_T_443, s1_tag_match_0) @[ICache.scala 126:28]
     skip
     skip
     skip
-    node _T_465 = cat(UInt<1>("h1"), s1_idx) @[Cat.scala 30:58]
+    node _T_465 = cat(UInt<1>(1), s1_idx) @[Cat.scala 30:58]
     node _T_466 = dshr(vb_array, _T_465) @[ICache.scala 122:43]
     node _T_467 = bits(_T_466, 0, 0) @[ICache.scala 122:43]
     skip
     node _T_469 = and(_T_436, _T_467) @[ICache.scala 122:32]
     node _T_476 = tag_array_1.tag_rdata.data @[ICache.scala 125:32]
     node _T_477 = eq(_T_476, s1_tag) @[ICache.scala 125:46]
-    reg _T_479 : UInt<1>, clock with :
-      reset => (UInt<1>("h0"), _T_479) @[Reg.scala 34:16]
+    reg _T_479 : UInt<1>, clock @[Reg.scala 34:16]
     node s1_tag_match_1 = mux(s1_dout_valid, _T_477, _T_479) @[Package.scala 27:42]
     skip
     node s1_tag_hit_1 = and(_T_469, s1_tag_match_1) @[ICache.scala 126:28]
@@ -201,15 +177,14 @@ circuit ICache :
     node _T_539 = or(s1_tag_hit_0, s1_tag_hit_1) @[ICache.scala 129:44]
     skip
     skip
-    node _T_491 = cat(UInt<2>("h2"), s1_idx) @[Cat.scala 30:58]
+    node _T_491 = cat(UInt<2>(2), s1_idx) @[Cat.scala 30:58]
     node _T_492 = dshr(vb_array, _T_491) @[ICache.scala 122:43]
     node _T_493 = bits(_T_492, 0, 0) @[ICache.scala 122:43]
     skip
     node _T_495 = and(_T_436, _T_493) @[ICache.scala 122:32]
     node _T_502 = tag_array_2.tag_rdata.data @[ICache.scala 125:32]
     node _T_503 = eq(_T_502, s1_tag) @[ICache.scala 125:46]
-    reg _T_505 : UInt<1>, clock with :
-      reset => (UInt<1>("h0"), _T_505) @[Reg.scala 34:16]
+    reg _T_505 : UInt<1>, clock @[Reg.scala 34:16]
     node s1_tag_match_2 = mux(s1_dout_valid, _T_503, _T_505) @[Package.scala 27:42]
     skip
     node s1_tag_hit_2 = and(_T_495, s1_tag_match_2) @[ICache.scala 126:28]
@@ -217,15 +192,14 @@ circuit ICache :
     node _T_540 = or(_T_539, s1_tag_hit_2) @[ICache.scala 129:44]
     skip
     skip
-    node _T_517 = cat(UInt<2>("h3"), s1_idx) @[Cat.scala 30:58]
+    node _T_517 = cat(UInt<2>(3), s1_idx) @[Cat.scala 30:58]
     node _T_518 = dshr(vb_array, _T_517) @[ICache.scala 122:43]
     node _T_519 = bits(_T_518, 0, 0) @[ICache.scala 122:43]
     skip
     node _T_521 = and(_T_436, _T_519) @[ICache.scala 122:32]
     node _T_528 = tag_array_3.tag_rdata.data @[ICache.scala 125:32]
     node _T_529 = eq(_T_528, s1_tag) @[ICache.scala 125:46]
-    reg _T_531 : UInt<1>, clock with :
-      reset => (UInt<1>("h0"), _T_531) @[Reg.scala 34:16]
+    reg _T_531 : UInt<1>, clock @[Reg.scala 34:16]
     node s1_tag_match_3 = mux(s1_dout_valid, _T_529, _T_531) @[Package.scala 27:42]
     skip
     node s1_tag_hit_3 = and(_T_521, s1_tag_match_3) @[ICache.scala 126:28]
@@ -282,28 +256,26 @@ circuit ICache :
     node refill_idx = bits(refill_addr, 11, 6) @[ICache.scala 90:31]
     node _T_235 = and(io_mem_0_d_ready, io_mem_0_d_valid) @[Decoupled.scala 30:37]
     skip
-    node _T_238 = dshlw(UInt<23>("hff"), io_mem_0_d_bits_size) @[package.scala 19:71]
+    node _T_238 = dshlw(UInt<23>(255), io_mem_0_d_bits_size) @[package.scala 19:71]
     node _T_239 = bits(_T_238, 7, 0) @[package.scala 19:76]
     node _T_240 = not(_T_239) @[package.scala 19:40]
     node _T_241 = shr(_T_240, 3) @[Edges.scala 198:59]
     node _T_242 = bits(io_mem_0_d_bits_opcode, 0, 0) @[Edges.scala 90:36]
-    node _T_244 = mux(_T_242, _T_241, UInt<5>("h0")) @[Edges.scala 199:14]
-    reg _T_246 : UInt<5>, clock with :
-      reset => (UInt<1>("h0"), _T_246) @[Reg.scala 26:44]
-    node _T_248 = sub(_T_246, UInt<5>("h1")) @[Edges.scala 208:28]
+    node _T_244 = mux(_T_242, _T_241, UInt<5>(0)) @[Edges.scala 199:14]
+    reg _T_246 : UInt<5>, clock @[Reg.scala 26:44]
+    node _T_248 = sub(_T_246, UInt<5>(1)) @[Edges.scala 208:28]
     skip
     node _T_250 = tail(_T_248, 1) @[Edges.scala 208:28]
-    node _T_252 = eq(_T_246, UInt<5>("h0")) @[Edges.scala 209:25]
-    node _T_254 = eq(_T_246, UInt<5>("h1")) @[Edges.scala 210:25]
-    node _T_256 = eq(_T_244, UInt<5>("h0")) @[Edges.scala 210:47]
+    node _T_252 = eq(_T_246, UInt<5>(0)) @[Edges.scala 209:25]
+    node _T_254 = eq(_T_246, UInt<5>(1)) @[Edges.scala 210:25]
+    node _T_256 = eq(_T_244, UInt<5>(0)) @[Edges.scala 210:47]
     node _T_257 = or(_T_254, _T_256) @[Edges.scala 210:37]
     node refill_done = and(_T_257, _T_235) @[Edges.scala 211:22]
     node _T_258 = not(_T_250) @[Edges.scala 212:27]
     node refill_cnt = and(_T_244, _T_258) @[Edges.scala 212:25]
     node _T_259 = mux(_T_252, _T_244, _T_250) @[Edges.scala 214:21]
-    node _GEN_1 = mux(_T_235, _T_259, _T_246) @[Edges.scala 213:17 Edges.scala 214:15 Reg.scala 26:44]
-    reg _T_262 : UInt<16>, clock with :
-      reset => (UInt<1>("h0"), _T_262) @[LFSR.scala 22:19]
+    node _GEN_1 = mux(_T_235, _T_259, _T_246)
+    reg _T_262 : UInt<16>, clock @[LFSR.scala 22:19]
     node _T_263 = bits(_T_262, 0, 0) @[LFSR.scala 23:40]
     node _T_264 = bits(_T_262, 2, 2) @[LFSR.scala 23:48]
     node _T_265 = xor(_T_263, _T_264) @[LFSR.scala 23:43]
@@ -313,7 +285,7 @@ circuit ICache :
     node _T_269 = xor(_T_267, _T_268) @[LFSR.scala 23:59]
     node _T_270 = bits(_T_262, 15, 1) @[LFSR.scala 23:73]
     node _T_271 = cat(_T_269, _T_270) @[Cat.scala 30:58]
-    node _GEN_2 = mux(s1_miss, _T_271, _T_262) @[LFSR.scala 23:22 LFSR.scala 23:29 LFSR.scala 22:19]
+    node _GEN_2 = mux(s1_miss, _T_271, _T_262)
     node repl_way = bits(_T_262, 1, 0) @[ICache.scala 95:56]
     skip
     node _T_284 = not(refill_done) @[ICache.scala 98:70]
@@ -325,10 +297,10 @@ circuit ICache :
     skip
     skip
     skip
-    node _T_312 = eq(repl_way, UInt<2>("h0")) @[ICache.scala 101:84]
-    node _T_314 = eq(repl_way, UInt<2>("h1")) @[ICache.scala 101:84]
-    node _T_316 = eq(repl_way, UInt<2>("h2")) @[ICache.scala 101:84]
-    node _T_318 = eq(repl_way, UInt<2>("h3")) @[ICache.scala 101:84]
+    node _T_312 = eq(repl_way, UInt<2>(0)) @[ICache.scala 101:84]
+    node _T_314 = eq(repl_way, UInt<2>(1)) @[ICache.scala 101:84]
+    node _T_316 = eq(repl_way, UInt<2>(2)) @[ICache.scala 101:84]
+    node _T_318 = eq(repl_way, UInt<2>(3)) @[ICache.scala 101:84]
     skip
     skip
     skip
@@ -359,15 +331,15 @@ circuit ICache :
     node _T_342 = not(invalidated) @[ICache.scala 105:24]
     node _T_343 = and(refill_done, _T_342) @[ICache.scala 105:21]
     node _T_344 = cat(repl_way, refill_idx) @[Cat.scala 30:58]
-    node _T_347 = dshlw(UInt<256>("h1"), _T_344) @[ICache.scala 106:32]
+    node _T_347 = dshlw(UInt<256>(1), _T_344) @[ICache.scala 106:32]
     node _T_348 = or(vb_array, _T_347) @[ICache.scala 106:32]
     skip
     skip
     skip
     skip
-    node _GEN_26 = mux(_T_343, _T_348, vb_array) @[ICache.scala 105:38 ICache.scala 106:14 ICache.scala 104:21]
-    node _GEN_27 = mux(io_invalidate, UInt<256>("h0"), _GEN_26) @[ICache.scala 108:24 ICache.scala 109:14]
-    node _GEN_28 = or(io_invalidate, invalidated) @[ICache.scala 108:24 ICache.scala 110:17 ICache.scala 68:24]
+    node _GEN_26 = mux(_T_343, _T_348, vb_array)
+    node _GEN_27 = mux(io_invalidate, UInt<256>(0), _GEN_26)
+    node _GEN_28 = or(io_invalidate, invalidated)
     skip
     skip
     skip
@@ -436,9 +408,8 @@ circuit ICache :
     skip
     skip
     skip
-    reg _T_568 : UInt<64>, clock with :
-      reset => (UInt<1>("h0"), _T_568) @[Reg.scala 34:16]
-    node _GEN_50 = mux(s1_dout_valid, _T_550._T_566.data, _T_568) @[Reg.scala 35:19 Reg.scala 35:23 Reg.scala 34:16]
+    reg _T_568 : UInt<64>, clock @[Reg.scala 34:16]
+    node _GEN_50 = mux(s1_dout_valid, _T_550._T_566.data, _T_568)
     skip
     skip
     node _T_575 = and(io_mem_0_d_valid, _T_314) @[ICache.scala 133:30]
@@ -460,9 +431,8 @@ circuit ICache :
     skip
     skip
     skip
-    reg _T_590 : UInt<64>, clock with :
-      reset => (UInt<1>("h0"), _T_590) @[Reg.scala 34:16]
-    node _GEN_60 = mux(s1_dout_valid, _T_572._T_588.data, _T_590) @[Reg.scala 35:19 Reg.scala 35:23 Reg.scala 34:16]
+    reg _T_590 : UInt<64>, clock @[Reg.scala 34:16]
+    node _GEN_60 = mux(s1_dout_valid, _T_572._T_588.data, _T_590)
     skip
     skip
     node _T_597 = and(io_mem_0_d_valid, _T_316) @[ICache.scala 133:30]
@@ -484,9 +454,8 @@ circuit ICache :
     skip
     skip
     skip
-    reg _T_612 : UInt<64>, clock with :
-      reset => (UInt<1>("h0"), _T_612) @[Reg.scala 34:16]
-    node _GEN_70 = mux(s1_dout_valid, _T_594._T_610.data, _T_612) @[Reg.scala 35:19 Reg.scala 35:23 Reg.scala 34:16]
+    reg _T_612 : UInt<64>, clock @[Reg.scala 34:16]
+    node _GEN_70 = mux(s1_dout_valid, _T_594._T_610.data, _T_612)
     skip
     skip
     node _T_619 = and(io_mem_0_d_valid, _T_318) @[ICache.scala 133:30]
@@ -508,36 +477,26 @@ circuit ICache :
     skip
     skip
     skip
-    reg _T_634 : UInt<64>, clock with :
-      reset => (UInt<1>("h0"), _T_634) @[Reg.scala 34:16]
-    node _GEN_80 = mux(s1_dout_valid, _T_616._T_632.data, _T_634) @[Reg.scala 35:19 Reg.scala 35:23 Reg.scala 34:16]
+    reg _T_634 : UInt<64>, clock @[Reg.scala 34:16]
+    node _GEN_80 = mux(s1_dout_valid, _T_616._T_632.data, _T_634)
     skip
     node _T_638 = not(stall) @[ICache.scala 148:51]
-    reg _T_639 : UInt<1>, clock with :
-      reset => (UInt<1>("h0"), _T_639) @[Reg.scala 26:44]
-    node _GEN_81 = mux(_T_638, s1_hit, _T_639) @[Reg.scala 43:19 Reg.scala 43:23 Reg.scala 26:44]
+    reg _T_639 : UInt<1>, clock @[Reg.scala 26:44]
+    node _GEN_81 = mux(_T_638, s1_hit, _T_639)
     skip
-    reg _T_654_0 : UInt<1>, clock with :
-      reset => (UInt<1>("h0"), _T_654_0) @[Reg.scala 34:16]
-    reg _T_654_1 : UInt<1>, clock with :
-      reset => (UInt<1>("h0"), _T_654_1) @[Reg.scala 34:16]
-    reg _T_654_2 : UInt<1>, clock with :
-      reset => (UInt<1>("h0"), _T_654_2) @[Reg.scala 34:16]
-    reg _T_654_3 : UInt<1>, clock with :
-      reset => (UInt<1>("h0"), _T_654_3) @[Reg.scala 34:16]
+    reg _T_654_0 : UInt<1>, clock @[Reg.scala 34:16]
+    reg _T_654_1 : UInt<1>, clock @[Reg.scala 34:16]
+    reg _T_654_2 : UInt<1>, clock @[Reg.scala 34:16]
+    reg _T_654_3 : UInt<1>, clock @[Reg.scala 34:16]
     skip
     skip
     skip
     skip
     skip
-    reg _T_685_0 : UInt<64>, clock with :
-      reset => (UInt<1>("h0"), _T_685_0) @[Reg.scala 34:16]
-    reg _T_685_1 : UInt<64>, clock with :
-      reset => (UInt<1>("h0"), _T_685_1) @[Reg.scala 34:16]
-    reg _T_685_2 : UInt<64>, clock with :
-      reset => (UInt<1>("h0"), _T_685_2) @[Reg.scala 34:16]
-    reg _T_685_3 : UInt<64>, clock with :
-      reset => (UInt<1>("h0"), _T_685_3) @[Reg.scala 34:16]
+    reg _T_685_0 : UInt<64>, clock @[Reg.scala 34:16]
+    reg _T_685_1 : UInt<64>, clock @[Reg.scala 34:16]
+    reg _T_685_2 : UInt<64>, clock @[Reg.scala 34:16]
+    reg _T_685_3 : UInt<64>, clock @[Reg.scala 34:16]
     skip
     skip
     skip
@@ -546,14 +505,14 @@ circuit ICache :
     skip
     skip
     skip
-    node _T_703 = mux(_T_654_0, _T_685_0, UInt<64>("h0")) @[Mux.scala 19:72]
-    node _T_705 = mux(_T_654_1, _T_685_1, UInt<64>("h0")) @[Mux.scala 19:72]
-    node _T_707 = mux(_T_654_2, _T_685_2, UInt<64>("h0")) @[Mux.scala 19:72]
-    node _T_709 = mux(_T_654_3, _T_685_3, UInt<64>("h0")) @[Mux.scala 19:72]
+    node _T_703 = mux(_T_654_0, _T_685_0, UInt<64>(0)) @[Mux.scala 19:72]
+    node _T_705 = mux(_T_654_1, _T_685_1, UInt<64>(0)) @[Mux.scala 19:72]
+    node _T_707 = mux(_T_654_2, _T_685_2, UInt<64>(0)) @[Mux.scala 19:72]
+    node _T_709 = mux(_T_654_3, _T_685_3, UInt<64>(0)) @[Mux.scala 19:72]
     node _T_711 = or(_T_703, _T_705) @[Mux.scala 19:72]
     node _T_712 = or(_T_711, _T_707) @[Mux.scala 19:72]
     skip
-    node _T_716 = eq(state, UInt<2>("h1")) @[ICache.scala 154:27]
+    node _T_716 = eq(state, UInt<2>(1)) @[ICache.scala 154:27]
     node _T_718 = not(io_s2_kill) @[ICache.scala 154:44]
     skip
     node _T_721 = shr(refill_addr, 6) @[ICache.scala 157:46]
@@ -641,19 +600,19 @@ circuit ICache :
     skip
     skip
     skip
-    node _T_848 = eq(UInt<2>("h0"), state) @[Conditional.scala 29:28]
-    node _GEN_90 = mux(s1_miss, UInt<2>("h1"), state) @[ICache.scala 165:22 ICache.scala 165:30 ICache.scala 67:18]
-    node _GEN_91 = mux(_T_848, _GEN_90, state) @[Conditional.scala 29:59 ICache.scala 67:18]
+    node _T_848 = eq(UInt<2>(0), state) @[Conditional.scala 29:28]
+    node _GEN_90 = mux(s1_miss, UInt<2>(1), state)
+    node _GEN_91 = mux(_T_848, _GEN_90, state)
     skip
-    node _T_850 = eq(UInt<2>("h1"), state) @[Conditional.scala 29:28]
-    node _GEN_93 = mux(io_mem_0_a_ready, UInt<2>("h2"), _GEN_91) @[ICache.scala 169:29 ICache.scala 169:37]
-    node _GEN_94 = mux(io_s2_kill, UInt<2>("h0"), _GEN_93) @[ICache.scala 170:25 ICache.scala 170:33]
+    node _T_850 = eq(UInt<2>(1), state) @[Conditional.scala 29:28]
+    node _GEN_93 = mux(io_mem_0_a_ready, UInt<2>(2), _GEN_91)
+    node _GEN_94 = mux(io_s2_kill, UInt<2>(0), _GEN_93)
     node _GEN_95 = mux(_T_850, _GEN_94, _GEN_91) @[Conditional.scala 29:59]
-    node _T_851 = eq(UInt<2>("h2"), state) @[Conditional.scala 29:28]
-    node _GEN_96 = mux(io_mem_0_d_valid, UInt<2>("h3"), _GEN_95) @[ICache.scala 173:29 ICache.scala 173:37]
+    node _T_851 = eq(UInt<2>(2), state) @[Conditional.scala 29:28]
+    node _GEN_96 = mux(io_mem_0_d_valid, UInt<2>(3), _GEN_95)
     node _GEN_97 = mux(_T_851, _GEN_96, _GEN_95) @[Conditional.scala 29:59]
-    node _T_852 = eq(UInt<2>("h3"), state) @[Conditional.scala 29:28]
-    node _GEN_98 = mux(refill_done, UInt<2>("h0"), _GEN_97) @[ICache.scala 176:26 ICache.scala 176:34]
+    node _T_852 = eq(UInt<2>(3), state) @[Conditional.scala 29:28]
+    node _GEN_98 = mux(refill_done, UInt<2>(0), _GEN_97)
     node _GEN_99 = mux(_T_852, _GEN_98, _GEN_97) @[Conditional.scala 29:59]
     skip
     skip
@@ -664,138 +623,146 @@ circuit ICache :
     skip
     skip
     io_resp_valid <= _T_639 @[ICache.scala 152:21]
-    io_resp_bits_data <= UInt<16>("h0")
+    io_resp_bits_data <= UInt<16>(0)
     io_resp_bits_datablock <= or(_T_712, _T_709) @[Mux.scala 19:72]
     io_mem_0_a_valid <= and(_T_716, _T_718) @[ICache.scala 154:41]
-    io_mem_0_a_bits_opcode <= UInt<3>("h4") @[Edges.scala 342:17 Edges.scala 343:15]
-    io_mem_0_a_bits_param <= UInt<3>("h0") @[Edges.scala 342:17 Edges.scala 344:15]
-    io_mem_0_a_bits_size <= UInt<4>("h6") @[Edges.scala 342:17 Edges.scala 345:15]
-    io_mem_0_a_bits_source <= UInt<1>("h0") @[Edges.scala 342:17 Edges.scala 346:15]
+    io_mem_0_a_bits_opcode <= UInt<3>(4)
+    io_mem_0_a_bits_param <= UInt<3>(0)
+    io_mem_0_a_bits_size <= UInt<4>(6)
+    io_mem_0_a_bits_source <= UInt<1>(0)
     io_mem_0_a_bits_address <= shl(_T_721, 6) @[ICache.scala 157:63]
-    io_mem_0_a_bits_mask <= UInt<8>("hff") @[Cat.scala 30:58]
-    io_mem_0_a_bits_data <= UInt<64>("h0") @[Edges.scala 342:17 Edges.scala 349:15]
-    io_mem_0_b_ready <= UInt<1>("h0")
-    io_mem_0_c_valid <= UInt<1>("h0") @[ICache.scala 159:18]
-    io_mem_0_c_bits_opcode <= UInt<3>("h0")
-    io_mem_0_c_bits_param <= UInt<3>("h0")
-    io_mem_0_c_bits_size <= UInt<4>("h0")
-    io_mem_0_c_bits_source <= UInt<1>("h0")
-    io_mem_0_c_bits_address <= UInt<32>("h0")
-    io_mem_0_c_bits_data <= UInt<64>("h0")
-    io_mem_0_c_bits_error <= UInt<1>("h0")
-    io_mem_0_d_ready <= UInt<1>("h1") @[ICache.scala 92:18]
-    io_mem_0_e_valid <= UInt<1>("h0") @[ICache.scala 160:18]
-    io_mem_0_e_bits_sink <= UInt<4>("h0")
-    state <= mux(reset, UInt<2>("h0"), _GEN_99) @[ICache.scala 67:18 ICache.scala 67:18]
-    invalidated <= mux(_T_848, UInt<1>("h0"), _GEN_28) @[Conditional.scala 29:59 ICache.scala 166:19]
-    refill_addr <= mux(_T_234, io_s1_paddr, refill_addr) @[ICache.scala 86:39 ICache.scala 87:17 ICache.scala 71:24]
-    s1_valid <= mux(reset, UInt<1>("h0"), _T_232) @[ICache.scala 74:21 ICache.scala 74:21 ICache.scala 84:12]
-    _T_246 <= mux(reset, UInt<5>("h0"), _GEN_1) @[Reg.scala 26:44 Reg.scala 26:44]
-    _T_262 <= mux(reset, UInt<16>("h1"), _GEN_2) @[LFSR.scala 22:19 LFSR.scala 22:19]
-    vb_array <= mux(reset, UInt<256>("h0"), _GEN_27) @[ICache.scala 104:21 ICache.scala 104:21]
+    io_mem_0_a_bits_mask <= UInt<8>(255) @[Cat.scala 30:58]
+    io_mem_0_a_bits_data <= UInt<64>(0)
+    io_mem_0_b_ready <= UInt<1>(0)
+    io_mem_0_c_valid <= UInt<1>(0) @[ICache.scala 159:18]
+    io_mem_0_c_bits_opcode <= UInt<3>(0)
+    io_mem_0_c_bits_param <= UInt<3>(0)
+    io_mem_0_c_bits_size <= UInt<4>(0)
+    io_mem_0_c_bits_source <= UInt<1>(0)
+    io_mem_0_c_bits_address <= UInt<32>(0)
+    io_mem_0_c_bits_data <= UInt<64>(0)
+    io_mem_0_c_bits_error <= UInt<1>(0)
+    io_mem_0_d_ready <= UInt<1>(1) @[ICache.scala 92:18]
+    io_mem_0_e_valid <= UInt<1>(0) @[ICache.scala 160:18]
+    io_mem_0_e_bits_sink <= UInt<4>(0)
+    state <= mux(reset, UInt<2>(0), _GEN_99) @[ICache.scala 67:18]
+    invalidated <= mux(_T_848, UInt<1>(0), _GEN_28)
+    refill_addr <= mux(_T_234, io_s1_paddr, refill_addr)
+    s1_valid <= mux(reset, UInt<1>(0), _T_232)
+    _T_246 <= mux(reset, UInt<5>(0), _GEN_1) @[Reg.scala 26:44]
+    _T_262 <= mux(reset, UInt<16>(1), _GEN_2) @[LFSR.scala 22:19]
+    vb_array <= mux(reset, UInt<256>(0), _GEN_27) @[ICache.scala 104:21]
     s1_dout_valid <= and(_T_227, _T_230) @[ICache.scala 81:52]
     skip
-    _T_453 <= mux(s1_dout_valid, _T_451, _T_453) @[Reg.scala 35:19 Reg.scala 35:23 Reg.scala 34:16]
+    _T_453 <= mux(s1_dout_valid, _T_451, _T_453)
     skip
-    _T_479 <= mux(s1_dout_valid, _T_477, _T_479) @[Reg.scala 35:19 Reg.scala 35:23 Reg.scala 34:16]
+    _T_479 <= mux(s1_dout_valid, _T_477, _T_479)
     skip
-    _T_505 <= mux(s1_dout_valid, _T_503, _T_505) @[Reg.scala 35:19 Reg.scala 35:23 Reg.scala 34:16]
+    _T_505 <= mux(s1_dout_valid, _T_503, _T_505)
     skip
-    _T_531 <= mux(s1_dout_valid, _T_529, _T_531) @[Reg.scala 35:19 Reg.scala 35:23 Reg.scala 34:16]
-    _T_568 <= mux(s1_dout_valid, _T_550._T_566.data, _T_568) @[Reg.scala 35:19 Reg.scala 35:23 Reg.scala 34:16]
-    _T_590 <= mux(s1_dout_valid, _T_572._T_588.data, _T_590) @[Reg.scala 35:19 Reg.scala 35:23 Reg.scala 34:16]
-    _T_612 <= mux(s1_dout_valid, _T_594._T_610.data, _T_612) @[Reg.scala 35:19 Reg.scala 35:23 Reg.scala 34:16]
-    _T_634 <= mux(s1_dout_valid, _T_616._T_632.data, _T_634) @[Reg.scala 35:19 Reg.scala 35:23 Reg.scala 34:16]
-    _T_639 <= mux(reset, UInt<1>("h0"), _GEN_81) @[Reg.scala 26:44 Reg.scala 26:44]
-    _T_654_0 <= mux(_T_638, s1_tag_hit_0, _T_654_0) @[Reg.scala 35:19 Reg.scala 35:23 Reg.scala 34:16]
-    _T_654_1 <= mux(_T_638, s1_tag_hit_1, _T_654_1) @[Reg.scala 35:19 Reg.scala 35:23 Reg.scala 34:16]
-    _T_654_2 <= mux(_T_638, s1_tag_hit_2, _T_654_2) @[Reg.scala 35:19 Reg.scala 35:23 Reg.scala 34:16]
-    _T_654_3 <= mux(_T_638, s1_tag_hit_3, _T_654_3) @[Reg.scala 35:19 Reg.scala 35:23 Reg.scala 34:16]
-    _T_685_0 <= mux(_T_638, _GEN_50, _T_685_0) @[Reg.scala 35:19 Reg.scala 35:23 Reg.scala 34:16]
-    _T_685_1 <= mux(_T_638, _GEN_60, _T_685_1) @[Reg.scala 35:19 Reg.scala 35:23 Reg.scala 34:16]
-    _T_685_2 <= mux(_T_638, _GEN_70, _T_685_2) @[Reg.scala 35:19 Reg.scala 35:23 Reg.scala 34:16]
-    _T_685_3 <= mux(_T_638, _GEN_80, _T_685_3) @[Reg.scala 35:19 Reg.scala 35:23 Reg.scala 34:16]
+    _T_531 <= mux(s1_dout_valid, _T_529, _T_531)
+    _T_568 <= mux(s1_dout_valid, _T_550._T_566.data, _T_568)
+    _T_590 <= mux(s1_dout_valid, _T_572._T_588.data, _T_590)
+    _T_612 <= mux(s1_dout_valid, _T_594._T_610.data, _T_612)
+    _T_634 <= mux(s1_dout_valid, _T_616._T_632.data, _T_634)
+    _T_639 <= mux(reset, UInt<1>(0), _GEN_81) @[Reg.scala 26:44]
+    _T_654_0 <= mux(_T_638, s1_tag_hit_0, _T_654_0)
+    _T_654_1 <= mux(_T_638, s1_tag_hit_1, _T_654_1)
+    _T_654_2 <= mux(_T_638, s1_tag_hit_2, _T_654_2)
+    _T_654_3 <= mux(_T_638, s1_tag_hit_3, _T_654_3)
+    _T_685_0 <= mux(_T_638, _GEN_50, _T_685_0)
+    _T_685_1 <= mux(_T_638, _GEN_60, _T_685_1)
+    _T_685_2 <= mux(_T_638, _GEN_70, _T_685_2)
+    _T_685_3 <= mux(_T_638, _GEN_80, _T_685_3)
     tag_array_0_tag_rdata_en_pipe_0 <= and(_T_284, s0_valid)
-    tag_array_0_tag_rdata_addr_pipe_0 <= mux(and(_T_284, s0_valid), bits(io_req_bits_addr, 11, 6), tag_array_0_tag_rdata_addr_pipe_0)
+    tag_array_0_tag_rdata_addr_pipe_0
+      <= mux(and(_T_284, s0_valid), bits(io_req_bits_addr, 11, 6), tag_array_0_tag_rdata_addr_pipe_0)
     tag_array_0.tag_rdata.en <= tag_array_0_tag_rdata_en_pipe_0
     tag_array_0.tag_rdata.addr <= tag_array_0_tag_rdata_addr_pipe_0
     tag_array_0.tag_rdata.clk <= clock
     tag_array_0._T_328.en <= and(_T_257, _T_235)
     tag_array_0._T_328.addr <= bits(refill_addr, 11, 6)
-    tag_array_0._T_328.mask <= eq(repl_way, UInt<2>("h0"))
+    tag_array_0._T_328.mask <= eq(repl_way, UInt<2>(0))
     tag_array_0._T_328.data <= bits(refill_addr, 31, 12)
     tag_array_0._T_328.clk <= clock
     tag_array_1_tag_rdata_en_pipe_0 <= and(_T_284, s0_valid)
-    tag_array_1_tag_rdata_addr_pipe_0 <= mux(and(_T_284, s0_valid), bits(io_req_bits_addr, 11, 6), tag_array_1_tag_rdata_addr_pipe_0)
+    tag_array_1_tag_rdata_addr_pipe_0
+      <= mux(and(_T_284, s0_valid), bits(io_req_bits_addr, 11, 6), tag_array_1_tag_rdata_addr_pipe_0)
     tag_array_1.tag_rdata.en <= tag_array_1_tag_rdata_en_pipe_0
     tag_array_1.tag_rdata.addr <= tag_array_1_tag_rdata_addr_pipe_0
     tag_array_1.tag_rdata.clk <= clock
     tag_array_1._T_328.en <= and(_T_257, _T_235)
     tag_array_1._T_328.addr <= bits(refill_addr, 11, 6)
-    tag_array_1._T_328.mask <= eq(repl_way, UInt<2>("h1"))
+    tag_array_1._T_328.mask <= eq(repl_way, UInt<2>(1))
     tag_array_1._T_328.data <= bits(refill_addr, 31, 12)
     tag_array_1._T_328.clk <= clock
     tag_array_2_tag_rdata_en_pipe_0 <= and(_T_284, s0_valid)
-    tag_array_2_tag_rdata_addr_pipe_0 <= mux(and(_T_284, s0_valid), bits(io_req_bits_addr, 11, 6), tag_array_2_tag_rdata_addr_pipe_0)
+    tag_array_2_tag_rdata_addr_pipe_0
+      <= mux(and(_T_284, s0_valid), bits(io_req_bits_addr, 11, 6), tag_array_2_tag_rdata_addr_pipe_0)
     tag_array_2.tag_rdata.en <= tag_array_2_tag_rdata_en_pipe_0
     tag_array_2.tag_rdata.addr <= tag_array_2_tag_rdata_addr_pipe_0
     tag_array_2.tag_rdata.clk <= clock
     tag_array_2._T_328.en <= and(_T_257, _T_235)
     tag_array_2._T_328.addr <= bits(refill_addr, 11, 6)
-    tag_array_2._T_328.mask <= eq(repl_way, UInt<2>("h2"))
+    tag_array_2._T_328.mask <= eq(repl_way, UInt<2>(2))
     tag_array_2._T_328.data <= bits(refill_addr, 31, 12)
     tag_array_2._T_328.clk <= clock
     tag_array_3_tag_rdata_en_pipe_0 <= and(_T_284, s0_valid)
-    tag_array_3_tag_rdata_addr_pipe_0 <= mux(and(_T_284, s0_valid), bits(io_req_bits_addr, 11, 6), tag_array_3_tag_rdata_addr_pipe_0)
+    tag_array_3_tag_rdata_addr_pipe_0
+      <= mux(and(_T_284, s0_valid), bits(io_req_bits_addr, 11, 6), tag_array_3_tag_rdata_addr_pipe_0)
     tag_array_3.tag_rdata.en <= tag_array_3_tag_rdata_en_pipe_0
     tag_array_3.tag_rdata.addr <= tag_array_3_tag_rdata_addr_pipe_0
     tag_array_3.tag_rdata.clk <= clock
     tag_array_3._T_328.en <= and(_T_257, _T_235)
     tag_array_3._T_328.addr <= bits(refill_addr, 11, 6)
-    tag_array_3._T_328.mask <= eq(repl_way, UInt<2>("h3"))
+    tag_array_3._T_328.mask <= eq(repl_way, UInt<2>(3))
     tag_array_3._T_328.data <= bits(refill_addr, 31, 12)
     tag_array_3._T_328.clk <= clock
     _T_550__T_566_en_pipe_0 <= and(_T_559, s0_valid)
-    _T_550__T_566_addr_pipe_0 <= mux(and(_T_559, s0_valid), bits(io_req_bits_addr, 11, 3), _T_550__T_566_addr_pipe_0)
+    _T_550__T_566_addr_pipe_0
+      <= mux(and(_T_559, s0_valid), bits(io_req_bits_addr, 11, 3), _T_550__T_566_addr_pipe_0)
     _T_550._T_566.en <= _T_550__T_566_en_pipe_0
     _T_550._T_566.addr <= _T_550__T_566_addr_pipe_0
     _T_550._T_566.clk <= clock
     _T_550._T_556.en <= and(io_mem_0_d_valid, _T_312)
     skip
     _T_550._T_556.addr <= or(_T_554, _GEN_104)
-    _T_550._T_556.mask <= UInt<1>("h1")
+    _T_550._T_556.mask <= UInt<1>(1)
     _T_550._T_556.data <= io_mem_0_d_bits_data
     _T_550._T_556.clk <= clock
     _T_572__T_588_en_pipe_0 <= and(_T_581, s0_valid)
-    _T_572__T_588_addr_pipe_0 <= mux(and(_T_581, s0_valid), bits(io_req_bits_addr, 11, 3), _T_572__T_588_addr_pipe_0)
+    _T_572__T_588_addr_pipe_0
+      <= mux(and(_T_581, s0_valid), bits(io_req_bits_addr, 11, 3), _T_572__T_588_addr_pipe_0)
     _T_572._T_588.en <= _T_572__T_588_en_pipe_0
     _T_572._T_588.addr <= _T_572__T_588_addr_pipe_0
     _T_572._T_588.clk <= clock
     _T_572._T_578.en <= and(io_mem_0_d_valid, _T_314)
     skip
     _T_572._T_578.addr <= or(_T_554, _GEN_104)
-    _T_572._T_578.mask <= UInt<1>("h1")
+    _T_572._T_578.mask <= UInt<1>(1)
     _T_572._T_578.data <= io_mem_0_d_bits_data
     _T_572._T_578.clk <= clock
     _T_594__T_610_en_pipe_0 <= and(_T_603, s0_valid)
-    _T_594__T_610_addr_pipe_0 <= mux(and(_T_603, s0_valid), bits(io_req_bits_addr, 11, 3), _T_594__T_610_addr_pipe_0)
+    _T_594__T_610_addr_pipe_0
+      <= mux(and(_T_603, s0_valid), bits(io_req_bits_addr, 11, 3), _T_594__T_610_addr_pipe_0)
     _T_594._T_610.en <= _T_594__T_610_en_pipe_0
     _T_594._T_610.addr <= _T_594__T_610_addr_pipe_0
     _T_594._T_610.clk <= clock
     _T_594._T_600.en <= and(io_mem_0_d_valid, _T_316)
     skip
     _T_594._T_600.addr <= or(_T_554, _GEN_104)
-    _T_594._T_600.mask <= UInt<1>("h1")
+    _T_594._T_600.mask <= UInt<1>(1)
     _T_594._T_600.data <= io_mem_0_d_bits_data
     _T_594._T_600.clk <= clock
     _T_616__T_632_en_pipe_0 <= and(_T_625, s0_valid)
-    _T_616__T_632_addr_pipe_0 <= mux(and(_T_625, s0_valid), bits(io_req_bits_addr, 11, 3), _T_616__T_632_addr_pipe_0)
+    _T_616__T_632_addr_pipe_0
+      <= mux(and(_T_625, s0_valid), bits(io_req_bits_addr, 11, 3), _T_616__T_632_addr_pipe_0)
     _T_616._T_632.en <= _T_616__T_632_en_pipe_0
     _T_616._T_632.addr <= _T_616__T_632_addr_pipe_0
     _T_616._T_632.clk <= clock
     _T_616._T_622.en <= and(io_mem_0_d_valid, _T_318)
     skip
     _T_616._T_622.addr <= or(_T_554, _GEN_104)
-    _T_616._T_622.mask <= UInt<1>("h1")
+    _T_616._T_622.mask <= UInt<1>(1)
     _T_616._T_622.data <= io_mem_0_d_bits_data
     _T_616._T_622.clk <= clock
