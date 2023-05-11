@@ -6,3 +6,4 @@ circuit AddNot :
 
     node _GEN_0 = not(b)
     o <= add(a, _GEN_0)
+
